@@ -1,0 +1,9 @@
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Heidinger et al., Bull. Amer. Meteor. Soc., doi:10.1175/BAMS-D-12-00246.1, 2013.
+- Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2, 1996
+- Liu et al., Hydrol. Earth Syst. Sci., doi:10.5194/hess-15-425-2011, 2011.
+- Rayner et al., J. Geophys. Res., doi:10.1029/2002JD002670, 2013
+- See http://wiki.csiro.au/confluence/display/ACCESS/ACCESS+Publications
+- Stengel et al., Earth Syst. Sci. Data, doi:10.5194/essd-9-881-2017, 2017
+- doi:10.1002/qj.828
+- doi:10.1038/s41597-019-0236-x, doi:10.3390/rs12162554

@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc">
+    <attribute:alias>CCSM4_1pctCO2</attribute:alias>
+    <attribute:dataset>CCSM4</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>1989</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['NCAR']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>13</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1989</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'CCSM4', 'exp': '1pctCO2', 'recipe_dataset_index': 13, 'institute': ['NCAR'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CCSM4_1pctCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/NCAR/CCSM4/1pctCO2/fx/atmos/fx/r0i0p0/v20120413/areacella/areacella_fx_CCSM4_1pctCO2_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1989'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CCSM4', 'exp': '1pctCO2', 'recipe_dataset_index': 13, 'institute': ['NCAR'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CCSM4_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CCSM4', 'exp': '1pctCO2', 'recipe_dataset_index': 13, 'institute': ['NCAR'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CCSM4_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CCSM4', 'exp': '1pctCO2', 'recipe_dataset_index': 13, 'institute': ['NCAR'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CCSM4_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="task:tcr_cmip5/tas"/>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/CCSM4.nc">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of CCSM4 for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NCAR/CCSM4/piControl/mon/atmos/Amon/r1i1p1/v20160829/tas/tas_Amon_CCSM4_piControl_r1i1p1_025001-050012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NCAR/CCSM4/piControl/mon/atmos/Amon/r1i1p1/v20160829/tas/tas_Amon_CCSM4_piControl_r1i1p1_025001-050012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:acknowledgements>The CESM project is supported by the National Science Foundation and the Office of Science (BER) of the U.S. Department of Energy. NCAR is sponsored by the National Science Foundation. Computing resources were provided by the Climate Simulation Laboratory at the NCAR Computational and Information Systems Laboratory (CISL), sponsored by the National Science Foundation and other agencies.</attribute:acknowledgements>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cesm_casename>b40.1850.track1.1deg.006</attribute:cesm_casename>
+    <attribute:cesm_compset>B1850TR1CN</attribute:cesm_compset>
+    <attribute:cesm_repotag>ccsm4_0_beta23</attribute:cesm_repotag>
+    <attribute:cmor_version>2.8.1</attribute:cmor_version>
+    <attribute:comment>CESM home page: http://www.cesm.ucar.edu</attribute:comment>
+    <attribute:contact>cesm_data@ucar.edu</attribute:contact>
+    <attribute:creation_date>2013-05-05T21:31:16Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>Sl GHG SS Ds SD BC MD OC Oz AA (all fixed at 1850 values)</attribute:forcing>
+    <attribute:forcing_note>Additional information on the external forcings used in this experiment can be found at http://www.cesm.ucar.edu/CMIP5/forcing_information</attribute:forcing_note>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2013-05-05T21:31:16Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NCAR</attribute:institute_id>
+    <attribute:institution>NCAR (National Center for Atmospheric Research) Boulder, CO, USA</attribute:institution>
+    <attribute:model_id>CCSM4</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:processed_by>strandwg on silver.cgd.ucar.edu at 20130505  -153113.512</attribute:processed_by>
+    <attribute:processing_code_information>Last Changed Rev: 1108 Last Changed Date: 2013-04-29 10:59:00 -0600 (Mon, 29 Apr 2013) Repository UUID: d2181dbe-5796-6825-dc7f-cbd98591f93d</attribute:processing_code_information>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Gent P. R., et.al. 2011: The Community Climate System Model version 4. J. Climate, doi: 10.1175/2011JCLI4083.1</attribute:references>
+    <attribute:resolution>f09_g16 (0.9x1.25_gx1v6)</attribute:resolution>
+    <attribute:source>CCSM4</attribute:source>
+    <attribute:table_id>Table Amon (12 January 2012) 4996d487f7a65749098d9cc0dccb4f8d</attribute:table_id>
+    <attribute:title>CCSM4 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>ecbe9b8b-863a-4ab2-9473-d3a3d9eef28b</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NCAR/CCSM4/1pctCO2/mon/atmos/Amon/r1i1p1/v20121031/tas/tas_Amon_CCSM4_1pctCO2_r1i1p1_185001-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:acknowledgements>The CESM project is supported by the National Science Foundation and the Office of Science (BER) of the U.S. Department of Energy. NCAR is sponsored by the National Science Foundation. Computing resources were provided by the Climate Simulation Laboratory at the NCAR Computational and Information Systems Laboratory (CISL), sponsored by the National Science Foundation and other agencies.</attribute:acknowledgements>
+    <attribute:branch_time>251.0</attribute:branch_time>
+    <attribute:cesm_casename>b40.1850_ramp.track1.1deg.001</attribute:cesm_casename>
+    <attribute:cesm_compset>B1850TR1CNRM</attribute:cesm_compset>
+    <attribute:cesm_repotag>ccsm4_0_beta31</attribute:cesm_repotag>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:contact>cesm_data@ucar.edu</attribute:contact>
+    <attribute:creation_date>2011-12-01T23:09:24Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (CO2 only)</attribute:forcing>
+    <attribute:forcing_note>Additional information on the external forcings used in this experiment can be found at http://www.cesm.ucar.edu/CMIP5/forcing_information</attribute:forcing_note>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-12-01T23:09:24Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NCAR</attribute:institute_id>
+    <attribute:institution>NCAR (National Center for Atmospheric Research) Boulder, CO, USA</attribute:institution>
+    <attribute:model_id>CCSM4</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:processed_by>strandwg on copper.cgd.ucar.edu at 20111201  -160924.696</attribute:processed_by>
+    <attribute:processing_code_information>Last Changed Rev: 473 Last Changed Date: 2011-11-30 10:52:11 -0700 (Wed, 30 Nov 2011) Repository UUID: d2181dbe-5796-6825-dc7f-cbd98591f93d</attribute:processing_code_information>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Gent P. R., et.al. 2011: The Community Climate System Model version 4. J. Climate, doi: 10.1175/2011JCLI4083.1</attribute:references>
+    <attribute:resolution>f09_g16 (0.9x1.25_gx1v6)</attribute:resolution>
+    <attribute:source>CCSM4</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>CCSM4 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>253a5e73-ecf4-4e86-bcfc-2795a42a7437</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NCAR/CCSM4/1pctCO2/mon/atmos/Amon/r1i1p1/v20121031/tas/tas_Amon_CCSM4_1pctCO2_r1i1p1_185001-200512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:tcr_cmip5/tcr"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390.nc">
+    <attribute:alias>CCSM4_piControl</attribute:alias>
+    <attribute:dataset>CCSM4</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>390</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['NCAR']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>12</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>251</attribute:start_year>
+    <attribute:timerange>0251/0390</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'CCSM4', 'exp': 'piControl', 'recipe_dataset_index': 12, 'institute': ['NCAR'], 'product': ['output1', 'output2'], 'timerange': '0251/0390', 'alias': 'CCSM4_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/NCAR/CCSM4/piControl/fx/atmos/fx/r0i0p0/v20120413/areacella/areacella_fx_CCSM4_piControl_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0251/0390'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CCSM4', 'exp': 'piControl', 'recipe_dataset_index': 12, 'institute': ['NCAR'], 'product': ['output1', 'output2'], 'timerange': '0251/0390', 'alias': 'CCSM4_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CCSM4', 'exp': 'piControl', 'recipe_dataset_index': 12, 'institute': ['NCAR'], 'product': ['output1', 'output2'], 'timerange': '0251/0390', 'alias': 'CCSM4_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CCSM4', 'exp': 'piControl', 'recipe_dataset_index': 12, 'institute': ['NCAR'], 'product': ['output1', 'output2'], 'timerange': '0251/0390', 'alias': 'CCSM4_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/CCSM4.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0251-0390.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/CCSM4.nc"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/CCSM4.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CCSM4_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+</prov:document>

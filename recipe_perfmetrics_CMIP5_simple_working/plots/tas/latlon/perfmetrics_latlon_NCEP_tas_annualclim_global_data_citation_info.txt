@@ -1,0 +1,4 @@
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2, 1996
+- See http://wiki.csiro.au/confluence/display/ACCESS/ACCESS+Publications
+- doi:10.1002/qj.828

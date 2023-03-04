@@ -1,0 +1,896 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_200001-202512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-15T00:56:55Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-15T00:56:55Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06F102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1900-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/820d94cb-ac60-4f62-b4f8-b8d2ab612491</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_197601-200012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_185001-187512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_187601-190012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-13T15:45:11Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-13T15:45:11Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06CO2x2aF102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 2000-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/23d4a1d5-0ed8-4d8c-a4fe-83023bf8fe6d</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_202601-205012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-15T01:18:31Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-15T01:18:31Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06F102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1900-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/67d6f41f-2443-4c36-984a-eccc246a5201</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_195101-197512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:comment>1 percent per year increase in CO2 to 4xCO2</attribute:comment>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-13T16:50:03Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-13T16:50:03Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06CO2x4aF102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 2000-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/554efb0f-48c7-4e05-9223-54d15e6a4a29</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_212601-215012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-15T02:49:32Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-15T02:49:32Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06F102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1900-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/3c0ba89c-f86f-4daa-9281-84b24e0a43fd</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_197601-200012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:comment>1 percent per year increase in CO2 to 4xCO2</attribute:comment>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-13T17:15:18Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-13T17:15:18Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06CO2x4aF102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 2000-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/ff79f67e-9ff3-4903-afaf-961b2b81e73d</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_210101-212512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-15T02:29:29Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-15T02:29:29Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06F102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1900-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/931f18a7-176b-4282-a3a8-1cf9f9554372</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_210101-212512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_207601-210012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-15T02:03:50Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-15T02:03:50Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06F102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1900-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/40655240-27a7-4f56-9b11-256bac7af595</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GISS-E2-2-G.png"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GISS-E2-2-G.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_187601-190012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_202601-205012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_207601-210012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_185001-187512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-13T15:13:04Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-13T15:13:04Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06CO2x2aF102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 2000-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/6e6e3aeb-b1a1-4389-bc7a-727e8fddb165</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_205101-207512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-15T01:42:35Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-15T01:42:35Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06F102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1900-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/ca6434b3-0f0f-47b8-a077-156482959896</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GISS-E2-2-G.png">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of GISS-E2-2-G for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_190101-192512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:comment>1 percent per year increase in CO2 to 4xCO2</attribute:comment>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-13T21:19:05Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-13T21:19:05Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06CO2x4aF102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 2000-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/01ea25f8-2e83-49ac-bf94-703d4c227a02</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_190101-192512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_205101-207512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:activity prov:id="task:tcr_cmip6/tcr"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_212601-215012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:tcr_cmip6/tas"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_192601-195012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.3.2</attribute:cmor_version>
+    <attribute:comment>1 percent per year increase in CO2 to 4xCO2</attribute:comment>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2019-11-13T16:21:24Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.23</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NASA-GISS.GISS-E2-2-G.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmospheric grid: 144x90, ocean grid: 288x180</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-13T16:21:24Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Goddard Institute for Space Studies, New York, NY 10025, USA</attribute:institution>
+    <attribute:institution_id>NASA-GISS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NASA Goddard Institute for Space Studies is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>E06CO2x4aF102oQ40</attribute:model_id>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GISS-E2-2-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 2000-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>https://data.giss.nasa.gov/modelE/cmip6</attribute:references>
+    <attribute:source>GISS-E2-2-G (2019): 
+aerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)
+atmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)
+atmosChem: varies with physics-version (p==1 Non-interactive, p&gt;1 GPUCCINI)
+land: GISS LSM
+landIce: Fixed
+ocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)
+ocnBgchem: none
+seaIce: GISS SI</attribute:source>
+    <attribute:source_id>GISS-E2-2-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(21 March 2018) MD5:c93735846d66458966fc81f390b2d714</attribute:table_info>
+    <attribute:title>GISS-E2-2-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/a22d9d76-f61c-405b-b1f7-6c729c6c90b4</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_192601-195012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_195101-197512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>GISS-E2-2-G_1pctCO2</attribute:alias>
+    <attribute:dataset>GISS-E2-2-G</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip6</attribute:diagnostic>
+    <attribute:end_year>1989</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NASA-GISS</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>39</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1989</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1989'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GISS-E2-2-G', 'exp': '1pctCO2', 'grid': 'gn', 'institute': 'NASA-GISS', 'recipe_dataset_index': 39, 'timerange': '1850/1989', 'activity': 'CMIP', 'alias': 'GISS-E2-2-G_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GISS-E2-2-G', 'exp': '1pctCO2', 'grid': 'gn', 'institute': 'NASA-GISS', 'recipe_dataset_index': 39, 'timerange': '1850/1989', 'activity': 'CMIP', 'alias': 'GISS-E2-2-G_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GISS-E2-2-G', 'exp': '1pctCO2', 'grid': 'gn', 'institute': 'NASA-GISS', 'recipe_dataset_index': 39, 'timerange': '1850/1989', 'activity': 'CMIP', 'alias': 'GISS-E2-2-G_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_GISS-E2-2-G_piControl_r1i1p1f1_gn_200001-202512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GISS-E2-2-G.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>GISS-E2-2-G_piControl</attribute:alias>
+    <attribute:dataset>GISS-E2-2-G</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip6</attribute:diagnostic>
+    <attribute:end_year>2139</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NASA-GISS</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>38</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2139</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip6', 'dataset': 'GISS-E2-2-G', 'exp': 'piControl', 'grid': 'gn', 'institute': 'NASA-GISS', 'recipe_dataset_index': 38, 'timerange': '2000/2139', 'activity': 'CMIP', 'alias': 'GISS-E2-2-G_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/fx/areacella/gn/v20180824/areacella_fx_GISS-E2-2-G_piControl_r1i1p1f1_gn.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2139'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GISS-E2-2-G', 'exp': 'piControl', 'grid': 'gn', 'institute': 'NASA-GISS', 'recipe_dataset_index': 38, 'timerange': '2000/2139', 'activity': 'CMIP', 'alias': 'GISS-E2-2-G_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GISS-E2-2-G', 'exp': 'piControl', 'grid': 'gn', 'institute': 'NASA-GISS', 'recipe_dataset_index': 38, 'timerange': '2000/2139', 'activity': 'CMIP', 'alias': 'GISS-E2-2-G_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GISS-E2-2-G', 'exp': 'piControl', 'grid': 'gn', 'institute': 'NASA-GISS', 'recipe_dataset_index': 38, 'timerange': '2000/2139', 'activity': 'CMIP', 'alias': 'GISS-E2-2-G_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc'}</preprocessor:save>
+  </prov:entity>
+</prov:document>

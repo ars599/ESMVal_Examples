@@ -1,0 +1,47 @@
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+INFO    Loading settings from /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/run/collect/RMSD/settings.ncl
+DEBUG   <<< Entering RMSD
+DEBUG   <<< Entering basename (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving basename (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving ncdf_read (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering sort_alphabetically (diag_scripts/shared/plot/style.ncl)
+DEBUG   <<< Entering sort_alphabetically (diag_scripts/shared/plot/style.ncl)
+INFO    warning: in RMSD, specified order of diagnostics cannot be applied, number of diagnostics does not match
+DEBUG   <<< Entering ncdf_write (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering att2var (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving att2var (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering ncdf_define (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering att2var (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering bname (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving bname (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving att2var (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering att2var (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving att2var (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving ncdf_define (interface_scripts/auxiliary.ncl)
+INFO    Wrote variable grade to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/collect/RMSD/zg500-global_to_sm-global_RMSD.nc
+DEBUG   >>> Leaving ncdf_write (interface_scripts/auxiliary.ncl)
+DEBUG   <<< Entering portrait_plot (diag_scripts/shared/plot/portrait_plot.ncl)
+DEBUG   <<< Entering get_wks (diag_scripts/shared/plot/aux_plotting.ncl)
+DEBUG   >>> Leaving get_wks (diag_scripts/shared/plot/aux_plotting.ncl)
+DEBUG   <<< Entering att2var (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving att2var (interface_scripts/auxiliary.ncl)
+DEBUG   >>> Leaving portrait_plot (diag_scripts/shared/plot/portrait_plot.ncl)
+DEBUG   <<< Entering log_provenance (interface_scripts/logging.ncl)
+INFO    Provenance information saved in /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/run/collect/RMSD/diagnostic_provenance.yml
+DEBUG   >>> Leaving log_provenance (interface_scripts/logging.ncl)
+DEBUG   >>> Leaving RMSD

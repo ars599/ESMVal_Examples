@@ -1,0 +1,57 @@
+abs_levs:
+- 240
+- 243
+- 246
+- 249
+- 252
+- 255
+- 258
+- 261
+- 264
+- 267
+- 270
+- 273
+- 276
+- 279
+- 282
+- 285
+- 288
+- 291
+- 294
+- 297
+- 300
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+conf_level: 0.95
+diff_levs:
+- -5
+- -4
+- -3
+- -2
+- -1
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+exit_on_ncl_warning: false
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/tas_info.ncl
+log_level: debug
+output_file_type: png
+plot_diff: true
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon
+plot_type: latlon
+realms:
+- atmos
+recipe: recipe_perfmetrics_CMIP5_simple.yml
+region: global
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/run/tas/latlon
+script: latlon
+show_global_avg: false
+t_test: true
+themes:
+- phys
+time_avg: annualclim
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon

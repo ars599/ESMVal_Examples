@@ -1,0 +1,23 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_vs_ecs_cmip5_linear/tcr_vs_ecs/CMIP5_ch09_fig09_42b.png
+: &id001
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/tcr.nc
+  authors:
+  - schlund_manuel
+  caption: Transient climate response (TCR) against equilibrium climate sensitivity
+    (ECS) for CMIP5 models.
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - flato13ipcc
+  statistics:
+  - mean
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_vs_ecs_cmip5_linear/tcr_vs_ecs/CMIP5_ch09_fig09_42b.nc
+: *id001

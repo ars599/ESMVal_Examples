@@ -1,0 +1,22 @@
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+exit_on_ncl_warning: false
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ta200/ta/ta_info.ncl
+legend_outside: true
+log_level: debug
+output_file_type: png
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/ta200/cycle
+plot_stddev: ref_model
+plot_type: cycle
+realms:
+- atmos
+recipe: recipe_perfmetrics_CMIP56_simple_v3.yml
+region: global
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ta200/cycle
+script: cycle
+styleset: CMIP6
+themes:
+- phys
+time_avg: monthlyclim
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ta200/cycle

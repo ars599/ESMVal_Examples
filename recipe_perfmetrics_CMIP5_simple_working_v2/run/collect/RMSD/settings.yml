@@ -1,0 +1,33 @@
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+cm_interval:
+- 2
+- 241
+diag_order:
+- zg500-global
+- ts-global
+- clt-global
+- tas-global
+- sm-global
+disp_values: false
+exit_on_ncl_warning: false
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/sm/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/va850/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/ts/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/zg500/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/clt/grading
+label_bounds:
+- -0.5
+- 0.5
+label_scale: 0.1
+log_level: debug
+metric: RMSD
+output_file_type: png
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/collect/RMSD
+recipe: recipe_perfmetrics_CMIP5_simple.yml
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/run/collect/RMSD
+script: RMSD
+sort: true
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/collect/RMSD

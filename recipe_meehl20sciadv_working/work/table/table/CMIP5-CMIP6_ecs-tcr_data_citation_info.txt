@@ -1,0 +1,136 @@
+Follow the links below to find more information about CMIP6 data:
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.AWI.AWI-CM-1-1-MR.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.AWI.AWI-CM-1-1-MR.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.AWI.AWI-CM-1-1-MR.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.BCC.BCC-CSM2-MR.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.BCC.BCC-CSM2-MR.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.BCC.BCC-CSM2-MR.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.BCC.BCC-ESM1.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.BCC.BCC-ESM1.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.BCC.BCC-ESM1.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CAMS.CAMS-CSM1-0.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CAMS.CAMS-CSM1-0.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CAMS.CAMS-CSM1-0.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CAS.FGOALS-f3-L.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CAS.FGOALS-f3-L.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CAS.FGOALS-f3-L.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CCCR-IITM.IITM-ESM.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CCCR-IITM.IITM-ESM.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CCCma.CanESM5.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CCCma.CanESM5.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CCCma.CanESM5.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1-HR.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1-HR.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1-HR.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-ESM2-1.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-ESM2-1.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CNRM-CERFACS.CNRM-ESM2-1.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CSIRO-ARCCSS.ACCESS-CM2.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CSIRO-ARCCSS.ACCESS-CM2.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CSIRO-ARCCSS.ACCESS-CM2.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CSIRO.ACCESS-ESM1-5.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CSIRO.ACCESS-ESM1-5.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CSIRO.ACCESS-ESM1-5.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.E3SM-Project.E3SM-1-0.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.E3SM-Project.E3SM-1-0.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.E3SM-Project.E3SM-1-0.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-Veg.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-Veg.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-Veg.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.INM.INM-CM4-8.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.INM.INM-CM4-8.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.INM.INM-CM4-8.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.INM.INM-CM5-0.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.INM.INM-CM5-0.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.IPSL.IPSL-CM6A-LR.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.IPSL.IPSL-CM6A-LR.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.IPSL.IPSL-CM6A-LR.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MIROC.MIROC-ES2L.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MIROC.MIROC-ES2L.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MIROC.MIROC-ES2L.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MIROC.MIROC6.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MIROC.MIROC6.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MIROC.MIROC6.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.HadGEM3-GC31-LL.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.HadGEM3-GC31-LL.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.HadGEM3-GC31-LL.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.HadGEM3-GC31-MM.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.HadGEM3-GC31-MM.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.HadGEM3-GC31-MM.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.UKESM1-0-LL.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.UKESM1-0-LL.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MOHC.UKESM1-0-LL.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MPI-M.MPI-ESM1-2-HR.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MPI-M.MPI-ESM1-2-HR.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MPI-M.MPI-ESM1-2-HR.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MPI-M.MPI-ESM1-2-LR.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MPI-M.MPI-ESM1-2-LR.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MPI-M.MPI-ESM1-2-LR.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MRI.MRI-ESM2-0.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MRI.MRI-ESM2-0.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.MRI.MRI-ESM2-0.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-1-G.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-1-G.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-1-G.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-1-H.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-1-H.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-1-H.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCAR.CESM2-WACCM.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCAR.CESM2-WACCM.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCAR.CESM2-WACCM.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCAR.CESM2.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCAR.CESM2.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCAR.CESM2.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCC.NorCPM1.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCC.NorCPM1.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCC.NorESM2-LM.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCC.NorESM2-LM.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NCC.NorESM2-LM.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NIMS-KMA.KACE-1-0-G.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NIMS-KMA.KACE-1-0-G.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NIMS-KMA.KACE-1-0-G.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NOAA-GFDL.GFDL-CM4.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NOAA-GFDL.GFDL-CM4.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NOAA-GFDL.GFDL-CM4.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NUIST.NESM3.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NUIST.NESM3.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NUIST.NESM3.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.SNU.SAM0-UNICON.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.SNU.SAM0-UNICON.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.SNU.SAM0-UNICON.piControl
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.UA.MCM-UA-1-0.1pctCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.UA.MCM-UA-1-0.abrupt-4xCO2
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.UA.MCM-UA-1-0.piControl
+
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Martin G.M. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 1: Model description and global climatology. Journal of Climate, American Meteorological Society, Vol. 19, No.7, pages 1274-1301.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.
+- Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.; Stott P.A. et al, (2006) Transient climate simulations with the HadGEM1 climate model: Causes of past warming and future climate change. Journal of Climate, American Meteorological Society, Vol. 19, No. 12, pages 2763-2782.
+- Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Martin G.M. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 1: Model description and global climatology. Journal of Climate, American Meteorological Society, Vol. 19, No.7, pages 1274-1301.; McLaren A.J. et al, (2006) Evaluation of the sea ice simulation in a new coupled atmosphere-ocean climate model. Journal of Geophysical Research - Oceans, American Geophysical Union, Vol. 111, C12014, doi:10.1029/2005JC003033.; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.
+- ECHAM6: n/a; JSBACH: Raddatz et al., 2007. Will the tropical land biosphere dominate the climate-carbon cycle feedback during the twenty first century? Climate Dynamics, 29, 565-574, doi 10.1007/s00382-007-0247-8;  MPIOM: Marsland et al., 2003. The Max-Planck-Institute global ocean/sea ice model with orthogonal curvilinear coordinates. Ocean Modelling, 5, 91-127;  HAMOCC: Technical Documentation, http://www.mpimet.mpg.de/fileadmin/models/MPIOM/HAMOCC5.1_TECHNICAL_REPORT.pdf;
+- ECHAM6: n/a; JSBACH: Raddatz et al., 2007. Will the tropical land biosphere dominate the climate-carbon cycle feedback during the twenty first century? Climate Dynamics, 29, 565-574, doi 10.1007/s00382-007-0247-8;  MPIOM: Marsland et al., 2003. The Max-Planck-Institute global ocean/sea ice model with orthogonal curvilinear coordinates. Ocean Modelling, 5, 91-127;  HAMOCC: http://www.mpimet.mpg.de/fileadmin/models/MPIOM/HAMOCC5.1_TECHNICAL_REPORT.pdf;
+- Gent P. R., et.al. 2011: The Community Climate System Model version 4. J. Climate, doi: 10.1175/2011JCLI4083.1
+- Model described by Yukimoto et al. (Technical Report of the Meteorological Research Institute, 2011, 64, 83pp.)
+- Model documentation and further reference available here : http://icmc.ipsl.fr
+- See http://wiki.csiro.au/confluence/display/ACCESS/ACCESS+Publications
+- See http://www.cnrm.meteo.fr/cmip5 - Follow model description link
+- The GFDL Data Portal (http://nomads.gfdl.noaa.gov/) provides access to NOAA/GFDL's publicly available model input and output data sets. From this web site one can view and download data sets and documentation, including those related to the GFDL coupled models experiments run for the IPCC's 5th Assessment Report and the US CCSP.
+- This is an updated version of the model used for CMIP5 and described at http://www.cnrm.meteo.fr/cmip5 ; changes are : i) real salt and water fluxes between SeaIce and Ocean, ii) increased ice depth on permanent ice sheets to avoid complete melt under extreme global warming, iii) using a 2012 version of Szopa et al. prescribed aerosols and iv) solar forcing is no more the TIM-corrected one (i.e. values are around 1365 W/m**2) . A few variants of physics are used, please see the metadata field named comment. Comparing to physics #1 : physics #2 adds melt ponds; physics #3 uses 60 atmospheric levels instead of 31; physics #4 also, and adds a stratospheric chemical scheme ; physics #5 integrates biophysical coupling between phytoplankton and light penetration into the ocean as described in Lengaigne et al;, 2009
+- Volodin, Diansky, Gusev 2010. Climate model INMCM4.0. Izvestia RAS. Atmospheric and oceanic physics, V.46, N4, in print.
+- Watanabe et al., 2010: Improved climate simulation by MIROC5: Mean states, variability, and climate sensitivity. J. Climate, 23, 6312-6335
+- Watanabe et al., : MIROC-ESM: model description and basic results of CMIP5-20c3m experiments, Geosci. Model Dev. Discuss., 4, 1063-1128, doi:10.5194/gmdd-4-1063-2011, 2011.
+- a) Rotstayn, L., Collier, M., Dix, M., Feng, Y., Gordon, H., O\'Farrell, S., Smith, I. and Syktus, J. 2010. Improved simulation of Australian climate and ENSO-related climate variability in a GCM with an interactive aerosol treatment. Int. J. Climatology, vol 30(7), pp1067-1088, DOI 10.1002/joc.1952 b) Please refer to online documentation at: http://cmip-pcmdi.llnl.gov/cmip5/
+- http://data.giss.nasa.gov/modelE/ar5
+- http://www.cccma.ec.gc.ca/models
+- http://www.lasg.ac.cn/FGOALS/CMIP5
+- www.giss.nasa.gov/research/modeling

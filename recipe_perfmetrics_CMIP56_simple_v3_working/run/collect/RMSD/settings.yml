@@ -1,0 +1,40 @@
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+cm_interval:
+- 2
+- 241
+diag_order:
+- ts-global
+- tas-global
+- sm-global
+- ta200-global
+- ua200-global
+- va200-global
+- ua850-global
+- va850-global
+- zg500-global
+disp_values: false
+exit_on_ncl_warning: false
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ta200/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ua850/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ua200/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ts/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/tas/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/va850/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/zg500/grading
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/va200/grading
+label_bounds:
+- -0.5
+- 0.5
+label_scale: 0.1
+log_level: debug
+metric: RMSD
+output_file_type: png
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/collect/RMSD
+recipe: recipe_perfmetrics_CMIP56_simple_v3.yml
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/collect/RMSD
+script: RMSD
+sort: true
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/collect/RMSD

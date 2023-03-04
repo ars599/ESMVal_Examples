@@ -1,0 +1,848 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_CNRM-CM5_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_CNRM-CM5_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_CNRM-CM5_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_CNRM-CM5_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_CNRM-CM5-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_CNRM-CM5_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_CNRM-CM5-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_CNRM-CM5_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_CSIRO-Mk3-6-0_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_CSIRO-Mk3-6-0_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_CSIRO-Mk3-6-0_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_CSIRO-Mk3-6-0_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_CSIRO-Mk3-6-0-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_CSIRO-Mk3-6-0_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_CSIRO-Mk3-6-0-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_CSIRO-Mk3-6-0_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_FGOALS-g2_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_FGOALS-g2_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_FGOALS-g2_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_FGOALS-g2_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_FGOALS-g2-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_FGOALS-g2_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_FGOALS-g2-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_FGOALS-g2_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_FGOALS-s2_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_FGOALS-s2_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_FGOALS-s2_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_FGOALS-s2_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_FGOALS-s2-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_FGOALS-s2_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_FGOALS-s2-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_FGOALS-s2_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_GFDL-ESM2G_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_GFDL-ESM2G_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_GFDL-ESM2G-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_GFDL-ESM2G-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_GFDL-ESM2M_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_GFDL-ESM2M_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_GFDL-ESM2M_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_GFDL-ESM2M_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_GFDL-ESM2M-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_GFDL-ESM2M_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_GFDL-ESM2M-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_GFDL-ESM2M_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_HadCM3_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadCM3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_HadCM3_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadCM3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_HadCM3-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadCM3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_HadCM3-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadCM3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_HadGEM2-CC_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadGEM2-CC_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_HadGEM2-CC_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadGEM2-CC_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_HadGEM2-CC-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadGEM2-CC_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_HadGEM2-CC-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadGEM2-CC_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_HadGEM2-ES_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadGEM2-ES_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_HadGEM2-ES_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadGEM2-ES_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_HadGEM2-ES-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadGEM2-ES_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_HadGEM2-ES-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_HadGEM2-ES_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_inmcm4_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_inmcm4_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_inmcm4_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_inmcm4_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_inmcm4-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_inmcm4_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_inmcm4-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_inmcm4_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_IPSL-CM5A-LR_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_IPSL-CM5A-LR_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_IPSL-CM5A-LR-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_IPSL-CM5A-LR-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_IPSL-CM5A-MR_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_IPSL-CM5A-MR_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_IPSL-CM5A-MR-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_IPSL-CM5A-MR-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_IPSL-CM5B-LR_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5B-LR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_IPSL-CM5B-LR_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5B-LR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_IPSL-CM5B-LR-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5B-LR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_IPSL-CM5B-LR-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_IPSL-CM5B-LR_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MIROC4h_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC4h_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MIROC4h_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC4h_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MIROC4h-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC4h_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MIROC4h-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC4h_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MIROC5_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC5_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MIROC5_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC5_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MIROC5-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC5_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MIROC5-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC5_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MIROC-ESM_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC-ESM_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MIROC-ESM_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC-ESM_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MIROC-ESM-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC-ESM_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MIROC-ESM-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC-ESM_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MIROC-ESM-CHEM_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MIROC-ESM-CHEM_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MIROC-ESM-CHEM-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MIROC-ESM-CHEM-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MRI-CGCM3_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MRI-CGCM3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MRI-CGCM3_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MRI-CGCM3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MRI-CGCM3-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MRI-CGCM3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MRI-CGCM3-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MRI-CGCM3_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_NorESM1-M_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_NorESM1-M_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_NorESM1-M_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_NorESM1-M_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_NorESM1-M-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_NorESM1-M_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_NorESM1-M-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_NorESM1-M_Amon_historical_r1i1p1_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MultiModelMean_historical_Amon_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MultiModelMean_historical_Amon_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MultiModelMean_historical_Amon_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MultiModelMean_historical_Amon_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MultiModelMedian_historical_Amon_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MultiModelMedian_historical_Amon_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable tas'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MultiModelMedian_historical_Amon_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/tas/tas/CMIP5_MultiModelMedian_historical_Amon_tas_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]

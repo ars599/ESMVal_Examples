@@ -1,0 +1,848 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/OBS_ESACCI-SOILMOISTURE_sat_L3S-SSMV-COMBINED-v4.2_Lmon_sm_1985-2014.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/OBS_ESACCI-SOILMOISTURE_sat_L3S-SSMV-COMBINED-v4.2_Lmon_sm_1985-2014.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS1-0_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP5_ACCESS1-0_Lmon_historical_r1i1p1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS1-0_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP5_ACCESS1-0_Lmon_historical_r1i1p1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP5_ACCESS1-0_Lmon_historical_r1i1p1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP5_ACCESS1-0_Lmon_historical_r1i1p1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS1-3_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP5_ACCESS1-3_Lmon_historical_r1i1p1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS1-3_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP5_ACCESS1-3_Lmon_historical_r1i1p1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP5_ACCESS1-3_Lmon_historical_r1i1p1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP5_ACCESS1-3_Lmon_historical_r1i1p1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r3i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r3i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r3i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r3i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r3i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r3i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r3i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r3i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r8i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r8i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r8i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r8i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r8i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r8i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r8i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r8i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r7i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r7i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r7i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r7i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r7i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r7i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r7i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r7i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r5i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r5i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r5i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r5i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r5i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r5i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r5i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r5i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r10i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r10i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r10i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r10i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r10i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r10i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r10i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r10i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r6i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r6i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r6i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r6i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r6i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r6i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r6i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r6i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r1i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r1i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r1i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r1i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r9i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r9i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r9i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r9i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r9i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r9i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r9i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r9i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r2i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r2i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r2i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r2i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r2i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r2i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r2i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r2i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r4i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r4i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r4i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r4i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r4i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r4i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-CM2_r4i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-CM2_Lmon_historical_r4i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r8i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r8i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r8i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r8i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r8i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r8i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r8i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r8i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r2i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r2i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r2i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r2i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r2i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r2i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r2i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r2i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r5i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r5i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r5i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r5i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r5i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r5i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r5i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r5i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r9i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r9i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r9i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r9i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r9i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r9i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r9i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r9i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r7i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r7i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r7i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r7i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r7i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r7i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r7i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r7i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r3i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r3i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r3i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r3i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r3i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r3i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r3i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r3i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r10i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r10i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r10i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r10i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r10i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r10i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r10i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r10i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r1i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r1i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r1i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r1i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r4i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r4i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r4i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r4i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r4i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r4i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r4i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r4i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r6i1p1f1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r6i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r6i1p1f1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r6i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r6i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r6i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_ACCESS-ESM1-5_r6i1p1f1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_ACCESS-ESM1-5_Lmon_historical_r6i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_KACE-1-0-G_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_KACE-1-0-G_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_KACE-1-0-G_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_KACE-1-0-G_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_KACE-1-0-G-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_KACE-1-0-G_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_KACE-1-0-G-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_KACE-1-0-G_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_TaiESM1_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_TaiESM1_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_TaiESM1_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_TaiESM1_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_TaiESM1-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_TaiESM1_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_TaiESM1-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/CMIP6_TaiESM1_Lmon_historical_r1i1p1f1_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_MultiModelMean_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMean_historical_Lmon_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_MultiModelMean_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMean_historical_Lmon_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMean_historical_Lmon_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMean_historical_Lmon_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_MultiModelMedian_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMedian_historical_Lmon_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_MultiModelMedian_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMedian_historical_Lmon_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Geographical distribution of variable sm'
+  domains: [global]
+  plot_types: [geo]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-SOILMOISTURE_sm_annualclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMedian_historical_Lmon_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-SOILMOISTURE_sm_annualclim_global.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMedian_historical_Lmon_sm_2002-2004.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'Difference in geographical distribution of variable sm (non-significant points are masked out in gray)'
+  domains: [global]
+  plot_types: [zonal]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, rmsd, diff]

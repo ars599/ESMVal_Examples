@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/1pctCO2/mon/atmos/Amon/r1i1p1/v20130401/tas/tas_Amon_CNRM-CM5-2_1pctCO2_r1i1p1_195001-198912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/CNRM-CM5-2.png"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/1pctCO2/mon/atmos/Amon/r1i1p1/v20130401/tas/tas_Amon_CNRM-CM5-2_1pctCO2_r1i1p1_185001-189912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/piControl/mon/atmos/Amon/r1i1p1/v20130402/tas/tas_Amon_CNRM-CM5-2_piControl_r1i1p1_195001-198912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/1pctCO2/mon/atmos/Amon/r1i1p1/v20130401/tas/tas_Amon_CNRM-CM5-2_1pctCO2_r1i1p1_195001-198912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>Soil layers depth scheme is specific for mrlsl and tsl - see variable-level comments. Experiment in-house ID is CUNPCO2.</attribute:comment>
+    <attribute:contact>contact.CMIP5@meteo.fr - METEO-FRANCE, CNRM/GMGEC/ASTER, CNRS URA 1357, 42 Av. Coriolis F-31057 TOULOUSE CEDEX 1</attribute:contact>
+    <attribute:creation_date>2013-03-19T00:39:19Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (only CO2 1% increase)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2013-03-19T00:39:19Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CNRM-CERFACS</attribute:institute_id>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Meteo-France, Toulouse, France) and CERFACS (Centre Europeen de Recherches et de Formation Avancee en Calcul Scientifique, Toulouse, France)</attribute:institution>
+    <attribute:model_id>CNRM-CM5-2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>This is an updated version of the model used for CMIP5 and described at http://www.cnrm.meteo.fr/cmip5 ; changes are : i) real salt and water fluxes between SeaIce and Ocean, ii) increased ice depth on permanent ice sheets to avoid complete melt under extreme global warming, iii) using a 2012 version of Szopa et al. prescribed aerosols and iv) solar forcing is no more the TIM-corrected one (i.e. values are around 1365 W/m**2) . A few variants of physics are used, please see the metadata field named comment. Comparing to physics #1 : physics #2 adds melt ponds; physics #3 uses 60 atmospheric levels instead of 31; physics #4 also, and adds a stratospheric chemical scheme ; physics #5 integrates biophysical coupling between phytoplankton and light penetration into the ocean as described in Lengaigne et al;, 2009</attribute:references>
+    <attribute:source>CNRM-CM5-2 2010 Atmosphere: ARPEGE-Climat (V5.2.3i, TL127L31); Ocean: NEMO (nemo3.2.v11.3, ORCA1degL42); Sea Ice: GELATO (V5.47f); River Routing: TRIP (v1); Land: SURFEX (v5.1.c); Coupler : OASIS 3</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>CNRM-CM5-2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>b6eb770e-db3a-4e54-a6b1-fe91e205a2ec</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="task:tcr_cmip5/tas"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/1pctCO2/mon/atmos/Amon/r1i1p1/v20130401/tas/tas_Amon_CNRM-CM5-2_1pctCO2_r1i1p1_190001-194912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/piControl/mon/atmos/Amon/r1i1p1/v20130402/tas/tas_Amon_CNRM-CM5-2_piControl_r1i1p1_190001-194912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>Soil layers depth scheme is specific for mrlsl and tsl - see variable-level comments. Experiment in-house ID is CPICTL.</attribute:comment>
+    <attribute:contact>contact.CMIP5@meteo.fr - METEO-FRANCE, CNRM/GMGEC/ASTER, CNRS URA 1357, 42 Av. Coriolis F-31057 TOULOUSE CEDEX 1</attribute:contact>
+    <attribute:creation_date>2013-03-18T23:35:29Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2013-07-09T08:43:05Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CNRM-CERFACS</attribute:institute_id>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Meteo-France, Toulouse, France) and CERFACS (Centre Europeen de Recherches et de Formation Avancee en Calcul Scientifique, Toulouse, France)</attribute:institution>
+    <attribute:model_id>CNRM-CM5-2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>This is an updated version of the model used for CMIP5 and described at http://www.cnrm.meteo.fr/cmip5 ; changes are : i) real salt and water fluxes between SeaIce and Ocean, ii) increased ice depth on permanent ice sheets to avoid complete melt under extreme global warming, iii) using a 2012 version of Szopa et al. prescribed aerosols and iv) solar forcing is no more the TIM-corrected one (i.e. values are around 1365 W/m**2) . A few variants of physics are used, please see the metadata field named comment. Comparing to physics #1 : physics #2 adds melt ponds; physics #3 uses 60 atmospheric levels instead of 31; physics #4 also, and adds a stratospheric chemical scheme ; physics #5 integrates biophysical coupling between phytoplankton and light penetration into the ocean as described in Lengaigne et al;, 2009</attribute:references>
+    <attribute:source>CNRM-CM5-2 2010 Atmosphere: ARPEGE-Climat (V5.2.3i, TL127L31); Ocean: NEMO (nemo3.2.v11.3, ORCA1degL42); Sea Ice: GELATO (V5.47f); River Routing: TRIP (v1); Land: SURFEX (v5.1.c); Coupler : OASIS 3</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>CNRM-CM5-2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>074dfcdc-58f2-4b01-afb5-cfe291a05751</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/CNRM-CM5-2.png">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of CNRM-CM5-2 for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/piControl/mon/atmos/Amon/r1i1p1/v20130402/tas/tas_Amon_CNRM-CM5-2_piControl_r1i1p1_185001-189912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/CNRM-CM5-2.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/piControl/mon/atmos/Amon/r1i1p1/v20130402/tas/tas_Amon_CNRM-CM5-2_piControl_r1i1p1_185001-189912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>Soil layers depth scheme is specific for mrlsl and tsl - see variable-level comments. Experiment in-house ID is CPICTL.</attribute:comment>
+    <attribute:contact>contact.CMIP5@meteo.fr - METEO-FRANCE, CNRM/GMGEC/ASTER, CNRS URA 1357, 42 Av. Coriolis F-31057 TOULOUSE CEDEX 1</attribute:contact>
+    <attribute:creation_date>2013-03-18T23:18:09Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2013-07-09T08:43:05Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CNRM-CERFACS</attribute:institute_id>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Meteo-France, Toulouse, France) and CERFACS (Centre Europeen de Recherches et de Formation Avancee en Calcul Scientifique, Toulouse, France)</attribute:institution>
+    <attribute:model_id>CNRM-CM5-2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>This is an updated version of the model used for CMIP5 and described at http://www.cnrm.meteo.fr/cmip5 ; changes are : i) real salt and water fluxes between SeaIce and Ocean, ii) increased ice depth on permanent ice sheets to avoid complete melt under extreme global warming, iii) using a 2012 version of Szopa et al. prescribed aerosols and iv) solar forcing is no more the TIM-corrected one (i.e. values are around 1365 W/m**2) . A few variants of physics are used, please see the metadata field named comment. Comparing to physics #1 : physics #2 adds melt ponds; physics #3 uses 60 atmospheric levels instead of 31; physics #4 also, and adds a stratospheric chemical scheme ; physics #5 integrates biophysical coupling between phytoplankton and light penetration into the ocean as described in Lengaigne et al;, 2009</attribute:references>
+    <attribute:source>CNRM-CM5-2 2010 Atmosphere: ARPEGE-Climat (V5.2.3i, TL127L31); Ocean: NEMO (nemo3.2.v11.3, ORCA1degL42); Sea Ice: GELATO (V5.47f); River Routing: TRIP (v1); Land: SURFEX (v5.1.c); Coupler : OASIS 3</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>CNRM-CM5-2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>7265809b-1b6c-4d1b-a853-85cb4a86fbf5</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc">
+    <attribute:alias>CNRM-CM5-2_1pctCO2</attribute:alias>
+    <attribute:dataset>CNRM-CM5-2</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>1989</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['CNRM-CERFACS']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>17</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1989</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'CNRM-CM5-2', 'exp': '1pctCO2', 'recipe_dataset_index': 17, 'institute': ['CNRM-CERFACS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CNRM-CM5-2_1pctCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/cmip5/output1/CNRM-CERFACS/CNRM-CM5-2/1pctCO2/fx/atmos/fx/r0i0p0/v20130401/areacella_fx_CNRM-CM5-2_1pctCO2_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1989'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CNRM-CM5-2', 'exp': '1pctCO2', 'recipe_dataset_index': 17, 'institute': ['CNRM-CERFACS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CNRM-CM5-2_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CNRM-CM5-2', 'exp': '1pctCO2', 'recipe_dataset_index': 17, 'institute': ['CNRM-CERFACS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CNRM-CM5-2_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CNRM-CM5-2', 'exp': '1pctCO2', 'recipe_dataset_index': 17, 'institute': ['CNRM-CERFACS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CNRM-CM5-2_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/CNRM-CM5-2.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/1pctCO2/mon/atmos/Amon/r1i1p1/v20130401/tas/tas_Amon_CNRM-CM5-2_1pctCO2_r1i1p1_190001-194912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>Soil layers depth scheme is specific for mrlsl and tsl - see variable-level comments. Experiment in-house ID is CUNPCO2.</attribute:comment>
+    <attribute:contact>contact.CMIP5@meteo.fr - METEO-FRANCE, CNRM/GMGEC/ASTER, CNRS URA 1357, 42 Av. Coriolis F-31057 TOULOUSE CEDEX 1</attribute:contact>
+    <attribute:creation_date>2013-03-19T00:24:17Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (only CO2 1% increase)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2013-03-19T00:24:17Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CNRM-CERFACS</attribute:institute_id>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Meteo-France, Toulouse, France) and CERFACS (Centre Europeen de Recherches et de Formation Avancee en Calcul Scientifique, Toulouse, France)</attribute:institution>
+    <attribute:model_id>CNRM-CM5-2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>This is an updated version of the model used for CMIP5 and described at http://www.cnrm.meteo.fr/cmip5 ; changes are : i) real salt and water fluxes between SeaIce and Ocean, ii) increased ice depth on permanent ice sheets to avoid complete melt under extreme global warming, iii) using a 2012 version of Szopa et al. prescribed aerosols and iv) solar forcing is no more the TIM-corrected one (i.e. values are around 1365 W/m**2) . A few variants of physics are used, please see the metadata field named comment. Comparing to physics #1 : physics #2 adds melt ponds; physics #3 uses 60 atmospheric levels instead of 31; physics #4 also, and adds a stratospheric chemical scheme ; physics #5 integrates biophysical coupling between phytoplankton and light penetration into the ocean as described in Lengaigne et al;, 2009</attribute:references>
+    <attribute:source>CNRM-CM5-2 2010 Atmosphere: ARPEGE-Climat (V5.2.3i, TL127L31); Ocean: NEMO (nemo3.2.v11.3, ORCA1degL42); Sea Ice: GELATO (V5.47f); River Routing: TRIP (v1); Land: SURFEX (v5.1.c); Coupler : OASIS 3</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>CNRM-CM5-2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>74c3ad28-d3f3-4b20-8f26-bed894825604</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/piControl/mon/atmos/Amon/r1i1p1/v20130402/tas/tas_Amon_CNRM-CM5-2_piControl_r1i1p1_190001-194912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/1pctCO2/mon/atmos/Amon/r1i1p1/v20130401/tas/tas_Amon_CNRM-CM5-2_1pctCO2_r1i1p1_185001-189912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>Soil layers depth scheme is specific for mrlsl and tsl - see variable-level comments. Experiment in-house ID is CUNPCO2.</attribute:comment>
+    <attribute:contact>contact.CMIP5@meteo.fr - METEO-FRANCE, CNRM/GMGEC/ASTER, CNRS URA 1357, 42 Av. Coriolis F-31057 TOULOUSE CEDEX 1</attribute:contact>
+    <attribute:creation_date>2013-03-19T00:06:51Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (only CO2 1% increase)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2013-03-19T00:06:51Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CNRM-CERFACS</attribute:institute_id>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Meteo-France, Toulouse, France) and CERFACS (Centre Europeen de Recherches et de Formation Avancee en Calcul Scientifique, Toulouse, France)</attribute:institution>
+    <attribute:model_id>CNRM-CM5-2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>This is an updated version of the model used for CMIP5 and described at http://www.cnrm.meteo.fr/cmip5 ; changes are : i) real salt and water fluxes between SeaIce and Ocean, ii) increased ice depth on permanent ice sheets to avoid complete melt under extreme global warming, iii) using a 2012 version of Szopa et al. prescribed aerosols and iv) solar forcing is no more the TIM-corrected one (i.e. values are around 1365 W/m**2) . A few variants of physics are used, please see the metadata field named comment. Comparing to physics #1 : physics #2 adds melt ponds; physics #3 uses 60 atmospheric levels instead of 31; physics #4 also, and adds a stratospheric chemical scheme ; physics #5 integrates biophysical coupling between phytoplankton and light penetration into the ocean as described in Lengaigne et al;, 2009</attribute:references>
+    <attribute:source>CNRM-CM5-2 2010 Atmosphere: ARPEGE-Climat (V5.2.3i, TL127L31); Ocean: NEMO (nemo3.2.v11.3, ORCA1degL42); Sea Ice: GELATO (V5.47f); River Routing: TRIP (v1); Land: SURFEX (v5.1.c); Coupler : OASIS 3</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>CNRM-CM5-2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>4a4c7b4b-ed94-4689-838b-a620b717e3bb</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/piControl/mon/atmos/Amon/r1i1p1/v20130402/tas/tas_Amon_CNRM-CM5-2_piControl_r1i1p1_195001-198912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>Soil layers depth scheme is specific for mrlsl and tsl - see variable-level comments. Experiment in-house ID is CPICTL.</attribute:comment>
+    <attribute:contact>contact.CMIP5@meteo.fr - METEO-FRANCE, CNRM/GMGEC/ASTER, CNRS URA 1357, 42 Av. Coriolis F-31057 TOULOUSE CEDEX 1</attribute:contact>
+    <attribute:creation_date>2013-03-18T23:50:09Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2013-07-09T08:43:05Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CNRM-CERFACS</attribute:institute_id>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Meteo-France, Toulouse, France) and CERFACS (Centre Europeen de Recherches et de Formation Avancee en Calcul Scientifique, Toulouse, France)</attribute:institution>
+    <attribute:model_id>CNRM-CM5-2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>This is an updated version of the model used for CMIP5 and described at http://www.cnrm.meteo.fr/cmip5 ; changes are : i) real salt and water fluxes between SeaIce and Ocean, ii) increased ice depth on permanent ice sheets to avoid complete melt under extreme global warming, iii) using a 2012 version of Szopa et al. prescribed aerosols and iv) solar forcing is no more the TIM-corrected one (i.e. values are around 1365 W/m**2) . A few variants of physics are used, please see the metadata field named comment. Comparing to physics #1 : physics #2 adds melt ponds; physics #3 uses 60 atmospheric levels instead of 31; physics #4 also, and adds a stratospheric chemical scheme ; physics #5 integrates biophysical coupling between phytoplankton and light penetration into the ocean as described in Lengaigne et al;, 2009</attribute:references>
+    <attribute:source>CNRM-CM5-2 2010 Atmosphere: ARPEGE-Climat (V5.2.3i, TL127L31); Ocean: NEMO (nemo3.2.v11.3, ORCA1degL42); Sea Ice: GELATO (V5.47f); River Routing: TRIP (v1); Land: SURFEX (v5.1.c); Coupler : OASIS 3</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>CNRM-CM5-2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>cab774db-8b40-4b4d-9e07-64a6110171ac</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:activity prov:id="task:tcr_cmip5/tcr"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc">
+    <attribute:alias>CNRM-CM5-2_piControl</attribute:alias>
+    <attribute:dataset>CNRM-CM5-2</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>1989</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['CNRM-CERFACS']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>16</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1989</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'CNRM-CM5-2', 'exp': 'piControl', 'recipe_dataset_index': 16, 'institute': ['CNRM-CERFACS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CNRM-CM5-2_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/CNRM-CERFACS/CNRM-CM5-2/piControl/fx/atmos/fx/r0i0p0/v20130401/areacella/areacella_fx_CNRM-CM5-2_piControl_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1989'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CNRM-CM5-2', 'exp': 'piControl', 'recipe_dataset_index': 16, 'institute': ['CNRM-CERFACS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CNRM-CM5-2_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CNRM-CM5-2', 'exp': 'piControl', 'recipe_dataset_index': 16, 'institute': ['CNRM-CERFACS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CNRM-CM5-2_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'CNRM-CM5-2', 'exp': 'piControl', 'recipe_dataset_index': 16, 'institute': ['CNRM-CERFACS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'CNRM-CM5-2_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_CNRM-CM5-2_Amon_piControl_r1i1p1_tas_1850-1989.nc'}</preprocessor:save>
+  </prov:entity>
+</prov:document>

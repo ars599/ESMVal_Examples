@@ -1,0 +1,16 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/work/eyring13jgr_fig12/clim//eyring13f12_ua.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc]
+  authors: [cionni_irene, eyring_veronika]
+  caption: 'Long-term mean and trend of ua'
+  domains: [global]
+  plot_types: [pro]
+  references: [eyring13jgr]
+  statistics: [mean, trend]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc]
+  authors: [cionni_irene, eyring_veronika]
+  caption: 'Long-term mean and trend of ua'
+  domains: [global]
+  plot_types: [pro]
+  references: [eyring13jgr]
+  statistics: [mean, trend]

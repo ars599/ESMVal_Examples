@@ -1,0 +1,16 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/collect/RMSD/zg500-global_to_sm-global_RMSD.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/zg500/grading/RMSD_zg500-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/clt/grading/RMSD_clt-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/va850/grading/RMSD_va850-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/tas/grading/RMSD_tas-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/RMSD_ts-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/sm/grading/RMSD_sm-global.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'RMSD performance metric'
+  domains: [global]
+  plot_types: [portrait]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [rmsd]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/plots/collect/RMSD/zg500-global_to_sm-global_RMSD
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/zg500/grading/RMSD_zg500-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/clt/grading/RMSD_clt-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/va850/grading/RMSD_va850-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/tas/grading/RMSD_tas-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/RMSD_ts-global.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/sm/grading/RMSD_sm-global.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'RMSD performance metric'
+  domains: [global]
+  plot_types: [portrait]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [rmsd]

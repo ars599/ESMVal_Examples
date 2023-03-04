@@ -1,0 +1,1161 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/ACCESS-CM2.png
+: &id001
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-CM2_Amon_1pctCO2_r1i1p1f1_tas_0950-1089.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-CM2_Amon_piControl_r1i1p1f1_tas_0950-1089.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of ACCESS-CM2 for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/ACCESS-ESM1-5.png
+: &id002
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-ESM1-5_Amon_1pctCO2_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-ESM1-5_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of ACCESS-ESM1-5 for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/AWI-CM-1-1-MR.png
+: &id003
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_AWI-CM-1-1-MR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_AWI-CM-1-1-MR_Amon_piControl_r1i1p1f1_tas_2650-2789.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of AWI-CM-1-1-MR for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/BCC-CSM2-MR.png
+: &id004
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-CSM2-MR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-CSM2-MR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of BCC-CSM2-MR for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/BCC-ESM1.png: &id005
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-ESM1_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-ESM1_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of BCC-ESM1 for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/CAMS-CSM1-0.png
+: &id006
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CAMS-CSM1-0_Amon_1pctCO2_r1i1p1f1_tas_3030-3169.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CAMS-CSM1-0_Amon_piControl_r1i1p1f1_tas_3030-3169.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of CAMS-CSM1-0 for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/CESM2-WACCM.png
+: &id007
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2-WACCM_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0070-0209.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of CESM2-WACCM for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/CESM2.png: &id008
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2_Amon_piControl_r1i1p1f1_tas_0501-0640.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of CESM2 for the 1% CO2 increase
+    per year experiment. The horizontal dashed line indicates the transient climate
+    response (TCR) defined as the 20 year average temperature anomaly centered at
+    the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/CNRM-CM6-1-HR.png
+: &id009
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1-HR_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1-HR_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of CNRM-CM6-1-HR for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/CNRM-CM6-1.png
+: &id010
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of CNRM-CM6-1 for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/CNRM-ESM2-1.png
+: &id011
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-ESM2-1_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-ESM2-1_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of CNRM-ESM2-1 for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/CanESM5.png: &id012
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CanESM5_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CanESM5_Amon_piControl_r1i1p1f1_tas_5201-5340.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of CanESM5 for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/E3SM-1-0.png: &id013
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of E3SM-1-0 for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/EC-Earth3-Veg.png
+: &id014
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_EC-Earth3-Veg_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_EC-Earth3-Veg_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of EC-Earth3-Veg for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/FGOALS-f3-L.png
+: &id015
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_FGOALS-f3-L_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_FGOALS-f3-L_Amon_piControl_r1i1p1f1_tas_0600-0739.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of FGOALS-f3-L for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GFDL-CM4.png: &id016
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of GFDL-CM4 for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GFDL-ESM4.png
+: &id017
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-ESM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-ESM4_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of GFDL-ESM4 for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GISS-E2-1-G.png
+: &id018
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-G_Amon_1pctCO2_r101i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-G_Amon_piControl_r101i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of GISS-E2-1-G for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GISS-E2-1-H.png
+: &id019
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-H_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-H_Amon_piControl_r1i1p1f1_tas_3180-3319.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of GISS-E2-1-H for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GISS-E2-2-G.png
+: &id020
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of GISS-E2-2-G for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/HadGEM3-GC31-LL.png
+: &id021
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-LL_Amon_1pctCO2_r1i1p1f3_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-LL_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of HadGEM3-GC31-LL for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/HadGEM3-GC31-MM.png
+: &id022
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-MM_Amon_1pctCO2_r1i1p1f3_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-MM_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of HadGEM3-GC31-MM for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/IITM-ESM.png: &id023
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of IITM-ESM for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/INM-CM4-8.png
+: &id024
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_INM-CM4-8_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_INM-CM4-8_Amon_piControl_r1i1p1f1_tas_1947-2086.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of INM-CM4-8 for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/IPSL-CM6A-LR.png
+: &id025
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IPSL-CM6A-LR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IPSL-CM6A-LR_Amon_piControl_r1i1p1f1_tas_1870-2009.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of IPSL-CM6A-LR for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/KACE-1-0-G.png
+: &id026
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_KACE-1-0-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_KACE-1-0-G_Amon_piControl_r1i1p1f1_tas_2150-2289.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of KACE-1-0-G for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/MCM-UA-1-0.png
+: &id027
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MCM-UA-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MCM-UA-1-0_Amon_piControl_r1i1p1f1_tas_0001-0140.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of MCM-UA-1-0 for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/MIROC-ES2L.png
+: &id028
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC-ES2L_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC-ES2L_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of MIROC-ES2L for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/MIROC6.png: &id029
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC6_Amon_1pctCO2_r1i1p1f1_tas_3200-3339.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC6_Amon_piControl_r1i1p1f1_tas_3200-3339.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of MIROC6 for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/MPI-ESM1-2-HR.png
+: &id030
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-HR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-HR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of MPI-ESM1-2-HR for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/MPI-ESM1-2-LR.png
+: &id031
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-LR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-LR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of MPI-ESM1-2-LR for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/MRI-ESM2-0.png
+: &id032
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MRI-ESM2-0_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MRI-ESM2-0_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of MRI-ESM2-0 for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/MultiModelMean.png
+: &id033
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-CM2_Amon_1pctCO2_r1i1p1f1_tas_0950-1089.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-CM2_Amon_piControl_r1i1p1f1_tas_0950-1089.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-ESM1-5_Amon_1pctCO2_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-ESM1-5_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_AWI-CM-1-1-MR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_AWI-CM-1-1-MR_Amon_piControl_r1i1p1f1_tas_2650-2789.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-CSM2-MR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-CSM2-MR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-ESM1_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-ESM1_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CAMS-CSM1-0_Amon_1pctCO2_r1i1p1f1_tas_3030-3169.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CAMS-CSM1-0_Amon_piControl_r1i1p1f1_tas_3030-3169.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CanESM5_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CanESM5_Amon_piControl_r1i1p1f1_tas_5201-5340.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2_Amon_piControl_r1i1p1f1_tas_0501-0640.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2-WACCM_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0070-0209.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1-HR_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1-HR_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-ESM2-1_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-ESM2-1_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_EC-Earth3-Veg_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_EC-Earth3-Veg_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_FGOALS-f3-L_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_FGOALS-f3-L_Amon_piControl_r1i1p1f1_tas_0600-0739.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-ESM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-ESM4_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-G_Amon_1pctCO2_r101i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-G_Amon_piControl_r101i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-H_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-H_Amon_piControl_r1i1p1f1_tas_3180-3319.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-LL_Amon_1pctCO2_r1i1p1f3_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-LL_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-MM_Amon_1pctCO2_r1i1p1f3_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-MM_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_INM-CM4-8_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_INM-CM4-8_Amon_piControl_r1i1p1f1_tas_1947-2086.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IPSL-CM6A-LR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IPSL-CM6A-LR_Amon_piControl_r1i1p1f1_tas_1870-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_KACE-1-0-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_KACE-1-0-G_Amon_piControl_r1i1p1f1_tas_2150-2289.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MCM-UA-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MCM-UA-1-0_Amon_piControl_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC-ES2L_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC-ES2L_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC6_Amon_1pctCO2_r1i1p1f1_tas_3200-3339.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC6_Amon_piControl_r1i1p1f1_tas_3200-3339.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-HR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-HR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-LR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-LR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MRI-ESM2-0_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MRI-ESM2-0_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NESM3_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NESM3_Amon_piControl_r1i1p1f1_tas_0550-0689.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorCPM1_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorCPM1_Amon_piControl_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorESM2-LM_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorESM2-LM_Amon_piControl_r1i1p1f1_tas_1600-1739.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_SAM0-UNICON_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_SAM0-UNICON_Amon_piControl_r1i1p1f1_tas_0274-0413.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_UKESM1-0-LL_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_UKESM1-0-LL_Amon_piControl_r1i1p1f2_tas_1960-2099.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of MultiModelMean for the
+    1% CO2 increase per year experiment. The horizontal dashed line indicates the
+    transient climate response (TCR) defined as the 20 year average temperature anomaly
+    centered at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/NESM3.png: &id034
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NESM3_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NESM3_Amon_piControl_r1i1p1f1_tas_0550-0689.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of NESM3 for the 1% CO2 increase
+    per year experiment. The horizontal dashed line indicates the transient climate
+    response (TCR) defined as the 20 year average temperature anomaly centered at
+    the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/NorCPM1.png: &id035
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorCPM1_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorCPM1_Amon_piControl_r1i1p1f1_tas_0001-0140.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of NorCPM1 for the 1% CO2
+    increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/NorESM2-LM.png
+: &id036
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorESM2-LM_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorESM2-LM_Amon_piControl_r1i1p1f1_tas_1600-1739.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of NorESM2-LM for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/SAM0-UNICON.png
+: &id037
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_SAM0-UNICON_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_SAM0-UNICON_Amon_piControl_r1i1p1f1_tas_0274-0413.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of SAM0-UNICON for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/UKESM1-0-LL.png
+: &id038
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_UKESM1-0-LL_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_UKESM1-0-LL_Amon_piControl_r1i1p1f2_tas_1960-2099.nc
+  authors:
+  - schlund_manuel
+  caption: Time series of the global mean surface air temperature anomaly (relative
+    to the linear fit of the pre-industrial control run) of UKESM1-0-LL for the 1%
+    CO2 increase per year experiment. The horizontal dashed line indicates the transient
+    climate response (TCR) defined as the 20 year average temperature anomaly centered
+    at the time of CO2 doubling (vertical dashed lines).
+  domains:
+  - global
+  plot_types:
+  - times
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/ACCESS-CM2.nc: *id001
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/ACCESS-ESM1-5.nc
+: *id002
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/AWI-CM-1-1-MR.nc
+: *id003
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/BCC-CSM2-MR.nc
+: *id004
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/BCC-ESM1.nc: *id005
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/CAMS-CSM1-0.nc
+: *id006
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/CESM2-WACCM.nc
+: *id007
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/CESM2.nc: *id008
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/CNRM-CM6-1-HR.nc
+: *id009
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/CNRM-CM6-1.nc: *id010
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/CNRM-ESM2-1.nc
+: *id011
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/CanESM5.nc: *id012
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/E3SM-1-0.nc: *id013
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/EC-Earth3-Veg.nc
+: *id014
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/FGOALS-f3-L.nc
+: *id015
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/GFDL-CM4.nc: *id016
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/GFDL-ESM4.nc: *id017
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/GISS-E2-1-G.nc
+: *id018
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/GISS-E2-1-H.nc
+: *id019
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/GISS-E2-2-G.nc
+: *id020
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/HadGEM3-GC31-LL.nc
+: *id021
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/HadGEM3-GC31-MM.nc
+: *id022
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/IITM-ESM.nc: *id023
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/INM-CM4-8.nc: *id024
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/IPSL-CM6A-LR.nc
+: *id025
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/KACE-1-0-G.nc: *id026
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/MCM-UA-1-0.nc: *id027
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/MIROC-ES2L.nc: *id028
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/MIROC6.nc: *id029
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/MPI-ESM1-2-HR.nc
+: *id030
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/MPI-ESM1-2-LR.nc
+: *id031
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/MRI-ESM2-0.nc: *id032
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/MultiModelMean.nc
+: *id033
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/NESM3.nc: *id034
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/NorCPM1.nc: *id035
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/NorESM2-LM.nc: *id036
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/SAM0-UNICON.nc
+: *id037
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/UKESM1-0-LL.nc
+: *id038
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/tcr.nc:
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-CM2_Amon_1pctCO2_r1i1p1f1_tas_0950-1089.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-CM2_Amon_piControl_r1i1p1f1_tas_0950-1089.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-ESM1-5_Amon_1pctCO2_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_ACCESS-ESM1-5_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_AWI-CM-1-1-MR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_AWI-CM-1-1-MR_Amon_piControl_r1i1p1f1_tas_2650-2789.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-CSM2-MR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-CSM2-MR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-ESM1_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_BCC-ESM1_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CAMS-CSM1-0_Amon_1pctCO2_r1i1p1f1_tas_3030-3169.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CAMS-CSM1-0_Amon_piControl_r1i1p1f1_tas_3030-3169.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CanESM5_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CanESM5_Amon_piControl_r1i1p1f1_tas_5201-5340.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2_Amon_piControl_r1i1p1f1_tas_0501-0640.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2-WACCM_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0070-0209.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1-HR_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-CM6-1-HR_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-ESM2-1_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_CNRM-ESM2-1_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_EC-Earth3-Veg_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_EC-Earth3-Veg_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_FGOALS-f3-L_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_FGOALS-f3-L_Amon_piControl_r1i1p1f1_tas_0600-0739.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-ESM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-ESM4_Amon_piControl_r1i1p1f1_tas_0101-0240.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-G_Amon_1pctCO2_r101i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-G_Amon_piControl_r101i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-H_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-1-H_Amon_piControl_r1i1p1f1_tas_3180-3319.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GISS-E2-2-G_Amon_piControl_r1i1p1f1_tas_2000-2139.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-LL_Amon_1pctCO2_r1i1p1f3_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-LL_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-MM_Amon_1pctCO2_r1i1p1f3_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_HadGEM3-GC31-MM_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_INM-CM4-8_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_INM-CM4-8_Amon_piControl_r1i1p1f1_tas_1947-2086.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IPSL-CM6A-LR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IPSL-CM6A-LR_Amon_piControl_r1i1p1f1_tas_1870-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_KACE-1-0-G_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_KACE-1-0-G_Amon_piControl_r1i1p1f1_tas_2150-2289.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MCM-UA-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MCM-UA-1-0_Amon_piControl_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC-ES2L_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC-ES2L_Amon_piControl_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC6_Amon_1pctCO2_r1i1p1f1_tas_3200-3339.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MIROC6_Amon_piControl_r1i1p1f1_tas_3200-3339.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-HR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-HR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-LR_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MPI-ESM1-2-LR_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MRI-ESM2-0_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_MRI-ESM2-0_Amon_piControl_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NESM3_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NESM3_Amon_piControl_r1i1p1f1_tas_0550-0689.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorCPM1_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorCPM1_Amon_piControl_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorESM2-LM_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_NorESM2-LM_Amon_piControl_r1i1p1f1_tas_1600-1739.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_SAM0-UNICON_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_SAM0-UNICON_Amon_piControl_r1i1p1f1_tas_0274-0413.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_UKESM1-0-LL_Amon_1pctCO2_r1i1p1f2_tas_1850-1989.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_UKESM1-0-LL_Amon_piControl_r1i1p1f2_tas_1960-2099.nc
+  authors:
+  - schlund_manuel
+  caption: Transient Climate Response (TCR) for multiple climate models.
+  domains:
+  - global
+  realms:
+  - atmos
+  references:
+  - gregory08jgr
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys

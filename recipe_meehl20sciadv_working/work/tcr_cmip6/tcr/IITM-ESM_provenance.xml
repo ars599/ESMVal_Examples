@@ -1,0 +1,1905 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_194601-195012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-18T14:22:11Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-18T14:22:11Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/c9f2dc28-b55b-4aab-8565-15c5087179a6</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_194001-194912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/1f2375a8-071d-48b1-aaaf-405b1a8c5000</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_194001-194912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_186001-186912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_198001-198912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/6652e573-40eb-420a-a474-6a9773946719</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>IITM-ESM_1pctCO2</attribute:alias>
+    <attribute:dataset>IITM-ESM</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip6</attribute:diagnostic>
+    <attribute:end_year>1989</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['CCCR-IITM']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>45</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1989</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1989'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'IITM-ESM', 'exp': '1pctCO2', 'grid': 'gn', 'recipe_dataset_index': 45, 'timerange': '1850/1989', 'institute': ['CCCR-IITM'], 'activity': 'CMIP', 'alias': 'IITM-ESM_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'IITM-ESM', 'exp': '1pctCO2', 'grid': 'gn', 'recipe_dataset_index': 45, 'timerange': '1850/1989', 'institute': ['CCCR-IITM'], 'activity': 'CMIP', 'alias': 'IITM-ESM_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'IITM-ESM', 'exp': '1pctCO2', 'grid': 'gn', 'recipe_dataset_index': 45, 'timerange': '1850/1989', 'institute': ['CCCR-IITM'], 'activity': 'CMIP', 'alias': 'IITM-ESM_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_190001-190912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/70872ad3-3100-4308-bef7-4ed9b9819a80</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_195101-196012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/647c266f-12ef-4886-a29c-9a212a5812bd</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_197101-198012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_201101-202012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/6e0cad04-78ec-4a9b-b1af-cadcfa7f3f0f</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_193001-193912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/b35e5e44-703d-4db0-91fd-4fc38350e8a6</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_202101-203012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_204101-205012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>IITM-ESM_piControl</attribute:alias>
+    <attribute:dataset>IITM-ESM</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip6</attribute:diagnostic>
+    <attribute:end_year>2089</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['CCCR-IITM']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>44</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1950</attribute:start_year>
+    <attribute:timerange>1950/2089</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1950/2089'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'IITM-ESM', 'exp': 'piControl', 'grid': 'gn', 'recipe_dataset_index': 44, 'timerange': '1950/2089', 'institute': ['CCCR-IITM'], 'activity': 'CMIP', 'alias': 'IITM-ESM_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'IITM-ESM', 'exp': 'piControl', 'grid': 'gn', 'recipe_dataset_index': 44, 'timerange': '1950/2089', 'institute': ['CCCR-IITM'], 'activity': 'CMIP', 'alias': 'IITM-ESM_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'IITM-ESM', 'exp': 'piControl', 'grid': 'gn', 'recipe_dataset_index': 44, 'timerange': '1950/2089', 'institute': ['CCCR-IITM'], 'activity': 'CMIP', 'alias': 'IITM-ESM_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_196101-197012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_206101-207012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/16204d56-a052-4913-8ede-d0d4ce7d30ea</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_195001-195912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/IITM-ESM.nc">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of IITM-ESM for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_208101-209012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_194601-195012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_204101-205012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/2df4d8fa-7b73-48af-93e5-50ba53da26e4</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_196001-196912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/4d9aaa9c-e4e6-43e1-9f3d-f74792edcc9d</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_201101-202012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_199101-200012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_203101-204012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/59a66f68-4171-4e3a-aeea-3230c4aefb8e</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_188001-188912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/37c216d5-e496-48a9-bdef-7109a87eac6d</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_205101-206012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/ed28a2ce-bedd-4b36-8943-02ed4c1979a4</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_198001-198912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_198101-199012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_185001-185912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_205101-206012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_188001-188912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/IITM-ESM.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_200101-201012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_207101-208012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/b4ce6130-e490-4e16-b341-7204d405facd</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_206101-207012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_187001-187912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_192001-192912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_196101-197012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/9c182733-bdfc-4924-b5ad-465e375e111d</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_189001-189912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/021b411b-6489-48d0-a337-1ca6dbc68391</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_198101-199012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/a857af56-c615-4e80-9194-c1c376d8b9ca</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_197001-197912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/643e71c2-9eab-4deb-affa-819e2691f966</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_189001-189912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:activity prov:id="task:tcr_cmip6/tcr"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_195001-195912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/5ece3cc1-bc26-48d5-a0b0-2413500d68c0</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_202101-203012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/dce0a33b-dd48-4429-8cfa-810ff1cf000a</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_190001-190912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_207101-208012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:tcr_cmip6/tas"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_186001-186912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/4eb95b02-a09f-4fe1-b454-48b44fb06e5b</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_187001-187912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/e858666b-0170-4d59-bfe0-d564eb218dcd</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_193001-193912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_195101-196012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/IITM-ESM.nc"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_208101-209012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/18e99926-76dd-41a9-84e4-363c215b5c69</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_191001-191912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_192001-192912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/3b1302a1-8646-4eec-aa23-709362621e52</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_197001-197912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_199101-200012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/c1b0d2eb-7aa7-4dfe-bb13-ea86b368092d</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_200101-201012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/3c9f57eb-6de3-4caf-b7dc-6786df0b92cb</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/IITM-ESM.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_185001-185912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:11Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/5018e5aa-9b3d-4da9-918b-5bb71dfd34b5</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_1pctCO2_r1i1p1f1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_196001-196912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_IITM-ESM_Amon_piControl_r1i1p1f1_tas_1950-2089.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_203101-204012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/piControl/r1i1p1f1/Amon/tas/gn/v20191120/tas_Amon_IITM-ESM_piControl_r1i1p1f1_gn_197101-198012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-10-22T11:04:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-10-22T11:04:43Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/1e47f687-9be2-4c34-b161-03d135a5b807</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Amon/tas/gn/v20191204/tas_Amon_IITM-ESM_1pctCO2_r1i1p1f1_gn_191001-191912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>iitm-esm@tropmet.res.in</attribute:contact>
+    <attribute:creation_date>2019-11-04T12:05:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CCCR-IITM.IITM-ESM.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs2x2</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-04T12:05:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India</attribute:institution>
+    <attribute:institution_id>CCCR-IITM</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CCCR-IITM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>IITM-ESM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Model described by Swapna, P., et. al (2015), Bulletin of the American Meteorological Society, 96(8), 1351–1368.</attribute:references>
+    <attribute:source>IITM-ESM (2015): 
+aerosol: prescribed MAC-v2
+atmos: IITM-GFSv1 (T62L64, Linearly Reduced Gaussian Grid; 192 x 94 longitude/latitude; 64 levels; top level 0.2 mb)
+atmosChem: none
+land: NOAH LSMv2.7.1
+landIce: none
+ocean: MOM4p1 (tripolar, primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: TOPAZv2.0
+seaIce: SISv1.0</attribute:source>
+    <attribute:source_id>IITM-ESM</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>IITM-ESM output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/bd4e8cb3-875b-4796-acb9-9c8d883c94cd</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+</prov:document>

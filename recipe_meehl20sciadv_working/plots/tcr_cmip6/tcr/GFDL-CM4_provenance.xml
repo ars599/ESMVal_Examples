@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GFDL-CM4.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>GFDL-CM4_piControl</attribute:alias>
+    <attribute:dataset>GFDL-CM4</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip6</attribute:diagnostic>
+    <attribute:end_year>290</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr1</attribute:grid>
+    <attribute:institute>['NOAA-GFDL']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>30</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>151</attribute:start_year>
+    <attribute:timerange>0151/0290</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip6', 'dataset': 'GFDL-CM4', 'exp': 'piControl', 'grid': 'gr1', 'recipe_dataset_index': 30, 'timerange': '0151/0290', 'institute': ['NOAA-GFDL'], 'activity': 'CMIP', 'alias': 'GFDL-CM4_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/fx/areacella/gr1/v20180701/areacella_fx_GFDL-CM4_piControl_r1i1p1f1_gr1.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0151/0290'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GFDL-CM4', 'exp': 'piControl', 'grid': 'gr1', 'recipe_dataset_index': 30, 'timerange': '0151/0290', 'institute': ['NOAA-GFDL'], 'activity': 'CMIP', 'alias': 'GFDL-CM4_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GFDL-CM4', 'exp': 'piControl', 'grid': 'gr1', 'recipe_dataset_index': 30, 'timerange': '0151/0290', 'institute': ['NOAA-GFDL'], 'activity': 'CMIP', 'alias': 'GFDL-CM4_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GFDL-CM4', 'exp': 'piControl', 'grid': 'gr1', 'recipe_dataset_index': 30, 'timerange': '0151/0290', 'institute': ['NOAA-GFDL'], 'activity': 'CMIP', 'alias': 'GFDL-CM4_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/Amon/tas/gr1/v20180701/tas_Amon_GFDL-CM4_1pctCO2_r1i1p1f1_gr1_010101-015012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GFDL-CM4.png">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of GFDL-CM4 for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/Amon/tas/gr1/v20180701/tas_Amon_GFDL-CM4_1pctCO2_r1i1p1f1_gr1_000101-010012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GFDL-CM4.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Amon/tas/gr1/v20180701/tas_Amon_GFDL-CM4_piControl_r1i1p1f1_gr1_025101-035012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.0 UGRID-1.0</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>54750.0</attribute:branch_time_in_parent>
+    <attribute:comment>&lt;null ref&gt;</attribute:comment>
+    <attribute:contact>gfdl.climate.model.info@noaa.gov</attribute:contact>
+    <attribute:creation_date>2018-09-13T23:52:26Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.27</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>monC</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NOAA-GFDL.GFDL-CM4.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmos data regridded from Cubed-sphere (c96) to 180,288; interpolation method: conserve_order2</attribute:grid>
+    <attribute:grid_label>gr1</attribute:grid_label>
+    <attribute:history>File was processed by fremetar (GFDL analog of CMOR). TripleID: [exper_id_h00qmi1FiU,realiz_id_TqObYMN1oJ,run_id_HIk9ZMnWD2]</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA</attribute:institution>
+    <attribute:institution_id>NOAA-GFDL</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NOAA-GFDL is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GFDL-CM4</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1700-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>see further_info_url attribute</attribute:references>
+    <attribute:source>GFDL-CM4 (2018): 
+aerosol: interactive
+atmos: GFDL-AM4.0.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)
+atmosChem: fast chemistry, aerosol only
+land: GFDL-LM4.0.1 (1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 20 levels; bot level 10m); land:Veg:unnamed (dynamic vegetation, dynamic land use); land:Hydro:unnamed (soil water and ice, multi-layer snow, rivers and lakes)
+landIce: GFDL-LM4.0.1
+ocean: GFDL-OM4p25 (GFDL-MOM6, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 75 levels; top grid cell 0-2 m)
+ocnBgchem: GFDL-BLINGv2
+seaIce: GFDL-SIM4p25 (GFDL-SIS2.0, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 5 layers; 5 thickness categories)
+(GFDL ID: 2018_0530)</attribute:source>
+    <attribute:source_id>GFDL-CM4</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:title>NOAA GFDL GFDL-CM4 model output prepared for CMIP6 pre-industrial control</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/f3913786-b069-4461-8a17-65a7140a3b6e</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>N/A</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Amon/tas/gr1/v20180701/tas_Amon_GFDL-CM4_piControl_r1i1p1f1_gr1_015101-025012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>GFDL-CM4_1pctCO2</attribute:alias>
+    <attribute:dataset>GFDL-CM4</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip6</attribute:diagnostic>
+    <attribute:end_year>140</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr1</attribute:grid>
+    <attribute:institute>['NOAA-GFDL']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>31</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0140</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip6', 'dataset': 'GFDL-CM4', 'exp': '1pctCO2', 'grid': 'gr1', 'recipe_dataset_index': 31, 'timerange': '0001/0140', 'institute': ['NOAA-GFDL'], 'activity': 'CMIP', 'alias': 'GFDL-CM4_1pctCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/fx/areacella/gr1/v20180701/areacella_fx_GFDL-CM4_1pctCO2_r1i1p1f1_gr1.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0140'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GFDL-CM4', 'exp': '1pctCO2', 'grid': 'gr1', 'recipe_dataset_index': 31, 'timerange': '0001/0140', 'institute': ['NOAA-GFDL'], 'activity': 'CMIP', 'alias': 'GFDL-CM4_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GFDL-CM4', 'exp': '1pctCO2', 'grid': 'gr1', 'recipe_dataset_index': 31, 'timerange': '0001/0140', 'institute': ['NOAA-GFDL'], 'activity': 'CMIP', 'alias': 'GFDL-CM4_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'GFDL-CM4', 'exp': '1pctCO2', 'grid': 'gr1', 'recipe_dataset_index': 31, 'timerange': '0001/0140', 'institute': ['NOAA-GFDL'], 'activity': 'CMIP', 'alias': 'GFDL-CM4_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/GFDL-CM4.png"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:activity prov:id="task:tcr_cmip6/tcr"/>
+  <prov:activity prov:id="task:tcr_cmip6/tas"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_GFDL-CM4_Amon_piControl_r1i1p1f1_tas_0151-0290.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Amon/tas/gr1/v20180701/tas_Amon_GFDL-CM4_piControl_r1i1p1f1_gr1_025101-035012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Amon/tas/gr1/v20180701/tas_Amon_GFDL-CM4_piControl_r1i1p1f1_gr1_015101-025012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.0 UGRID-1.0</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>54750.0</attribute:branch_time_in_parent>
+    <attribute:comment>&lt;null ref&gt;</attribute:comment>
+    <attribute:contact>gfdl.climate.model.info@noaa.gov</attribute:contact>
+    <attribute:creation_date>2018-09-13T23:14:27Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.27</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>monC</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NOAA-GFDL.GFDL-CM4.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmos data regridded from Cubed-sphere (c96) to 180,288; interpolation method: conserve_order2</attribute:grid>
+    <attribute:grid_label>gr1</attribute:grid_label>
+    <attribute:history>File was processed by fremetar (GFDL analog of CMOR). TripleID: [exper_id_h00qmi1FiU,realiz_id_TqObYMN1oJ,run_id_HIk9ZMnWD2]</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA</attribute:institution>
+    <attribute:institution_id>NOAA-GFDL</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NOAA-GFDL is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GFDL-CM4</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1700-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>see further_info_url attribute</attribute:references>
+    <attribute:source>GFDL-CM4 (2018): 
+aerosol: interactive
+atmos: GFDL-AM4.0.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)
+atmosChem: fast chemistry, aerosol only
+land: GFDL-LM4.0.1 (1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 20 levels; bot level 10m); land:Veg:unnamed (dynamic vegetation, dynamic land use); land:Hydro:unnamed (soil water and ice, multi-layer snow, rivers and lakes)
+landIce: GFDL-LM4.0.1
+ocean: GFDL-OM4p25 (GFDL-MOM6, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 75 levels; top grid cell 0-2 m)
+ocnBgchem: GFDL-BLINGv2
+seaIce: GFDL-SIM4p25 (GFDL-SIS2.0, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 5 layers; 5 thickness categories)
+(GFDL ID: 2018_0530)</attribute:source>
+    <attribute:source_id>GFDL-CM4</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:title>NOAA GFDL GFDL-CM4 model output prepared for CMIP6 pre-industrial control</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/7ba3c844-8001-404b-b3df-7e5b680b4000</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>N/A</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/Amon/tas/gr1/v20180701/tas_Amon_GFDL-CM4_1pctCO2_r1i1p1f1_gr1_000101-010012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.0 UGRID-1.0</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>36500.0</attribute:branch_time_in_parent>
+    <attribute:comment>&lt;null ref&gt;</attribute:comment>
+    <attribute:contact>gfdl.climate.model.info@noaa.gov</attribute:contact>
+    <attribute:creation_date>2019-02-27T02:22:24Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.27</attribute:data_specs_version>
+    <attribute:experiment>1 pct per year CO2 concentration increase</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>monC</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NOAA-GFDL.GFDL-CM4.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmos data regridded from Cubed-sphere (c96) to 180,288; interpolation method: conserve_order2</attribute:grid>
+    <attribute:grid_label>gr1</attribute:grid_label>
+    <attribute:history>File was processed by fremetar (GFDL analog of CMOR). TripleID: [exper_id_Iv4mJbe0em,realiz_id_CtsiLDOPtA,run_id_8zhRlaw7I2]</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA</attribute:institution>
+    <attribute:institution_id>NOAA-GFDL</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NOAA-GFDL is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GFDL-CM4</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>see further_info_url attribute</attribute:references>
+    <attribute:source>GFDL-CM4 (2018): 
+aerosol: interactive
+atmos: GFDL-AM4.0.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)
+atmosChem: fast chemistry, aerosol only
+land: GFDL-LM4.0.1 (1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 20 levels; bot level 10m); land:Veg:unnamed (dynamic vegetation, dynamic land use); land:Hydro:unnamed (soil water and ice, multi-layer snow, rivers and lakes)
+landIce: GFDL-LM4.0.1
+ocean: GFDL-OM4p25 (GFDL-MOM6, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 75 levels; top grid cell 0-2 m)
+ocnBgchem: GFDL-BLINGv2
+seaIce: GFDL-SIM4p25 (GFDL-SIS2.0, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 5 layers; 5 thickness categories)
+(GFDL ID: 2019_0063)</attribute:source>
+    <attribute:source_id>GFDL-CM4</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:title>NOAA GFDL GFDL-CM4 model output prepared for CMIP6 1 pct per year CO2 concentration increase</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/21bed002-2c15-4b27-ab65-04cda94e7ebe</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>N/A</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/Amon/tas/gr1/v20180701/tas_Amon_GFDL-CM4_1pctCO2_r1i1p1f1_gr1_010101-015012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.0 UGRID-1.0</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>36500.0</attribute:branch_time_in_parent>
+    <attribute:comment>&lt;null ref&gt;</attribute:comment>
+    <attribute:contact>gfdl.climate.model.info@noaa.gov</attribute:contact>
+    <attribute:creation_date>2019-02-27T00:45:14Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.27</attribute:data_specs_version>
+    <attribute:experiment>1 pct per year CO2 concentration increase</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>monC</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NOAA-GFDL.GFDL-CM4.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>atmos data regridded from Cubed-sphere (c96) to 180,288; interpolation method: conserve_order2</attribute:grid>
+    <attribute:grid_label>gr1</attribute:grid_label>
+    <attribute:history>File was processed by fremetar (GFDL analog of CMOR). TripleID: [exper_id_Iv4mJbe0em,realiz_id_CtsiLDOPtA,run_id_8zhRlaw7I2]</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA</attribute:institution>
+    <attribute:institution_id>NOAA-GFDL</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NOAA-GFDL is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>GFDL-CM4</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>see further_info_url attribute</attribute:references>
+    <attribute:source>GFDL-CM4 (2018): 
+aerosol: interactive
+atmos: GFDL-AM4.0.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)
+atmosChem: fast chemistry, aerosol only
+land: GFDL-LM4.0.1 (1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 20 levels; bot level 10m); land:Veg:unnamed (dynamic vegetation, dynamic land use); land:Hydro:unnamed (soil water and ice, multi-layer snow, rivers and lakes)
+landIce: GFDL-LM4.0.1
+ocean: GFDL-OM4p25 (GFDL-MOM6, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 75 levels; top grid cell 0-2 m)
+ocnBgchem: GFDL-BLINGv2
+seaIce: GFDL-SIM4p25 (GFDL-SIS2.0, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 5 layers; 5 thickness categories)
+(GFDL ID: 2019_0063)</attribute:source>
+    <attribute:source_id>GFDL-CM4</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:title>NOAA GFDL GFDL-CM4 model output prepared for CMIP6 1 pct per year CO2 concentration increase</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/a3bd7e86-9ba2-46c8-aaa5-cb485513ff78</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>N/A</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+</prov:document>

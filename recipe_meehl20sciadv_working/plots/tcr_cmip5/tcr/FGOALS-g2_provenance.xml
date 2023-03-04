@@ -1,0 +1,1149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/FGOALS-g2.png"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_050001-050912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T12:43:47Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T12:43:47Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>4c1f7be7-e9b5-4eba-8d3a-bc81a96847fa</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_052101-053012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_045001-045912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_057101-058012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_054001-054912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T13:26:25Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T13:26:25Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>3b99e12a-2e33-4c4c-a0ac-d0eecf17e76b</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_048101-049012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc">
+    <attribute:alias>FGOALS-g2_1pctCO2</attribute:alias>
+    <attribute:dataset>FGOALS-g2</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>579</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['LASG-CESS']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>21</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>440</attribute:start_year>
+    <attribute:timerange>0440/0579</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'FGOALS-g2', 'exp': '1pctCO2', 'recipe_dataset_index': 21, 'institute': ['LASG-CESS'], 'product': ['output1', 'output2'], 'timerange': '0440/0579', 'alias': 'FGOALS-g2_1pctCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/fx/atmos/fx/r0i0p0/v20130314/areacella/areacella_fx_FGOALS-g2_1pctCO2_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0440/0579'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'FGOALS-g2', 'exp': '1pctCO2', 'recipe_dataset_index': 21, 'institute': ['LASG-CESS'], 'product': ['output1', 'output2'], 'timerange': '0440/0579', 'alias': 'FGOALS-g2_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'FGOALS-g2', 'exp': '1pctCO2', 'recipe_dataset_index': 21, 'institute': ['LASG-CESS'], 'product': ['output1', 'output2'], 'timerange': '0440/0579', 'alias': 'FGOALS-g2_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'FGOALS-g2', 'exp': '1pctCO2', 'recipe_dataset_index': 21, 'institute': ['LASG-CESS'], 'product': ['output1', 'output2'], 'timerange': '0440/0579', 'alias': 'FGOALS-g2_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_055001-055912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_054101-055012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:26:22Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:26:22Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>9951c686-996e-4fcf-9dcc-bb178389dc4d</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_055101-056012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_056001-056912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_047001-047912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_046101-047012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T16:53:05Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T16:53:05Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>f547f41a-8760-4d47-abdd-a97d910e2575</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/FGOALS-g2.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_055101-056012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:30:33Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:30:33Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>a9865627-23fa-40e5-adf6-fc415993e51f</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="task:tcr_cmip5/tas"/>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_055001-055912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T13:37:16Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T13:37:16Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>f8965798-3f2d-44b6-9976-0f6135979a46</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_056001-056912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T13:48:02Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T13:48:02Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>10f6d4a0-d17e-4b02-8ac9-d0ce001113ae</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_050101-051012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_051001-051912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T12:54:26Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T12:54:26Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>e34c72db-8bf3-429e-b840-61b241e1b965</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_044101-045012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T16:44:43Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T16:44:43Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>00db84e1-5634-4a3c-9be4-4b6a35a92f0f</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_052001-052912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_057001-057912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc">
+    <attribute:alias>FGOALS-g2_piControl</attribute:alias>
+    <attribute:dataset>FGOALS-g2</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>579</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['LASG-CESS']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>20</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>440</attribute:start_year>
+    <attribute:timerange>0440/0579</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'FGOALS-g2', 'exp': 'piControl', 'recipe_dataset_index': 20, 'institute': ['LASG-CESS'], 'product': ['output1', 'output2'], 'timerange': '0440/0579', 'alias': 'FGOALS-g2_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/fx/atmos/fx/r0i0p0/v20130314/areacella/areacella_fx_FGOALS-g2_piControl_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0440/0579'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'FGOALS-g2', 'exp': 'piControl', 'recipe_dataset_index': 20, 'institute': ['LASG-CESS'], 'product': ['output1', 'output2'], 'timerange': '0440/0579', 'alias': 'FGOALS-g2_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'FGOALS-g2', 'exp': 'piControl', 'recipe_dataset_index': 20, 'institute': ['LASG-CESS'], 'product': ['output1', 'output2'], 'timerange': '0440/0579', 'alias': 'FGOALS-g2_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'FGOALS-g2', 'exp': 'piControl', 'recipe_dataset_index': 20, 'institute': ['LASG-CESS'], 'product': ['output1', 'output2'], 'timerange': '0440/0579', 'alias': 'FGOALS-g2_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_046001-046912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T12:03:04Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T12:03:04Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>e60d1c84-1942-443a-8c55-b81a50ae5fd8</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_054001-054912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_045001-045912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T11:53:24Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T11:53:24Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>5ccad1ac-1246-46fc-a14b-847579119a81</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_051001-051912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_057101-058012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:39:09Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:39:09Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>ba10d383-ca97-4373-bcb7-7f06e1ece75a</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_053001-053912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T13:15:44Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T13:15:44Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>56a65e8d-6864-4ca9-936f-c90c0e665181</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_044001-044912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T11:43:42Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T11:43:42Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>ca757f4c-2a51-41f4-aa53-71dd9e447625</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_049101-050012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:05:38Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:05:38Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>4b69ab99-c3bb-458f-94f7-bee08a26bb12</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_056101-057012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:34:42Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:34:42Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>0e147ea0-6e2b-490f-a961-636d3a422ae5</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_051101-052012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_056101-057012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_052001-052912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T13:04:58Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T13:04:58Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>abc7fc4a-5d14-47ec-bfe8-dbc25f52e6b9</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_048001-048912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_047101-048012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T16:57:15Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T16:57:15Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>c5cf2f4e-6403-4dac-a6cb-5c46c9c22867</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_049101-050012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_047101-048012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_052101-053012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:18:05Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:18:05Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>6969b8c2-848f-4c35-ba0a-49e09555fe36</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_044001-044912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_046001-046912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_048001-048912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T12:22:27Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T12:22:27Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>9e68509f-8cd8-49e2-b96f-8b289841fbb2</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_049001-049912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T12:33:06Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T12:33:06Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>dbc2a546-9f02-4de2-ad9f-066645a2e070</attribute:tracking_id>
+  </prov:entity>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/FGOALS-g2.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_045101-046012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T16:48:53Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T16:48:53Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>c6e5e227-8be6-4ff8-8f88-cf369eb844a8</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_043101-044012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_043101-044012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T16:40:29Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T16:40:29Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>3e595210-43f9-4c01-9cbd-0b28c5034ec2</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_053101-054012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:22:11Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:22:11Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>2cd1d442-6b1c-45f0-9494-959f5c4bf2c7</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_054101-055012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_045101-046012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_049001-049912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_047001-047912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T12:12:45Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T12:12:45Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>6aa5c165-0b75-479e-8a10-0b876ec70117</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/FGOALS-g2.png">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of FGOALS-g2 for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_046101-047012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_051101-052012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:13:57Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:13:57Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>f2e0b2d2-9992-400c-b2d6-bd54d58331fa</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_050101-051012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:09:49Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:09:49Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>938e5688-ea53-4134-94b0-25109e113c6e</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_057001-057912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>160235.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T13:58:28Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG (GHG includes CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T13:58:28Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>e231cb19-905b-496a-b2cb-5edcad095065</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_050001-050912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_053101-054012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:tcr_cmip5/tcr"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_044101-045012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_FGOALS-g2_Amon_1pctCO2_r1i1p1_tas_0440-0579.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/1pctCO2/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_1pctCO2_r1i1p1_053001-053912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/LASG-CESS/FGOALS-g2/piControl/mon/atmos/Amon/r1i1p1/v20161204/tas/tas_Amon_FGOALS-g2_piControl_r1i1p1_048101-049012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>N/A</attribute:comment>
+    <attribute:contact>Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn</attribute:contact>
+    <attribute:creation_date>2011-12-25T17:01:29Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>N/A 2011-12-25T17:01:29Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>LASG-CESS</attribute:institute_id>
+    <attribute:institution>IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)</attribute:institution>
+    <attribute:model_id>FGOALS_g2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.lasg.ac.cn/FGOALS/CMIP5</attribute:references>
+    <attribute:source>FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)</attribute:source>
+    <attribute:table_id>Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1</attribute:table_id>
+    <attribute:title>FGOALS_g2 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>7c986d48-e345-43eb-bc36-1f7b7f5cf256</attribute:tracking_id>
+  </prov:entity>
+</prov:document>

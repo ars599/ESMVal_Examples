@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/MIROC5.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/1pctCO2/mon/atmos/Amon/r1i1p1/v20120710/tas/tas_Amon_MIROC5_1pctCO2_r1i1p1_220001-233912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/piControl/mon/atmos/Amon/r1i1p1/v20161012/tas/tas_Amon_MIROC5_piControl_r1i1p1_250001-259912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/MIROC5.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/MIROC5.nc">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of MIROC5 for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:activity prov:id="task:tcr_cmip5/tas"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339.nc">
+    <attribute:alias>MIROC5_1pctCO2</attribute:alias>
+    <attribute:dataset>MIROC5</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>2339</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['MIROC']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>45</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2200</attribute:start_year>
+    <attribute:timerange>2200/2339</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'MIROC5', 'exp': '1pctCO2', 'recipe_dataset_index': 45, 'institute': ['MIROC'], 'product': ['output1', 'output2'], 'timerange': '2200/2339', 'alias': 'MIROC5_1pctCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/1pctCO2/fx/atmos/fx/r0i0p0/v20110901/areacella/areacella_fx_MIROC5_1pctCO2_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2200/2339'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'MIROC5', 'exp': '1pctCO2', 'recipe_dataset_index': 45, 'institute': ['MIROC'], 'product': ['output1', 'output2'], 'timerange': '2200/2339', 'alias': 'MIROC5_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'MIROC5', 'exp': '1pctCO2', 'recipe_dataset_index': 45, 'institute': ['MIROC'], 'product': ['output1', 'output2'], 'timerange': '2200/2339', 'alias': 'MIROC5_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'MIROC5', 'exp': '1pctCO2', 'recipe_dataset_index': 45, 'institute': ['MIROC'], 'product': ['output1', 'output2'], 'timerange': '2200/2339', 'alias': 'MIROC5_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_1pctCO2_r1i1p1_tas_2200-2339.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc">
+    <attribute:alias>MIROC5_piControl</attribute:alias>
+    <attribute:dataset>MIROC5</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>2539</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['MIROC']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>44</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2400</attribute:start_year>
+    <attribute:timerange>2400/2539</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'MIROC5', 'exp': 'piControl', 'recipe_dataset_index': 44, 'institute': ['MIROC'], 'product': ['output1', 'output2'], 'timerange': '2400/2539', 'alias': 'MIROC5_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/piControl/fx/atmos/fx/r0i0p0/v20110901/areacella/areacella_fx_MIROC5_piControl_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2400/2539'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'MIROC5', 'exp': 'piControl', 'recipe_dataset_index': 44, 'institute': ['MIROC'], 'product': ['output1', 'output2'], 'timerange': '2400/2539', 'alias': 'MIROC5_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'MIROC5', 'exp': 'piControl', 'recipe_dataset_index': 44, 'institute': ['MIROC'], 'product': ['output1', 'output2'], 'timerange': '2400/2539', 'alias': 'MIROC5_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'MIROC5', 'exp': 'piControl', 'recipe_dataset_index': 44, 'institute': ['MIROC'], 'product': ['output1', 'output2'], 'timerange': '2400/2539', 'alias': 'MIROC5_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/1pctCO2/mon/atmos/Amon/r1i1p1/v20120710/tas/tas_Amon_MIROC5_1pctCO2_r1i1p1_220001-233912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>73000.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:contact>Masahiro Watanabe (hiro@aori.u-tokyo.ac.jp), Seita Emori (emori@nies.go.jp), Masayoshi Ishii (ism@jamstec.go.jp), Masahide Kimoto (kimoto@aori.u-tokyo.ac.jp)</attribute:contact>
+    <attribute:creation_date>2011-07-25T05:43:36Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-07-25T05:43:36Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MIROC</attribute:institute_id>
+    <attribute:institution>AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan)</attribute:institution>
+    <attribute:model_id>MIROC5</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Watanabe et al., 2010: Improved climate simulation by MIROC5: Mean states, variability, and climate sensitivity. J. Climate, 23, 6312-6335</attribute:references>
+    <attribute:source>MIROC5 2010 atmosphere: MIROC-AGCM6 (T85L40); ocean: COCO (COCO4.5, 256x224 L50); sea ice: COCO (COCO4.5); land: MATSIRO (MATSIRO, L6); aerosols: SPRINTARS (SPRINTARS 5.00, T85L40)</attribute:source>
+    <attribute:table_id>Table Amon (27 April 2011) a5a1c518f52ae340313ba0aada03f862</attribute:table_id>
+    <attribute:title>MIROC5 model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>056bdc1f-037f-4618-ba9d-f8cdff967d1a</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/piControl/mon/atmos/Amon/r1i1p1/v20161012/tas/tas_Amon_MIROC5_piControl_r1i1p1_250001-259912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.8</attribute:cmor_version>
+    <attribute:contact>Masahiro Watanabe (hiro@aori.u-tokyo.ac.jp), Seita Emori (emori@nies.go.jp), Masayoshi Ishii (ism@jamstec.go.jp), Masahide Kimoto (kimoto@aori.u-tokyo.ac.jp)</attribute:contact>
+    <attribute:creation_date>2011-07-11T10:21:13Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-07-11T10:21:13Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MIROC</attribute:institute_id>
+    <attribute:institution>AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan)</attribute:institution>
+    <attribute:model_id>MIROC5</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Watanabe et al., 2010: Improved climate simulation by MIROC5: Mean states, variability, and climate sensitivity. J. Climate, 23, 6312-6335</attribute:references>
+    <attribute:source>MIROC5 2010 atmosphere: MIROC-AGCM6 (T85L40); ocean: COCO (COCO4.5, 256x224 L50); sea ice: COCO (COCO4.5); land: MATSIRO (MATSIRO, L6); aerosols: SPRINTARS (SPRINTARS 5.00, T85L40)</attribute:source>
+    <attribute:table_id>Table Amon (27 April 2011) a5a1c518f52ae340313ba0aada03f862</attribute:table_id>
+    <attribute:title>MIROC5 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>95997cbc-79ab-411d-ab61-1b934398d992</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2400-2539.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/piControl/mon/atmos/Amon/r1i1p1/v20161012/tas/tas_Amon_MIROC5_piControl_r1i1p1_240001-249912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/MIROC5.nc"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:activity prov:id="task:tcr_cmip5/tcr"/>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/piControl/mon/atmos/Amon/r1i1p1/v20161012/tas/tas_Amon_MIROC5_piControl_r1i1p1_240001-249912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.6</attribute:cmor_version>
+    <attribute:contact>Masahiro Watanabe (hiro@aori.u-tokyo.ac.jp), Seita Emori (emori@nies.go.jp), Masayoshi Ishii (ism@jamstec.go.jp), Masahide Kimoto (kimoto@aori.u-tokyo.ac.jp)</attribute:contact>
+    <attribute:creation_date>2011-06-23T00:37:49Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-06-23T00:37:49Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MIROC</attribute:institute_id>
+    <attribute:institution>AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan)</attribute:institution>
+    <attribute:model_id>MIROC5</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Watanabe et al., 2010: Improved climate simulation by MIROC5: Mean states, variability, and climate sensitivity. J. Climate, 23, 6312-6335</attribute:references>
+    <attribute:source>MIROC5 2010 atmosphere: MIROC-AGCM6 (T85L40); ocean: COCO (COCO4.5, 256x224 L50); sea ice: COCO (COCO4.5); land: MATSIRO (MATSIRO, L6); aerosols: SPRINTARS (SPRINTARS 5.00, T85L40)</attribute:source>
+    <attribute:table_id>Table Amon (27 April 2011) a5a1c518f52ae340313ba0aada03f862</attribute:table_id>
+    <attribute:title>MIROC5 model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>90d45660-e042-4c68-b1a1-4405f27872f3</attribute:tracking_id>
+  </prov:entity>
+</prov:document>

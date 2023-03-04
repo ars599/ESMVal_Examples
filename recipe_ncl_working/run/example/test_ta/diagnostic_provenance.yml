@@ -1,0 +1,16 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta//ta.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc]
+  authors: [righi_mattia, gottschaldt_klaus-dirk]
+  caption: 'Mean of variable: ta'
+  domains: [global]
+  plot_types: [geo]
+  references: [acknow_author]
+  statistics: [mean]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/plots/example/test_ta/ta.png
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc]
+  authors: [righi_mattia, gottschaldt_klaus-dirk]
+  caption: 'Mean of variable: ta'
+  domains: [global]
+  plot_types: [geo]
+  references: [acknow_author]
+  statistics: [mean]

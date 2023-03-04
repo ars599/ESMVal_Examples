@@ -1,0 +1,153 @@
+INFO    [670400] 
+______________________________________________________________________
+          _____ ____  __  ____     __    _ _____           _
+         | ____/ ___||  \/  \ \   / /_ _| |_   _|__   ___ | |
+         |  _| \___ \| |\/| |\ \ / / _` | | | |/ _ \ / _ \| |
+         | |___ ___) | |  | | \ V / (_| | | | | (_) | (_) | |
+         |_____|____/|_|  |_|  \_/ \__,_|_| |_|\___/ \___/|_|
+______________________________________________________________________
+
+ESMValTool - Earth System Model Evaluation Tool.
+
+http://www.esmvaltool.org
+
+CORE DEVELOPMENT TEAM AND CONTACTS:
+  Birgit Hassler (Co-PI; DLR, Germany - birgit.hassler@dlr.de)
+  Alistair Sellar (Co-PI; Met Office, UK - alistair.sellar@metoffice.gov.uk)
+  Bouwe Andela (Netherlands eScience Center, The Netherlands - b.andela@esciencecenter.nl)
+  Lee de Mora (PML, UK - ledm@pml.ac.uk)
+  Niels Drost (Netherlands eScience Center, The Netherlands - n.drost@esciencecenter.nl)
+  Veronika Eyring (DLR, Germany - veronika.eyring@dlr.de)
+  Bettina Gier (UBremen, Germany - gier@uni-bremen.de)
+  Remi Kazeroni (DLR, Germany - remi.kazeroni@dlr.de)
+  Nikolay Koldunov (AWI, Germany - nikolay.koldunov@awi.de)
+  Axel Lauer (DLR, Germany - axel.lauer@dlr.de)
+  Saskia Loosveldt-Tomas (BSC, Spain - saskia.loosveldt@bsc.es)
+  Ruth Lorenz (ETH Zurich, Switzerland - ruth.lorenz@env.ethz.ch)
+  Benjamin Mueller (LMU, Germany - b.mueller@iggf.geo.uni-muenchen.de)
+  Valeriu Predoi (URead, UK - valeriu.predoi@ncas.ac.uk)
+  Mattia Righi (DLR, Germany - mattia.righi@dlr.de)
+  Manuel Schlund (DLR, Germany - manuel.schlund@dlr.de)
+  Breixo Solino Fernandez (DLR, Germany - breixo.solinofernandez@dlr.de)
+  Javier Vegas-Regidor (BSC, Spain - javier.vegas@bsc.es)
+  Klaus Zimmermann (SMHI, Sweden - klaus.zimmermann@smhi.se)
+
+For further help, please read the documentation at
+http://docs.esmvaltool.org. Have fun!
+
+INFO    [670400] Package versions
+INFO    [670400] ----------------
+INFO    [670400] ESMValCore: 2.7.1
+INFO    [670400] ESMValTool: 2.7.0
+INFO    [670400] ----------------
+INFO    [670400] Using config file /home/599/ars599/.esmvaltool/config-user.yml
+INFO    [670400] Writing program log files to:
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/main_log.txt
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/main_log_debug.txt
+INFO    [670400] Using default ESGF configuration, configuration file /home/599/ars599/.esmvaltool/esgf-pyclient.yml not present.
+WARNING [670400] 
+ESGF credentials missing, only data that is accessible without
+logging in will be available.
+
+See https://esgf.github.io/esgf-user-support/user_guide.html
+for instructions on how to create an account if you do not have
+one yet.
+
+Next, configure your system so esmvaltool can use your
+credentials. This can be done using the keyring package, or
+you can just enter them in /home/599/ars599/.esmvaltool/esgf-pyclient.yml.
+
+keyring
+=======
+First install the keyring package (requires a supported
+backend, see https://pypi.org/project/keyring/):
+$ pip install keyring
+
+Next, set your username and password by running the commands:
+$ keyring set ESGF hostname
+$ keyring set ESGF username
+$ keyring set ESGF password
+
+To check that you entered your credentials correctly, run:
+$ keyring get ESGF hostname
+$ keyring get ESGF username
+$ keyring get ESGF password
+
+configuration file
+==================
+You can store the hostname, username, and password or your OpenID
+account in a plain text in the file /home/599/ars599/.esmvaltool/esgf-pyclient.yml like this:
+
+logon:
+  hostname: "your-hostname"
+  username: "your-username"
+  password: "your-password"
+
+or your can configure an interactive log in:
+
+logon:
+  interactive: true
+
+Note that storing your password in plain text in the configuration
+file is less secure. On shared systems, make sure the permissions
+of the file are set so only you can read it, i.e.
+
+$ ls -l /home/599/ars599/.esmvaltool/esgf-pyclient.yml
+
+shows permissions -rw-------.
+
+
+INFO    [670400] Starting the Earth System Model Evaluation Tool at time: 2023-03-01 21:51:00 UTC
+INFO    [670400] ----------------------------------------------------------------------
+INFO    [670400] RECIPE   = /g/data/p66/ars599/work_esmvaltool/recipes/recipe_ncl.yml
+INFO    [670400] RUNDIR     = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run
+INFO    [670400] WORKDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work
+INFO    [670400] PREPROCDIR = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc
+INFO    [670400] PLOTDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/plots
+INFO    [670400] ----------------------------------------------------------------------
+INFO    [670400] Running tasks using at most 48 processes
+INFO    [670400] If your system hangs during execution, it may not have enough memory for keeping this number of tasks in memory.
+INFO    [670400] If you experience memory problems, try reducing 'max_parallel_tasks' in your user configuration file.
+INFO    [670400] NCL script detected, checking NCL version
+INFO    [670400] Found NCL version 6.6.2
+INFO    [670400] Creating tasks from recipe
+INFO    [670400] Creating tasks for diagnostic example
+INFO    [670400] Creating diagnostic task example/test_ta
+INFO    [670400] Creating preprocessor task example/ta
+INFO    [670400] Creating preprocessor 'preprocessor_1' task for variable 'ta'
+INFO    [670400] Found input files for bcc-csm1-1
+INFO    [670400] Found input files for GFDL-ESM2G
+INFO    [670400] Found input files for MPI-ESM-LR
+INFO    [670400] Found input files for CanESM2
+INFO    [670400] PreprocessingTask example/ta created.
+INFO    [670400] These tasks will be executed: example/test_ta, example/ta
+INFO    [670400] All required data is available locally, not downloading anything.
+INFO    [670400] Running 2 tasks using 2 processes
+INFO    [671254] Starting task example/ta in process [671254]
+INFO    [670400] Progress: 1 tasks running, 1 tasks waiting for ancestors, 0/2 done
+INFO    [671254] Successfully completed task example/ta (priority 1) in 0:00:30.758343
+INFO    [670400] Progress: 0 tasks running, 1 tasks waiting for ancestors, 1/2 done
+INFO    [671255] Starting task example/test_ta in process [671255]
+INFO    [671255] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/examples/diagnostic.ncl']
+INFO    [671255] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta
+INFO    [671255] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/plots/example/test_ta
+INFO    [671255] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta/log.txt
+INFO    [671255] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/examples/diagnostic.ncl
+INFO    [670400] Progress: 1 tasks running, 0 tasks waiting for ancestors, 1/2 done
+INFO    [671255] Maximum memory used (estimate): 0.2 GB
+INFO    [671255] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [671255] Successfully completed task example/test_ta (priority 0) in 0:00:02.576252
+INFO    [670400] Progress: 0 tasks running, 0 tasks waiting for ancestors, 2/2 done
+INFO    [670400] Successfully completed all tasks.
+WARNING [670400] Correcting capitalization, project 'obs4mips' should be written as 'obs4MIPs' in /home/599/ars599/.esmvaltool/config-developer.yml
+INFO    [670400] Wrote recipe output to:
+file:///g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/index.html
+INFO    [670400] Ending the Earth System Model Evaluation Tool at time: 2023-03-01 21:51:36 UTC
+INFO    [670400] Time for running the recipe was: 0:00:35.603003
+INFO    [670400] Maximum memory used (estimate): 0.8 GB
+INFO    [670400] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [670400] Removing preproc containing preprocessed data
+INFO    [670400] If this data is further needed, then
+INFO    [670400] set remove_preproc_dir to false in config-user.yml
+INFO    [670400] Run was successful

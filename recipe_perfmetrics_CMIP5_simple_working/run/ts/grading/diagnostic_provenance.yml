@@ -1,0 +1,72 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/perfmetrics_cycle_latlon_ESACCI-SST_ts_monthlyclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/OBS_ESACCI-SST_sat_2.2_Amon_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, stddev]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/perfmetrics_cycle_latlon_HadISST_ts_monthlyclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/OBS_HadISST_reanaly_1_Amon_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, stddev]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-0_ts_monthlyclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, stddev]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-3_ts_monthlyclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, stddev]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1_ts_monthlyclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, stddev]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_ts_monthlyclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, stddev]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/perfmetrics_cycle_latlon_MultiModelMean_ts_monthlyclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_MultiModelMean_historical_Amon_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, stddev]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/perfmetrics_cycle_latlon_MultiModelMedian_ts_monthlyclim_global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_MultiModelMedian_historical_Amon_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [mean, stddev]
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/ts/grading/RMSD_ts-global.nc
+: ancestors: [/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_ts_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_ts_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ts_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_ts_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/OBS_ESACCI-SST_sat_2.2_Amon_ts_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/OBS_HadISST_reanaly_1_Amon_ts_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_MultiModelMean_historical_Amon_ts_2000-2002.nc, /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/ts/ts/CMIP5_MultiModelMedian_historical_Amon_ts_2000-2002.nc]
+  authors: [frank_franziska, righi_mattia, eyring_veronika]
+  caption: 'n/a'
+  domains: [global]
+  plot_types: [other]
+  references: [righi15gmd, gleckler08jgr]
+  statistics: [rmsd]

@@ -1,0 +1,2 @@
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Watanabe et al., 2010: Improved climate simulation by MIROC5: Mean states, variability, and climate sensitivity. J. Climate, 23, 6312-6335

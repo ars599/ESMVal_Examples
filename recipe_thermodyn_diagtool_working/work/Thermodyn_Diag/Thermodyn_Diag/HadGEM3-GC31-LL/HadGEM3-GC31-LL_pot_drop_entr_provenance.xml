@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:software="https://www.esmvaltool.org/software" xmlns:project="https://www.esmvaltool.org/project" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/pr/gn/v20190624/pr_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/pr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/pr/gn/v20190624/pr_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-06-19T12:06:25Z</attribute:creation_date>
+    <attribute:cv_version>6.2.20.1</attribute:cv_version>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>3</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MOHC.HadGEM3-GC31-LL.historical.none.r1i1p1f3</attribute:further_info_url>
+    <attribute:grid>Native N96 grid; 192 x 144 longitude/latitude</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-06-19T11:56:44Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+2019-06-19T11:56:29Z MIP Convert v1.1.0, Python v2.7.12, Iris v1.13.0, Numpy v1.13.3, netcdftime v1.4.1.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK</attribute:institution>
+    <attribute:institution_id>MOHC</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by the Met Office Hadley Centre is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https://ukesm.ac.uk/cmip6. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:mo_runid>u-bg466</attribute:mo_runid>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>HadGEM3-GC31-LL</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01-00-00-00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>HadGEM3-GC31-LL (2016): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: JULES-HadGEM3-GL7.1
+landIce: none
+ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)
+ocnBgchem: none
+seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)</attribute:source>
+    <attribute:source_id>HadGEM3-GC31-LL</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(13 December 2018) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>HadGEM3-GC31-LL output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/0003f1b5-a3ca-40b7-80e7-78542fdecef2</attribute:tracking_id>
+    <attribute:variable_id>pr</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f3</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc"/>
+    <prov:agent prov:ref="author:Lembo, Valerio"/>
+  </prov:wasAttributedTo>
+  <prov:agent prov:id="project:DLR project ESMVal"/>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="project:DLR project ESMVal"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:Thermodyn_Diag/ps"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_HadGEM3-GC31-LL_historical</attribute:alias>
+    <attribute:dataset>HadGEM3-GC31-LL</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2001</attribute:end_year>
+    <attribute:ensemble>r1i1p1f3</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MOHC', 'NERC']</attribute:institute>
+    <attribute:long_name>Specific Humidity</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>hus</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:short_name>hus</attribute:short_name>
+    <attribute:standard_name>specific_humidity</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2001</attribute:timerange>
+    <attribute:units>1</attribute:units>
+    <attribute:variable_group>hus</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2001'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'hus', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'hus', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:agent prov:id="author:Koldunov, Nikolay">
+    <attribute:email>nikolay.koldunov@awi.de</attribute:email>
+    <attribute:institute>AWI, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0002-3365-8146</attribute:orcid>
+  </prov:agent>
+  <prov:activity prov:id="task:Thermodyn_Diag/ts"/>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_HadGEM3-GC31-LL_historical</attribute:alias>
+    <attribute:dataset>HadGEM3-GC31-LL</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2001</attribute:end_year>
+    <attribute:ensemble>r1i1p1f3</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MOHC', 'NERC']</attribute:institute>
+    <attribute:long_name>Precipitation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>pr</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:short_name>pr</attribute:short_name>
+    <attribute:standard_name>precipitation_flux</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2001</attribute:timerange>
+    <attribute:units>kg m-2 s-1</attribute:units>
+    <attribute:variable_group>pr</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2001'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'pr', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'pr', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'pr', 'short_name': 'pr', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'pr', 'standard_name': 'precipitation_flux', 'long_name': 'Precipitation', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'pr', 'short_name': 'pr', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'pr', 'standard_name': 'precipitation_flux', 'long_name': 'Precipitation', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'pr', 'short_name': 'pr', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'pr', 'standard_name': 'precipitation_flux', 'long_name': 'Precipitation', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/ts/gn/v20190624/ts_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ts"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/prsn"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="recipe:recipe_thermodyn_diagtool.yml">
+    <attribute:description>Recipe for the computation of various aspects associated with
+the thermodynamics of the climate system, such as energy and
+water mass budgets, meridional enthalpy transports, the Lorenz
+Energy Cycle and the material entropy production.
+</attribute:description>
+    <attribute:references>['lembo16climdyn', 'lucarini14revgeop']</attribute:references>
+  </prov:entity>
+  <prov:activity prov:id="task:Thermodyn_Diag/hus"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/hus/gn/v20190624/hus_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/hus"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/pr"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc">
+    <attribute:caption>Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL.</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:entr>True</attribute:entr>
+    <attribute:lec>True</attribute:lec>
+    <attribute:lsm>True</attribute:lsm>
+    <attribute:met>3</attribute:met>
+    <attribute:plot_type>['geo']</attribute:plot_type>
+    <attribute:references>['lembo16climdyn', 'lembo19gmdd', 'lucarini14revgeop']</attribute:references>
+    <attribute:script>Thermodyn_Diag</attribute:script>
+    <attribute:script_file>thermodyn_diagtool/thermodyn_diagnostics.py</attribute:script_file>
+    <attribute:statistics>('mean',)</attribute:statistics>
+    <attribute:wat>True</attribute:wat>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/hus"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="project:DFG Project TRR-181, Energy transfers in Atmosphere and Ocean"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_HadGEM3-GC31-LL_historical</attribute:alias>
+    <attribute:dataset>HadGEM3-GC31-LL</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2001</attribute:end_year>
+    <attribute:ensemble>r1i1p1f3</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MOHC', 'NERC']</attribute:institute>
+    <attribute:long_name>TOA Outgoing Longwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rlut</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:short_name>rlut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_longwave_flux</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2001</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rlut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2001'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'rlut', 'short_name': 'rlut', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'rlut', 'short_name': 'rlut', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'rlut', 'short_name': 'rlut', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="author:Koldunov, Nikolay"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/ps/gn/v20190624/ps_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-06-19T12:06:33Z</attribute:creation_date>
+    <attribute:cv_version>6.2.20.1</attribute:cv_version>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>3</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MOHC.HadGEM3-GC31-LL.historical.none.r1i1p1f3</attribute:further_info_url>
+    <attribute:grid>Native N96 grid; 192 x 144 longitude/latitude</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-06-19T11:56:44Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+2019-06-19T11:56:29Z MIP Convert v1.1.0, Python v2.7.12, Iris v1.13.0, Numpy v1.13.3, netcdftime v1.4.1.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK</attribute:institution>
+    <attribute:institution_id>MOHC</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by the Met Office Hadley Centre is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https://ukesm.ac.uk/cmip6. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:mo_runid>u-bg466</attribute:mo_runid>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>HadGEM3-GC31-LL</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01-00-00-00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>HadGEM3-GC31-LL (2016): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: JULES-HadGEM3-GL7.1
+landIce: none
+ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)
+ocnBgchem: none
+seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)</attribute:source>
+    <attribute:source_id>HadGEM3-GC31-LL</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(13 December 2018) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>HadGEM3-GC31-LL output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/67b526c5-5c90-465f-a503-435de724fe3b</attribute:tracking_id>
+    <attribute:variable_id>ps</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f3</attribute:variant_label>
+  </prov:entity>
+  <prov:activity prov:id="task:Thermodyn_Diag/prsn"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/ts/gn/v20190624/ts_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-06-19T12:07:39Z</attribute:creation_date>
+    <attribute:cv_version>6.2.20.1</attribute:cv_version>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>3</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MOHC.HadGEM3-GC31-LL.historical.none.r1i1p1f3</attribute:further_info_url>
+    <attribute:grid>Native N96 grid; 192 x 144 longitude/latitude</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-06-19T11:56:44Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+2019-06-19T11:56:29Z MIP Convert v1.1.0, Python v2.7.12, Iris v1.13.0, Numpy v1.13.3, netcdftime v1.4.1.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK</attribute:institution>
+    <attribute:institution_id>MOHC</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by the Met Office Hadley Centre is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https://ukesm.ac.uk/cmip6. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:mo_runid>u-bg466</attribute:mo_runid>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>HadGEM3-GC31-LL</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01-00-00-00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>HadGEM3-GC31-LL (2016): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: JULES-HadGEM3-GL7.1
+landIce: none
+ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)
+ocnBgchem: none
+seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)</attribute:source>
+    <attribute:source_id>HadGEM3-GC31-LL</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(13 December 2018) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>HadGEM3-GC31-LL output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/0211d9d1-a5fa-4bd9-98b5-4ef7b98266a3</attribute:tracking_id>
+    <attribute:variable_id>ts</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f3</attribute:variant_label>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ts"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_HadGEM3-GC31-LL_historical</attribute:alias>
+    <attribute:dataset>HadGEM3-GC31-LL</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2001</attribute:end_year>
+    <attribute:ensemble>r1i1p1f3</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MOHC', 'NERC']</attribute:institute>
+    <attribute:long_name>Surface Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ts</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:short_name>ts</attribute:short_name>
+    <attribute:standard_name>surface_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2001</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>ts</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2001'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ts', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ts', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="author:Lembo, Valerio"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/prsn/gn/v20190624/prsn_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-06-19T12:06:30Z</attribute:creation_date>
+    <attribute:cv_version>6.2.20.1</attribute:cv_version>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>3</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MOHC.HadGEM3-GC31-LL.historical.none.r1i1p1f3</attribute:further_info_url>
+    <attribute:grid>Native N96 grid; 192 x 144 longitude/latitude</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-06-19T11:56:44Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+2019-06-19T11:56:29Z MIP Convert v1.1.0, Python v2.7.12, Iris v1.13.0, Numpy v1.13.3, netcdftime v1.4.1.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK</attribute:institution>
+    <attribute:institution_id>MOHC</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by the Met Office Hadley Centre is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https://ukesm.ac.uk/cmip6. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:mo_runid>u-bg466</attribute:mo_runid>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>HadGEM3-GC31-LL</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01-00-00-00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>HadGEM3-GC31-LL (2016): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: JULES-HadGEM3-GL7.1
+landIce: none
+ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)
+ocnBgchem: none
+seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)</attribute:source>
+    <attribute:source_id>HadGEM3-GC31-LL</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(13 December 2018) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>HadGEM3-GC31-LL output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/854339bc-2c2f-4d8a-b4b7-ba12d09f7b62</attribute:tracking_id>
+    <attribute:variable_id>prsn</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f3</attribute:variant_label>
+  </prov:entity>
+  <prov:activity prov:id="task:Thermodyn_Diag/rlut"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/rlut"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/ps/gn/v20190624/ps_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ps"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rlut/gn/v20190624/rlut_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/rlut"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Lembo, Valerio">
+    <attribute:institute>CEN, University of Hamburg, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-6085-5914</attribute:orcid>
+  </prov:agent>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/hus/gn/v20190624/hus_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-06-19T12:06:10Z</attribute:creation_date>
+    <attribute:cv_version>6.2.20.1</attribute:cv_version>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>3</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MOHC.HadGEM3-GC31-LL.historical.none.r1i1p1f3</attribute:further_info_url>
+    <attribute:grid>Native N96 grid; 192 x 144 longitude/latitude</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-06-19T11:56:44Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+2019-06-19T11:56:29Z MIP Convert v1.1.0, Python v2.7.12, Iris v1.13.0, Numpy v1.13.3, netcdftime v1.4.1.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK</attribute:institution>
+    <attribute:institution_id>MOHC</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by the Met Office Hadley Centre is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https://ukesm.ac.uk/cmip6. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:mo_runid>u-bg466</attribute:mo_runid>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>HadGEM3-GC31-LL</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01-00-00-00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>HadGEM3-GC31-LL (2016): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: JULES-HadGEM3-GL7.1
+landIce: none
+ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)
+ocnBgchem: none
+seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)</attribute:source>
+    <attribute:source_id>HadGEM3-GC31-LL</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(13 December 2018) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>HadGEM3-GC31-LL output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/a139f40c-b755-4ae4-be6a-e614aa9de679</attribute:tracking_id>
+    <attribute:variable_id>hus</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f3</attribute:variant_label>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ps"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_HadGEM3-GC31-LL_historical</attribute:alias>
+    <attribute:dataset>HadGEM3-GC31-LL</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2001</attribute:end_year>
+    <attribute:ensemble>r1i1p1f3</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MOHC', 'NERC']</attribute:institute>
+    <attribute:long_name>Surface Air Pressure</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ps</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:short_name>ps</attribute:short_name>
+    <attribute:standard_name>surface_air_pressure</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2001</attribute:timerange>
+    <attribute:units>Pa</attribute:units>
+    <attribute:variable_group>ps</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2001'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ps', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ps', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_HadGEM3-GC31-LL_historical</attribute:alias>
+    <attribute:dataset>HadGEM3-GC31-LL</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2001</attribute:end_year>
+    <attribute:ensemble>r1i1p1f3</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MOHC', 'NERC']</attribute:institute>
+    <attribute:long_name>Snowfall Flux</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>prsn</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:short_name>prsn</attribute:short_name>
+    <attribute:standard_name>snowfall_flux</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2001</attribute:timerange>
+    <attribute:units>kg m-2 s-1</attribute:units>
+    <attribute:variable_group>prsn</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2001'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'prsn', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'prsn', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'HadGEM3-GC31-LL', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f3', 'grid': 'gn', 'recipe_dataset_index': 0, 'timerange': '2000/2001', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL_historical', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="project:DFG Project TRR-181, Energy transfers in Atmosphere and Ocean"/>
+  <prov:activity prov:id="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/prsn/gn/v20190624/prsn_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/prsn"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rlut/gn/v20190624/rlut_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-06-19T12:06:46Z</attribute:creation_date>
+    <attribute:cv_version>6.2.20.1</attribute:cv_version>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>3</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MOHC.HadGEM3-GC31-LL.historical.none.r1i1p1f3</attribute:further_info_url>
+    <attribute:grid>Native N96 grid; 192 x 144 longitude/latitude</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-06-19T11:56:44Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+2019-06-19T11:56:29Z MIP Convert v1.1.0, Python v2.7.12, Iris v1.13.0, Numpy v1.13.3, netcdftime v1.4.1.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK</attribute:institution>
+    <attribute:institution_id>MOHC</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by the Met Office Hadley Centre is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https://ukesm.ac.uk/cmip6. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:mo_runid>u-bg466</attribute:mo_runid>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>HadGEM3-GC31-LL</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01-00-00-00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>HadGEM3-GC31-LL (2016): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: JULES-HadGEM3-GL7.1
+landIce: none
+ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)
+ocnBgchem: none
+seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)</attribute:source>
+    <attribute:source_id>HadGEM3-GC31-LL</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(13 December 2018) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>HadGEM3-GC31-LL output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/ab547658-6dd7-44c2-8652-ba313b754317</attribute:tracking_id>
+    <attribute:variable_id>rlut</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f3</attribute:variant_label>
+  </prov:entity>
+  <prov:activity prov:id="task:Thermodyn_Diag/pr"/>
+</prov:document>

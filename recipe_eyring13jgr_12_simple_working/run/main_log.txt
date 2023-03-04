@@ -1,0 +1,155 @@
+INFO    [2917979] 
+______________________________________________________________________
+          _____ ____  __  ____     __    _ _____           _
+         | ____/ ___||  \/  \ \   / /_ _| |_   _|__   ___ | |
+         |  _| \___ \| |\/| |\ \ / / _` | | | |/ _ \ / _ \| |
+         | |___ ___) | |  | | \ V / (_| | | | | (_) | (_) | |
+         |_____|____/|_|  |_|  \_/ \__,_|_| |_|\___/ \___/|_|
+______________________________________________________________________
+
+ESMValTool - Earth System Model Evaluation Tool.
+
+http://www.esmvaltool.org
+
+CORE DEVELOPMENT TEAM AND CONTACTS:
+  Birgit Hassler (Co-PI; DLR, Germany - birgit.hassler@dlr.de)
+  Alistair Sellar (Co-PI; Met Office, UK - alistair.sellar@metoffice.gov.uk)
+  Bouwe Andela (Netherlands eScience Center, The Netherlands - b.andela@esciencecenter.nl)
+  Lee de Mora (PML, UK - ledm@pml.ac.uk)
+  Niels Drost (Netherlands eScience Center, The Netherlands - n.drost@esciencecenter.nl)
+  Veronika Eyring (DLR, Germany - veronika.eyring@dlr.de)
+  Bettina Gier (UBremen, Germany - gier@uni-bremen.de)
+  Remi Kazeroni (DLR, Germany - remi.kazeroni@dlr.de)
+  Nikolay Koldunov (AWI, Germany - nikolay.koldunov@awi.de)
+  Axel Lauer (DLR, Germany - axel.lauer@dlr.de)
+  Saskia Loosveldt-Tomas (BSC, Spain - saskia.loosveldt@bsc.es)
+  Ruth Lorenz (ETH Zurich, Switzerland - ruth.lorenz@env.ethz.ch)
+  Benjamin Mueller (LMU, Germany - b.mueller@iggf.geo.uni-muenchen.de)
+  Valeriu Predoi (URead, UK - valeriu.predoi@ncas.ac.uk)
+  Mattia Righi (DLR, Germany - mattia.righi@dlr.de)
+  Manuel Schlund (DLR, Germany - manuel.schlund@dlr.de)
+  Breixo Solino Fernandez (DLR, Germany - breixo.solinofernandez@dlr.de)
+  Javier Vegas-Regidor (BSC, Spain - javier.vegas@bsc.es)
+  Klaus Zimmermann (SMHI, Sweden - klaus.zimmermann@smhi.se)
+
+For further help, please read the documentation at
+http://docs.esmvaltool.org. Have fun!
+
+INFO    [2917979] Package versions
+INFO    [2917979] ----------------
+INFO    [2917979] ESMValCore: 2.7.1
+INFO    [2917979] ESMValTool: 2.7.0
+INFO    [2917979] ----------------
+INFO    [2917979] Using config file /home/599/ars599/.esmvaltool/config-user.yml
+INFO    [2917979] Writing program log files to:
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/run/main_log.txt
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/run/main_log_debug.txt
+INFO    [2917979] Using default ESGF configuration, configuration file /home/599/ars599/.esmvaltool/esgf-pyclient.yml not present.
+WARNING [2917979] 
+ESGF credentials missing, only data that is accessible without
+logging in will be available.
+
+See https://esgf.github.io/esgf-user-support/user_guide.html
+for instructions on how to create an account if you do not have
+one yet.
+
+Next, configure your system so esmvaltool can use your
+credentials. This can be done using the keyring package, or
+you can just enter them in /home/599/ars599/.esmvaltool/esgf-pyclient.yml.
+
+keyring
+=======
+First install the keyring package (requires a supported
+backend, see https://pypi.org/project/keyring/):
+$ pip install keyring
+
+Next, set your username and password by running the commands:
+$ keyring set ESGF hostname
+$ keyring set ESGF username
+$ keyring set ESGF password
+
+To check that you entered your credentials correctly, run:
+$ keyring get ESGF hostname
+$ keyring get ESGF username
+$ keyring get ESGF password
+
+configuration file
+==================
+You can store the hostname, username, and password or your OpenID
+account in a plain text in the file /home/599/ars599/.esmvaltool/esgf-pyclient.yml like this:
+
+logon:
+  hostname: "your-hostname"
+  username: "your-username"
+  password: "your-password"
+
+or your can configure an interactive log in:
+
+logon:
+  interactive: true
+
+Note that storing your password in plain text in the configuration
+file is less secure. On shared systems, make sure the permissions
+of the file are set so only you can read it, i.e.
+
+$ ls -l /home/599/ars599/.esmvaltool/esgf-pyclient.yml
+
+shows permissions -rw-------.
+
+
+INFO    [2917979] Starting the Earth System Model Evaluation Tool at time: 2023-03-02 09:23:56 UTC
+INFO    [2917979] ----------------------------------------------------------------------
+INFO    [2917979] RECIPE   = /g/data/p66/ars599/work_esmvaltool/recipes/recipe_eyring13jgr_12_simple.yml
+INFO    [2917979] RUNDIR     = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/run
+INFO    [2917979] WORKDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/work
+INFO    [2917979] PREPROCDIR = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc
+INFO    [2917979] PLOTDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots
+INFO    [2917979] ----------------------------------------------------------------------
+INFO    [2917979] Running tasks using at most 48 processes
+INFO    [2917979] If your system hangs during execution, it may not have enough memory for keeping this number of tasks in memory.
+INFO    [2917979] If you experience memory problems, try reducing 'max_parallel_tasks' in your user configuration file.
+INFO    [2917979] NCL script detected, checking NCL version
+INFO    [2917979] Found NCL version 6.6.2
+INFO    [2917979] Creating tasks from recipe
+INFO    [2917979] Creating tasks for diagnostic eyring13jgr_fig12
+INFO    [2917979] Creating diagnostic task eyring13jgr_fig12/clim
+INFO    [2917979] Creating preprocessor task eyring13jgr_fig12/ua
+INFO    [2917979] Creating preprocessor 'zonal' task for variable 'ua'
+INFO    [2917979] Found input files for CMIP6 ACCESS-CM2
+INFO    [2917979] Found input files for CMIP6 ACCESS-ESM1-5
+INFO    [2917979] Found input files for CMIP6 HadGEM3-GC31-LL
+INFO    [2917979] Found input files for CMIP6 KACE-1-0-G
+INFO    [2917979] Found input files for CMIP6 TaiESM1
+INFO    [2917979] Found input files for OBS6
+INFO    [2917979] PreprocessingTask eyring13jgr_fig12/ua created.
+INFO    [2917979] These tasks will be executed: eyring13jgr_fig12/ua, eyring13jgr_fig12/clim
+INFO    [2917979] All required data is available locally, not downloading anything.
+INFO    [2917979] Running 2 tasks using 2 processes
+INFO    [2920316] Starting task eyring13jgr_fig12/ua in process [2920316]
+INFO    [2917979] Progress: 1 tasks running, 1 tasks waiting for ancestors, 0/2 done
+INFO    [2920316] Successfully completed task eyring13jgr_fig12/ua (priority 1) in 0:02:28.035951
+INFO    [2917979] Progress: 0 tasks running, 1 tasks waiting for ancestors, 1/2 done
+INFO    [2920317] Starting task eyring13jgr_fig12/clim in process [2920317]
+INFO    [2920317] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/eyring13jgr/eyring13jgr_fig12.ncl']
+INFO    [2920317] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/work/eyring13jgr_fig12/clim
+INFO    [2920317] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim
+INFO    [2920317] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/run/eyring13jgr_fig12/clim/log.txt
+INFO    [2920317] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/run/eyring13jgr_fig12/clim; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/run/eyring13jgr_fig12/clim/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/eyring13jgr/eyring13jgr_fig12.ncl
+INFO    [2917979] Progress: 1 tasks running, 0 tasks waiting for ancestors, 1/2 done
+INFO    [2920317] Maximum memory used (estimate): 0.2 GB
+INFO    [2920317] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2920317] Successfully completed task eyring13jgr_fig12/clim (priority 0) in 0:01:55.423480
+INFO    [2917979] Progress: 0 tasks running, 0 tasks waiting for ancestors, 2/2 done
+INFO    [2917979] Successfully completed all tasks.
+WARNING [2917979] Correcting capitalization, project 'obs4mips' should be written as 'obs4MIPs' in /home/599/ars599/.esmvaltool/config-developer.yml
+INFO    [2917979] Wrote recipe output to:
+file:///g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/index.html
+INFO    [2917979] Ending the Earth System Model Evaluation Tool at time: 2023-03-02 09:29:02 UTC
+INFO    [2917979] Time for running the recipe was: 0:05:06.147771
+INFO    [2917979] Maximum memory used (estimate): 9.8 GB
+INFO    [2917979] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2917979] Removing preproc containing preprocessed data
+INFO    [2917979] If this data is further needed, then
+INFO    [2917979] set remove_preproc_dir to false in config-user.yml
+INFO    [2917979] Run was successful

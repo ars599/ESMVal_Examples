@@ -1,0 +1,1630 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model CNRM-CM6-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model CNRM-CM6-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model CNRM-CM6-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model CNRM-CM6-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP6_CNRM-CM6-1_day_historical_r1i1p1f2_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP6_CNRM-CM6-1_day_historical_r1i1p1f2_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model CNRM-CM6-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model CNRM-CM6-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model CNRM-CM6-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model CNRM-CM6-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model CNRM-ESM2-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model CNRM-ESM2-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model CNRM-ESM2-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model CNRM-ESM2-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP6_CNRM-ESM2-1_day_historical_r1i1p1f2_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP6_CNRM-ESM2-1_day_historical_r1i1p1f2_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model CNRM-ESM2-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model CNRM-ESM2-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model CNRM-ESM2-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-ESM2-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model CNRM-ESM2-1.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hfls_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model HadGEM3-GC31-LL.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rsdt_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rsut_2000-2001.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model HadGEM3-GC31-LL.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model HadGEM3-GC31-LL.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_pr_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model HadGEM3-GC31-LL.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hfss_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP6_HadGEM3-GC31-LL_day_historical_r1i1p1f3_uas_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_1/CMIP6_HadGEM3-GC31-LL_day_historical_r1i1p1f3_vas_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model HadGEM3-GC31-LL.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_hus_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ps_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model HadGEM3-GC31-LL.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_prsn_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model HadGEM3-GC31-LL.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlds_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlus_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rlut_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rsds_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_rsus_2000-2001.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ts_2000-2001.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model HadGEM3-GC31-LL.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model IPSL-CM5A-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP5_IPSL-CM5A-LR_day_historical_r1i1p1_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP5_IPSL-CM5A-LR_day_historical_r1i1p1_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model IPSL-CM5A-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model IPSL-CM5A-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP5_IPSL-CM5A-MR_day_historical_r1i1p1_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP5_IPSL-CM5A-MR_day_historical_r1i1p1_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model IPSL-CM5A-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model IPSL-CM5A-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model MIROC-ESM-CHEM.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model MIROC-ESM-CHEM.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model MIROC-ESM-CHEM.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model MIROC-ESM-CHEM.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP5_MIROC-ESM-CHEM_day_historical_r1i1p1_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP5_MIROC-ESM-CHEM_day_historical_r1i1p1_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model MIROC-ESM-CHEM.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model MIROC-ESM-CHEM.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model MIROC-ESM-CHEM.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC-ESM-CHEM_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model MIROC-ESM-CHEM.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP5_MIROC5_Amon_historical_r1i1p1_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC5_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model MIROC5.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MIROC5_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP5_MIROC5_Amon_historical_r1i1p1_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP5_MIROC5_Amon_historical_r1i1p1_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model MIROC5.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MIROC5_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_MIROC5_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MIROC5_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MIROC5_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MIROC5_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC5_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model MIROC5.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MIROC5_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_MIROC5_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MIROC5_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MIROC5_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC5_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model MIROC5.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP5_MIROC5_Amon_historical_r1i1p1_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MIROC5_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MIROC5_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MIROC5_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP5_MIROC5_day_historical_r1i1p1_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP5_MIROC5_day_historical_r1i1p1_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC5_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model MIROC5.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MIROC5_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MIROC5_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MIROC5_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC5_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model MIROC5.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MIROC5_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC5_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model MIROC5.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP5_MIROC5_Amon_historical_r1i1p1_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP5_MIROC5_Amon_historical_r1i1p1_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MIROC5_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP5_MIROC5_Amon_historical_r1i1p1_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP5_MIROC5_Amon_historical_r1i1p1_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MIROC5_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model MIROC5.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model MPI-ESM-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model MPI-ESM-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model MPI-ESM-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model MPI-ESM-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP5_MPI-ESM-LR_day_historical_r1i1p1_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP5_MPI-ESM-LR_day_historical_r1i1p1_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model MPI-ESM-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model MPI-ESM-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model MPI-ESM-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model MPI-ESM-LR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model MPI-ESM-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model MPI-ESM-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model MPI-ESM-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model MPI-ESM-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP5_MPI-ESM-MR_day_historical_r1i1p1_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP5_MPI-ESM-MR_day_historical_r1i1p1_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model MPI-ESM-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model MPI-ESM-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model MPI-ESM-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_MPI-ESM-MR_Amon_historical_r1i1p1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model MPI-ESM-MR.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_evap_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfls/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hfls_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production
+    (lat, lon) fieldsfor model MRI-ESM2-0.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_horizEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsdt/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rsdt_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsut/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rsut_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production
+    (lat, lon) fieldsfor model MRI-ESM2-0.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_pot_drop_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production
+    (lat, lon) fieldsfor model MRI-ESM2-0.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_rain_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/pr/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_pr_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy
+    production (lat, lon) fieldsfor model MRI-ESM2-0.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_sens_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hfss/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hfss_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/uas/CMIP6_MRI-ESM2-0_day_historical_r1i1p1f1_uas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/vas_2/CMIP6_MRI-ESM2-0_day_historical_r1i1p1f1_vas_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production
+    (lat, lon) fieldsfor model MRI-ESM2-0.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy
+    production (lat, lon) fieldsfor model MRI-ESM2-0.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snowmelt_entr.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production
+    (lat, lon) fieldsfor model MRI-ESM2-0.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_verticalEntropy.nc
+: ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlds/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rlds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rlus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rlut/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rlut_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsds/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rsds_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/rsus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_rsus_2000-2005.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc
+  authors:
+  - lembo_valerio
+  caption: Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production
+    (lat, lon) fieldsfor model MRI-ESM2-0.
+  domains:
+  - global
+  plot_type:
+  - geo
+  references:
+  - lembo16climdyn
+  - lembo19gmdd
+  - lucarini14revgeop
+  statistics:
+  - mean

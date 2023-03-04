@@ -1,0 +1,2 @@
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Model described by Yukimoto et al. (Technical Report of the Meteorological Research Institute, 2011, 64, 83pp.)

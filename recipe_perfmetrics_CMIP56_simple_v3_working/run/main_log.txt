@@ -1,0 +1,662 @@
+INFO    [2022698] 
+______________________________________________________________________
+          _____ ____  __  ____     __    _ _____           _
+         | ____/ ___||  \/  \ \   / /_ _| |_   _|__   ___ | |
+         |  _| \___ \| |\/| |\ \ / / _` | | | |/ _ \ / _ \| |
+         | |___ ___) | |  | | \ V / (_| | | | | (_) | (_) | |
+         |_____|____/|_|  |_|  \_/ \__,_|_| |_|\___/ \___/|_|
+______________________________________________________________________
+
+ESMValTool - Earth System Model Evaluation Tool.
+
+http://www.esmvaltool.org
+
+CORE DEVELOPMENT TEAM AND CONTACTS:
+  Birgit Hassler (Co-PI; DLR, Germany - birgit.hassler@dlr.de)
+  Alistair Sellar (Co-PI; Met Office, UK - alistair.sellar@metoffice.gov.uk)
+  Bouwe Andela (Netherlands eScience Center, The Netherlands - b.andela@esciencecenter.nl)
+  Lee de Mora (PML, UK - ledm@pml.ac.uk)
+  Niels Drost (Netherlands eScience Center, The Netherlands - n.drost@esciencecenter.nl)
+  Veronika Eyring (DLR, Germany - veronika.eyring@dlr.de)
+  Bettina Gier (UBremen, Germany - gier@uni-bremen.de)
+  Remi Kazeroni (DLR, Germany - remi.kazeroni@dlr.de)
+  Nikolay Koldunov (AWI, Germany - nikolay.koldunov@awi.de)
+  Axel Lauer (DLR, Germany - axel.lauer@dlr.de)
+  Saskia Loosveldt-Tomas (BSC, Spain - saskia.loosveldt@bsc.es)
+  Ruth Lorenz (ETH Zurich, Switzerland - ruth.lorenz@env.ethz.ch)
+  Benjamin Mueller (LMU, Germany - b.mueller@iggf.geo.uni-muenchen.de)
+  Valeriu Predoi (URead, UK - valeriu.predoi@ncas.ac.uk)
+  Mattia Righi (DLR, Germany - mattia.righi@dlr.de)
+  Manuel Schlund (DLR, Germany - manuel.schlund@dlr.de)
+  Breixo Solino Fernandez (DLR, Germany - breixo.solinofernandez@dlr.de)
+  Javier Vegas-Regidor (BSC, Spain - javier.vegas@bsc.es)
+  Klaus Zimmermann (SMHI, Sweden - klaus.zimmermann@smhi.se)
+
+For further help, please read the documentation at
+http://docs.esmvaltool.org. Have fun!
+
+INFO    [2022698] Package versions
+INFO    [2022698] ----------------
+INFO    [2022698] ESMValCore: 2.7.1
+INFO    [2022698] ESMValTool: 2.7.0
+INFO    [2022698] ----------------
+INFO    [2022698] Using config file /home/599/ars599/.esmvaltool/config-user.yml
+INFO    [2022698] Writing program log files to:
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/main_log.txt
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/main_log_debug.txt
+INFO    [2022698] Using default ESGF configuration, configuration file /home/599/ars599/.esmvaltool/esgf-pyclient.yml not present.
+WARNING [2022698] 
+ESGF credentials missing, only data that is accessible without
+logging in will be available.
+
+See https://esgf.github.io/esgf-user-support/user_guide.html
+for instructions on how to create an account if you do not have
+one yet.
+
+Next, configure your system so esmvaltool can use your
+credentials. This can be done using the keyring package, or
+you can just enter them in /home/599/ars599/.esmvaltool/esgf-pyclient.yml.
+
+keyring
+=======
+First install the keyring package (requires a supported
+backend, see https://pypi.org/project/keyring/):
+$ pip install keyring
+
+Next, set your username and password by running the commands:
+$ keyring set ESGF hostname
+$ keyring set ESGF username
+$ keyring set ESGF password
+
+To check that you entered your credentials correctly, run:
+$ keyring get ESGF hostname
+$ keyring get ESGF username
+$ keyring get ESGF password
+
+configuration file
+==================
+You can store the hostname, username, and password or your OpenID
+account in a plain text in the file /home/599/ars599/.esmvaltool/esgf-pyclient.yml like this:
+
+logon:
+  hostname: "your-hostname"
+  username: "your-username"
+  password: "your-password"
+
+or your can configure an interactive log in:
+
+logon:
+  interactive: true
+
+Note that storing your password in plain text in the configuration
+file is less secure. On shared systems, make sure the permissions
+of the file are set so only you can read it, i.e.
+
+$ ls -l /home/599/ars599/.esmvaltool/esgf-pyclient.yml
+
+shows permissions -rw-------.
+
+
+INFO    [2022698] Starting the Earth System Model Evaluation Tool at time: 2023-03-03 22:31:51 UTC
+INFO    [2022698] ----------------------------------------------------------------------
+INFO    [2022698] RECIPE   = /g/data/p66/ars599/work_esmvaltool/recipes/recipe_perfmetrics_CMIP56_simple_v3.yml
+INFO    [2022698] RUNDIR     = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run
+INFO    [2022698] WORKDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work
+INFO    [2022698] PREPROCDIR = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc
+INFO    [2022698] PLOTDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots
+INFO    [2022698] ----------------------------------------------------------------------
+INFO    [2022698] Running tasks using at most 48 processes
+INFO    [2022698] If your system hangs during execution, it may not have enough memory for keeping this number of tasks in memory.
+INFO    [2022698] If you experience memory problems, try reducing 'max_parallel_tasks' in your user configuration file.
+INFO    [2022698] NCL script detected, checking NCL version
+INFO    [2022698] Found NCL version 6.6.2
+INFO    [2022698] Creating tasks from recipe
+INFO    [2022698] Creating tasks for diagnostic sm
+INFO    [2022698] Creating diagnostic task sm/latlon
+INFO    [2022698] Creating diagnostic task sm/grading
+INFO    [2022698] Creating preprocessor task sm/sm
+INFO    [2022698] Creating preprocessor 'ppNOLEV1thr10' task for variable 'sm'
+WARNING [2022698] 'CMIP5' rootpaths '/g/data/r87/DRSv3/CMIP5' set in config-user.yml do not exist
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] PreprocessingTask sm/sm_derive_input_mrsos created.
+INFO    [2022698] Found input files for OBS
+INFO    [2022698] PreprocessingTask sm/sm_derive_input_sm created.
+INFO    [2022698] PreprocessingTask sm/sm created.
+INFO    [2022698] Creating tasks for diagnostic tas
+INFO    [2022698] Creating diagnostic task tas/latlon
+INFO    [2022698] Creating diagnostic task tas/grading
+INFO    [2022698] Creating preprocessor task tas/tas
+INFO    [2022698] Creating preprocessor 'ppNOLEV2' task for variable 'tas'
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] Found input files for OBS6
+INFO    [2022698] Found input files for OBS
+INFO    [2022698] PreprocessingTask tas/tas created.
+INFO    [2022698] Creating tasks for diagnostic ts
+INFO    [2022698] Creating diagnostic task ts/grading
+INFO    [2022698] Creating preprocessor task ts/ts
+INFO    [2022698] Creating preprocessor 'ppNOLEV1x1' task for variable 'ts'
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] Found input files for OBS ESACCI-SST
+INFO    [2022698] Found input files for OBS HadISST
+INFO    [2022698] PreprocessingTask ts/ts created.
+INFO    [2022698] Creating tasks for diagnostic va850
+INFO    [2022698] Creating diagnostic task va850/grading
+INFO    [2022698] Creating preprocessor task va850/va
+INFO    [2022698] Creating preprocessor 'pp850' task for variable 'va'
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] Found input files for OBS6
+INFO    [2022698] Found input files for OBS
+INFO    [2022698] PreprocessingTask va850/va created.
+INFO    [2022698] Creating tasks for diagnostic zg500
+INFO    [2022698] Creating diagnostic task zg500/grading
+INFO    [2022698] Creating preprocessor task zg500/zg
+INFO    [2022698] Creating preprocessor 'pp500' task for variable 'zg'
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] Found input files for OBS6
+INFO    [2022698] Found input files for OBS
+INFO    [2022698] PreprocessingTask zg500/zg created.
+INFO    [2022698] Creating tasks for diagnostic ta200
+INFO    [2022698] Creating diagnostic task ta200/cycle
+INFO    [2022698] Creating diagnostic task ta200/grading
+INFO    [2022698] Creating preprocessor task ta200/ta
+INFO    [2022698] Creating preprocessor 'pp200' task for variable 'ta'
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] Found input files for OBS6
+INFO    [2022698] Found input files for OBS
+INFO    [2022698] PreprocessingTask ta200/ta created.
+INFO    [2022698] Creating tasks for diagnostic ua850
+INFO    [2022698] Creating diagnostic task ua850/grading
+INFO    [2022698] Creating preprocessor task ua850/ua
+INFO    [2022698] Creating preprocessor 'pp850' task for variable 'ua'
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] Found input files for OBS6
+INFO    [2022698] Found input files for OBS
+INFO    [2022698] PreprocessingTask ua850/ua created.
+INFO    [2022698] Creating tasks for diagnostic ua200
+INFO    [2022698] Creating diagnostic task ua200/grading
+INFO    [2022698] Creating preprocessor task ua200/ua
+INFO    [2022698] Creating preprocessor 'pp200' task for variable 'ua'
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] Found input files for OBS6
+INFO    [2022698] Found input files for OBS
+INFO    [2022698] PreprocessingTask ua200/ua created.
+INFO    [2022698] Creating tasks for diagnostic va200
+INFO    [2022698] Creating diagnostic task va200/grading
+INFO    [2022698] Creating preprocessor task va200/va
+INFO    [2022698] Creating preprocessor 'pp200' task for variable 'va'
+INFO    [2022698] Found input files for CMIP5 ACCESS1-0
+INFO    [2022698] Found input files for CMIP5 ACCESS1-3
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-CM2 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r1i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r2i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r3i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r4i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r5i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r6i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r7i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r8i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r9i1p1f1
+INFO    [2022698] Found input files for CMIP6 ACCESS-ESM1-5 r10i1p1f1
+INFO    [2022698] Found input files for CMIP6 KACE-1-0-G
+INFO    [2022698] Found input files for CMIP6 TaiESM1
+INFO    [2022698] Found input files for OBS6
+INFO    [2022698] Found input files for OBS
+INFO    [2022698] PreprocessingTask va200/va created.
+INFO    [2022698] Creating tasks for diagnostic collect
+INFO    [2022698] Creating diagnostic task collect/RMSD
+INFO    [2022698] These tasks will be executed: ta200/cycle, va200/va, sm/sm_derive_input_sm, tas/tas, ta200/grading, ta200/ta, ua850/ua, ua850/grading, collect/RMSD, ua200/grading, ua200/ua, va850/va, sm/latlon, sm/sm_derive_input_mrsos, ts/grading, ts/ts, sm/grading, tas/grading, va850/grading, zg500/grading, va200/grading, tas/latlon, zg500/zg, sm/sm
+INFO    [2022698] All required data is available locally, not downloading anything.
+INFO    [2022698] Running 24 tasks using 24 processes
+INFO    [2058952] Starting task sm/sm_derive_input_sm in process [2058952]
+INFO    [2058954] Starting task sm/sm_derive_input_mrsos in process [2058954]
+INFO    [2058955] Starting task tas/tas in process [2058955]
+INFO    [2058959] Starting task ts/ts in process [2058959]
+INFO    [2058957] Starting task va850/va in process [2058957]
+INFO    [2058958] Starting task zg500/zg in process [2058958]
+INFO    [2022698] Progress: 10 tasks running, 14 tasks waiting for ancestors, 0/24 done
+INFO    [2058960] Starting task ta200/ta in process [2058960]
+INFO    [2058961] Starting task ua850/ua in process [2058961]
+INFO    [2058963] Starting task ua200/ua in process [2058963]
+INFO    [2058964] Starting task va200/va in process [2058964]
+INFO    [2058952] Successfully completed task sm/sm_derive_input_sm (priority 2) in 0:18:10.640181
+INFO    [2022698] Progress: 9 tasks running, 14 tasks waiting for ancestors, 1/24 done
+INFO    [2058954] Successfully completed task sm/sm_derive_input_mrsos (priority 2) in 0:26:03.964449
+INFO    [2022698] Progress: 8 tasks running, 14 tasks waiting for ancestors, 2/24 done
+INFO    [2022698] Progress: 9 tasks running, 13 tasks waiting for ancestors, 2/24 done
+INFO    [2058966] Starting task sm/sm in process [2058966]
+WARNING [2058955] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'height'.
+
+INFO    [2058959] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ts/ts/MultiModelMean_historical_Amon_ts_2000-2002.nc
+INFO    [2058959] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ts/ts/MultiModelMedian_historical_Amon_ts_2000-2002.nc
+INFO    [2058959] Successfully completed task ts/ts (priority 7) in 1:14:21.391970
+INFO    [2022698] Progress: 8 tasks running, 13 tasks waiting for ancestors, 3/24 done
+INFO    [2058965] Starting task ts/grading in process [2058965]
+INFO    [2022698] Progress: 9 tasks running, 12 tasks waiting for ancestors, 3/24 done
+INFO    [2058965] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058965] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ts/grading
+INFO    [2058965] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/ts/grading
+INFO    [2058965] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ts/grading/log.txt
+INFO    [2058965] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ts/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ts/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058965] Maximum memory used (estimate): 0.5 GB
+INFO    [2058965] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058965] Successfully completed task ts/grading (priority 6) in 0:03:09.888974
+INFO    [2022698] Progress: 8 tasks running, 12 tasks waiting for ancestors, 4/24 done
+WARNING [2058955] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'height'.
+
+WARNING [2058964] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+WARNING [2058957] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+WARNING [2058964] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+WARNING [2058957] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+INFO    [2058955] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/tas/tas/MultiModelMean_historical_Amon_tas_2000-2002.nc
+WARNING [2058958] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+WARNING [2058960] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+WARNING [2058961] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+WARNING [2058963] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+INFO    [2058955] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/tas/tas/MultiModelMedian_historical_Amon_tas_2000-2002.nc
+WARNING [2058958] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+INFO    [2058964] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/va200/va/MultiModelMean_historical_Amon_va_2000-2002.nc
+WARNING [2058960] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+INFO    [2058957] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/va850/va/MultiModelMean_historical_Amon_va_2000-2002.nc
+WARNING [2058961] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+WARNING [2058963] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'air_pressure'.
+
+INFO    [2058964] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/va200/va/MultiModelMedian_historical_Amon_va_2000-2002.nc
+INFO    [2058957] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/va850/va/MultiModelMedian_historical_Amon_va_2000-2002.nc
+INFO    [2058955] Successfully completed task tas/tas (priority 5) in 1:28:23.954314
+INFO    [2022698] Progress: 7 tasks running, 12 tasks waiting for ancestors, 5/24 done
+INFO    [2022698] Progress: 9 tasks running, 10 tasks waiting for ancestors, 5/24 done
+INFO    [2058968] Starting task tas/latlon in process [2058968]
+INFO    [2058968] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058968] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/tas/latlon
+INFO    [2058968] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/tas/latlon
+INFO    [2058968] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/tas/latlon/log.txt
+INFO    [2058968] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/tas/latlon; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/tas/latlon/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058969] Starting task tas/grading in process [2058969]
+INFO    [2058969] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058969] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/tas/grading
+INFO    [2058969] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/tas/grading
+INFO    [2058969] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/tas/grading/log.txt
+INFO    [2058969] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/tas/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/tas/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058964] Successfully completed task va200/va (priority 20) in 1:28:44.675378
+INFO    [2022698] Progress: 8 tasks running, 10 tasks waiting for ancestors, 6/24 done
+INFO    [2022698] Progress: 9 tasks running, 9 tasks waiting for ancestors, 6/24 done
+INFO    [2058970] Starting task va200/grading in process [2058970]
+INFO    [2058970] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058970] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/va200/grading
+INFO    [2058970] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/va200/grading
+INFO    [2058970] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/va200/grading/log.txt
+INFO    [2058970] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/va200/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/va200/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058957] Successfully completed task va850/va (priority 9) in 1:28:51.371407
+INFO    [2022698] Progress: 8 tasks running, 9 tasks waiting for ancestors, 7/24 done
+INFO    [2022698] Progress: 9 tasks running, 8 tasks waiting for ancestors, 7/24 done
+INFO    [2058971] Starting task va850/grading in process [2058971]
+INFO    [2058971] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058971] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/va850/grading
+INFO    [2058971] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/va850/grading
+INFO    [2058971] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/va850/grading/log.txt
+INFO    [2058971] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/va850/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/va850/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058960] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ta200/ta/MultiModelMean_historical_Amon_ta_2000-2002.nc
+INFO    [2058958] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/zg500/zg/MultiModelMean_historical_Amon_zg_2000-2002.nc
+INFO    [2058961] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ua850/ua/MultiModelMean_historical_Amon_ua_2000-2002.nc
+INFO    [2058963] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ua200/ua/MultiModelMean_historical_Amon_ua_2000-2002.nc
+INFO    [2058960] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ta200/ta/MultiModelMedian_historical_Amon_ta_2000-2002.nc
+INFO    [2058958] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/zg500/zg/MultiModelMedian_historical_Amon_zg_2000-2002.nc
+INFO    [2058961] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ua850/ua/MultiModelMedian_historical_Amon_ua_2000-2002.nc
+INFO    [2058963] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/ua200/ua/MultiModelMedian_historical_Amon_ua_2000-2002.nc
+INFO    [2058960] Successfully completed task ta200/ta (priority 14) in 1:30:01.896367
+INFO    [2022698] Progress: 8 tasks running, 8 tasks waiting for ancestors, 8/24 done
+INFO    [2022698] Progress: 10 tasks running, 6 tasks waiting for ancestors, 8/24 done
+INFO    [2058973] Starting task ta200/cycle in process [2058973]
+INFO    [2058973] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058973] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ta200/cycle
+INFO    [2058973] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/ta200/cycle
+INFO    [2058973] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ta200/cycle/log.txt
+INFO    [2058973] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ta200/cycle; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ta200/cycle/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058972] Starting task ta200/grading in process [2058972]
+INFO    [2058972] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058972] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ta200/grading
+INFO    [2058972] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/ta200/grading
+INFO    [2058972] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ta200/grading/log.txt
+INFO    [2058972] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ta200/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ta200/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058958] Successfully completed task zg500/zg (priority 11) in 1:30:03.649452
+INFO    [2022698] Progress: 9 tasks running, 6 tasks waiting for ancestors, 9/24 done
+INFO    [2022698] Progress: 10 tasks running, 5 tasks waiting for ancestors, 9/24 done
+INFO    [2058975] Starting task zg500/grading in process [2058975]
+INFO    [2058975] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058975] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/zg500/grading
+INFO    [2058975] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/zg500/grading
+INFO    [2058975] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/zg500/grading/log.txt
+INFO    [2058975] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/zg500/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/zg500/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058961] Successfully completed task ua850/ua (priority 16) in 1:30:13.648485
+INFO    [2022698] Progress: 9 tasks running, 5 tasks waiting for ancestors, 10/24 done
+INFO    [2022698] Progress: 10 tasks running, 4 tasks waiting for ancestors, 10/24 done
+INFO    [2058978] Starting task ua850/grading in process [2058978]
+INFO    [2058978] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058978] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ua850/grading
+INFO    [2058978] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/ua850/grading
+INFO    [2058978] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ua850/grading/log.txt
+INFO    [2058978] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ua850/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ua850/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058963] Successfully completed task ua200/ua (priority 18) in 1:30:23.110784
+INFO    [2022698] Progress: 9 tasks running, 4 tasks waiting for ancestors, 11/24 done
+INFO    [2022698] Progress: 10 tasks running, 3 tasks waiting for ancestors, 11/24 done
+INFO    [2058977] Starting task ua200/grading in process [2058977]
+INFO    [2058977] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058977] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/ua200/grading
+INFO    [2058977] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/ua200/grading
+INFO    [2058977] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ua200/grading/log.txt
+INFO    [2058977] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ua200/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/ua200/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058969] Maximum memory used (estimate): 0.8 GB
+INFO    [2058969] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058970] Maximum memory used (estimate): 0.8 GB
+INFO    [2058970] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058971] Maximum memory used (estimate): 0.8 GB
+INFO    [2058971] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058972] Maximum memory used (estimate): 0.8 GB
+INFO    [2058975] Maximum memory used (estimate): 0.8 GB
+INFO    [2058972] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058975] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058978] Maximum memory used (estimate): 0.8 GB
+INFO    [2058978] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058968] Maximum memory used (estimate): 0.6 GB
+INFO    [2058968] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058973] Maximum memory used (estimate): 0.8 GB
+INFO    [2058973] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058977] Maximum memory used (estimate): 0.8 GB
+INFO    [2058977] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058970] Successfully completed task va200/grading (priority 19) in 0:06:22.570547
+INFO    [2058971] Successfully completed task va850/grading (priority 8) in 0:06:16.063597
+INFO    [2058973] Successfully completed task ta200/cycle (priority 12) in 0:05:07.877038
+INFO    [2022698] Progress: 9 tasks running, 3 tasks waiting for ancestors, 12/24 done
+INFO    [2058969] Successfully completed task tas/grading (priority 4) in 0:06:50.190231
+INFO    [2022698] Progress: 8 tasks running, 3 tasks waiting for ancestors, 13/24 done
+INFO    [2022698] Progress: 7 tasks running, 3 tasks waiting for ancestors, 14/24 done
+INFO    [2022698] Progress: 6 tasks running, 3 tasks waiting for ancestors, 15/24 done
+WARNING [2058966] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'depth'.
+
+WARNING [2058966] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'depth'.
+
+INFO    [2058972] Successfully completed task ta200/grading (priority 13) in 0:06:08.611717
+INFO    [2022698] Progress: 5 tasks running, 3 tasks waiting for ancestors, 16/24 done
+INFO    [2058975] Successfully completed task zg500/grading (priority 10) in 0:06:10.432190
+INFO    [2022698] Progress: 4 tasks running, 3 tasks waiting for ancestors, 17/24 done
+INFO    [2058978] Successfully completed task ua850/grading (priority 15) in 0:06:06.584921
+INFO    [2022698] Progress: 3 tasks running, 3 tasks waiting for ancestors, 18/24 done
+INFO    [2058977] Successfully completed task ua200/grading (priority 17) in 0:05:59.202246
+INFO    [2022698] Progress: 2 tasks running, 3 tasks waiting for ancestors, 19/24 done
+INFO    [2058968] Successfully completed task tas/latlon (priority 3) in 0:08:01.132061
+INFO    [2022698] Progress: 1 tasks running, 3 tasks waiting for ancestors, 20/24 done
+WARNING [2058966] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'depth'.
+
+WARNING [2058966] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'depth'.
+
+WARNING [2058966] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'depth'.
+
+WARNING [2058966] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'depth'.
+
+WARNING [2058966] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'depth'.
+
+WARNING [2058966] /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/iris/coords.py:2220: UserWarning: Collapsing a non-contiguous coordinate. Metadata may not be fully descriptive for 'depth'.
+
+INFO    [2058966] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMean_historical_Lmon_sm_2002-2004.nc
+INFO    [2058966] Generated PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/preproc/sm/sm/MultiModelMedian_historical_Lmon_sm_2002-2004.nc
+INFO    [2058966] Successfully completed task sm/sm (priority 2) in 1:12:02.294679
+INFO    [2022698] Progress: 0 tasks running, 3 tasks waiting for ancestors, 21/24 done
+INFO    [2058976] Starting task sm/latlon in process [2058976]
+INFO    [2058981] Starting task sm/grading in process [2058981]
+INFO    [2022698] Progress: 2 tasks running, 1 tasks waiting for ancestors, 21/24 done
+INFO    [2058981] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058976] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl']
+INFO    [2058976] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/latlon
+INFO    [2058976] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/latlon
+INFO    [2058976] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/sm/latlon/log.txt
+INFO    [2058976] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/sm/latlon; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/sm/latlon/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058981] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/sm/grading
+INFO    [2058981] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/sm/grading
+INFO    [2058981] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/sm/grading/log.txt
+INFO    [2058981] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/sm/grading; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/sm/grading/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/main.ncl
+INFO    [2058976] Successfully completed task sm/latlon (priority 0) in 0:04:34.366538
+INFO    [2058981] Maximum memory used (estimate): 5.5 GB
+INFO    [2058981] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2022698] Progress: 1 tasks running, 1 tasks waiting for ancestors, 22/24 done
+INFO    [2058981] Successfully completed task sm/grading (priority 1) in 0:07:59.922920
+INFO    [2022698] Progress: 0 tasks running, 1 tasks waiting for ancestors, 23/24 done
+INFO    [2022698] Progress: 1 tasks running, 0 tasks waiting for ancestors, 23/24 done
+INFO    [2058980] Starting task collect/RMSD in process [2058980]
+INFO    [2058980] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/collect.ncl']
+INFO    [2058980] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/work/collect/RMSD
+INFO    [2058980] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/plots/collect/RMSD
+INFO    [2058980] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/collect/RMSD/log.txt
+INFO    [2058980] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/collect/RMSD; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/run/collect/RMSD/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/perfmetrics/collect.ncl
+INFO    [2058980] Maximum memory used (estimate): 0.2 GB
+INFO    [2058980] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2058980] Successfully completed task collect/RMSD (priority 21) in 0:00:24.970747
+INFO    [2022698] Progress: 0 tasks running, 0 tasks waiting for ancestors, 24/24 done
+INFO    [2022698] Successfully completed all tasks.
+WARNING [2022698] Correcting capitalization, project 'obs4mips' should be written as 'obs4MIPs' in /home/599/ars599/.esmvaltool/config-developer.yml
+INFO    [2022698] Wrote recipe output to:
+file:///g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP56_simple_v3_20230303_223149/index.html
+INFO    [2022698] Ending the Earth System Model Evaluation Tool at time: 2023-03-04 00:23:11 UTC
+INFO    [2022698] Time for running the recipe was: 1:51:19.910739
+INFO    [2022698] Maximum memory used (estimate): 37.0 GB
+INFO    [2022698] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [2022698] Removing preproc containing preprocessed data
+INFO    [2022698] If this data is further needed, then
+INFO    [2022698] set remove_preproc_dir to false in config-user.yml
+INFO    [2022698] Run was successful

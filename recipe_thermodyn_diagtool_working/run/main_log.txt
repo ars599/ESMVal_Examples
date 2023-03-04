@@ -1,0 +1,1138 @@
+INFO    [1976732] 
+______________________________________________________________________
+          _____ ____  __  ____     __    _ _____           _
+         | ____/ ___||  \/  \ \   / /_ _| |_   _|__   ___ | |
+         |  _| \___ \| |\/| |\ \ / / _` | | | |/ _ \ / _ \| |
+         | |___ ___) | |  | | \ V / (_| | | | | (_) | (_) | |
+         |_____|____/|_|  |_|  \_/ \__,_|_| |_|\___/ \___/|_|
+______________________________________________________________________
+
+ESMValTool - Earth System Model Evaluation Tool.
+
+http://www.esmvaltool.org
+
+CORE DEVELOPMENT TEAM AND CONTACTS:
+  Birgit Hassler (Co-PI; DLR, Germany - birgit.hassler@dlr.de)
+  Alistair Sellar (Co-PI; Met Office, UK - alistair.sellar@metoffice.gov.uk)
+  Bouwe Andela (Netherlands eScience Center, The Netherlands - b.andela@esciencecenter.nl)
+  Lee de Mora (PML, UK - ledm@pml.ac.uk)
+  Niels Drost (Netherlands eScience Center, The Netherlands - n.drost@esciencecenter.nl)
+  Veronika Eyring (DLR, Germany - veronika.eyring@dlr.de)
+  Bettina Gier (UBremen, Germany - gier@uni-bremen.de)
+  Remi Kazeroni (DLR, Germany - remi.kazeroni@dlr.de)
+  Nikolay Koldunov (AWI, Germany - nikolay.koldunov@awi.de)
+  Axel Lauer (DLR, Germany - axel.lauer@dlr.de)
+  Saskia Loosveldt-Tomas (BSC, Spain - saskia.loosveldt@bsc.es)
+  Ruth Lorenz (ETH Zurich, Switzerland - ruth.lorenz@env.ethz.ch)
+  Benjamin Mueller (LMU, Germany - b.mueller@iggf.geo.uni-muenchen.de)
+  Valeriu Predoi (URead, UK - valeriu.predoi@ncas.ac.uk)
+  Mattia Righi (DLR, Germany - mattia.righi@dlr.de)
+  Manuel Schlund (DLR, Germany - manuel.schlund@dlr.de)
+  Breixo Solino Fernandez (DLR, Germany - breixo.solinofernandez@dlr.de)
+  Javier Vegas-Regidor (BSC, Spain - javier.vegas@bsc.es)
+  Klaus Zimmermann (SMHI, Sweden - klaus.zimmermann@smhi.se)
+
+For further help, please read the documentation at
+http://docs.esmvaltool.org. Have fun!
+
+INFO    [1976732] Package versions
+INFO    [1976732] ----------------
+INFO    [1976732] ESMValCore: 2.7.1
+INFO    [1976732] ESMValTool: 2.7.0
+INFO    [1976732] ----------------
+INFO    [1976732] Using config file /home/599/ars599/.esmvaltool/config-user.yml
+INFO    [1976732] Writing program log files to:
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/run/main_log.txt
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/run/main_log_debug.txt
+INFO    [1976732] Using default ESGF configuration, configuration file /home/599/ars599/.esmvaltool/esgf-pyclient.yml not present.
+WARNING [1976732] 
+ESGF credentials missing, only data that is accessible without
+logging in will be available.
+
+See https://esgf.github.io/esgf-user-support/user_guide.html
+for instructions on how to create an account if you do not have
+one yet.
+
+Next, configure your system so esmvaltool can use your
+credentials. This can be done using the keyring package, or
+you can just enter them in /home/599/ars599/.esmvaltool/esgf-pyclient.yml.
+
+keyring
+=======
+First install the keyring package (requires a supported
+backend, see https://pypi.org/project/keyring/):
+$ pip install keyring
+
+Next, set your username and password by running the commands:
+$ keyring set ESGF hostname
+$ keyring set ESGF username
+$ keyring set ESGF password
+
+To check that you entered your credentials correctly, run:
+$ keyring get ESGF hostname
+$ keyring get ESGF username
+$ keyring get ESGF password
+
+configuration file
+==================
+You can store the hostname, username, and password or your OpenID
+account in a plain text in the file /home/599/ars599/.esmvaltool/esgf-pyclient.yml like this:
+
+logon:
+  hostname: "your-hostname"
+  username: "your-username"
+  password: "your-password"
+
+or your can configure an interactive log in:
+
+logon:
+  interactive: true
+
+Note that storing your password in plain text in the configuration
+file is less secure. On shared systems, make sure the permissions
+of the file are set so only you can read it, i.e.
+
+$ ls -l /home/599/ars599/.esmvaltool/esgf-pyclient.yml
+
+shows permissions -rw-------.
+
+
+INFO    [1976732] Starting the Earth System Model Evaluation Tool at time: 2023-03-01 23:14:09 UTC
+INFO    [1976732] ----------------------------------------------------------------------
+INFO    [1976732] RECIPE   = /g/data/p66/ars599/work_esmvaltool/recipes/recipe_thermodyn_diagtool.yml
+INFO    [1976732] RUNDIR     = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/run
+INFO    [1976732] WORKDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work
+INFO    [1976732] PREPROCDIR = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc
+INFO    [1976732] PLOTDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/plots
+INFO    [1976732] ----------------------------------------------------------------------
+INFO    [1976732] Running tasks using at most 48 processes
+INFO    [1976732] If your system hangs during execution, it may not have enough memory for keeping this number of tasks in memory.
+INFO    [1976732] If you experience memory problems, try reducing 'max_parallel_tasks' in your user configuration file.
+INFO    [1976732] Creating tasks from recipe
+INFO    [1976732] Creating tasks for diagnostic Thermodyn_Diag
+INFO    [1976732] Creating diagnostic task Thermodyn_Diag/Thermodyn_Diag
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/hfls
+INFO    [1976732] Creating preprocessor 'default' task for variable 'hfls'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+WARNING [1976732] 'CMIP5' rootpaths '/g/data/r87/DRSv3/CMIP5' set in config-user.yml do not exist
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/hfls created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/hfss
+INFO    [1976732] Creating preprocessor 'default' task for variable 'hfss'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/hfss created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/pr
+INFO    [1976732] Creating preprocessor 'default' task for variable 'pr'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/pr created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/ps
+INFO    [1976732] Creating preprocessor 'default' task for variable 'ps'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/ps created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/prsn
+INFO    [1976732] Creating preprocessor 'default' task for variable 'prsn'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/prsn created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/rlds
+INFO    [1976732] Creating preprocessor 'default' task for variable 'rlds'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/rlds created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/rlus
+INFO    [1976732] Creating preprocessor 'default' task for variable 'rlus'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/rlus created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/rlut
+INFO    [1976732] Creating preprocessor 'default' task for variable 'rlut'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/rlut created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/rsds
+INFO    [1976732] Creating preprocessor 'default' task for variable 'rsds'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/rsds created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/rsus
+INFO    [1976732] Creating preprocessor 'default' task for variable 'rsus'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/rsus created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/rsdt
+INFO    [1976732] Creating preprocessor 'default' task for variable 'rsdt'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/rsdt created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/rsut
+INFO    [1976732] Creating preprocessor 'default' task for variable 'rsut'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/rsut created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/ts
+INFO    [1976732] Creating preprocessor 'default' task for variable 'ts'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/ts created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/hus
+INFO    [1976732] Creating preprocessor 'default' task for variable 'hus'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/hus created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/tas
+INFO    [1976732] Creating preprocessor 'default' task for variable 'tas'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/tas created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/uas
+INFO    [1976732] Creating preprocessor 'default' task for variable 'uas'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/uas created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/vas_1
+INFO    [1976732] Creating preprocessor 'regrid_preproc' task for variable 'vas'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/vas_1 created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/vas_2
+INFO    [1976732] Creating preprocessor 'default' task for variable 'vas'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/vas_2 created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/ta
+INFO    [1976732] Creating preprocessor 'default' task for variable 'ta'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/ta created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/ua_1
+INFO    [1976732] Creating preprocessor 'regrid_preproc' task for variable 'ua'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/ua_1 created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/ua_2
+INFO    [1976732] Creating preprocessor 'default' task for variable 'ua'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/ua_2 created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/va_1
+INFO    [1976732] Creating preprocessor 'regrid_preproc' task for variable 'va'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/va_1 created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/va_2
+INFO    [1976732] Creating preprocessor 'default' task for variable 'va'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/va_2 created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/wap
+INFO    [1976732] Creating preprocessor 'default' task for variable 'wap'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL historical
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 historical
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/wap created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/sftlf_piC
+INFO    [1976732] Creating preprocessor 'default' task for variable 'sftlf'
+INFO    [1976732] Found input files for CMIP6 HadGEM3-GC31-LL piControl
+INFO    [1976732] Found input files for CMIP6 CNRM-ESM2-1 piControl
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/sftlf_piC created.
+INFO    [1976732] Creating preprocessor task Thermodyn_Diag/sftlf_other
+INFO    [1976732] Creating preprocessor 'default' task for variable 'sftlf'
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-LR
+INFO    [1976732] Found input files for CMIP5 IPSL-CM5A-MR
+INFO    [1976732] Found input files for CMIP5 MIROC5
+INFO    [1976732] Found input files for CMIP5 MIROC-ESM-CHEM
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-LR
+INFO    [1976732] Found input files for CMIP5 MPI-ESM-MR
+INFO    [1976732] Found input files for CMIP6 CNRM-CM6-1
+INFO    [1976732] Found input files for CMIP6 MRI-ESM2-0
+INFO    [1976732] PreprocessingTask Thermodyn_Diag/sftlf_other created.
+INFO    [1976732] These tasks will be executed: Thermodyn_Diag/tas, Thermodyn_Diag/uas, Thermodyn_Diag/ua_2, Thermodyn_Diag/ps, Thermodyn_Diag/ua_1, Thermodyn_Diag/vas_1, Thermodyn_Diag/va_2, Thermodyn_Diag/sftlf_piC, Thermodyn_Diag/va_1, Thermodyn_Diag/hfls, Thermodyn_Diag/sftlf_other, Thermodyn_Diag/ts, Thermodyn_Diag/hfss, Thermodyn_Diag/rsdt, Thermodyn_Diag/rlut, Thermodyn_Diag/vas_2, Thermodyn_Diag/pr, Thermodyn_Diag/Thermodyn_Diag, Thermodyn_Diag/rsus, Thermodyn_Diag/ta, Thermodyn_Diag/rlus, Thermodyn_Diag/prsn, Thermodyn_Diag/rsds, Thermodyn_Diag/wap, Thermodyn_Diag/rsut, Thermodyn_Diag/rlds, Thermodyn_Diag/hus
+INFO    [1976732] All required data is available locally, not downloading anything.
+INFO    [1976732] Running 27 tasks using 27 processes
+INFO    [1995885] Starting task Thermodyn_Diag/pr in process [1995885]
+INFO    [1995884] Starting task Thermodyn_Diag/hfss in process [1995884]
+INFO    [1995883] Starting task Thermodyn_Diag/hfls in process [1995883]
+INFO    [1995886] Starting task Thermodyn_Diag/ps in process [1995886]
+INFO    [1995889] Starting task Thermodyn_Diag/prsn in process [1995889]
+INFO    [1995888] Starting task Thermodyn_Diag/rlds in process [1995888]
+INFO    [1976732] Progress: 26 tasks running, 1 tasks waiting for ancestors, 0/27 done
+INFO    [1995892] Starting task Thermodyn_Diag/rlus in process [1995892]
+INFO    [1995899] Starting task Thermodyn_Diag/rlut in process [1995899]
+INFO    [1995894] Starting task Thermodyn_Diag/rsds in process [1995894]
+INFO    [1995901] Starting task Thermodyn_Diag/rsus in process [1995901]
+INFO    [1995900] Starting task Thermodyn_Diag/rsdt in process [1995900]
+INFO    [1995903] Starting task Thermodyn_Diag/rsut in process [1995903]
+INFO    [1995904] Starting task Thermodyn_Diag/ts in process [1995904]
+INFO    [1995905] Starting task Thermodyn_Diag/hus in process [1995905]
+INFO    [1995902] Starting task Thermodyn_Diag/tas in process [1995902]
+INFO    [1995906] Starting task Thermodyn_Diag/uas in process [1995906]
+INFO    [1995907] Starting task Thermodyn_Diag/vas_1 in process [1995907]
+INFO    [1995909] Starting task Thermodyn_Diag/vas_2 in process [1995909]
+INFO    [1995908] Starting task Thermodyn_Diag/ta in process [1995908]
+INFO    [1995910] Starting task Thermodyn_Diag/ua_1 in process [1995910]
+INFO    [1995911] Starting task Thermodyn_Diag/ua_2 in process [1995911]
+INFO    [1995912] Starting task Thermodyn_Diag/va_1 in process [1995912]
+INFO    [1995913] Starting task Thermodyn_Diag/va_2 in process [1995913]
+INFO    [1995917] Starting task Thermodyn_Diag/wap in process [1995917]
+INFO    [1995924] Starting task Thermodyn_Diag/sftlf_piC in process [1995924]
+INFO    [1995919] Starting task Thermodyn_Diag/sftlf_other in process [1995919]
+WARNING [1995924] There were warnings in variable sftlf:
+ Long name for sftlf changed from Percentage of the grid  cell occupied by land (including lakes) to Percentage of the Grid Cell Occupied by Land (Including Lakes)
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/piControl/r1i1p1f1/fx/sftlf/gn/v20190709/sftlf_fx_HadGEM3-GC31-LL_piControl_r1i1p1f1_gn.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/hfss/gn/v20190624/hfss_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file 
+WARNING [1995894] There were warnings in variable rsds:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/rsds/gr/v20181206/rsds_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995883] There were warnings in variable hfls:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/hfls/gr/v20180917/hfls_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/rlus/gn/v20190222/rlus_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995886] There were warnings in variable ps:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/ps/gr/v20180917/ps_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file 
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/rlds/rlds_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/rsut/rsut_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/rlut/rlut_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file 
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file 
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/rsus/rsus_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file 
+WARNING [1995924] There were warnings in variable sftlf:
+ Long name for sftlf changed from Land Area Fraction to Percentage of the Grid Cell Occupied by Land (Including Lakes)
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/piControl/r1i1p1f2/fx/sftlf/gr/v20181115/sftlf_fx_CNRM-ESM2-1_piControl_r1i1p1f2_gr.nc
+INFO    [1995924] Successfully completed task Thermodyn_Diag/sftlf_piC (priority 25) in 0:00:10.036053
+WARNING [1995919] There were warnings in variable sftlf:
+ Long name for sftlf changed from Percentage of the grid  cell occupied by land (including lakes) to Percentage of the Grid Cell Occupied by Land (Including Lakes)
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/fx/sftlf/gn/v20190603/sftlf_fx_MRI-ESM2-0_historical_r1i1p1f1_gn.nc
+INFO    [1976732] Progress: 25 tasks running, 1 tasks waiting for ancestors, 1/27 done
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/rsdt/rsdt_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file 
+WARNING [1995919] There were warnings in variable sftlf:
+ Long name for sftlf changed from Land Area Fraction to Percentage of the Grid Cell Occupied by Land (Including Lakes)
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/fx/sftlf/gr/v20180917/sftlf_fx_CNRM-CM6-1_historical_r1i1p1f2_gr.nc
+INFO    [1995919] Successfully completed task Thermodyn_Diag/sftlf_other (priority 26) in 0:00:16.195531
+INFO    [1976732] Progress: 24 tasks running, 1 tasks waiting for ancestors, 2/27 done
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/rlds/rlds_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file 
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/rlus/rlus_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file 
+WARNING [1995909] There were warnings in variable vas:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/day/vas/gr/v20180917/vas_day_CNRM-CM6-1_historical_r1i1p1f2_gr_19500101-20141231.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/hfss/hfss_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file 
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/rsdt/rsdt_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file 
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file /g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rsus/gn/v20190624/rsus_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file 
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/hfls/hfls_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/rsut/rsut_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file 
+WARNING [1995894] There were warnings in variable rsds:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/rsds/gr/v20180917/rsds_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/rlds/rlds_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/rsut/rsut_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file 
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/rlus/rlus_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file 
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/rlut/rlut_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file 
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/hfss/hfss_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file 
+WARNING [1995885] There were warnings in variable pr:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/pr/gr/v20181206/pr_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/rlds/gn/v20190222/rlds_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995883] There were warnings in variable hfls:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/hfls/gr/v20181206/hfls_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file 
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/rlut/rlut_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file 
+WARNING [1995900] There were warnings in variable rsdt:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/rsdt/gr/v20180917/rsdt_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/hfss/hfss_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file 
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/rlut/rlut_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file 
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/rsus/rsus_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file 
+WARNING [1995884] There were warnings in variable hfss:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/hfss/gr/v20181206/hfss_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file /g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rlus/gn/v20190624/rlus_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/rsut/gr/v20181206/rsut_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/rsus/rsus_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file 
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/rsds/rsds_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file 
+WARNING [1995904] There were warnings in variable ts:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/ts/gr/v20181206/ts_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rlut/gn/v20190624/rlut_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file 
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/rlds/rlds_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file 
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/hfls/hfls_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file 
+WARNING [1995902] There were warnings in variable tas:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/day/tas/gr/v20181206/tas_day_CNRM-ESM2-1_historical_r1i1p1f2_gr_18500101-20141231.nc
+WARNING [1995892] There were warnings in variable rlus:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/rlus/gr/v20181206/rlus_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995901] There were warnings in variable rsus:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/rsus/gr/v20181206/rsus_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995899] There were warnings in variable rlut:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/rlut/gr/v20180917/rlut_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/rsdt/rsdt_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file 
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/hfls/gn/v20190222/hfls_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file 
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/rlds/rlds_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file 
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/rsds/rsds_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file 
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/hfss/hfss_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rsut/gn/v20190624/rsut_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file 
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/rlut/rlut_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file 
+WARNING [1995888] There were warnings in variable rlds:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/rlds/gr/v20181206/rlds_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/rsdt/gr/v20181206/rsdt_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995889] There were warnings in variable prsn:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/prsn/gr/v20181206/prsn_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/rlus/rlus_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/rsut/gr/v20180917/rsut_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/rsds/rsds_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file 
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/rlut/rlut_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file 
+WARNING [1995886] There were warnings in variable ps:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/ps/gr/v20181206/ps_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/rsds/gn/v20190222/rsds_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file 
+WARNING [1995885] There were warnings in variable pr:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/pr/gr/v20180917/pr_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995892] There were warnings in variable rlus:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/rlus/gr/v20180917/rlus_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995884] There were warnings in variable hfss:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/hfss/gr/v20180917/hfss_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/rsdt/gn/v20190222/rsdt_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file 
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/rsus/rsus_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file 
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/rlds/rlds_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file 
+WARNING [1995899] There were warnings in variable rlut:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/rlut/gr/v20181206/rlut_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/rsds/rsds_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file 
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/rsus/rsus_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file 
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file /g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rlds/gn/v20190624/rlds_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995888] There were warnings in variable rlds:
+ rlds: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/rsut/gn/v20190222/rsut_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file 
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/rlus/rlus_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file 
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rsdt/gn/v20190624/rsdt_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file 
+WARNING [1995888] There were warnings in variable rlds:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/rlds/gr/v20180917/rlds_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/rsus/gn/v20190222/rsus_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file 
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file /g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/rsds/gn/v20190624/rsds_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file 
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/rlut/gn/v20190222/rlut_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995899] There were warnings in variable rlut:
+ rlut: attribute positive not present
+loaded from file 
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/hfss/gn/v20190222/hfss_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file 
+WARNING [1995904] There were warnings in variable ts:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/ts/gr/v20180917/ts_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/rsdt/rsdt_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/rsut/rsut_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file 
+WARNING [1995889] There were warnings in variable prsn:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/prsn/gr/v20180917/prsn_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/rlus/rlus_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file 
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/rsds/rsds_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file 
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/hfss/hfss_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file 
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/rsus/rsus_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995901] There were warnings in variable rsus:
+ rsus: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/rsut/rsut_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file 
+INFO    [1995888] Successfully completed task Thermodyn_Diag/rlds (priority 6) in 0:36:04.392668
+INFO    [1976732] Progress: 23 tasks running, 1 tasks waiting for ancestors, 3/27 done
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/rlus/rlus_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995892] There were warnings in variable rlus:
+ rlus: attribute positive not present
+loaded from file 
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/rsdt/rsdt_Amon_MPI-ESM-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file 
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/hfss/hfss_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995884] There were warnings in variable hfss:
+ hfss: attribute positive not present
+loaded from file 
+INFO    [1995899] Successfully completed task Thermodyn_Diag/rlut (priority 8) in 0:37:01.204206
+INFO    [1976732] Progress: 22 tasks running, 1 tasks waiting for ancestors, 4/27 done
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/rsds/rsds_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995894] There were warnings in variable rsds:
+ rsds: attribute positive not present
+loaded from file 
+INFO    [1995892] Successfully completed task Thermodyn_Diag/rlus (priority 7) in 0:37:25.776524
+INFO    [1976732] Progress: 21 tasks running, 1 tasks waiting for ancestors, 5/27 done
+INFO    [1995884] Successfully completed task Thermodyn_Diag/hfss (priority 2) in 0:38:07.692652
+INFO    [1976732] Progress: 20 tasks running, 1 tasks waiting for ancestors, 6/27 done
+INFO    [1995886] Successfully completed task Thermodyn_Diag/ps (priority 4) in 0:38:12.709044
+INFO    [1976732] Progress: 19 tasks running, 1 tasks waiting for ancestors, 7/27 done
+INFO    [1995907] Successfully completed task Thermodyn_Diag/vas_1 (priority 17) in 0:38:20.849448
+INFO    [1976732] Progress: 18 tasks running, 1 tasks waiting for ancestors, 8/27 done
+WARNING [1995901] There were warnings in variable rsus:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/rsus/gr/v20180917/rsus_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC-ESM-CHEM/historical/mon/atmos/Amon/r1i1p1/v20120710/rsdt/rsdt_Amon_MIROC-ESM-CHEM_historical_r1i1p1_185001-200512.nc
+WARNING [1995900] There were warnings in variable rsdt:
+ rsdt: attribute positive not present
+loaded from file 
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/rsut/rsut_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995903] There were warnings in variable rsut:
+ rsut: attribute positive not present
+loaded from file 
+INFO    [1995894] Successfully completed task Thermodyn_Diag/rsds (priority 9) in 0:39:52.290084
+INFO    [1976732] Progress: 17 tasks running, 1 tasks waiting for ancestors, 9/27 done
+INFO    [1995904] Successfully completed task Thermodyn_Diag/ts (priority 13) in 0:39:52.516625
+INFO    [1976732] Progress: 16 tasks running, 1 tasks waiting for ancestors, 10/27 done
+INFO    [1995900] Successfully completed task Thermodyn_Diag/rsdt (priority 11) in 0:39:52.876974
+INFO    [1976732] Progress: 15 tasks running, 1 tasks waiting for ancestors, 11/27 done
+INFO    [1995889] Successfully completed task Thermodyn_Diag/prsn (priority 5) in 0:39:59.848755
+INFO    [1976732] Progress: 14 tasks running, 1 tasks waiting for ancestors, 12/27 done
+INFO    [1995885] Successfully completed task Thermodyn_Diag/pr (priority 3) in 0:41:18.732959
+INFO    [1976732] Progress: 13 tasks running, 1 tasks waiting for ancestors, 13/27 done
+INFO    [1995903] Successfully completed task Thermodyn_Diag/rsut (priority 12) in 0:41:35.053584
+INFO    [1976732] Progress: 12 tasks running, 1 tasks waiting for ancestors, 14/27 done
+WARNING [1995905] There were warnings in variable hus:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/Amon/hus/gr/v20181206/hus_Amon_CNRM-ESM2-1_historical_r1i1p1f2_gr_185001-201412.nc
+INFO    [1995901] Successfully completed task Thermodyn_Diag/rsus (priority 10) in 0:43:09.958089
+INFO    [1976732] Progress: 11 tasks running, 1 tasks waiting for ancestors, 15/27 done
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MIROC/MIROC5/historical/mon/atmos/Amon/r1i1p1/v20120710/hfls/hfls_Amon_MIROC5_historical_r1i1p1_185001-201212.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file 
+WARNING [1995909] There were warnings in variable vas:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/day/vas/gr/v20181206/vas_day_CNRM-ESM2-1_historical_r1i1p1f2_gr_19500101-20141231.nc
+WARNING [1995906] There were warnings in variable uas:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/day/uas/gr/v20181206/uas_day_CNRM-ESM2-1_historical_r1i1p1f2_gr_19500101-20141231.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-MR/historical/mon/atmos/Amon/r1i1p1/v20120503/hfls/hfls_Amon_MPI-ESM-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file 
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/hfls/gn/v20190624/hfls_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file 
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/hfls/hfls_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file 
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file /g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-LR/historical/mon/atmos/Amon/r1i1p1/v20110406/hfls/hfls_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc
+WARNING [1995883] There were warnings in variable hfls:
+ hfls: attribute positive not present
+loaded from file 
+INFO    [1995883] Successfully completed task Thermodyn_Diag/hfls (priority 1) in 0:53:11.643414
+INFO    [1976732] Progress: 10 tasks running, 1 tasks waiting for ancestors, 16/27 done
+WARNING [1995917] There were warnings in variable wap:
+ Long name for wap changed from omega (=dp/dt) to Omega (=dp/dt)
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/day/wap/gr/v20180917/wap_day_CNRM-CM6-1_historical_r1i1p1f2_gr_19900101-20091231.nc
+WARNING [1995905] There were warnings in variable hus:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/hus/gr/v20180917/hus_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+WARNING [1995911] There were warnings in variable ua:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/day/ua/gr/v20181206/ua_day_CNRM-ESM2-1_historical_r1i1p1f2_gr_19900101-20091231.nc
+WARNING [1995906] There were warnings in variable uas:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/day/uas/gr/v20180917/uas_day_CNRM-CM6-1_historical_r1i1p1f2_gr_19500101-20141231.nc
+WARNING [1995902] There were warnings in variable tas:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/day/tas/gr/v20180917/tas_day_CNRM-CM6-1_historical_r1i1p1f2_gr_18500101-20141231.nc
+INFO    [1995905] Successfully completed task Thermodyn_Diag/hus (priority 14) in 1:22:46.091971
+INFO    [1995906] Successfully completed task Thermodyn_Diag/uas (priority 16) in 1:22:46.336332
+INFO    [1976732] Progress: 8 tasks running, 1 tasks waiting for ancestors, 18/27 done
+INFO    [1995902] Successfully completed task Thermodyn_Diag/tas (priority 15) in 1:24:12.197996
+INFO    [1976732] Progress: 7 tasks running, 1 tasks waiting for ancestors, 19/27 done
+INFO    [1995909] Successfully completed task Thermodyn_Diag/vas_2 (priority 18) in 1:28:28.419803
+INFO    [1976732] Progress: 6 tasks running, 1 tasks waiting for ancestors, 20/27 done
+WARNING [1995917] There were warnings in variable wap:
+ Long name for wap changed from omega (=dp/dt) to Omega (=dp/dt)
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/day/wap/gr/v20181206/wap_day_CNRM-ESM2-1_historical_r1i1p1f2_gr_19900101-20091231.nc
+WARNING [1995913] There were warnings in variable va:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/day/va/gr/v20180917/va_day_CNRM-CM6-1_historical_r1i1p1f2_gr_19900101-20091231.nc
+WARNING [1995908] There were warnings in variable ta:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/day/ta/gr/v20180917/ta_day_CNRM-CM6-1_historical_r1i1p1f2_gr_20000101-20141231.nc
+WARNING [1995911] There were warnings in variable ua:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/day/ua/gr/v20180917/ua_day_CNRM-CM6-1_historical_r1i1p1f2_gr_19900101-20091231.nc
+INFO    [1995912] Successfully completed task Thermodyn_Diag/va_1 (priority 22) in 2:19:25.975166
+INFO    [1976732] Progress: 5 tasks running, 1 tasks waiting for ancestors, 21/27 done
+INFO    [1995910] Successfully completed task Thermodyn_Diag/ua_1 (priority 20) in 2:19:38.468617
+INFO    [1976732] Progress: 4 tasks running, 1 tasks waiting for ancestors, 22/27 done
+WARNING [1995908] There were warnings in variable ta:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/day/ta/gr/v20181206/ta_day_CNRM-ESM2-1_historical_r1i1p1f2_gr_20000101-20141231.nc
+WARNING [1995913] There were warnings in variable va:
+ Added guessed bounds to coordinate lon from var lon
+ Added guessed bounds to coordinate lat from var lat
+loaded from file /g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/day/va/gr/v20181206/va_day_CNRM-ESM2-1_historical_r1i1p1f2_gr_19900101-20091231.nc
+INFO    [1995908] Successfully completed task Thermodyn_Diag/ta (priority 19) in 2:24:15.675046
+INFO    [1976732] Progress: 3 tasks running, 1 tasks waiting for ancestors, 23/27 done
+INFO    [1995913] Successfully completed task Thermodyn_Diag/va_2 (priority 23) in 2:24:29.890297
+INFO    [1976732] Progress: 2 tasks running, 1 tasks waiting for ancestors, 24/27 done
+INFO    [1995911] Successfully completed task Thermodyn_Diag/ua_2 (priority 21) in 2:24:33.618499
+INFO    [1976732] Progress: 1 tasks running, 1 tasks waiting for ancestors, 25/27 done
+INFO    [1995917] Successfully completed task Thermodyn_Diag/wap (priority 24) in 2:25:00.333015
+INFO    [1976732] Progress: 0 tasks running, 1 tasks waiting for ancestors, 26/27 done
+INFO    [1976732] Progress: 1 tasks running, 0 tasks waiting for ancestors, 26/27 done
+INFO    [1995923] Starting task Thermodyn_Diag/Thermodyn_Diag in process [1995923]
+INFO    [1995923] Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/python', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/thermodyn_diagtool/thermodyn_diagnostics.py', '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/run/Thermodyn_Diag/Thermodyn_Diag/settings.yml']
+INFO    [1995923] Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag
+INFO    [1995923] Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/plots/Thermodyn_Diag/Thermodyn_Diag
+INFO    [1995923] Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/run/Thermodyn_Diag/Thermodyn_Diag/log.txt
+INFO    [1995923] To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/run/Thermodyn_Diag/Thermodyn_Diag; MPLBACKEND="Agg" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/python /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/thermodyn_diagtool/thermodyn_diagnostics.py /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/run/Thermodyn_Diag/Thermodyn_Diag/settings.yml
+INFO    [1995923] Maximum memory used (estimate): 8.9 GB
+INFO    [1995923] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [1995923] Successfully completed task Thermodyn_Diag/Thermodyn_Diag (priority 0) in 3:27:15.895532
+INFO    [1976732] Progress: 0 tasks running, 0 tasks waiting for ancestors, 27/27 done
+INFO    [1976732] Successfully completed all tasks.
+WARNING [1976732] Correcting capitalization, project 'obs4mips' should be written as 'obs4MIPs' in /home/599/ars599/.esmvaltool/config-developer.yml
+INFO    [1976732] Wrote recipe output to:
+file:///g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/index.html
+INFO    [1976732] Ending the Earth System Model Evaluation Tool at time: 2023-03-02 05:07:16 UTC
+INFO    [1976732] Time for running the recipe was: 5:53:06.974241
+INFO    [1976732] Maximum memory used (estimate): 20.2 GB
+INFO    [1976732] Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+INFO    [1976732] Removing preproc containing preprocessed data
+INFO    [1976732] If this data is further needed, then
+INFO    [1976732] set remove_preproc_dir to false in config-user.yml
+INFO    [1976732] Run was successful

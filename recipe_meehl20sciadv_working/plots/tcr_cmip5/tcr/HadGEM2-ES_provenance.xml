@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_195912-198411.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.3</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk,  mark.webb@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2011-03-21T18:03:13Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG, (GHG = CO2)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.7.0) 2011-03-21T11:41:12Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajeld</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.; Stott P.A. et al, (2006) Transient climate simulations with the HadGEM1 climate model: Causes of past warming and future climate change. Journal of Climate, American Meteorological Society, Vol. 19, No. 12, pages 2763-2782.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>3dacdb7d-3e56-4319-96c8-03149a4ccd03</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/HadGEM2-ES.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_193412-195911.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.0</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk, john.hughes@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2010-12-02T23:02:34Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.5.1) 2010-12-02T16:31:07Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajhog</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Martin G.M. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 1: Model description and global climatology. Journal of Climate, American Meteorological Society, Vol. 19, No.7, pages 1274-1301.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (30 November 2010) 525cb891c7d82657304f61cb0d785a19</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>28e213f1-844e-4030-a8ab-f37f4c6d5b56</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc">
+    <attribute:alias>HadGEM2-ES_piControl</attribute:alias>
+    <attribute:dataset>HadGEM2-ES</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['INPE', 'MOHC']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>34</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1860</attribute:start_year>
+    <attribute:timerange>1860/1999</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'HadGEM2-ES', 'exp': 'piControl', 'recipe_dataset_index': 34, 'institute': ['INPE', 'MOHC'], 'product': ['output1', 'output2'], 'timerange': '1860/1999', 'alias': 'HadGEM2-ES_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/fx/atmos/fx/r0i0p0/v20120210/areacella/areacella_fx_HadGEM2-ES_piControl_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1860/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'HadGEM2-ES', 'exp': 'piControl', 'recipe_dataset_index': 34, 'institute': ['INPE', 'MOHC'], 'product': ['output1', 'output2'], 'timerange': '1860/1999', 'alias': 'HadGEM2-ES_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'HadGEM2-ES', 'exp': 'piControl', 'recipe_dataset_index': 34, 'institute': ['INPE', 'MOHC'], 'product': ['output1', 'output2'], 'timerange': '1860/1999', 'alias': 'HadGEM2-ES_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'HadGEM2-ES', 'exp': 'piControl', 'recipe_dataset_index': 34, 'institute': ['INPE', 'MOHC'], 'product': ['output1', 'output2'], 'timerange': '1860/1999', 'alias': 'HadGEM2-ES_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_190912-193411.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.0</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk, john.hughes@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2010-12-02T20:51:22Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.5.1) 2010-12-02T16:31:07Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajhog</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Martin G.M. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 1: Model description and global climatology. Journal of Climate, American Meteorological Society, Vol. 19, No.7, pages 1274-1301.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (30 November 2010) 525cb891c7d82657304f61cb0d785a19</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>f24341c1-0106-4100-a328-f698ba6ab928</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_195912-198411.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_190912-193411.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.3</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk,  mark.webb@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2011-03-21T14:53:08Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG, (GHG = CO2)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.7.0) 2011-03-21T11:41:12Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajeld</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.; Stott P.A. et al, (2006) Transient climate simulations with the HadGEM1 climate model: Causes of past warming and future climate change. Journal of Climate, American Meteorological Society, Vol. 19, No. 12, pages 2763-2782.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>a64bcb34-781e-4278-bdd8-ca8ccf40a4cc</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_190912-193411.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_198412-200911.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.0</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk, john.hughes@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2010-12-03T03:27:46Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.5.1) 2010-12-02T16:31:07Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajhog</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Martin G.M. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 1: Model description and global climatology. Journal of Climate, American Meteorological Society, Vol. 19, No.7, pages 1274-1301.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (30 November 2010) 525cb891c7d82657304f61cb0d785a19</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>a659082e-f7ed-468d-a6bb-2a76960277c7</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/HadGEM2-ES.png">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of HadGEM2-ES for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:activity prov:id="task:tcr_cmip5/tas"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_190912-193411.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc">
+    <attribute:alias>HadGEM2-ES_1pctCO2</attribute:alias>
+    <attribute:dataset>HadGEM2-ES</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['INPE', 'MOHC']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>35</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1860</attribute:start_year>
+    <attribute:timerange>1860/1999</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'HadGEM2-ES', 'exp': '1pctCO2', 'recipe_dataset_index': 35, 'institute': ['INPE', 'MOHC'], 'product': ['output1', 'output2'], 'timerange': '1860/1999', 'alias': 'HadGEM2-ES_1pctCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/cmip5/output1/MOHC/HadGEM2-ES/1pctCO2/fx/atmos/fx/r0i0p0/v20120215/areacella_fx_HadGEM2-ES_1pctCO2_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1860/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'HadGEM2-ES', 'exp': '1pctCO2', 'recipe_dataset_index': 35, 'institute': ['INPE', 'MOHC'], 'product': ['output1', 'output2'], 'timerange': '1860/1999', 'alias': 'HadGEM2-ES_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'HadGEM2-ES', 'exp': '1pctCO2', 'recipe_dataset_index': 35, 'institute': ['INPE', 'MOHC'], 'product': ['output1', 'output2'], 'timerange': '1860/1999', 'alias': 'HadGEM2-ES_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'HadGEM2-ES', 'exp': '1pctCO2', 'recipe_dataset_index': 35, 'institute': ['INPE', 'MOHC'], 'product': ['output1', 'output2'], 'timerange': '1860/1999', 'alias': 'HadGEM2-ES_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_188412-190911.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/HadGEM2-ES.png"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_185912-188411.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_193412-195911.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_198412-200911.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_188412-190911.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_195912-198411.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.0</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk, john.hughes@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2010-12-03T01:14:57Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.5.1) 2010-12-02T16:31:07Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajhog</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Martin G.M. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 1: Model description and global climatology. Journal of Climate, American Meteorological Society, Vol. 19, No.7, pages 1274-1301.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (30 November 2010) 525cb891c7d82657304f61cb0d785a19</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>79d2acfc-e857-4e53-9811-6b5615b7c885</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_195912-198411.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_188412-190911.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.3</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk,  mark.webb@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2011-03-21T13:22:06Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG, (GHG = CO2)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.7.0) 2011-03-21T11:41:12Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajeld</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.; Stott P.A. et al, (2006) Transient climate simulations with the HadGEM1 climate model: Causes of past warming and future climate change. Journal of Climate, American Meteorological Society, Vol. 19, No. 12, pages 2763-2782.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>32570952-d9c4-4e06-8c6b-c7a00eadbd05</attribute:tracking_id>
+  </prov:entity>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_188412-190911.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.0</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk, john.hughes@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2010-12-02T18:41:44Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.5.1) 2010-12-02T16:31:07Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajhog</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Martin G.M. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 1: Model description and global climatology. Journal of Climate, American Meteorological Society, Vol. 19, No.7, pages 1274-1301.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (30 November 2010) 525cb891c7d82657304f61cb0d785a19</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>da0480cd-3072-40ee-94cb-b9c85efb2a75</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_185912-188411.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.0</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk, john.hughes@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2010-12-02T16:31:30Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.5.1) 2010-12-02T16:31:07Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajhog</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Martin G.M. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 1: Model description and global climatology. Journal of Climate, American Meteorological Society, Vol. 19, No.7, pages 1274-1301.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (30 November 2010) 525cb891c7d82657304f61cb0d785a19</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>c0fb8c0d-d4e9-4622-97f9-0ae08ed1e13c</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_1pctCO2_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_198412-199912.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_198412-199912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.3</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk,  mark.webb@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2011-03-21T19:41:31Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG, (GHG = CO2)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.7.0) 2011-03-21T11:41:12Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajeld</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.; Stott P.A. et al, (2006) Transient climate simulations with the HadGEM1 climate model: Causes of past warming and future climate change. Journal of Climate, American Meteorological Society, Vol. 19, No. 12, pages 2763-2782.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>978afadf-1894-4b70-93fd-a898d511cc96</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip5/tcr/HadGEM2-ES.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_185912-188411.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/piControl/mon/atmos/Amon/r1i1p1/v20110524/tas/tas_Amon_HadGEM2-ES_piControl_r1i1p1_193412-195911.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:tcr_cmip5/tcr"/>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_185912-188411.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.3</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk,  mark.webb@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2011-03-21T11:41:28Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG, (GHG = CO2)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.7.0) 2011-03-21T11:41:12Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajeld</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.; Stott P.A. et al, (2006) Transient climate simulations with the HadGEM1 climate model: Causes of past warming and future climate change. Journal of Climate, American Meteorological Society, Vol. 19, No. 12, pages 2763-2782.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>8911c0dc-2e13-4ba7-8f81-4f9b371c7614</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MOHC/HadGEM2-ES/1pctCO2/mon/atmos/Amon/r1i1p1/v20110330/tas/tas_Amon_HadGEM2-ES_1pctCO2_r1i1p1_193412-195911.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.3</attribute:cmor_version>
+    <attribute:contact>chris.d.jones@metoffice.gov.uk,  mark.webb@metoffice.gov.uk</attribute:contact>
+    <attribute:creation_date>2011-03-21T16:26:05Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>GHG, (GHG = CO2)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>MOHC pp to CMOR/NetCDF convertor (version 1.7.0) 2011-03-21T11:41:12Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MOHC</attribute:institute_id>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK, (http://www.metoffice.gov.uk)</attribute:institution>
+    <attribute:mo_runid>ajeld</attribute:mo_runid>
+    <attribute:model_id>HadGEM2-ES</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Bellouin N. et al, (2007) Improved representation of aerosols for HadGEM2. Meteorological Office Hadley Centre, Technical Note 73, March 2007; Collins W.J.  et al, (2008) Evaluation of the HadGEM2 model. Meteorological Office Hadley Centre, Technical Note 74,; Johns T.C. et al, (2006) The new Hadley Centre climate model HadGEM1: Evaluation of coupled simulations. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1327-1353.; Ringer M.A. et al, (2006) The physical properties of the atmosphere in the new Hadley Centre Global Environmental Model, HadGEM1 - Part 2: Aspects of variability and regional climate. Journal of Climate, American Meteorological Society, Vol. 19, No. 7, pages 1302-1326.; Stott P.A. et al, (2006) Transient climate simulations with the HadGEM1 climate model: Causes of past warming and future climate change. Journal of Climate, American Meteorological Society, Vol. 19, No. 12, pages 2763-2782.</attribute:references>
+    <attribute:source>HadGEM2-ES (2009) atmosphere: HadGAM2 (N96L38); ocean: HadGOM2 (lat: 1.0-0.3 lon: 1.0 L40); land-surface/vegetation: MOSES2 and TRIFFID; tropospheric chemistry: UKCA; ocean biogeochemistry: diat-HadOCC</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>HadGEM2-ES model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>33744ef0-5bde-4633-9bc2-7ce5ac9f71f5</attribute:tracking_id>
+  </prov:entity>
+</prov:document>

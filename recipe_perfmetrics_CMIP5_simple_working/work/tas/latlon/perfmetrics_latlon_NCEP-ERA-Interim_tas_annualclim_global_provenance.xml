@@ -1,0 +1,1396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:file="https://www.esmvaltool.org/file" xmlns:project="https://www.esmvaltool.org/project" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:author="https://www.esmvaltool.org/author" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:agent prov:id="project:Copernicus Climate Change Service 34a Lot 2 (MAGIC) project"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199701-199712.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:46 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:agent prov:ref="project:ESA CMUG"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198801-198812.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199201-199212.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198001-198012.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201101-201112.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.nc"/>
+    <prov:agent prov:ref="author:Eyring, Veronika"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198201-198212.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200801-200812.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200101-200112.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199101-199112.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Righi, Mattia">
+    <attribute:email>mattia.righi@dlr.de</attribute:email>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0003-3827-5950</attribute:orcid>
+  </prov:agent>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199901-199912.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199601-199612.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198801-198812.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199801-199812.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199301-199312.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:44 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198801-198812.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:40 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201201-201212.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Frank, Franziska">
+    <attribute:institute>DLR, Germany</attribute:institute>
+  </prov:agent>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198501-198512.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199001-199012.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:42 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201001-201012.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:55 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/rr3/publications/CMIP5/output1/CSIRO-BOM/ACCESS1-3/historical/mon/atmos/Amon/r1i1p1/latest/tas/tas_Amon_ACCESS1-3_historical_r1i1p1_185001-200512.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198701-198712.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199701-199712.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198701-198712.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199001-199012.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc">
+    <attribute:alias>CMIP5_bcc-csm1-1-m</attribute:alias>
+    <attribute:alternative_dataset>NCEP</attribute:alternative_dataset>
+    <attribute:dataset>bcc-csm1-1-m</attribute:dataset>
+    <attribute:diagnostic>tas</attribute:diagnostic>
+    <attribute:end_year>2002</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['BCC']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>ppNOLEV2</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>3</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2002</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2002'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'bcc-csm1-1-m', 'recipe_dataset_index': 3, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_bcc-csm1-1-m', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'bcc-csm1-1-m', 'recipe_dataset_index': 3, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_bcc-csm1-1-m', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'bcc-csm1-1-m', 'recipe_dataset_index': 3, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_bcc-csm1-1-m', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x150f21c1c940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:multi_model_statistics>{'span': 'overlap', 'statistics': ['mean', 'median'], 'output_products': defaultdict(&lt;class 'dict'&gt;, {'': {'mean': PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_MultiModelMean_historical_Amon_tas_2000-2002.nc, 'median': PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_MultiModelMedian_historical_Amon_tas_2000-2002.nc}})}</preprocessor:multi_model_statistics>
+    <preprocessor:regrid>{'target_grid': '/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198001-198012.nc', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199901-199912.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:47 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:agent prov:ref="project:EU FP7 project EMBRACE"/>
+  </prov:wasAttributedTo>
+  <prov:agent prov:id="project:DLR project ESMVal"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201301-201312.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:57 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:agent prov:id="project:ESA CMUG"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1-m/historical/mon/atmos/Amon/r1i1p1/v20120709/tas/tas_Amon_bcc-csm1-1-m_historical_r1i1p1_185001-201212.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>344.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.6</attribute:cmor_version>
+    <attribute:comment>The main difference between BCC-CSM1-1-M and BCC-CSM1-1 is their horizontal resolutions of the atmospheric component and the corresponding mask of sea-land. The experiment starts from piControl run at year 344. RCP8.5 scenario forcing data are used beyond year 2005.</attribute:comment>
+    <attribute:contact>Dr. Tongwen Wu (twwu@cma.gov.cn)</attribute:contact>
+    <attribute:creation_date>2011-12-15T02:10:57Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>Nat Ant GHG SD Oz Sl Vl SS Ds BC OC</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>Output from monthly mean data 2011-12-15T02:10:57Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>BCC</attribute:institute_id>
+    <attribute:institution>Beijing Climate Center(BCC),China Meteorological Administration,China</attribute:institution>
+    <attribute:model_id>bcc-csm1-1-m</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:source>bcc-csm1-1-m:atmosphere:  BCC_AGCM2.2 (T106L26); land: BCC_AVIM1.1;ocean: MOM4_L40v2 (tripolar, 1 lon x (1-1/3) lat, L40);sea ice: SIS (tripolar,1 lon x (1-1/3) lat)</attribute:source>
+    <attribute:table_id>Table Amon (11 April 2011) 1cfdc7322cf2f4a32614826fab42c1ab</attribute:table_id>
+    <attribute:title>bcc-csm1-1-m model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>d849373d-164d-4438-bd68-274d20a4df66</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198601-198612.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:agent prov:ref="author:Eyring, Veronika"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198701-198712.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:activity prov:id="task:tas/latlon"/>
+  <prov:agent prov:id="project:EU FP7 project EMBRACE"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198801-198812.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198001-198012.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200001-200012.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tas/latlon"/>
+    <prov:trigger prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198601-198612.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/rr3/publications/CMIP5/output1/CSIRO-BOM/ACCESS1-0/historical/mon/atmos/Amon/r1i1p1/latest/tas/tas_Amon_ACCESS1-0_historical_r1i1p1_185001-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>109207.0</attribute:branch_time>
+    <attribute:cmor_version>2.8.0</attribute:cmor_version>
+    <attribute:contact>The ACCESS wiki: http://wiki.csiro.au/confluence/display/ACCESS/Home. Contact Tony.Hirst@csiro.au regarding the ACCESS coupled climate model. Contact Peter.Uhe@csiro.au regarding ACCESS coupled climate model CMIP5 datasets.</attribute:contact>
+    <attribute:creation_date>2012-01-18T23:37:47Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>GHG, Oz, SA, Sl, Vl, BC, OC, (GHG = CO2, N2O, CH4, CFC11, CFC12, CFC113, HCFC22, HFC125, HFC134a)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>CMIP5 compliant file produced from raw ACCESS model output using the ACCESS Post-Processor and CMOR2. 2012-01-18T23:37:47Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CSIRO-BOM</attribute:institute_id>
+    <attribute:institution>CSIRO (Commonwealth Scientific and Industrial Research Organisation, Australia), and BOM (Bureau of Meteorology, Australia)</attribute:institution>
+    <attribute:model_id>ACCESS1-0</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>See http://wiki.csiro.au/confluence/display/ACCESS/ACCESS+Publications</attribute:references>
+    <attribute:source>ACCESS1-0 2011. Atmosphere: AGCM v1.0 (N96 grid-point, 1.875 degrees EW x approx 1.25 degree NS, 38 levels); ocean: NOAA/GFDL MOM4p1 (nominal 1.0 degree EW x 1.0 degrees NS, tripolar north of 65N, equatorial refinement to 1/3 degree from 10S to 10 N, cosine dependent NS south of 25S, 50 levels); sea ice: CICE4.1 (nominal 1.0 degree EW x 1.0 degrees NS, tripolar north of 65N, equatorial refinement to 1/3 degree from 10S to 10 N, cosine dependent NS south of 25S); land: MOSES2 (1.875 degree EW x 1.25 degree NS, 4 levels</attribute:source>
+    <attribute:table_id>Table Amon (27 April 2011) 9c851218e3842df9a62ef38b1e2575bb</attribute:table_id>
+    <attribute:title>ACCESS1-0 model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>9dada092-9a89-4283-b128-e350d82324c1</attribute:tracking_id>
+    <attribute:version_number>v20120115</attribute:version_number>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_200001-200012.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/rr3/publications/CMIP5/output1/CSIRO-BOM/ACCESS1-0/historical/mon/atmos/Amon/r1i1p1/latest/tas/tas_Amon_ACCESS1-0_historical_r1i1p1_185001-200512.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199301-199312.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_200001-200012.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200901-200912.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:54 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc">
+    <attribute:alias>CMIP5_ACCESS1-0</attribute:alias>
+    <attribute:alternative_dataset>NCEP</attribute:alternative_dataset>
+    <attribute:dataset>ACCESS1-0</attribute:dataset>
+    <attribute:diagnostic>tas</attribute:diagnostic>
+    <attribute:end_year>2002</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['CSIRO-BOM']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>ppNOLEV2</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2002</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2002'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ACCESS1-0', 'recipe_dataset_index': 0, 'institute': ['CSIRO-BOM'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_ACCESS1-0', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ACCESS1-0', 'recipe_dataset_index': 0, 'institute': ['CSIRO-BOM'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_ACCESS1-0', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ACCESS1-0', 'recipe_dataset_index': 0, 'institute': ['CSIRO-BOM'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_ACCESS1-0', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x150f21c1c940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:multi_model_statistics>{'span': 'overlap', 'statistics': ['mean', 'median'], 'output_products': defaultdict(&lt;class 'dict'&gt;, {'': {'mean': PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_MultiModelMean_historical_Amon_tas_2000-2002.nc, 'median': PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_MultiModelMedian_historical_Amon_tas_2000-2002.nc}})}</preprocessor:multi_model_statistics>
+    <preprocessor:regrid>{'target_grid': '/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198001-198012.nc', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200701-200712.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:53 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198501-198512.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1-m_Amon_historical_r1i1p1_tas_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1-m/historical/mon/atmos/Amon/r1i1p1/v20120709/tas/tas_Amon_bcc-csm1-1-m_historical_r1i1p1_185001-201212.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc">
+    <attribute:alias>CMIP5_ACCESS1-3</attribute:alias>
+    <attribute:alternative_dataset>NCEP</attribute:alternative_dataset>
+    <attribute:dataset>ACCESS1-3</attribute:dataset>
+    <attribute:diagnostic>tas</attribute:diagnostic>
+    <attribute:end_year>2002</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['CSIRO-BOM']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>ppNOLEV2</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>1</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2002</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2002'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ACCESS1-3', 'recipe_dataset_index': 1, 'institute': ['CSIRO-BOM'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_ACCESS1-3', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ACCESS1-3', 'recipe_dataset_index': 1, 'institute': ['CSIRO-BOM'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_ACCESS1-3', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ACCESS1-3', 'recipe_dataset_index': 1, 'institute': ['CSIRO-BOM'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_ACCESS1-3', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x150f21c1c940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:multi_model_statistics>{'span': 'overlap', 'statistics': ['mean', 'median'], 'output_products': defaultdict(&lt;class 'dict'&gt;, {'': {'mean': PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_MultiModelMean_historical_Amon_tas_2000-2002.nc, 'median': PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_MultiModelMedian_historical_Amon_tas_2000-2002.nc}})}</preprocessor:multi_model_statistics>
+    <preprocessor:regrid>{'target_grid': '/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198001-198012.nc', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-3_Amon_historical_r1i1p1_tas_2000-2002.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199301-199312.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198901-198912.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199501-199512.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200201-200212.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:50 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200301-200312.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199401-199412.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198501-198512.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198401-198412.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201401-201412.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:57 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200601-200612.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:52 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:agent prov:ref="project:Copernicus Climate Change Service 34a Lot 2 (MAGIC) project"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/tas/tas_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>470.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.6</attribute:cmor_version>
+    <attribute:comment>The experiment starts from piControl run at year 470. RCP8.5 scenario forcing data are used beyond year 2005.</attribute:comment>
+    <attribute:contact>Dr. Tongwen Wu (twwu@cma.gov.cn)</attribute:contact>
+    <attribute:creation_date>2011-06-15T08:55:23Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>Nat Ant GHG SD Oz Sl Vl SS Ds BC OC</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>Output from monthly mean data 2011-06-15T08:55:23Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>BCC</attribute:institute_id>
+    <attribute:institution>Beijing Climate Center(BCC),China Meteorological Administration,China</attribute:institution>
+    <attribute:model_id>bcc-csm1-1</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:source>bcc-csm1-1:atmosphere:  BCC_AGCM2.1 (T42L26); land: BCC_AVIM1.0;ocean: MOM4_L40 (tripolar, 1 lon x (1-1/3) lat, L40);sea ice: SIS (tripolar,1 lon x (1-1/3) lat)</attribute:source>
+    <attribute:table_id>Table Amon (11 April 2011) 1cfdc7322cf2f4a32614826fab42c1ab</attribute:table_id>
+    <attribute:title>bcc-csm1-1 model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>2ccf4c16-f21b-42f4-80d1-0dd0f131e922</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:agent prov:ref="author:Righi, Mattia"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199101-199112.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199601-199612.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:45 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201101-201112.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:55 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199801-199812.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199801-199812.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:47 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199101-199112.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201401-201412.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200901-200912.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:agent prov:ref="project:DLR project ESMVal"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198301-198312.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198201-198212.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200101-200112.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:49 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc">
+    <attribute:alias>OBS</attribute:alias>
+    <attribute:alternative_dataset>NCEP</attribute:alternative_dataset>
+    <attribute:dataset>NCEP</attribute:dataset>
+    <attribute:diagnostic>tas</attribute:diagnostic>
+    <attribute:end_year>2014</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>ppNOLEV2</attribute:preprocessor>
+    <attribute:project>OBS</attribute:project>
+    <attribute:recipe_dataset_index>5</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1985</attribute:start_year>
+    <attribute:tier>2</attribute:tier>
+    <attribute:timerange>1985/2014</attribute:timerange>
+    <attribute:type>reanaly</attribute:type>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <attribute:version>1</attribute:version>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1985/2014'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'OBS', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'OBS', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'OBS', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'NCEP', 'type': 'reanaly', 'version': 1, 'tier': 2, 'recipe_dataset_index': 5, 'timerange': '1985/2014', 'alias': 'OBS', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'OBS', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'NCEP', 'type': 'reanaly', 'version': 1, 'tier': 2, 'recipe_dataset_index': 5, 'timerange': '1985/2014', 'alias': 'OBS', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'OBS', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'NCEP', 'type': 'reanaly', 'version': 1, 'tier': 2, 'recipe_dataset_index': 5, 'timerange': '1985/2014', 'alias': 'OBS', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x150f21c1c940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:regrid>{'target_grid': '/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198001-198012.nc', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199501-199512.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199201-199212.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:43 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199701-199712.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198601-198612.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:39 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200201-200212.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc">
+    <attribute:alias>CMIP5_bcc-csm1-1</attribute:alias>
+    <attribute:alternative_dataset>NCEP</attribute:alternative_dataset>
+    <attribute:dataset>bcc-csm1-1</attribute:dataset>
+    <attribute:diagnostic>tas</attribute:diagnostic>
+    <attribute:end_year>2002</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['BCC']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>ppNOLEV2</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>2</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2002</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2002'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'bcc-csm1-1', 'recipe_dataset_index': 2, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_bcc-csm1-1', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'bcc-csm1-1', 'recipe_dataset_index': 2, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_bcc-csm1-1', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'bcc-csm1-1', 'recipe_dataset_index': 2, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CMIP5_bcc-csm1-1', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x150f21c1c940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:multi_model_statistics>{'span': 'overlap', 'statistics': ['mean', 'median'], 'output_products': defaultdict(&lt;class 'dict'&gt;, {'': {'mean': PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_MultiModelMean_historical_Amon_tas_2000-2002.nc, 'median': PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_MultiModelMedian_historical_Amon_tas_2000-2002.nc}})}</preprocessor:multi_model_statistics>
+    <preprocessor:regrid>{'target_grid': '/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198001-198012.nc', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tas/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200301-200312.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:50 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200601-200612.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199001-199012.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.nc">
+    <attribute:abs_levs>[240, 243, 246, 249, 252, 255, 258, 261, 264, 267, 270, 273, 276, 279, 282, 285, 288, 291, 294, 297, 300]</attribute:abs_levs>
+    <attribute:caption>Difference in geographical distribution of variable tas (non-significant points are masked out in gray)</attribute:caption>
+    <attribute:conf_level>0.95</attribute:conf_level>
+    <attribute:diff_levs>[-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]</attribute:diff_levs>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_diff>True</attribute:plot_diff>
+    <attribute:plot_type>latlon</attribute:plot_type>
+    <attribute:plot_types>('zonal mean',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['righi15gmd', 'gleckler08jgr']</attribute:references>
+    <attribute:region>global</attribute:region>
+    <attribute:script>latlon</attribute:script>
+    <attribute:script_file>perfmetrics/main.ncl</attribute:script_file>
+    <attribute:show_global_avg>False</attribute:show_global_avg>
+    <attribute:statistics>('mean', 'rmsd', 'difference')</attribute:statistics>
+    <attribute:t_test>True</attribute:t_test>
+    <attribute:themes>('physics',)</attribute:themes>
+    <attribute:time_avg>annualclim</attribute:time_avg>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199801-199812.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200801-200812.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:54 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198601-198612.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="recipe:recipe_perfmetrics_CMIP5_simple.yml">
+    <attribute:description>Recipe for plotting the performance metrics for the CMIP5 datasets,
+including the standard ECVs as in Gleckler et al., and some additional
+variables (like ozone, sea-ice, aerosol...)
+</attribute:description>
+    <attribute:references>['gleckler08jgr']</attribute:references>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200401-200412.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:51 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199701-199712.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:10</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199001-199012.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199401-199412.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199301-199312.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198901-198912.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:41 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:activity prov:id="task:tas/tas"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199901-199912.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199901-199912.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199201-199212.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>OBS6</attribute:alias>
+    <attribute:alternative_dataset>NCEP</attribute:alternative_dataset>
+    <attribute:dataset>ERA-Interim</attribute:dataset>
+    <attribute:diagnostic>tas</attribute:diagnostic>
+    <attribute:end_year>2000</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>ppNOLEV2</attribute:preprocessor>
+    <attribute:project>OBS6</attribute:project>
+    <attribute:recipe_dataset_index>4</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1980</attribute:start_year>
+    <attribute:tier>3</attribute:tier>
+    <attribute:timerange>1980/2000</attribute:timerange>
+    <attribute:type>reanaly</attribute:type>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <attribute:version>1</attribute:version>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1980/2000'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'OBS6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'OBS6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'OBS6', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ERA-Interim', 'type': 'reanaly', 'version': 1, 'tier': 3, 'recipe_dataset_index': 4, 'timerange': '1980/2000', 'activity': 'CMIP', 'alias': 'OBS6', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc', 'start_year': 1980, 'end_year': 2000, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'OBS6', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ERA-Interim', 'type': 'reanaly', 'version': 1, 'tier': 3, 'recipe_dataset_index': 4, 'timerange': '1980/2000', 'activity': 'CMIP', 'alias': 'OBS6', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc', 'start_year': 1980, 'end_year': 2000, 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'ppNOLEV2', 'reference_dataset': 'ERA-Interim', 'alternative_dataset': 'NCEP', 'mip': 'Amon', 'project': 'OBS6', 'exp': 'historical', 'ensemble': 'r1i1p1', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tas', 'dataset': 'ERA-Interim', 'type': 'reanaly', 'version': 1, 'tier': 3, 'recipe_dataset_index': 4, 'timerange': '1980/2000', 'activity': 'CMIP', 'alias': 'OBS6', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc', 'start_year': 1980, 'end_year': 2000, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x150f21c1c940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198901-198912.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:agent prov:id="project:EU H2020 project CRESCENDO"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201301-201312.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198101-198112.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201201-201212.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:56 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199101-199112.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:42 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:agent prov:ref="project:EU H2020 project CRESCENDO"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200701-200712.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199501-199512.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Eyring, Veronika">
+    <attribute:email>veronika.eyring@dlr.de</attribute:email>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0002-6887-4885</attribute:orcid>
+  </prov:agent>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200401-200412.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_201001-201012.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198701-198712.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:40 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_perfmetrics_CMIP5_simple.yml"/>
+    <prov:agent prov:ref="author:Frank, Franziska"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198401-198412.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:10</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.nc"/>
+    <prov:agent prov:ref="author:Righi, Mattia"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_198501-198512.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:39 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199401-199412.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:44 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199201-199212.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/rr3/publications/CMIP5/output1/CSIRO-BOM/ACCESS1-3/historical/mon/atmos/Amon/r1i1p1/latest/tas/tas_Amon_ACCESS1-3_historical_r1i1p1_185001-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>90945.0</attribute:branch_time>
+    <attribute:cmor_version>2.8.0</attribute:cmor_version>
+    <attribute:contact>The ACCESS wiki: http://wiki.csiro.au/confluence/display/ACCESS/Home. Contact Tony.Hirst@csiro.au regarding the ACCESS coupled climate model. Contact Peter.Uhe@csiro.au regarding ACCESS coupled climate model CMIP5 datasets.</attribute:contact>
+    <attribute:creation_date>2012-02-05T23:50:03Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>GHG, Oz, SA, Sl, Vl, BC, OC, (GHG = CO2, N2O, CH4, CFC11, CFC12, CFC113, HCFC22, HFC125, HFC134a)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>Fri Apr 13 09:38:12 2012: ncatted -a forcing,global,m,c,GHG, Oz, SA, Sl, Vl, BC, OC, (GHG = CO2, N2O, CH4, CFC11, CFC12, CFC113, HCFC22, HFC125, HFC134a) /projects/p66/pfu599/CMIP5/output/CSIRO-BOM/ACCESS1-3/historical/mon/atmos/tas/r1i1p1/tas_Amon_ACCESS1-3_historical_r1i1p1_185001-200512.nc
+CMIP5 compliant file produced from raw ACCESS model output using the ACCESS Post-Processor and CMOR2. 2012-02-05T23:50:03Z CMOR rewrote data to comply with CF standards and CMIP5 requirements. Fri Apr 13 12:13:13 2012: updated version number to v20120413. Fri Apr 13 12:29:32 2012: corrected model_id from ACCESS1-3 to ACCESS1.3</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CSIRO-BOM</attribute:institute_id>
+    <attribute:institution>CSIRO (Commonwealth Scientific and Industrial Research Organisation, Australia), and BOM (Bureau of Meteorology, Australia)</attribute:institution>
+    <attribute:model_id>ACCESS1.3</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>See http://wiki.csiro.au/confluence/display/ACCESS/ACCESS+Publications</attribute:references>
+    <attribute:source>ACCESS1-3 2011. Atmosphere: AGCM v1.0 (N96 grid-point, 1.875 degrees EW x approx 1.25 degree NS, 38 levels); ocean: NOAA/GFDL MOM4p1 (nominal 1.0 degree EW x 1.0 degrees NS, tripolar north of 65N, equatorial refinement to 1/3 degree from 10S to 10 N, cosine dependent NS south of 25S, 50 levels); sea ice: CICE4.1 (nominal 1.0 degree EW x 1.0 degrees NS, tripolar north of 65N, equatorial refinement to 1/3 degree from 10S to 10 N, cosine dependent NS south of 25S); land: CABLE1.0 (1.875 degree EW x 1.25 degree NS, 6 levels</attribute:source>
+    <attribute:table_id>Table Amon (27 April 2011) 9c851218e3842df9a62ef38b1e2575bb</attribute:table_id>
+    <attribute:title>ACCESS1-3 model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>7f51888d-7daa-45b3-b568-9ce3288b333d</attribute:tracking_id>
+    <attribute:version_number>v20120413</attribute:version_number>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198101-198112.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:10</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198301-198312.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200501-200512.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199601-199612.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS6_ERA-Interim_reanaly_1_Amon_tas_1980-2000.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_198901-198912.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199401-199412.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_tas_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/tas/tas_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200001-200012.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:48 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_199501-199512.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:45 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.nc"/>
+    <prov:agent prov:ref="author:Frank, Franziska"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier2/NCEP/OBS_NCEP_reanaly_1_Amon_tas_200501-200512.nc">
+    <attribute:conventions>CF/CMOR</attribute:conventions>
+    <attribute:history>Created on Wed Mar  6 18:42:51 CET 2019</attribute:history>
+    <attribute:host>mlogin102.hpc.dkrz.de</attribute:host>
+    <attribute:reference>Kalnay et al., B. Am. Meteorol. Soc., doi:10.1175/1520-0477(1996)077&lt;0437:TNYRP&gt;2.0.CO;2, 1996</attribute:reference>
+    <attribute:source>http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html</attribute:source>
+    <attribute:tier>2</attribute:tier>
+    <attribute:title>NCEP data reformatted for the ESMValTool v2.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/CMIP5_ACCESS1-0_Amon_historical_r1i1p1_tas_2000-2002.nc"/>
+    <prov:activity prov:ref="task:tas/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230228_053237/preproc/tas/tas/OBS_NCEP_reanaly_1_Amon_tas_1985-2014.nc"/>
+    <prov:activity prov:ref="task:tas/latlon"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_tas_199601-199612.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:09</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+</prov:document>

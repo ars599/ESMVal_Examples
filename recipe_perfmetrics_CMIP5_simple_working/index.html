@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe perfmetrics cmip5 simple</title>
+  <style>
+    html {
+      font-size: medium;
+    }
+    body {
+      color: #444;
+      font-family: georgia, times, serif;
+      font-size: 1rem;
+      line-height: 1.4;
+      margin: 2rem auto 8rem;
+      max-width: 1920px;
+      padding: 0 2em;
+      width: auto;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      color: #444;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 1em;
+      margin-top: 2em;
+    }
+    h1 {
+      font-size: 2.2em;
+    }
+    h2 {
+      font-size: 1.8em;
+      border-bottom: solid 0.1rem #444;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-size: 1.3em;
+    }
+    h5 {
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    h6 {
+      font-size: 1.1em;
+      margin-bottom: 0.5rem;
+    }
+    pre,
+    code,
+    xmp {
+      font-family: courier;
+      font-size: 1.1rem;
+      line-height: 1.4;
+      white-space: pre-wrap;
+    }
+    img {
+      width: 500px;
+    }
+    figure {
+      display: inline-block;
+      width: 500px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  </style>
+</head>
+  
+
+  <body>
+
+    <h1>Performance metrics for essential climate variables in CMIP5</h1>
+
+<p>
+  Recipe for plotting the performance metrics for the CMIP5 datasets,
+including the standard ECVs as in Gleckler et al., and some additional
+variables (like ozone, sea-ice, aerosol...)
+</p>
+
+<h3>Authors</h3>
+
+<ul>
+  
+    <li>Franziska Frank (DLR, Germany; <a href='None'>None</a>)</li>
+  
+    <li>Mattia Righi (DLR, Germany; <a href='https://orcid.org/0000-0003-3827-5950'>https://orcid.org/0000-0003-3827-5950</a>)</li>
+  
+    <li>Veronika Eyring (DLR, Germany; <a href='https://orcid.org/0000-0002-6887-4885'>https://orcid.org/0000-0002-6887-4885</a>)</li>
+  
+</ul>
+
+<h3>Maintainers</h3>
+
+<ul>
+  
+    <li>Mattia Righi (DLR, Germany; <a href='https://orcid.org/0000-0003-3827-5950'>https://orcid.org/0000-0003-3827-5950</a>)</li>
+  
+</ul>
+
+<h3>Projects</h3>
+
+<ul>
+  
+    <li>DLR project ESMVal</li>
+  
+    <li>EU FP7 project EMBRACE</li>
+  
+    <li>EU H2020 project CRESCENDO</li>
+  
+    <li>Copernicus Climate Change Service 34a Lot 2 (MAGIC) project</li>
+  
+    <li>ESA CMUG</li>
+  
+</ul>
+
+<h3>References</h3>
+
+<ul>
+  
+    <li>P.&nbsp;J. Gleckler, K.&nbsp;E. Taylor, and C.&nbsp;Doutriaux.
+Performance metrics for climate models.
+<em>Journal of Geophysical Research</em>, mar 2008.
+URL: <a href="https://doi.org/10.1029%2F2007jd008972">https://doi.org/10.1029%2F2007jd008972</a>, <a href="https://doi.org/10.1029/2007jd008972">doi:10.1029/2007jd008972</a>.</li>
+  
+</ul>
+
+    
+
+  <h2>Clt</h2>
+  <p>Total cloud cover</p>
+
+  
+
+    <h3>Clt: Latlon</h3>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global.png' alt='Difference in geographical distribution of variable clt (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable clt (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global.png' alt='Difference in geographical distribution of variable clt (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable clt (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global.png' alt='Difference in geographical distribution of variable clt (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable clt (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global.png' alt='Difference in geographical distribution of variable clt (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable clt (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global.png' alt='Geographical distribution of variable clt'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable clt
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global.png' alt='Geographical distribution of variable clt'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable clt
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global.png' alt='Difference in geographical distribution of variable clt (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable clt (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global.png' alt='Geographical distribution of variable clt'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable clt
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global.png' alt='Geographical distribution of variable clt'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable clt
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global.png' alt='Difference in geographical distribution of variable clt (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable clt (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global.png' alt='Geographical distribution of variable clt'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable clt
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global.png' alt='Geographical distribution of variable clt'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable clt
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global.png' alt='Geographical distribution of variable clt'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable clt
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global.png' alt='Difference in geographical distribution of variable clt (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable clt (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global.png'>
+        <img src='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global.png' alt='Geographical distribution of variable clt'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable clt
+            <br>
+            <br>
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global.png'>download</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        Geographical distribution of variable clt |
+        <a href='work/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_PATMOS-x_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable clt (non-significant points are masked out in gray) |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-3-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable clt (non-significant points are masked out in gray) |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable clt |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMean_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable clt |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable clt |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-0_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable clt (non-significant points are masked out in gray) |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable clt (non-significant points are masked out in gray) |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMean-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable clt (non-significant points are masked out in gray) |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-0-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable clt |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMedian_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable clt |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_bcc-csm1-1-m_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable clt (non-significant points are masked out in gray) |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_MultiModelMedian-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable clt |
+        <a href='work/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable clt |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_ACCESS1-3_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable clt (non-significant points are masked out in gray) |
+        <a href='work/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global.nc'>download</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/latlon/perfmetrics_latlon_PATMOS-x-ESACCI-CLOUD_clt_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+    <h3>Clt: Grading</h3>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/RMSD_clt-global.nc'>download</a> |
+        <a href='work/clt/grading/RMSD_clt-global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/RMSD_clt-global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/RMSD_clt-global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_PATMOS-x_clt_monthlyclim_global.nc'>download</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_PATMOS-x_clt_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_PATMOS-x_clt_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_PATMOS-x_clt_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_clt_monthlyclim_global.nc'>download</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_clt_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_clt_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_clt_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ACCESS1-0_clt_monthlyclim_global.nc'>download</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ACCESS1-0_clt_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ACCESS1-0_clt_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ACCESS1-0_clt_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_MultiModelMean_clt_monthlyclim_global.nc'>download</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_MultiModelMean_clt_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_MultiModelMean_clt_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_MultiModelMean_clt_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_MultiModelMedian_clt_monthlyclim_global.nc'>download</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_MultiModelMedian_clt_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_MultiModelMedian_clt_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_MultiModelMedian_clt_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_bcc-csm1-1_clt_monthlyclim_global.nc'>download</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_bcc-csm1-1_clt_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_bcc-csm1-1_clt_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_bcc-csm1-1_clt_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ESACCI-CLOUD_clt_monthlyclim_global.nc'>download</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ESACCI-CLOUD_clt_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ESACCI-CLOUD_clt_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ESACCI-CLOUD_clt_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ACCESS1-3_clt_monthlyclim_global.nc'>download</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ACCESS1-3_clt_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ACCESS1-3_clt_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/clt/grading/perfmetrics_cycle_latlon_ACCESS1-3_clt_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+
+
+  <h2>Zg500</h2>
+  <p>Geopotential height 500 hPa global</p>
+
+  
+
+    <h3>Zg500: Grading</h3>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_zg_monthlyclim_global.nc'>download</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_zg_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_zg_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_zg_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ACCESS1-0_zg_monthlyclim_global.nc'>download</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ACCESS1-0_zg_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ACCESS1-0_zg_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ACCESS1-0_zg_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_bcc-csm1-1_zg_monthlyclim_global.nc'>download</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_bcc-csm1-1_zg_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_bcc-csm1-1_zg_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_bcc-csm1-1_zg_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ACCESS1-3_zg_monthlyclim_global.nc'>download</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ACCESS1-3_zg_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ACCESS1-3_zg_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ACCESS1-3_zg_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_MultiModelMean_zg_monthlyclim_global.nc'>download</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_MultiModelMean_zg_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_MultiModelMean_zg_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_MultiModelMean_zg_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_NCEP_zg_monthlyclim_global.nc'>download</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_NCEP_zg_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_NCEP_zg_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_NCEP_zg_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ERA-Interim_zg_monthlyclim_global.nc'>download</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ERA-Interim_zg_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ERA-Interim_zg_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_ERA-Interim_zg_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/RMSD_zg500-global.nc'>download</a> |
+        <a href='work/zg500/grading/RMSD_zg500-global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/RMSD_zg500-global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/RMSD_zg500-global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_MultiModelMedian_zg_monthlyclim_global.nc'>download</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_MultiModelMedian_zg_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_MultiModelMedian_zg_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/zg500/grading/perfmetrics_cycle_latlon_MultiModelMedian_zg_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+
+
+  <h2>Tas</h2>
+  <p>Near-surface air temperature</p>
+
+  
+
+    <h3>Tas: Latlon</h3>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global.png' alt='Geographical distribution of variable tas'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable tas
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global.png' alt='Geographical distribution of variable tas'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable tas
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global.png' alt='Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable tas (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.png' alt='Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable tas (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global.png' alt='Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable tas (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global.png' alt='Geographical distribution of variable tas'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable tas
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global.png' alt='Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable tas (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global.png' alt='Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable tas (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global.png' alt='Geographical distribution of variable tas'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable tas
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global.png' alt='Geographical distribution of variable tas'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable tas
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global.png' alt='Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable tas (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global.png' alt='Geographical distribution of variable tas'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable tas
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global.png' alt='Geographical distribution of variable tas'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable tas
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global.png' alt='Difference in geographical distribution of variable tas (non-significant points are masked out in gray)'/>
+        </a>
+        <figcaption>
+            Difference in geographical distribution of variable tas (non-significant points are masked out in gray)
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+    <figure>
+        <a href='plots/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global.png'>
+        <img src='plots/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global.png' alt='Geographical distribution of variable tas'/>
+        </a>
+        <figcaption>
+            Geographical distribution of variable tas
+            <br>
+            <br>
+            <a href='plots/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global.png'>download</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global_citation.bibtex'>references</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        Geographical distribution of variable tas |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-3_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable tas (non-significant points are masked out in gray) |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-3-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable tas (non-significant points are masked out in gray) |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMedian-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable tas (non-significant points are masked out in gray) |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-0-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable tas (non-significant points are masked out in gray) |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable tas |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMedian_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable tas |
+        <a href='work/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_NCEP_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable tas (non-significant points are masked out in gray) |
+        <a href='work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_NCEP-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable tas |
+        <a href='work/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable tas |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMean_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable tas |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable tas (non-significant points are masked out in gray) |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable tas |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_ACCESS1-0_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Difference in geographical distribution of variable tas (non-significant points are masked out in gray) |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_MultiModelMean-ERA-Interim_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Geographical distribution of variable tas |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global.nc'>download</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/latlon/perfmetrics_latlon_bcc-csm1-1-m_tas_annualclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+    <h3>Tas: Grading</h3>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_MultiModelMedian_tas_monthlyclim_global.nc'>download</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_MultiModelMedian_tas_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_MultiModelMedian_tas_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_MultiModelMedian_tas_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_bcc-csm1-1_tas_monthlyclim_global.nc'>download</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_bcc-csm1-1_tas_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_bcc-csm1-1_tas_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_bcc-csm1-1_tas_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/RMSD_tas-global.nc'>download</a> |
+        <a href='work/tas/grading/RMSD_tas-global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/RMSD_tas-global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/RMSD_tas-global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ERA-Interim_tas_monthlyclim_global.nc'>download</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ERA-Interim_tas_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ERA-Interim_tas_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ERA-Interim_tas_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ACCESS1-0_tas_monthlyclim_global.nc'>download</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ACCESS1-0_tas_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ACCESS1-0_tas_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ACCESS1-0_tas_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ACCESS1-3_tas_monthlyclim_global.nc'>download</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ACCESS1-3_tas_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ACCESS1-3_tas_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_ACCESS1-3_tas_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_NCEP_tas_monthlyclim_global.nc'>download</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_NCEP_tas_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_NCEP_tas_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_NCEP_tas_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_MultiModelMean_tas_monthlyclim_global.nc'>download</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_MultiModelMean_tas_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_MultiModelMean_tas_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_MultiModelMean_tas_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_tas_monthlyclim_global.nc'>download</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_tas_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_tas_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/tas/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_tas_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+
+
+  <h2>Va850</h2>
+  <p>Northward wind at 850 hPa global.</p>
+
+  
+
+    <h3>Va850: Grading</h3>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/RMSD_va850-global.nc'>download</a> |
+        <a href='work/va850/grading/RMSD_va850-global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/RMSD_va850-global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/RMSD_va850-global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ACCESS1-0_va_monthlyclim_global.nc'>download</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ACCESS1-0_va_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ACCESS1-0_va_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ACCESS1-0_va_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ERA-Interim_va_monthlyclim_global.nc'>download</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ERA-Interim_va_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ERA-Interim_va_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ERA-Interim_va_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_MultiModelMedian_va_monthlyclim_global.nc'>download</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_MultiModelMedian_va_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_MultiModelMedian_va_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_MultiModelMedian_va_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_va_monthlyclim_global.nc'>download</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_va_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_va_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_va_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_bcc-csm1-1_va_monthlyclim_global.nc'>download</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_bcc-csm1-1_va_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_bcc-csm1-1_va_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_bcc-csm1-1_va_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_NCEP_va_monthlyclim_global.nc'>download</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_NCEP_va_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_NCEP_va_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_NCEP_va_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_MultiModelMean_va_monthlyclim_global.nc'>download</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_MultiModelMean_va_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_MultiModelMean_va_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_MultiModelMean_va_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ACCESS1-3_va_monthlyclim_global.nc'>download</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ACCESS1-3_va_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ACCESS1-3_va_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/va850/grading/perfmetrics_cycle_latlon_ACCESS1-3_va_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+
+
+  <h2>Ts</h2>
+  <p>Sea-surface (skin) temperature</p>
+
+  
+
+    <h3>Ts: Grading</h3>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_HadISST_ts_monthlyclim_global.nc'>download</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_HadISST_ts_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_HadISST_ts_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_HadISST_ts_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/RMSD_ts-global.nc'>download</a> |
+        <a href='work/ts/grading/RMSD_ts-global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/RMSD_ts-global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/RMSD_ts-global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_ts_monthlyclim_global.nc'>download</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_ts_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_ts_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_ts_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1_ts_monthlyclim_global.nc'>download</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1_ts_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1_ts_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_bcc-csm1-1_ts_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-0_ts_monthlyclim_global.nc'>download</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-0_ts_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-0_ts_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-0_ts_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_MultiModelMean_ts_monthlyclim_global.nc'>download</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_MultiModelMean_ts_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_MultiModelMean_ts_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_MultiModelMean_ts_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-3_ts_monthlyclim_global.nc'>download</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-3_ts_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-3_ts_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ACCESS1-3_ts_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_MultiModelMedian_ts_monthlyclim_global.nc'>download</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_MultiModelMedian_ts_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_MultiModelMedian_ts_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_MultiModelMedian_ts_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ESACCI-SST_ts_monthlyclim_global.nc'>download</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ESACCI-SST_ts_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ESACCI-SST_ts_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/ts/grading/perfmetrics_cycle_latlon_ESACCI-SST_ts_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+
+
+  <h2>Collect</h2>
+  <p>Wrapper to collect and plot previously calculated metrics</p>
+
+  
+
+    <h3>Collect: Rmsd</h3>
+    <figure>
+        <a href='plots/collect/RMSD/zg500-global_to_sm-global_RMSD.png'>
+        <img src='plots/collect/RMSD/zg500-global_to_sm-global_RMSD.png' alt='Wrapper to collect and plot previously calculated metrics'/>
+        </a>
+        <figcaption>
+            Wrapper to collect and plot previously calculated metrics
+            <br>
+            <br>
+            <a href='plots/collect/RMSD/zg500-global_to_sm-global_RMSD.png'>download</a> |
+            <a href='plots/collect/RMSD/zg500-global_to_sm-global_RMSD_citation.bibtex'>references</a> |
+            <a href='plots/collect/RMSD/zg500-global_to_sm-global_RMSD_data_citation_info.txt'>extra data citation</a> |
+            <a href='plots/collect/RMSD/zg500-global_to_sm-global_RMSD_provenance.xml'>provenance</a>
+        </figcaption>
+    </figure>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        RMSD performance metric |
+        <a href='work/collect/RMSD/zg500-global_to_sm-global_RMSD.nc'>download</a> |
+        <a href='work/collect/RMSD/zg500-global_to_sm-global_RMSD_citation.bibtex'>references</a> |
+        <a href='work/collect/RMSD/zg500-global_to_sm-global_RMSD_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/collect/RMSD/zg500-global_to_sm-global_RMSD_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+
+
+  <h2>Sm</h2>
+  <p>Soil moisture</p>
+
+  
+
+    <h3>Sm: Grading</h3>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        n/a |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ESACCI-SOILMOISTURE_sm_monthlyclim_global.nc'>download</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ESACCI-SOILMOISTURE_sm_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ESACCI-SOILMOISTURE_sm_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ESACCI-SOILMOISTURE_sm_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ACCESS1-0_sm_monthlyclim_global.nc'>download</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ACCESS1-0_sm_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ACCESS1-0_sm_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ACCESS1-0_sm_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_bcc-csm1-1_sm_monthlyclim_global.nc'>download</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_bcc-csm1-1_sm_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_bcc-csm1-1_sm_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_bcc-csm1-1_sm_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_MultiModelMedian_sm_monthlyclim_global.nc'>download</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_MultiModelMedian_sm_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_MultiModelMedian_sm_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_MultiModelMedian_sm_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ACCESS1-3_sm_monthlyclim_global.nc'>download</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ACCESS1-3_sm_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ACCESS1-3_sm_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_ACCESS1-3_sm_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/sm/grading/RMSD_sm-global.nc'>download</a> |
+        <a href='work/sm/grading/RMSD_sm-global_citation.bibtex'>references</a> |
+        <a href='work/sm/grading/RMSD_sm-global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/sm/grading/RMSD_sm-global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_sm_monthlyclim_global.nc'>download</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_sm_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_sm_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_bcc-csm1-1-m_sm_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        n/a |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_MultiModelMean_sm_monthlyclim_global.nc'>download</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_MultiModelMean_sm_monthlyclim_global_citation.bibtex'>references</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_MultiModelMean_sm_monthlyclim_global_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/sm/grading/perfmetrics_cycle_latlon_MultiModelMean_sm_monthlyclim_global_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+
+
+  </body>
+
+  <h2>Files</h2>
+
+  <p>
+    <a href='run/main_log.txt'>main_log.txt</a> |
+    <a href='run/main_log_debug.txt'>main_log_debug.txt</a> |
+    <a href='run/recipe_perfmetrics_CMIP5_simple.yml'>recipe_perfmetrics_CMIP5_simple.yml</a> |
+    <a href='plots'>figures</a> |
+    <a href='work'>data</a>
+  </p>
+
+</html>

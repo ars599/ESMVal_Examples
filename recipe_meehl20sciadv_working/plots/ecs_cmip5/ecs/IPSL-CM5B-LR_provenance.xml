@@ -1,0 +1,779 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/mon/atmos/Amon/r1i1p1/v20120114/tas/tas_Amon_IPSL-CM5B-LR_piControl_r1i1p1_183001-212912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This is the preindustrial control simulation. This simulation was initiated from a preindustrial spinup simulation when equilibrium was reached.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2012-01-25T22:47:56Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-01-25T22:47:56Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5B-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5B-LR (2011) : atmos : LMDZ5 (LMDZ5_NPv3.1, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5B-LR model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>5b1f76ec-5328-4cf7-8119-75273a2b3b4c</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip5/ecs"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rsdt"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/mon/atmos/Amon/r1i1p1/v20120114/rlut/rlut_Amon_IPSL-CM5B-LR_piControl_r1i1p1_183001-212912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This is the preindustrial control simulation. This simulation was initiated from a preindustrial spinup simulation when equilibrium was reached.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2012-01-25T22:56:14Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-01-25T22:56:14Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5B-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5B-LR (2011) : atmos : LMDZ5 (LMDZ5_NPv3.1, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5B-LR model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>604cf4d2-25d1-4cb4-a695-255e20be9670</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/abrupt4xCO2/mon/atmos/Amon/r1i1p1/v20120430/tas/tas_Amon_IPSL-CM5B-LR_abrupt4xCO2_r1i1p1_185001-200912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>1850.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This abrupt4xCO2 simulation was initiated from a preindustrial control simulation when equilibrium was reached.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2012-04-14T23:47:46Z</attribute:creation_date>
+    <attribute:experiment>abrupt 4XCO2</attribute:experiment>
+    <attribute:experiment_id>abrupt4xCO2</attribute:experiment_id>
+    <attribute:forcing>GHG</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-04-14T23:47:46Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5B-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5B-LR (2011) : atmos : LMDZ5 (LMDZ5_NPv3.1, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5B-LR model output prepared for CMIP5 abrupt 4XCO2</attribute:title>
+    <attribute:tracking_id>e189d772-0d49-43f7-9d3b-dedcdc353305</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/IPSL-CM5B-LR.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/ecs"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/IPSL-CM5B-LR.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/ecs"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_abrupt4xCO2</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>abrupt4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>TOA Incident Shortwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rsdt</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>37</attribute:recipe_dataset_index>
+    <attribute:short_name>rsdt</attribute:short_name>
+    <attribute:standard_name>toa_incoming_shortwave_flux</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rsdt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rsdt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rsdt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/abrupt4xCO2/mon/atmos/Amon/r1i1p1/v20120430/rsdt/rsdt_Amon_IPSL-CM5B-LR_abrupt4xCO2_r1i1p1_185001-200912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rsdt"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/IPSL-CM5B-LR.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/ecs"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/abrupt4xCO2/mon/atmos/Amon/r1i1p1/v20120430/tas/tas_Amon_IPSL-CM5B-LR_abrupt4xCO2_r1i1p1_185001-200912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/tas_rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_piControl</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>TOA Incident Shortwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rsdt</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>36</attribute:recipe_dataset_index>
+    <attribute:short_name>rsdt</attribute:short_name>
+    <attribute:standard_name>toa_incoming_shortwave_flux</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rsdt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rsdt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rsdt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/mon/atmos/Amon/r1i1p1/v20120114/rsdt/rsdt_Amon_IPSL-CM5B-LR_piControl_r1i1p1_183001-212912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rsdt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_piControl</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>TOA Outgoing Longwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rlut</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>36</attribute:recipe_dataset_index>
+    <attribute:short_name>rlut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_longwave_flux</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rlut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/IPSL-CM5B-LR.png"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_piControl</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>36</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas_rtnt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'short_name': 'areacella', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/fx/atmos/fx/r0i0p0/v20120430/areacella/areacella_fx_IPSL-CM5B-LR_piControl_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/mon/atmos/Amon/r1i1p1/v20120114/rsut/rsut_Amon_IPSL-CM5B-LR_piControl_r1i1p1_183001-212912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rsut"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_abrupt4xCO2</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>abrupt4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>TOA Outgoing Shortwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rsut</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>37</attribute:recipe_dataset_index>
+    <attribute:short_name>rsut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_shortwave_flux</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rsut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rsut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rsut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_piControl</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>TOA Outgoing Shortwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rsut</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>36</attribute:recipe_dataset_index>
+    <attribute:short_name>rsut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_shortwave_flux</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rsut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rsut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rsut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/IPSL-CM5B-LR.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/ecs"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/mon/atmos/Amon/r1i1p1/v20120114/rsut/rsut_Amon_IPSL-CM5B-LR_piControl_r1i1p1_183001-212912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This is the preindustrial control simulation. This simulation was initiated from a preindustrial spinup simulation when equilibrium was reached.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2012-01-25T22:56:02Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-01-25T22:56:02Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5B-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5B-LR (2011) : atmos : LMDZ5 (LMDZ5_NPv3.1, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5B-LR model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>edd3cedd-32f7-447d-8c22-accfe0306301</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="task:ecs_cmip5/ecs"/>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/abrupt4xCO2/mon/atmos/Amon/r1i1p1/v20120430/rlut/rlut_Amon_IPSL-CM5B-LR_abrupt4xCO2_r1i1p1_185001-200912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>1850.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This abrupt4xCO2 simulation was initiated from a preindustrial control simulation when equilibrium was reached.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2012-04-14T23:53:42Z</attribute:creation_date>
+    <attribute:experiment>abrupt 4XCO2</attribute:experiment>
+    <attribute:experiment_id>abrupt4xCO2</attribute:experiment_id>
+    <attribute:forcing>GHG</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-04-14T23:53:42Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5B-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5B-LR (2011) : atmos : LMDZ5 (LMDZ5_NPv3.1, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5B-LR model output prepared for CMIP5 abrupt 4XCO2</attribute:title>
+    <attribute:tracking_id>5f8bfd5a-5b0e-443d-9b73-743245454181</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsdt_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_abrupt4xCO2</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>abrupt4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>TOA Outgoing Longwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rlut</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>37</attribute:recipe_dataset_index>
+    <attribute:short_name>rlut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_longwave_flux</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rlut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:activity prov:id="task:ecs_cmip5/tas_rtnt"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/mon/atmos/Amon/r1i1p1/v20120114/tas/tas_Amon_IPSL-CM5B-LR_piControl_r1i1p1_183001-212912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/tas_rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/IPSL-CM5B-LR.png">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Scatterplot between TOA radiance and global mean surface temperature anomaly for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate ECS for IPSL-CM5B-LR (CMIP5).</attribute:caption>
+    <attribute:complex_gregory_plot>True</attribute:complex_gregory_plot>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('scatter plot',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory04grl']</attribute:references>
+    <attribute:script>ecs</attribute:script>
+    <attribute:script_file>climate_metrics/ecs.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rlut"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/abrupt4xCO2/mon/atmos/Amon/r1i1p1/v20120430/rsdt/rsdt_Amon_IPSL-CM5B-LR_abrupt4xCO2_r1i1p1_185001-200912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>1850.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This abrupt4xCO2 simulation was initiated from a preindustrial control simulation when equilibrium was reached.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2012-04-14T23:53:16Z</attribute:creation_date>
+    <attribute:experiment>abrupt 4XCO2</attribute:experiment>
+    <attribute:experiment_id>abrupt4xCO2</attribute:experiment_id>
+    <attribute:forcing>GHG</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-04-14T23:53:16Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5B-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5B-LR (2011) : atmos : LMDZ5 (LMDZ5_NPv3.1, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5B-LR model output prepared for CMIP5 abrupt 4XCO2</attribute:title>
+    <attribute:tracking_id>c5dc64e1-21ea-45fb-9408-f563df516020</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="task:ecs_cmip5/rtnt_derive_input_rlut"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_abrupt4xCO2</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>abrupt4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>37</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas_rtnt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'short_name': 'areacella', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/cmip5/output1/IPSL/IPSL-CM5B-LR/abrupt4xCO2/fx/atmos/fx/r0i0p0/v20120430/areacella_fx_IPSL-CM5B-LR_abrupt4xCO2_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_abrupt4xCO2</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>abrupt4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>TOA Net downward Total Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rtnt</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>37</attribute:recipe_dataset_index>
+    <attribute:short_name>rtnt</attribute:short_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'short_name': 'areacella', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'derive': True, 'variable_group': 'areacella', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'abrupt4xCO2', 'recipe_dataset_index': 37, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_abrupt4xCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_climate_data/cmip5/output1/IPSL/IPSL-CM5B-LR/abrupt4xCO2/fx/atmos/fx/r0i0p0/v20120430/areacella_fx_IPSL-CM5B-LR_abrupt4xCO2_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rtnt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rtnt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:derive>{'short_name': 'rtnt', 'standard_name': '', 'long_name': 'TOA Net downward Total Radiation', 'units': 'W m-2'}</preprocessor:derive>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rsut_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/abrupt4xCO2/mon/atmos/Amon/r1i1p1/v20120430/rsut/rsut_Amon_IPSL-CM5B-LR_abrupt4xCO2_r1i1p1_185001-200912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rsut"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsdt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsdt_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/abrupt4xCO2/mon/atmos/Amon/r1i1p1/v20120430/rsut/rsut_Amon_IPSL-CM5B-LR_abrupt4xCO2_r1i1p1_185001-200912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>1850.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This abrupt4xCO2 simulation was initiated from a preindustrial control simulation when equilibrium was reached.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2012-04-14T23:53:29Z</attribute:creation_date>
+    <attribute:experiment>abrupt 4XCO2</attribute:experiment>
+    <attribute:experiment_id>abrupt4xCO2</attribute:experiment_id>
+    <attribute:forcing>GHG</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-04-14T23:53:29Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5B-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5B-LR (2011) : atmos : LMDZ5 (LMDZ5_NPv3.1, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5B-LR model output prepared for CMIP5 abrupt 4XCO2</attribute:title>
+    <attribute:tracking_id>f7d6cbe7-4d96-42ea-968a-79611c60b7fb</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="task:ecs_cmip5/rtnt_derive_input_rsut"/>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/mon/atmos/Amon/r1i1p1/v20120114/rsdt/rsdt_Amon_IPSL-CM5B-LR_piControl_r1i1p1_183001-212912.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This is the preindustrial control simulation. This simulation was initiated from a preindustrial spinup simulation when equilibrium was reached.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2012-01-25T22:55:50Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-01-25T22:55:50Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5B-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5B-LR (2011) : atmos : LMDZ5 (LMDZ5_NPv3.1, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5B-LR model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>368d8348-5681-49b3-9f15-b8c9601d1959</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rsut"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="task:ecs_cmip5/rtnt_derive_input_rsdt"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/abrupt4xCO2/mon/atmos/Amon/r1i1p1/v20120430/rlut/rlut_Amon_IPSL-CM5B-LR_abrupt4xCO2_r1i1p1_185001-200912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rlut"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip5/tas_rtnt"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="task:ecs_cmip5/rtnt"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rsut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rsut_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rlut_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/mon/atmos/Amon/r1i1p1/v20120114/rlut/rlut_Amon_IPSL-CM5B-LR_piControl_r1i1p1_183001-212912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt_derive_input_rlut"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc">
+    <attribute:alias>IPSL-CM5B-LR_piControl</attribute:alias>
+    <attribute:dataset>IPSL-CM5B-LR</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip5</attribute:diagnostic>
+    <attribute:end_year>1999</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>TOA Net downward Total Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rtnt</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>36</attribute:recipe_dataset_index>
+    <attribute:short_name>rtnt</attribute:short_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1999</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'short_name': 'areacella', 'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'derive': True, 'variable_group': 'areacella', 'diagnostic': 'ecs_cmip5', 'dataset': 'IPSL-CM5B-LR', 'exp': 'piControl', 'recipe_dataset_index': 36, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '1850/1999', 'alias': 'IPSL-CM5B-LR_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'start_year': 1850, 'end_year': 1999, 'filename': '/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5B-LR/piControl/fx/atmos/fx/r0i0p0/v20120430/areacella/areacella_fx_IPSL-CM5B-LR_piControl_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1999'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rtnt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'rtnt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:derive>{'short_name': 'rtnt', 'standard_name': '', 'long_name': 'TOA Net downward Total Radiation', 'units': 'W m-2'}</preprocessor:derive>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt_derive_input_rlut/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rlut_1850-1999.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip5/rtnt"/>
+  </prov:wasDerivedFrom>
+</prov:document>

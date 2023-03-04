@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_190101-192512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>3981.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2012-07-11T16:46:24Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>N/A (CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-07-11T16:46:24Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://data.giss.nasa.gov/modelE/ar5</attribute:references>
+    <attribute:source>GISS-E2-R-E135CO2x4aF40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 2515019193f1c55327ceb0119627a708</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>ac86796b-b4f6-45f2-9adb-565114af9931</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/GISS-E2-R.nc"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc">
+    <attribute:alias>GISS-E2-R_piControl</attribute:alias>
+    <attribute:dataset>GISS-E2-R</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>4120</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['NASA-GISS']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>32</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>3981</attribute:start_year>
+    <attribute:timerange>3981/4120</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r0i0p0', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip5', 'dataset': 'GISS-E2-R', 'exp': 'piControl', 'recipe_dataset_index': 32, 'institute': ['NASA-GISS'], 'product': ['output1', 'output2'], 'timerange': '3981/4120', 'alias': 'GISS-E2-R_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Atmosphere Grid-Cell Area', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/fx/atmos/fx/r0i0p0/v20160511/areacella/areacella_fx_GISS-E2-R_piControl_r0i0p0.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '3981/4120'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'GISS-E2-R', 'exp': 'piControl', 'recipe_dataset_index': 32, 'institute': ['NASA-GISS'], 'product': ['output1', 'output2'], 'timerange': '3981/4120', 'alias': 'GISS-E2-R_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'GISS-E2-R', 'exp': 'piControl', 'recipe_dataset_index': 32, 'institute': ['NASA-GISS'], 'product': ['output1', 'output2'], 'timerange': '3981/4120', 'alias': 'GISS-E2-R_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'GISS-E2-R', 'exp': 'piControl', 'recipe_dataset_index': 32, 'institute': ['NASA-GISS'], 'product': ['output1', 'output2'], 'timerange': '3981/4120', 'alias': 'GISS-E2-R_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_408101-410512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2011-03-23T13:13:18Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-03-23T13:13:18Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>www.giss.nasa.gov/research/modeling</attribute:references>
+    <attribute:source>GISS-E2-R-E135F40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>bda4cd18-c89a-434c-9784-0103342535cf</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_400601-403012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2011-03-22T13:44:54Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-03-22T13:44:54Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>www.giss.nasa.gov/research/modeling</attribute:references>
+    <attribute:source>GISS-E2-R-E135F40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>30660b94-9657-425e-a447-640fe6c218f7</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/GISS-E2-R.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_190101-192512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_403101-405512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:tcr_cmip5/tas"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/GISS-E2-R.nc">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of GISS-E2-R for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_197601-200012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>3981.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2012-05-29T18:10:47Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>N/A (CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-05-29T18:10:47Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://data.giss.nasa.gov/modelE/ar5</attribute:references>
+    <attribute:source>GISS-E2-R-E135CO2x4aF40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>02a4b7e3-2738-495f-81cd-21eed8c836dd</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_192601-195012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_185001-187512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>3981.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2012-05-25T17:31:00Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>N/A (CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-05-25T17:31:00Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://data.giss.nasa.gov/modelE/ar5</attribute:references>
+    <attribute:source>GISS-E2-R-E135CO2x2aF40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>2237750f-a2a1-4777-a239-e08e2e07eaec</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/GISS-E2-R.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_403101-405512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2011-03-22T17:06:52Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-03-22T17:06:52Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>www.giss.nasa.gov/research/modeling</attribute:references>
+    <attribute:source>GISS-E2-R-E135F40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>5913524e-ecdf-466b-a2bf-7acdd20f86f0</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_400601-403012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_410601-413012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2011-03-23T14:45:28Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-03-23T14:45:28Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>www.giss.nasa.gov/research/modeling</attribute:references>
+    <attribute:source>GISS-E2-R-E135F40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>9b9b351f-3cd9-4e3c-b56e-48b5b606dc85</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_408101-410512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_185001-187512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_197601-200012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_410601-413012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_195101-197512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_187601-190012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc">
+    <attribute:alias>GISS-E2-R_1pctCO2</attribute:alias>
+    <attribute:dataset>GISS-E2-R</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip5</attribute:diagnostic>
+    <attribute:end_year>1989</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['NASA-GISS']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>33</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1850</attribute:start_year>
+    <attribute:timerange>1850/1989</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1850/1989'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'GISS-E2-R', 'exp': '1pctCO2', 'recipe_dataset_index': 33, 'institute': ['NASA-GISS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'GISS-E2-R_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'GISS-E2-R', 'exp': '1pctCO2', 'recipe_dataset_index': 33, 'institute': ['NASA-GISS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'GISS-E2-R_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP5', 'ensemble': 'r1i1p1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip5', 'dataset': 'GISS-E2-R', 'exp': '1pctCO2', 'recipe_dataset_index': 33, 'institute': ['NASA-GISS'], 'product': ['output1', 'output2'], 'timerange': '1850/1989', 'alias': 'GISS-E2-R_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_1pctCO2_r1i1p1_tas_1850-1989.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_405601-408012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_187601-190012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>3981.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2012-05-25T20:17:51Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>N/A (CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-05-25T20:17:51Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://data.giss.nasa.gov/modelE/ar5</attribute:references>
+    <attribute:source>GISS-E2-R-E135CO2x2aF40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>04f8f3ae-1410-41fe-a9b3-26a99e0c2110</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_195101-197512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>3981.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2012-05-29T17:21:23Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>N/A (CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-05-29T17:21:23Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://data.giss.nasa.gov/modelE/ar5</attribute:references>
+    <attribute:source>GISS-E2-R-E135CO2x4aF40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>3164f33d-923f-4146-9f22-016ef6cbf06f</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_405601-408012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2011-03-22T20:23:18Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-03-22T20:23:18Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>www.giss.nasa.gov/research/modeling</attribute:references>
+    <attribute:source>GISS-E2-R-E135F40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>46219c94-e2a4-408b-a880-69c8ed081080</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/1pctCO2/mon/atmos/Amon/r1i1p1/v20160923/tas/tas_Amon_GISS-E2-R_1pctCO2_r1i1p1_192601-195012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>3981.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2012-07-11T15:58:17Z</attribute:creation_date>
+    <attribute:experiment>1 percent per year CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:forcing>N/A (CO2 only)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2012-07-11T15:58:17Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://data.giss.nasa.gov/modelE/ar5</attribute:references>
+    <attribute:source>GISS-E2-R-E135CO2x4aF40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 2515019193f1c55327ceb0119627a708</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 1 percent per year CO2</attribute:title>
+    <attribute:tracking_id>aae6aa2b-0c25-400c-b84b-10e058bb776e</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip5/tas/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_3981-4120.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_398101-400512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip5/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:tcr_cmip5/tcr"/>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NASA-GISS/GISS-E2-R/piControl/mon/atmos/Amon/r1i1p1/v20161004/tas/tas_Amon_GISS-E2-R_piControl_r1i1p1_398101-400512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.7</attribute:cmor_version>
+    <attribute:contact>Kenneth Lo (cdkkl@giss.nasa.gov)</attribute:contact>
+    <attribute:creation_date>2011-03-21T20:26:54Z</attribute:creation_date>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:forcing>N/A</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-03-21T20:26:54Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NASA-GISS</attribute:institute_id>
+    <attribute:institution>NASA/GISS (Goddard Institute for Space Studies) New York, NY</attribute:institution>
+    <attribute:model_id>GISS-E2-R</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>N/A</attribute:parent_experiment>
+    <attribute:parent_experiment_id>N/A</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>N/A</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>www.giss.nasa.gov/research/modeling</attribute:references>
+    <attribute:source>GISS-E2-R-E135F40oQ32 Atmosphere: GISS-E2; Ocean: R</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>GISS-E2-R model output prepared for CMIP5 pre-industrial control</attribute:title>
+    <attribute:tracking_id>93ab2b33-fa7d-4a0c-acd9-4adc401606c2</attribute:tracking_id>
+  </prov:entity>
+</prov:document>

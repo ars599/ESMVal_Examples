@@ -1,0 +1,1213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:software="https://www.esmvaltool.org/software" xmlns:file="https://www.esmvaltool.org/file" xmlns:author="https://www.esmvaltool.org/author" xmlns:task="https://www.esmvaltool.org/task" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:project="https://www.esmvaltool.org/project" xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200301-200312.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:18</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201301-201312.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="recipe:recipe_eyring13jgr_12_simple.yml">
+    <attribute:description>Diagnostics of stratospheric dynamics and chemistry reproducing selected
+figures from Eyring et al. JGR (2013).
+</attribute:description>
+    <attribute:references>['eyring13jgr']</attribute:references>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200201-200212.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201101-201112.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:20</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NIMS-KMA/KACE-1-0-G/historical/r1i1p1f1/Amon/ua/gr/v20191023/ua_Amon_KACE-1-0-G_historical_r1i1p1f1_gr_185001-201412.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/clim"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200801-200812.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:19</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png"/>
+    <prov:agent prov:ref="author:Eyring, Veronika"/>
+  </prov:wasAttributedTo>
+  <prov:agent prov:id="project:EU H2020 project CRESCENDO"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200501-200512.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:16</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:eyring13jgr_fig12/ua"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199901-199912.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200601-200612.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r1i1p1f1/Amon/ua/gn/latest/ua_Amon_ACCESS-ESM1-5_historical_r1i1p1f1_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199701-199712.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:22</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201001-201012.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200901-200912.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:16</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_eyring13jgr_12_simple.yml"/>
+    <prov:agent prov:ref="project:EU H2020 project CRESCENDO"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/clim"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:eyring13jgr_fig12/clim"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_TaiESM1</attribute:alias>
+    <attribute:dataset>TaiESM1</attribute:dataset>
+    <attribute:diagnostic>eyring13jgr_fig12</attribute:diagnostic>
+    <attribute:end_year>2014</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['AS-RCEC']</attribute:institute>
+    <attribute:long_name>Eastward Wind</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ua</attribute:original_short_name>
+    <attribute:preprocessor>zonal</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>4</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>ua</attribute:short_name>
+    <attribute:standard_name>eastward_wind</attribute:standard_name>
+    <attribute:start_year>1995</attribute:start_year>
+    <attribute:timerange>1995/2014</attribute:timerange>
+    <attribute:units>m s-1</attribute:units>
+    <attribute:variable_group>ua</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1995/2014'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'scheme': 'linear', 'levels': [100000.0, 92500.0, 85000.0, 70000.0, 60000.0, 50000.0, 40000.0, 30000.0, 25000.0, 20000.0, 15000.0, 10000.0, 7000.0, 5000.0, 3000.0, 2000.0, 1000.0, 500.0, 100.0]}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'TaiESM1', 'recipe_dataset_index': 4, 'timerange': '1995/2014', 'institute': ['AS-RCEC'], 'activity': 'CMIP', 'alias': 'CMIP6_TaiESM1', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'TaiESM1', 'recipe_dataset_index': 4, 'timerange': '1995/2014', 'institute': ['AS-RCEC'], 'activity': 'CMIP', 'alias': 'CMIP6_TaiESM1', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'TaiESM1', 'recipe_dataset_index': 4, 'timerange': '1995/2014', 'institute': ['AS-RCEC'], 'activity': 'CMIP', 'alias': 'CMIP6_TaiESM1', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14cf0dce4940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:regrid>{'target_grid': '1x1', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc'}</preprocessor:save>
+    <preprocessor:zonal_statistics>{'operator': 'mean'}</preprocessor:zonal_statistics>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199501-199512.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:21</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r1i1p1f1/Amon/ua/gn/latest/ua_Amon_ACCESS-ESM1-5_historical_r1i1p1f1_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>21915.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-11-21T06:04:10Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.30</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CSIRO.ACCESS-ESM1-5.historical.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native atmosphere N96 grid (145x192 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-21T06:04:10Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Commonwealth Scientific and Industrial Research Organisation, Aspendale, Victoria 3195, Australia</attribute:institution>
+    <attribute:institution_id>CSIRO</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CSIRO is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:notes>Exp: ESM-historical; Local ID: HI-05; Variable: ua (['fld_s30i201'])</attribute:notes>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>ACCESS-ESM1-5</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0101-1-1</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:run_variant>forcing: GHG, Oz, SA, Sl, Vl, BC, OC, (GHG = CO2, N2O, CH4, CFC11, CFC12, CFC113, HCFC22, HFC125, HFC134a)</attribute:run_variant>
+    <attribute:source>ACCESS-ESM1.5 (2019): 
+aerosol: CLASSIC (v1.0)
+atmos: HadGAM2 (r1.1, N96; 192 x 145 longitude/latitude; 38 levels; top level 39255 m)
+atmosChem: none
+land: CABLE2.4
+landIce: none
+ocean: ACCESS-OM2 (MOM5, tripolar primarily 1deg; 360 x 300 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: WOMBAT (same grid as ocean)
+seaIce: CICE4.1 (same grid as ocean)</attribute:source>
+    <attribute:source_id>ACCESS-ESM1-5</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(30 April 2019) MD5:e14f55f257cceafb2523e41244962371</attribute:table_info>
+    <attribute:title>ACCESS-ESM1-5 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/b4354f60-cd6e-4d1e-9700-90001a182d7d</attribute:tracking_id>
+    <attribute:variable_id>ua</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+    <attribute:version>v20191115</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200001-200012.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201201-201212.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/clim"/>
+    <prov:trigger prov:ref="recipe:recipe_eyring13jgr_12_simple.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201101-201112.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NIMS-KMA/KACE-1-0-G/historical/r1i1p1f1/Amon/ua/gr/v20191023/ua_Amon_KACE-1-0-G_historical_r1i1p1f1_gr_185001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:contact>Yoon-Jin Lim (yoonjin.lim@korea.kr)</attribute:contact>
+    <attribute:creation_date>2019-10-23T08:52:21Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.30</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NIMS-KMA.KACE-1-0-G.historical.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs1x1</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-10-23T08:52:21Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Institute of Meteorological Sciences/Korea Meteorological Administration, Climate Research Division, Seoho-bukro 33, Seogwipo-si, Jejudo 63568, Republic of Korea</attribute:institution>
+    <attribute:institution_id>NIMS-KMA</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NIMS-KMA is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>KACE-1-0-G</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Evaluation of the Korea Meteorological Administration Advanced Community Earth-system model (K-ACE): doi: 10.1007/s13143-019-00144-7. Lee et al., 2019.</attribute:references>
+    <attribute:source>KACE1.0-G (2018): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: JULES-HadGEM3-GL7.1
+landIce: none
+ocean: MOM4p1 (tripolar primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: CICE-HadGEM3-GSI8 (tripolar primarily 1deg; 360 x 200 longitude/latitude)</attribute:source>
+    <attribute:source_id>KACE-1-0-G</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(30 April 2019) MD5:cc2ae51c23960ce127b4d68ab3d8ac87</attribute:table_info>
+    <attribute:title>KACE-1-0-G output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/593e1e1e-4035-4ccb-b7d2-f8ecff405ac6</attribute:tracking_id>
+    <attribute:variable_id>ua</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199801-199812.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:16</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/Amon/ua/gn/v20200623/ua_Amon_TaiESM1_historical_r1i1p1f1_gn_185001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>Hybrid-restart from year 0671-01-01 of piControl</attribute:branch_method>
+    <attribute:branch_time>0.0</attribute:branch_time>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>171550.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.5.0</attribute:cmor_version>
+    <attribute:contact>Dr. Wei-Liang Lee (leelupin@gate.sinica.edu.tw)</attribute:contact>
+    <attribute:creation_date>2020-06-08T08:41:02Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.31</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.AS-RCEC.TaiESM1.historical.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>finite-volume grid with 0.9x1.25 degree lat/lon resolution</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2020-06-08T08:41:02Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Research Center for Environmental Changes, Academia Sinica, Nankang, Taipei 11529, Taiwan</attribute:institution>
+    <attribute:institution_id>AS-RCEC</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by NCC is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_id>TaiESM1</attribute:model_id>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>TaiESM1</attribute:parent_source_id>
+    <attribute:parent_sub_experiment_id>none</attribute:parent_sub_experiment_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>10.5194/gmd-2019-377</attribute:references>
+    <attribute:run_variant>N/A</attribute:run_variant>
+    <attribute:source>TaiESM 1.0 (2018): 
+aerosol: SNAP (same grid as atmos)
+atmos: TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)
+atmosChem: SNAP (same grid as atmos)
+land: CLM4.0 (same grid as atmos)
+landIce: none
+ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: CICE4</attribute:source>
+    <attribute:source_id>TaiESM1</attribute:source_id>
+    <attribute:source_type>AOGCM AER BGC</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(24 July 2019) MD5:0bb394a356ef9d214d027f1aca45853e</attribute:table_info>
+    <attribute:title>TaiESM1 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/c21d64d9-966e-470d-a967-a26c2cb67948</attribute:tracking_id>
+    <attribute:variable_id>ua</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:entity prov:id="file:/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r1i1p1f1/Amon/ua/gn/latest/ua_Amon_ACCESS-CM2_historical_r1i1p1f1_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-11-08T12:19:55Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.30</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CSIRO-ARCCSS.ACCESS-CM2.historical.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native atmosphere N96 grid (144x192 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-11-08T12:19:55Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>CSIRO (Commonwealth Scientific and Industrial Research Organisation, Aspendale, Victoria 3195, Australia), ARCCSS (Australian Research Council Centre of Excellence for Climate System Science)</attribute:institution>
+    <attribute:institution_id>CSIRO-ARCCSS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CSIRO is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:notes>Exp: CM2-historical; Local ID: bj594; Variable: ua (['fld_s30i201'])</attribute:notes>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>ACCESS-CM2</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0950-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:run_variant>forcing: GHG, Oz, SA, Sl, Vl, BC, OC, (GHG = CO2, N2O, CH4, CFC11, CFC12, CFC113, HCFC22, HFC125, HFC134a)</attribute:run_variant>
+    <attribute:source>ACCESS-CM2 (2019): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: CABLE2.5
+landIce: none
+ocean: ACCESS-OM2 (GFDL-MOM5, tripolar primarily 1deg; 360 x 300 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: CICE5.1.2 (same grid as ocean)</attribute:source>
+    <attribute:source_id>ACCESS-CM2</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(30 April 2019) MD5:e14f55f257cceafb2523e41244962371</attribute:table_info>
+    <attribute:title>ACCESS-CM2 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/28c71824-697f-4e1c-91b6-28a17e226cad</attribute:tracking_id>
+    <attribute:variable_id>ua</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+    <attribute:version>v20191108</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200101-200112.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:20</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200701-200712.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:18</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/Amon/ua/gn/v20200623/ua_Amon_TaiESM1_historical_r1i1p1f1_gn_185001-201412.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200101-200112.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200901-200912.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/clim"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png">
+    <attribute:caption>Long-term mean and trend of ua</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:e13fig12_exp_MMM>historical</attribute:e13fig12_exp_MMM>
+    <attribute:e13fig12_multimean>True</attribute:e13fig12_multimean>
+    <attribute:e13fig12_season>DJF</attribute:e13fig12_season>
+    <attribute:plot_types>('profile',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['eyring13jgr']</attribute:references>
+    <attribute:script>clim</attribute:script>
+    <attribute:script_file>eyring13jgr/eyring13jgr_fig12.ncl</attribute:script_file>
+    <attribute:statistics>('mean', 'temporal trend')</attribute:statistics>
+    <attribute:themes>('chemistry',)</attribute:themes>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201301-201312.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:18</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/ua/gn/v20190624/ua_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-06-19T11:57:01Z</attribute:creation_date>
+    <attribute:cv_version>6.2.20.1</attribute:cv_version>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>3</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MOHC.HadGEM3-GC31-LL.historical.none.r1i1p1f3</attribute:further_info_url>
+    <attribute:grid>Native N96 grid (UV points); 192 x 145 longitude/latitude</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-06-19T11:56:42Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+2019-06-19T11:56:28Z MIP Convert v1.1.0, Python v2.7.12, Iris v1.13.0, Numpy v1.13.3, netcdftime v1.4.1.</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK</attribute:institution>
+    <attribute:institution_id>MOHC</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by the Met Office Hadley Centre is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https://ukesm.ac.uk/cmip6. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:mo_runid>u-bg466</attribute:mo_runid>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>HadGEM3-GC31-LL</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01-00-00-00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>HadGEM3-GC31-LL (2016): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: JULES-HadGEM3-GL7.1
+landIce: none
+ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)
+ocnBgchem: none
+seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)</attribute:source>
+    <attribute:source_id>HadGEM3-GC31-LL</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(13 December 2018) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>HadGEM3-GC31-LL output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/d1a7ef02-f361-4030-ab30-927fad94a55c</attribute:tracking_id>
+    <attribute:variable_id>ua</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f3</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_ACCESS-CM2</attribute:alias>
+    <attribute:dataset>ACCESS-CM2</attribute:dataset>
+    <attribute:diagnostic>eyring13jgr_fig12</attribute:diagnostic>
+    <attribute:end_year>2014</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>CSIRO-ARCCSS</attribute:institute>
+    <attribute:long_name>Eastward Wind</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ua</attribute:original_short_name>
+    <attribute:preprocessor>zonal</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>ua</attribute:short_name>
+    <attribute:standard_name>eastward_wind</attribute:standard_name>
+    <attribute:start_year>1995</attribute:start_year>
+    <attribute:timerange>1995/2014</attribute:timerange>
+    <attribute:units>m s-1</attribute:units>
+    <attribute:variable_group>ua</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1995/2014'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'scheme': 'linear', 'levels': [100000.0, 92500.0, 85000.0, 70000.0, 60000.0, 50000.0, 40000.0, 30000.0, 25000.0, 20000.0, 15000.0, 10000.0, 7000.0, 5000.0, 3000.0, 2000.0, 1000.0, 500.0, 100.0]}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ACCESS-CM2', 'institute': 'CSIRO-ARCCSS', 'recipe_dataset_index': 0, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'CMIP6_ACCESS-CM2', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ACCESS-CM2', 'institute': 'CSIRO-ARCCSS', 'recipe_dataset_index': 0, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'CMIP6_ACCESS-CM2', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ACCESS-CM2', 'institute': 'CSIRO-ARCCSS', 'recipe_dataset_index': 0, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'CMIP6_ACCESS-CM2', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14cf0dce4940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:regrid>{'target_grid': '1x1', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc'}</preprocessor:save>
+    <preprocessor:zonal_statistics>{'operator': 'mean'}</preprocessor:zonal_statistics>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/clim"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+    <prov:trigger prov:ref="recipe:recipe_eyring13jgr_12_simple.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/clim"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>OBS6</attribute:alias>
+    <attribute:dataset>ERA-Interim</attribute:dataset>
+    <attribute:diagnostic>eyring13jgr_fig12</attribute:diagnostic>
+    <attribute:end_year>2014</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr</attribute:grid>
+    <attribute:long_name>Eastward Wind</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ua</attribute:original_short_name>
+    <attribute:preprocessor>zonal</attribute:preprocessor>
+    <attribute:project>OBS6</attribute:project>
+    <attribute:recipe_dataset_index>5</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>ua</attribute:short_name>
+    <attribute:standard_name>eastward_wind</attribute:standard_name>
+    <attribute:start_year>1995</attribute:start_year>
+    <attribute:tier>3</attribute:tier>
+    <attribute:timerange>1995/2014</attribute:timerange>
+    <attribute:type>reanaly</attribute:type>
+    <attribute:units>m s-1</attribute:units>
+    <attribute:variable_group>ua</attribute:variable_group>
+    <attribute:version>1</attribute:version>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1995/2014'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'OBS6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'OBS6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'OBS6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gr', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ERA-Interim', 'type': 'reanaly', 'version': 1, 'tier': 3, 'recipe_dataset_index': 5, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'OBS6', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc', 'start_year': 1995, 'end_year': 2014, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'OBS6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gr', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ERA-Interim', 'type': 'reanaly', 'version': 1, 'tier': 3, 'recipe_dataset_index': 5, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'OBS6', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc', 'start_year': 1995, 'end_year': 2014, 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'OBS6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gr', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ERA-Interim', 'type': 'reanaly', 'version': 1, 'tier': 3, 'recipe_dataset_index': 5, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'OBS6', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc', 'start_year': 1995, 'end_year': 2014, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14cf0dce4940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:regrid>{'target_grid': '1x1', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc'}</preprocessor:save>
+    <preprocessor:zonal_statistics>{'operator': 'mean'}</preprocessor:zonal_statistics>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199901-199912.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:20</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201401-201412.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:19</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/Amon/ua/gn/v20190624/ua_Amon_HadGEM3-GC31-LL_historical_r1i1p1f3_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201401-201412.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_ACCESS-ESM1-5</attribute:alias>
+    <attribute:dataset>ACCESS-ESM1-5</attribute:dataset>
+    <attribute:diagnostic>eyring13jgr_fig12</attribute:diagnostic>
+    <attribute:end_year>2014</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>CSIRO</attribute:institute>
+    <attribute:long_name>Eastward Wind</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ua</attribute:original_short_name>
+    <attribute:preprocessor>zonal</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>1</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>ua</attribute:short_name>
+    <attribute:standard_name>eastward_wind</attribute:standard_name>
+    <attribute:start_year>1995</attribute:start_year>
+    <attribute:timerange>1995/2014</attribute:timerange>
+    <attribute:units>m s-1</attribute:units>
+    <attribute:variable_group>ua</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1995/2014'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'scheme': 'linear', 'levels': [100000.0, 92500.0, 85000.0, 70000.0, 60000.0, 50000.0, 40000.0, 30000.0, 25000.0, 20000.0, 15000.0, 10000.0, 7000.0, 5000.0, 3000.0, 2000.0, 1000.0, 500.0, 100.0]}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ACCESS-ESM1-5', 'institute': 'CSIRO', 'recipe_dataset_index': 1, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'CMIP6_ACCESS-ESM1-5', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ACCESS-ESM1-5', 'institute': 'CSIRO', 'recipe_dataset_index': 1, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'CMIP6_ACCESS-ESM1-5', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'ACCESS-ESM1-5', 'institute': 'CSIRO', 'recipe_dataset_index': 1, 'timerange': '1995/2014', 'activity': 'CMIP', 'alias': 'CMIP6_ACCESS-ESM1-5', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14cf0dce4940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:regrid>{'target_grid': '1x1', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc'}</preprocessor:save>
+    <preprocessor:zonal_statistics>{'operator': 'mean'}</preprocessor:zonal_statistics>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201201-201212.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:20</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_eyring13jgr_12_simple.yml"/>
+    <prov:agent prov:ref="author:Cionni, Irene"/>
+  </prov:wasAttributedTo>
+  <prov:agent prov:id="author:Cionni, Irene">
+    <attribute:institute>ENEA, Italy</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0002-0591-9193</attribute:orcid>
+  </prov:agent>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199601-199612.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:16</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200401-200412.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:16</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Eyring, Veronika">
+    <attribute:email>veronika.eyring@dlr.de</attribute:email>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0002-6887-4885</attribute:orcid>
+  </prov:agent>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200001-200012.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:20</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200601-200612.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:19</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/clim"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r1i1p1f1/Amon/ua/gn/latest/ua_Amon_ACCESS-CM2_historical_r1i1p1f1_gn_195001-201412.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200501-200512.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200801-200812.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200201-200212.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:18</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200301-200312.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_TaiESM1_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199601-199612.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199701-199712.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200701-200712.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199501-199512.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-ESM1-5_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_HadGEM3-GC31-LL</attribute:alias>
+    <attribute:dataset>HadGEM3-GC31-LL</attribute:dataset>
+    <attribute:diagnostic>eyring13jgr_fig12</attribute:diagnostic>
+    <attribute:end_year>2014</attribute:end_year>
+    <attribute:ensemble>r1i1p1f3</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MOHC', 'NERC']</attribute:institute>
+    <attribute:long_name>Eastward Wind</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ua</attribute:original_short_name>
+    <attribute:preprocessor>zonal</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>2</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>ua</attribute:short_name>
+    <attribute:standard_name>eastward_wind</attribute:standard_name>
+    <attribute:start_year>1995</attribute:start_year>
+    <attribute:timerange>1995/2014</attribute:timerange>
+    <attribute:units>m s-1</attribute:units>
+    <attribute:variable_group>ua</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1995/2014'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'scheme': 'linear', 'levels': [100000.0, 92500.0, 85000.0, 70000.0, 60000.0, 50000.0, 40000.0, 30000.0, 25000.0, 20000.0, 15000.0, 10000.0, 7000.0, 5000.0, 3000.0, 2000.0, 1000.0, 500.0, 100.0]}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f3', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'HadGEM3-GC31-LL', 'recipe_dataset_index': 2, 'timerange': '1995/2014', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f3', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'HadGEM3-GC31-LL', 'recipe_dataset_index': 2, 'timerange': '1995/2014', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gn', 'ensemble': 'r1i1p1f3', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'HadGEM3-GC31-LL', 'recipe_dataset_index': 2, 'timerange': '1995/2014', 'institute': ['MOHC', 'NERC'], 'activity': 'CMIP', 'alias': 'CMIP6_HadGEM3-GC31-LL', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14cf0dce4940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:regrid>{'target_grid': '1x1', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc'}</preprocessor:save>
+    <preprocessor:zonal_statistics>{'operator': 'mean'}</preprocessor:zonal_statistics>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_KACE-1-0-G</attribute:alias>
+    <attribute:dataset>KACE-1-0-G</attribute:dataset>
+    <attribute:diagnostic>eyring13jgr_fig12</attribute:diagnostic>
+    <attribute:end_year>2014</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr</attribute:grid>
+    <attribute:institute>['NIMS-KMA']</attribute:institute>
+    <attribute:long_name>Eastward Wind</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ua</attribute:original_short_name>
+    <attribute:preprocessor>zonal</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>3</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>ERA-Interim</attribute:reference_dataset>
+    <attribute:short_name>ua</attribute:short_name>
+    <attribute:standard_name>eastward_wind</attribute:standard_name>
+    <attribute:start_year>1995</attribute:start_year>
+    <attribute:timerange>1995/2014</attribute:timerange>
+    <attribute:units>m s-1</attribute:units>
+    <attribute:variable_group>ua</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '1995/2014'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ua', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'scheme': 'linear', 'levels': [100000.0, 92500.0, 85000.0, 70000.0, 60000.0, 50000.0, 40000.0, 30000.0, 25000.0, 20000.0, 15000.0, 10000.0, 7000.0, 5000.0, 3000.0, 2000.0, 1000.0, 500.0, 100.0]}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gr', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'KACE-1-0-G', 'recipe_dataset_index': 3, 'timerange': '1995/2014', 'institute': ['NIMS-KMA'], 'activity': 'CMIP', 'alias': 'CMIP6_KACE-1-0-G', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gr', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'KACE-1-0-G', 'recipe_dataset_index': 3, 'timerange': '1995/2014', 'institute': ['NIMS-KMA'], 'activity': 'CMIP', 'alias': 'CMIP6_KACE-1-0-G', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'zonal', 'reference_dataset': 'ERA-Interim', 'project': 'CMIP6', 'mip': 'Amon', 'exp': 'historical', 'grid': 'gr', 'ensemble': 'r1i1p1f1', 'variable_group': 'ua', 'short_name': 'ua', 'diagnostic': 'eyring13jgr_fig12', 'dataset': 'KACE-1-0-G', 'recipe_dataset_index': 3, 'timerange': '1995/2014', 'institute': ['NIMS-KMA'], 'activity': 'CMIP', 'alias': 'CMIP6_KACE-1-0-G', 'original_short_name': 'ua', 'standard_name': 'eastward_wind', 'long_name': 'Eastward Wind', 'units': 'm s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14cf0dce4940&gt;}</preprocessor:load>
+    <preprocessor:mask_fillvalues>{'threshold_fraction': 0.95}</preprocessor:mask_fillvalues>
+    <preprocessor:regrid>{'target_grid': '1x1', 'scheme': 'linear'}</preprocessor:regrid>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_KACE-1-0-G_Amon_historical_r1i1p1f1_ua_1995-2014.nc'}</preprocessor:save>
+    <preprocessor:zonal_statistics>{'operator': 'mean'}</preprocessor:zonal_statistics>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim/eyring13f12_ua_MMM_historical.png"/>
+    <prov:agent prov:ref="author:Cionni, Irene"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_200401-200412.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/OBS6_ERA-Interim_reanaly_1_Amon_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_199801-199812.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/obsdata/Tier3/ERA-Interim/OBS6_ERA-Interim_reanaly_1_Amon_ua_201001-201012.nc">
+    <attribute:Conventions>CF-1.7</attribute:Conventions>
+    <attribute:comment>'Contains modified Copernicus Climate Change Service Information 2020'</attribute:comment>
+    <attribute:history>Created on 2020-07-30 13:33:18</attribute:history>
+    <attribute:host>mlogin100</attribute:host>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>reanaly</attribute:modeling_realm>
+    <attribute:project_id>OBS6</attribute:project_id>
+    <attribute:reference>doi:10.1002/qj.828</attribute:reference>
+    <attribute:source>www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim</attribute:source>
+    <attribute:tier>3</attribute:tier>
+    <attribute:title>ERA-Interim data reformatted for ESMValTool v2.0.0</attribute:title>
+    <attribute:user>b309057</attribute:user>
+    <attribute:version>1</attribute:version>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_ACCESS-CM2_Amon_historical_r1i1p1f1_ua_1995-2014.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/CMIP6_HadGEM3-GC31-LL_Amon_historical_r1i1p1f3_ua_1995-2014.nc"/>
+    <prov:activity prov:ref="task:eyring13jgr_fig12/ua"/>
+  </prov:wasDerivedFrom>
+</prov:document>

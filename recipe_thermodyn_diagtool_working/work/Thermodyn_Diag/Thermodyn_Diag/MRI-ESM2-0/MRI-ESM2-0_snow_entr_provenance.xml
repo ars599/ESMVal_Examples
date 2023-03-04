@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:software="https://www.esmvaltool.org/software" xmlns:project="https://www.esmvaltool.org/project" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/ts/gn/v20190222/ts_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ts"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/prsn/gn/v20190222/prsn_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-02-20T02:37:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MRI.MRI-ESM2-0.historical.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native atmosphere TL159 gaussian grid (160x320 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-02-20T02:37:12Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+Output from run-Dr060_historical_101 (sfc_avr_mon.ctl)</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Meteorological Research Institute, Tsukuba, Ibaraki 305-0052, Japan</attribute:institution>
+    <attribute:institution_id>MRI</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by MRI is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>MRI-ESM2-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>MRI-ESM2.0 (2017): 
+aerosol: MASINGAR mk2r4 (TL95; 192 x 96 longitude/latitude; 80 levels; top level 0.01 hPa)
+atmos: MRI-AGCM3.5 (TL159; 320 x 160 longitude/latitude; 80 levels; top level 0.01 hPa)
+atmosChem: MRI-CCM2.1 (T42; 128 x 64 longitude/latitude; 80 levels; top level 0.01 hPa)
+land: HAL 1.0
+landIce: none
+ocean: MRI.COM4.4 (tripolar primarily 0.5 deg latitude/1 deg longitude with meridional refinement down to 0.3 deg within 10 degrees north and south of the equator; 360 x 364 longitude/latitude; 61 levels; top grid cell 0-2 m)
+ocnBgchem: MRI.COM4.4
+seaIce: MRI.COM4.4</attribute:source>
+    <attribute:source_id>MRI-ESM2-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER CHEM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>MRI-ESM2-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/5f2cbb19-a661-4b18-a3f2-d44deb303c35</attribute:tracking_id>
+    <attribute:variable_id>prsn</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:agent prov:id="project:DLR project ESMVal"/>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="project:DLR project ESMVal"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/ts/gn/v20190222/ts_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-02-20T02:26:52Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MRI.MRI-ESM2-0.historical.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native atmosphere TL159 gaussian grid (160x320 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-02-20T02:26:52Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+Output from run-Dr060_historical_101 (sfc_avr_mon.ctl)</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Meteorological Research Institute, Tsukuba, Ibaraki 305-0052, Japan</attribute:institution>
+    <attribute:institution_id>MRI</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by MRI is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>MRI-ESM2-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>MRI-ESM2.0 (2017): 
+aerosol: MASINGAR mk2r4 (TL95; 192 x 96 longitude/latitude; 80 levels; top level 0.01 hPa)
+atmos: MRI-AGCM3.5 (TL159; 320 x 160 longitude/latitude; 80 levels; top level 0.01 hPa)
+atmosChem: MRI-CCM2.1 (T42; 128 x 64 longitude/latitude; 80 levels; top level 0.01 hPa)
+land: HAL 1.0
+landIce: none
+ocean: MRI.COM4.4 (tripolar primarily 0.5 deg latitude/1 deg longitude with meridional refinement down to 0.3 deg within 10 degrees north and south of the equator; 360 x 364 longitude/latitude; 61 levels; top grid cell 0-2 m)
+ocnBgchem: MRI.COM4.4
+seaIce: MRI.COM4.4</attribute:source>
+    <attribute:source_id>MRI-ESM2-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER CHEM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>MRI-ESM2-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/83b81c22-3ba4-45c0-9e9b-3f94038f7cb7</attribute:tracking_id>
+    <attribute:variable_id>ts</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:activity prov:id="task:Thermodyn_Diag/ps"/>
+  <prov:agent prov:id="author:Koldunov, Nikolay">
+    <attribute:email>nikolay.koldunov@awi.de</attribute:email>
+    <attribute:institute>AWI, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0002-3365-8146</attribute:orcid>
+  </prov:agent>
+  <prov:activity prov:id="task:Thermodyn_Diag/ts"/>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_MRI-ESM2-0</attribute:alias>
+    <attribute:dataset>MRI-ESM2-0</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MRI']</attribute:institute>
+    <attribute:long_name>Specific Humidity</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>hus</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>9</attribute:recipe_dataset_index>
+    <attribute:short_name>hus</attribute:short_name>
+    <attribute:standard_name>specific_humidity</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>1</attribute:units>
+    <attribute:variable_group>hus</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'hus', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'hus', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/prsn"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="recipe:recipe_thermodyn_diagtool.yml">
+    <attribute:description>Recipe for the computation of various aspects associated with
+the thermodynamics of the climate system, such as energy and
+water mass budgets, meridional enthalpy transports, the Lorenz
+Energy Cycle and the material entropy production.
+</attribute:description>
+    <attribute:references>['lembo16climdyn', 'lucarini14revgeop']</attribute:references>
+  </prov:entity>
+  <prov:activity prov:id="task:Thermodyn_Diag/hus"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="project:DFG Project TRR-181, Energy transfers in Atmosphere and Ocean"/>
+  </prov:wasAttributedTo>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/hus"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="author:Koldunov, Nikolay"/>
+  </prov:wasAttributedTo>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr.nc"/>
+    <prov:agent prov:ref="author:Lembo, Valerio"/>
+  </prov:wasAttributedTo>
+  <prov:activity prov:id="task:Thermodyn_Diag/prsn"/>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ts"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_MRI-ESM2-0</attribute:alias>
+    <attribute:dataset>MRI-ESM2-0</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MRI']</attribute:institute>
+    <attribute:long_name>Surface Air Pressure</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ps</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>9</attribute:recipe_dataset_index>
+    <attribute:short_name>ps</attribute:short_name>
+    <attribute:standard_name>surface_air_pressure</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>Pa</attribute:units>
+    <attribute:variable_group>ps</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ps', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ps', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_MRI-ESM2-0</attribute:alias>
+    <attribute:dataset>MRI-ESM2-0</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MRI']</attribute:institute>
+    <attribute:long_name>Snowfall Flux</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>prsn</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>9</attribute:recipe_dataset_index>
+    <attribute:short_name>prsn</attribute:short_name>
+    <attribute:standard_name>snowfall_flux</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>kg m-2 s-1</attribute:units>
+    <attribute:variable_group>prsn</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'prsn', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'prsn', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_MRI-ESM2-0</attribute:alias>
+    <attribute:dataset>MRI-ESM2-0</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>['MRI']</attribute:institute>
+    <attribute:long_name>Surface Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ts</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>9</attribute:recipe_dataset_index>
+    <attribute:short_name>ts</attribute:short_name>
+    <attribute:standard_name>surface_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>ts</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ts', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ts', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'MRI-ESM2-0', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'recipe_dataset_index': 9, 'timerange': '2000/2005', 'institute': ['MRI'], 'activity': 'CMIP', 'alias': 'CMIP6_MRI-ESM2-0', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ts_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr.nc">
+    <attribute:caption>Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model MRI-ESM2-0.</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:entr>True</attribute:entr>
+    <attribute:lec>True</attribute:lec>
+    <attribute:lsm>True</attribute:lsm>
+    <attribute:met>3</attribute:met>
+    <attribute:plot_type>['geo']</attribute:plot_type>
+    <attribute:references>['lembo16climdyn', 'lembo19gmdd', 'lucarini14revgeop']</attribute:references>
+    <attribute:script>Thermodyn_Diag</attribute:script>
+    <attribute:script_file>thermodyn_diagtool/thermodyn_diagnostics.py</attribute:script_file>
+    <attribute:statistics>('mean',)</attribute:statistics>
+    <attribute:wat>True</attribute:wat>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_ps_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/ps/gn/v20190222/ps_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ps"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/ps/gn/v20190222/ps_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-02-20T02:33:34Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MRI.MRI-ESM2-0.historical.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native atmosphere TL159 gaussian grid (160x320 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-02-20T02:33:34Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+Output from run-Dr060_historical_101 (sfc_avr_mon.ctl)</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Meteorological Research Institute, Tsukuba, Ibaraki 305-0052, Japan</attribute:institution>
+    <attribute:institution_id>MRI</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by MRI is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>MRI-ESM2-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>MRI-ESM2.0 (2017): 
+aerosol: MASINGAR mk2r4 (TL95; 192 x 96 longitude/latitude; 80 levels; top level 0.01 hPa)
+atmos: MRI-AGCM3.5 (TL159; 320 x 160 longitude/latitude; 80 levels; top level 0.01 hPa)
+atmosChem: MRI-CCM2.1 (T42; 128 x 64 longitude/latitude; 80 levels; top level 0.01 hPa)
+land: HAL 1.0
+landIce: none
+ocean: MRI.COM4.4 (tripolar primarily 0.5 deg latitude/1 deg longitude with meridional refinement down to 0.3 deg within 10 degrees north and south of the equator; 360 x 364 longitude/latitude; 61 levels; top grid cell 0-2 m)
+ocnBgchem: MRI.COM4.4
+seaIce: MRI.COM4.4</attribute:source>
+    <attribute:source_id>MRI-ESM2-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER CHEM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>MRI-ESM2-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/8edd64d0-4801-4ec1-b651-56d19dcc0a67</attribute:tracking_id>
+    <attribute:variable_id>ps</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Lembo, Valerio">
+    <attribute:institute>CEN, University of Hamburg, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-6085-5914</attribute:orcid>
+  </prov:agent>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_hus_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/hus/gn/v20190308/hus_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_200001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/hus"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ps"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_MRI-ESM2-0_Amon_historical_r1i1p1f1_prsn_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/prsn/gn/v20190222/prsn_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/prsn"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="project:DFG Project TRR-181, Energy transfers in Atmosphere and Ocean"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Amon/hus/gn/v20190308/hus_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_200001-201412.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:creation_date>2019-03-01T08:24:32Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.MRI.MRI-ESM2-0.historical.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native atmosphere TL159 gaussian grid (160x320 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:history>2019-03-01T08:24:32Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.;
+Output from run-Dr060_historical_101 (atm_avr_mon.ctl)</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>Meteorological Research Institute, Tsukuba, Ibaraki 305-0052, Japan</attribute:institution>
+    <attribute:institution_id>MRI</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by MRI is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>MRI-ESM2-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>MRI-ESM2.0 (2017): 
+aerosol: MASINGAR mk2r4 (TL95; 192 x 96 longitude/latitude; 80 levels; top level 0.01 hPa)
+atmos: MRI-AGCM3.5 (TL159; 320 x 160 longitude/latitude; 80 levels; top level 0.01 hPa)
+atmosChem: MRI-CCM2.1 (T42; 128 x 64 longitude/latitude; 80 levels; top level 0.01 hPa)
+land: HAL 1.0
+landIce: none
+ocean: MRI.COM4.4 (tripolar primarily 0.5 deg latitude/1 deg longitude with meridional refinement down to 0.3 deg within 10 degrees north and south of the equator; 360 x 364 longitude/latitude; 61 levels; top grid cell 0-2 m)
+ocnBgchem: MRI.COM4.4
+seaIce: MRI.COM4.4</attribute:source>
+    <attribute:source_id>MRI-ESM2-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER CHEM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(14 December 2018) MD5:b2d32d1a0d9b196411429c8895329d8f</attribute:table_info>
+    <attribute:title>MRI-ESM2-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/4f635760-2365-4606-978c-877183618ec6</attribute:tracking_id>
+    <attribute:variable_id>hus</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:activity prov:id="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="author:Lembo, Valerio"/>
+  </prov:wasAttributedTo>
+</prov:document>

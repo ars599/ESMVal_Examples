@@ -1,0 +1,27 @@
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+calc_grading: true
+exit_on_ncl_warning: false
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/preproc/sm/sm/sm_info.ncl
+legend_outside: true
+log_level: debug
+metric:
+- RMSD
+normalization:
+- centered_median
+output_file_type: png
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/plots/sm/grading
+plot_stddev: ref_model
+plot_type: cycle_latlon
+realms:
+- land
+recipe: recipe_perfmetrics_CMIP5_simple.yml
+region: global
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/run/sm/grading
+script: grading
+styleset: CMIP5
+themes:
+- phys
+time_avg: monthlyclim
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_perfmetrics_CMIP5_simple_20230302_073631/work/sm/grading

@@ -1,0 +1,1101 @@
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/ACCESS1-0.png
+: &id001
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-0_Amon_abrupt4xCO2_r1i1p1_tas_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-0_Amon_piControl_r1i1p1_tas_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-0_Amon_abrupt4xCO2_r1i1p1_rtnt_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-0_Amon_piControl_r1i1p1_rtnt_0300-0449.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for ACCESS1-0 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/ACCESS1-3.png
+: &id002
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-3_Amon_abrupt4xCO2_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-3_Amon_piControl_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-3_Amon_abrupt4xCO2_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-3_Amon_piControl_r1i1p1_rtnt_0250-0399.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for ACCESS1-3 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/BNU-ESM.png: &id003
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_BNU-ESM_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_BNU-ESM_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_BNU-ESM_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_BNU-ESM_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for BNU-ESM (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/CCSM4.png: &id004
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CCSM4_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CCSM4_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CCSM4_Amon_piControl_r1i1p1_rtnt_0250-0399.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for CCSM4 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/CNRM-CM5.png: &id005
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CNRM-CM5_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CNRM-CM5_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CNRM-CM5_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CNRM-CM5_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for CNRM-CM5 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/CSIRO-Mk3-6-0.png
+: &id006
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_piControl_r1i1p1_tas_0104-0253.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_piControl_r1i1p1_rtnt_0104-0253.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for CSIRO-Mk3-6-0 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/CanESM2.png: &id007
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CanESM2_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CanESM2_Amon_piControl_r1i1p1_tas_2321-2470.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CanESM2_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CanESM2_Amon_piControl_r1i1p1_rtnt_2321-2470.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for CanESM2 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/FGOALS-g2.png
+: &id008
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-g2_Amon_abrupt4xCO2_r1i1p1_tas_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-g2_Amon_abrupt4xCO2_r1i1p1_rtnt_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_rtnt_0490-0639.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for FGOALS-g2 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/FGOALS-s2.png
+: &id009
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-s2_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-s2_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-s2_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-s2_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for FGOALS-s2 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/GFDL-CM3.png: &id010
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-CM3_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-CM3_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-CM3_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-CM3_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for GFDL-CM3 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/GFDL-ESM2G.png
+: &id011
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2G_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2G_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2G_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2G_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for GFDL-ESM2G (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/GFDL-ESM2M.png
+: &id012
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2M_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2M_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2M_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2M_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for GFDL-ESM2M (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/GISS-E2-H.png
+: &id013
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-H_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-H_Amon_piControl_r1i1p1_tas_2660-2809.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-H_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-H_Amon_piControl_r1i1p1_rtnt_2660-2809.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for GISS-E2-H (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/GISS-E2-R.png
+: &id014
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-R_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_4200-4349.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-R_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_rtnt_4200-4349.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for GISS-E2-R (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/HadGEM2-ES.png
+: &id015
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_HadGEM2-ES_Amon_abrupt4xCO2_r1i1p1_tas_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_HadGEM2-ES_Amon_abrupt4xCO2_r1i1p1_rtnt_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_rtnt_1860-2009.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for HadGEM2-ES (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/IPSL-CM5A-LR.png
+: &id016
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/CMIP5_IPSL-CM5A-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/CMIP5_IPSL-CM5A-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/CMIP5_IPSL-CM5A-LR_Amon_abrupt4xCO2_r1i1p1_rtmt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/CMIP5_IPSL-CM5A-LR_Amon_piControl_r1i1p1_rtmt_1850-1999.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for IPSL-CM5A-LR (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/IPSL-CM5B-LR.png
+: &id017
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for IPSL-CM5B-LR (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/MIROC-ESM.png
+: &id018
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC-ESM_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC-ESM_Amon_piControl_r1i1p1_tas_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC-ESM_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC-ESM_Amon_piControl_r1i1p1_rtnt_1880-2029.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for MIROC-ESM (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/MIROC5.png: &id019
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC5_Amon_abrupt4xCO2_r1i1p1_tas_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC5_Amon_abrupt4xCO2_r1i1p1_rtnt_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC5_Amon_piControl_r1i1p1_rtnt_2100-2249.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for MIROC5 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/MPI-ESM-LR.png
+: &id020
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-LR_Amon_piControl_r1i1p1_tas_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-LR_Amon_piControl_r1i1p1_rtnt_1880-2029.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for MPI-ESM-LR (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/MPI-ESM-MR.png
+: &id021
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-MR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-MR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-MR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-MR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for MPI-ESM-MR (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/MPI-ESM-P.png
+: &id022
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-P_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-P_Amon_piControl_r1i1p1_tas_1866-2015.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-P_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-P_Amon_piControl_r1i1p1_rtnt_1866-2015.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for MPI-ESM-P (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/MRI-CGCM3.png
+: &id023
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MRI-CGCM3_Amon_abrupt4xCO2_r1i1p1_tas_1851-2000.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MRI-CGCM3_Amon_piControl_r1i1p1_tas_1891-2040.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MRI-CGCM3_Amon_abrupt4xCO2_r1i1p1_rtnt_1851-2000.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MRI-CGCM3_Amon_piControl_r1i1p1_rtnt_1891-2040.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for MRI-CGCM3 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/MultiModelMean.png
+: &id024
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-0_Amon_abrupt4xCO2_r1i1p1_tas_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-0_Amon_piControl_r1i1p1_tas_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-3_Amon_abrupt4xCO2_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-3_Amon_piControl_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1_Amon_abrupt4xCO2_r1i1p1_tas_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1_Amon_piControl_r1i1p1_tas_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1-m_Amon_abrupt4xCO2_r1i1p1_tas_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1-m_Amon_piControl_r1i1p1_tas_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_BNU-ESM_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_BNU-ESM_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CanESM2_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CanESM2_Amon_piControl_r1i1p1_tas_2321-2470.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CCSM4_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CNRM-CM5_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CNRM-CM5_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_piControl_r1i1p1_tas_0104-0253.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-g2_Amon_abrupt4xCO2_r1i1p1_tas_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-s2_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-s2_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-CM3_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-CM3_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2G_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2G_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2M_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2M_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-H_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-H_Amon_piControl_r1i1p1_tas_2660-2809.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-R_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_4200-4349.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_HadGEM2-ES_Amon_abrupt4xCO2_r1i1p1_tas_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_inmcm4_Amon_abrupt4xCO2_r1i1p1_tas_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_inmcm4_Amon_piControl_r1i1p1_tas_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/CMIP5_IPSL-CM5A-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/CMIP5_IPSL-CM5A-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC-ESM_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC-ESM_Amon_piControl_r1i1p1_tas_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC5_Amon_abrupt4xCO2_r1i1p1_tas_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-LR_Amon_piControl_r1i1p1_tas_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-MR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-MR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-P_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-P_Amon_piControl_r1i1p1_tas_1866-2015.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MRI-CGCM3_Amon_abrupt4xCO2_r1i1p1_tas_1851-2000.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MRI-CGCM3_Amon_piControl_r1i1p1_tas_1891-2040.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_NorESM1-M_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_NorESM1-M_Amon_piControl_r1i1p1_tas_0700-0849.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/CMIP5_IPSL-CM5A-LR_Amon_abrupt4xCO2_r1i1p1_rtmt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/CMIP5_IPSL-CM5A-LR_Amon_piControl_r1i1p1_rtmt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-0_Amon_abrupt4xCO2_r1i1p1_rtnt_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-0_Amon_piControl_r1i1p1_rtnt_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-3_Amon_abrupt4xCO2_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-3_Amon_piControl_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1_Amon_abrupt4xCO2_r1i1p1_rtnt_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1_Amon_piControl_r1i1p1_rtnt_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1-m_Amon_abrupt4xCO2_r1i1p1_rtnt_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1-m_Amon_piControl_r1i1p1_rtnt_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_BNU-ESM_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_BNU-ESM_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CanESM2_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CanESM2_Amon_piControl_r1i1p1_rtnt_2321-2470.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CCSM4_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CCSM4_Amon_piControl_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CNRM-CM5_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CNRM-CM5_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_piControl_r1i1p1_rtnt_0104-0253.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-g2_Amon_abrupt4xCO2_r1i1p1_rtnt_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_rtnt_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-s2_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-s2_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-CM3_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-CM3_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2G_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2G_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2M_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2M_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-H_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-H_Amon_piControl_r1i1p1_rtnt_2660-2809.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-R_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_rtnt_4200-4349.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_HadGEM2-ES_Amon_abrupt4xCO2_r1i1p1_rtnt_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_rtnt_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_inmcm4_Amon_abrupt4xCO2_r1i1p1_rtnt_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_inmcm4_Amon_piControl_r1i1p1_rtnt_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC-ESM_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC-ESM_Amon_piControl_r1i1p1_rtnt_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC5_Amon_abrupt4xCO2_r1i1p1_rtnt_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC5_Amon_piControl_r1i1p1_rtnt_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-LR_Amon_piControl_r1i1p1_rtnt_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-MR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-MR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-P_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-P_Amon_piControl_r1i1p1_rtnt_1866-2015.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MRI-CGCM3_Amon_abrupt4xCO2_r1i1p1_rtnt_1851-2000.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MRI-CGCM3_Amon_piControl_r1i1p1_rtnt_1891-2040.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_NorESM1-M_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_NorESM1-M_Amon_piControl_r1i1p1_rtnt_0700-0849.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for MultiModelMean (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/NorESM1-M.png
+: &id025
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_NorESM1-M_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_NorESM1-M_Amon_piControl_r1i1p1_tas_0700-0849.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_NorESM1-M_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_NorESM1-M_Amon_piControl_r1i1p1_rtnt_0700-0849.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for NorESM1-M (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/bcc-csm1-1-m.png
+: &id026
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1-m_Amon_abrupt4xCO2_r1i1p1_tas_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1-m_Amon_piControl_r1i1p1_tas_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1-m_Amon_abrupt4xCO2_r1i1p1_rtnt_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1-m_Amon_piControl_r1i1p1_rtnt_0240-0389.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for bcc-csm1-1-m (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/bcc-csm1-1.png
+: &id027
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1_Amon_abrupt4xCO2_r1i1p1_tas_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1_Amon_piControl_r1i1p1_tas_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1_Amon_abrupt4xCO2_r1i1p1_rtnt_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1_Amon_piControl_r1i1p1_rtnt_0160-0309.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for bcc-csm1-1 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs/inmcm4.png: &id028
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_inmcm4_Amon_abrupt4xCO2_r1i1p1_tas_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_inmcm4_Amon_piControl_r1i1p1_tas_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_inmcm4_Amon_abrupt4xCO2_r1i1p1_rtnt_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_inmcm4_Amon_piControl_r1i1p1_rtnt_2090-2239.nc
+  authors:
+  - schlund_manuel
+  caption: Scatterplot between TOA radiance and global mean surface temperature anomaly
+    for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate
+    ECS for inmcm4 (CMIP5).
+  domains:
+  - global
+  plot_types:
+  - scatter
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs.nc:
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC5_Amon_abrupt4xCO2_r1i1p1_tas_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_piControl_r1i1p1_tas_0104-0253.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-CM3_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_HadGEM2-ES_Amon_abrupt4xCO2_r1i1p1_tas_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CCSM4_Amon_piControl_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-LR_Amon_piControl_r1i1p1_rtnt_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_BNU-ESM_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CNRM-CM5_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-0_Amon_abrupt4xCO2_r1i1p1_rtnt_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CCSM4_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CanESM2_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1_Amon_abrupt4xCO2_r1i1p1_rtnt_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1_Amon_piControl_r1i1p1_rtnt_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-CM3_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1-m_Amon_abrupt4xCO2_r1i1p1_rtnt_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_rtnt_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2G_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MRI-CGCM3_Amon_abrupt4xCO2_r1i1p1_rtnt_1851-2000.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-s2_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-MR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2G_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-H_Amon_piControl_r1i1p1_rtnt_2660-2809.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC-ESM_Amon_piControl_r1i1p1_tas_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-s2_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-CM3_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2G_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/CMIP5_IPSL-CM5A-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC5_Amon_piControl_r1i1p1_rtnt_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1-m_Amon_piControl_r1i1p1_rtnt_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2M_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CanESM2_Amon_piControl_r1i1p1_tas_2321-2470.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-H_Amon_piControl_r1i1p1_tas_2660-2809.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_NorESM1-M_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MRI-CGCM3_Amon_abrupt4xCO2_r1i1p1_tas_1851-2000.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-0_Amon_abrupt4xCO2_r1i1p1_tas_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_HadGEM2-ES_Amon_abrupt4xCO2_r1i1p1_rtnt_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-3_Amon_piControl_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-CM3_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-0_Amon_piControl_r1i1p1_tas_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_inmcm4_Amon_piControl_r1i1p1_tas_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-g2_Amon_abrupt4xCO2_r1i1p1_rtnt_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-LR_Amon_piControl_r1i1p1_tas_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_BNU-ESM_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-H_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-P_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2M_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CNRM-CM5_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_inmcm4_Amon_abrupt4xCO2_r1i1p1_tas_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2G_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_NorESM1-M_Amon_piControl_r1i1p1_tas_0700-0849.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-H_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CanESM2_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_rtnt_4200-4349.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC5_Amon_abrupt4xCO2_r1i1p1_rtnt_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-MR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-3_Amon_abrupt4xCO2_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC-ESM_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/CMIP5_IPSL-CM5A-LR_Amon_abrupt4xCO2_r1i1p1_rtmt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-3_Amon_piControl_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2M_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CNRM-CM5_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_4200-4349.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_BNU-ESM_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2M_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CCSM4_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CNRM-CM5_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1-m_Amon_abrupt4xCO2_r1i1p1_tas_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-s2_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/CMIP5_IPSL-CM5A-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-P_Amon_piControl_r1i1p1_tas_1866-2015.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_inmcm4_Amon_piControl_r1i1p1_rtnt_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MRI-CGCM3_Amon_piControl_r1i1p1_rtnt_1891-2040.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-g2_Amon_abrupt4xCO2_r1i1p1_tas_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-R_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC-ESM_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC-ESM_Amon_piControl_r1i1p1_rtnt_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_rtnt_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-s2_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-3_Amon_abrupt4xCO2_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MRI-CGCM3_Amon_piControl_r1i1p1_tas_1891-2040.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-MR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_NorESM1-M_Amon_piControl_r1i1p1_rtnt_0700-0849.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-0_Amon_piControl_r1i1p1_rtnt_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-P_Amon_piControl_r1i1p1_rtnt_1866-2015.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_piControl_r1i1p1_rtnt_0104-0253.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-P_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-R_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-MR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1_Amon_piControl_r1i1p1_tas_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CanESM2_Amon_piControl_r1i1p1_rtnt_2321-2470.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/CMIP5_IPSL-CM5A-LR_Amon_piControl_r1i1p1_rtmt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1-m_Amon_piControl_r1i1p1_tas_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_NorESM1-M_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_inmcm4_Amon_abrupt4xCO2_r1i1p1_rtnt_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_BNU-ESM_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1_Amon_abrupt4xCO2_r1i1p1_tas_0160-0309.nc
+  authors:
+  - schlund_manuel
+  caption: Equilibrium Climate Sensitivity (Gregory method) for multiple climate models.
+  domains:
+  - global
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_ACCESS1-0.nc
+: *id001
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_ACCESS1-3.nc
+: *id002
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_BNU-ESM.nc
+: *id003
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_CCSM4.nc
+: *id004
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_CNRM-CM5.nc
+: *id005
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_CSIRO-Mk3-6-0.nc
+: *id006
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_CanESM2.nc
+: *id007
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_FGOALS-g2.nc
+: *id008
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_FGOALS-s2.nc
+: *id009
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_GFDL-CM3.nc
+: *id010
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_GFDL-ESM2G.nc
+: *id011
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_GFDL-ESM2M.nc
+: *id012
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_GISS-E2-H.nc
+: *id013
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_GISS-E2-R.nc
+: *id014
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_HadGEM2-ES.nc
+: *id015
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_IPSL-CM5A-LR.nc
+: *id016
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_IPSL-CM5B-LR.nc
+: *id017
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_MIROC-ESM.nc
+: *id018
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_MIROC5.nc
+: *id019
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_MPI-ESM-LR.nc
+: *id020
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_MPI-ESM-MR.nc
+: *id021
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_MPI-ESM-P.nc
+: *id022
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_MRI-CGCM3.nc
+: *id023
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_MultiModelMean.nc
+: *id024
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_NorESM1-M.nc
+: *id025
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_bcc-csm1-1-m.nc
+: *id026
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_bcc-csm1-1.nc
+: *id027
+? /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs_regression_inmcm4.nc
+: *id028
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/lambda.nc:
+  ancestors:
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC5_Amon_piControl_r1i1p1_tas_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC5_Amon_abrupt4xCO2_r1i1p1_tas_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_piControl_r1i1p1_tas_0104-0253.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-CM3_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_HadGEM2-ES_Amon_abrupt4xCO2_r1i1p1_tas_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CCSM4_Amon_piControl_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-LR_Amon_piControl_r1i1p1_rtnt_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_BNU-ESM_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_tas_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CNRM-CM5_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-0_Amon_abrupt4xCO2_r1i1p1_rtnt_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CCSM4_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CCSM4_Amon_piControl_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CanESM2_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1_Amon_abrupt4xCO2_r1i1p1_rtnt_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1_Amon_piControl_r1i1p1_rtnt_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-CM3_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1-m_Amon_abrupt4xCO2_r1i1p1_rtnt_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_rtnt_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2G_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MRI-CGCM3_Amon_abrupt4xCO2_r1i1p1_rtnt_1851-2000.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-s2_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-MR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2G_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-H_Amon_piControl_r1i1p1_rtnt_2660-2809.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC-ESM_Amon_piControl_r1i1p1_tas_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-s2_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-CM3_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2G_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/CMIP5_IPSL-CM5A-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC5_Amon_piControl_r1i1p1_rtnt_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_bcc-csm1-1-m_Amon_piControl_r1i1p1_rtnt_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2M_Amon_piControl_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CanESM2_Amon_piControl_r1i1p1_tas_2321-2470.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-H_Amon_piControl_r1i1p1_tas_2660-2809.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_NorESM1-M_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-g2_Amon_piControl_r1i1p1_tas_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MRI-CGCM3_Amon_abrupt4xCO2_r1i1p1_tas_1851-2000.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-0_Amon_abrupt4xCO2_r1i1p1_tas_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_HadGEM2-ES_Amon_abrupt4xCO2_r1i1p1_rtnt_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-3_Amon_piControl_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-CM3_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-0_Amon_piControl_r1i1p1_tas_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_inmcm4_Amon_piControl_r1i1p1_tas_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-g2_Amon_abrupt4xCO2_r1i1p1_rtnt_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-LR_Amon_piControl_r1i1p1_tas_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_BNU-ESM_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-H_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-P_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2M_Amon_piControl_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CNRM-CM5_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_inmcm4_Amon_abrupt4xCO2_r1i1p1_tas_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2G_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_NorESM1-M_Amon_piControl_r1i1p1_tas_0700-0849.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-H_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CanESM2_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_rtnt_4200-4349.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC5_Amon_abrupt4xCO2_r1i1p1_rtnt_2100-2249.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-MR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-3_Amon_abrupt4xCO2_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC-ESM_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/CMIP5_IPSL-CM5A-LR_Amon_abrupt4xCO2_r1i1p1_rtmt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_ACCESS1-3_Amon_piControl_r1i1p1_tas_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GFDL-ESM2M_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CNRM-CM5_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-R_Amon_piControl_r1i1p1_tas_4200-4349.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_BNU-ESM_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GFDL-ESM2M_Amon_abrupt4xCO2_r1i1p1_rtnt_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CCSM4_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CNRM-CM5_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1-m_Amon_abrupt4xCO2_r1i1p1_tas_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_FGOALS-s2_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/CMIP5_IPSL-CM5A-LR_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MPI-ESM-P_Amon_piControl_r1i1p1_tas_1866-2015.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_inmcm4_Amon_piControl_r1i1p1_rtnt_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MRI-CGCM3_Amon_piControl_r1i1p1_rtnt_1891-2040.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-g2_Amon_abrupt4xCO2_r1i1p1_tas_0490-0639.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_GISS-E2-R_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MIROC-ESM_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MIROC-ESM_Amon_piControl_r1i1p1_rtnt_1880-2029.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_HadGEM2-ES_Amon_piControl_r1i1p1_rtnt_1860-2009.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_FGOALS-s2_Amon_piControl_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-3_Amon_abrupt4xCO2_r1i1p1_rtnt_0250-0399.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_MRI-CGCM3_Amon_piControl_r1i1p1_tas_1891-2040.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-MR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_NorESM1-M_Amon_piControl_r1i1p1_rtnt_0700-0849.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_ACCESS1-0_Amon_piControl_r1i1p1_rtnt_0300-0449.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-P_Amon_piControl_r1i1p1_rtnt_1866-2015.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CSIRO-Mk3-6-0_Amon_piControl_r1i1p1_rtnt_0104-0253.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-P_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_GISS-E2-R_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_MPI-ESM-MR_Amon_abrupt4xCO2_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1_Amon_piControl_r1i1p1_tas_0160-0309.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_CanESM2_Amon_piControl_r1i1p1_rtnt_2321-2470.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/CMIP5_IPSL-CM5A-LR_Amon_piControl_r1i1p1_rtmt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_IPSL-CM5B-LR_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1-m_Amon_piControl_r1i1p1_tas_0240-0389.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_NorESM1-M_Amon_abrupt4xCO2_r1i1p1_tas_0001-0150.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_inmcm4_Amon_abrupt4xCO2_r1i1p1_rtnt_2090-2239.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_IPSL-CM5B-LR_Amon_abrupt4xCO2_r1i1p1_tas_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/CMIP5_BNU-ESM_Amon_piControl_r1i1p1_rtnt_1850-1999.nc
+  - /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/CMIP5_bcc-csm1-1_Amon_abrupt4xCO2_r1i1p1_tas_0160-0309.nc
+  authors:
+  - schlund_manuel
+  caption: Climate Feedback Parameter for multiple climate models.
+  domains:
+  - global
+  realms:
+  - atmos
+  references:
+  - gregory04grl
+  statistics:
+  - mean
+  - diff
+  themes:
+  - phys

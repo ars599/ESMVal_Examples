@@ -1,0 +1,4 @@
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Rayner et al., J. Geophys. Res., doi:10.1029/2002JD002670, 2013
+- See http://wiki.csiro.au/confluence/display/ACCESS/ACCESS+Publications
+- doi:10.1038/s41597-019-0236-x, doi:10.3390/rs12162554

@@ -1,0 +1,2 @@
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Watanabe et al., : MIROC-ESM: model description and basic results of CMIP5-20c3m experiments, Geosci. Model Dev. Discuss., 4, 1063-1128, doi:10.5194/gmdd-4-1063-2011, 2011.

@@ -1,0 +1,24 @@
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+calculate_mmm: true
+complex_gregory_plot: true
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtnt/metadata.yml
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/tas_rtmt/metadata.yml
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtnt/metadata.yml
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip5/rtmt/metadata.yml
+log_level: debug
+output_file_type: png
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip5/ecs
+recipe: recipe_meehl20sciadv.yml
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/run/ecs_cmip5/ecs
+script: ecs
+seaborn_settings:
+  rc:
+    axes.titlepad: 15.0
+    xtick.minor.visible: true
+    xtick.top: true
+    ytick.minor.visible: true
+    ytick.right: true
+  style: ticks
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs

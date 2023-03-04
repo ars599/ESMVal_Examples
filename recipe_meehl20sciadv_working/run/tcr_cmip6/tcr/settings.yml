@@ -1,0 +1,20 @@
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+calculate_mmm: true
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/metadata.yml
+log_level: debug
+output_file_type: png
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr
+recipe: recipe_meehl20sciadv.yml
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/run/tcr_cmip6/tcr
+script: tcr
+seaborn_settings:
+  rc:
+    axes.titlepad: 15.0
+    xtick.minor.visible: true
+    xtick.top: true
+    ytick.minor.visible: true
+    ytick.right: true
+  style: ticks
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr

@@ -1,0 +1,327 @@
+2023-03-02 15:38:48,011 [3629110] INFO     esmvaltool.diag_scripts.shared._base,511	Starting diagnostic script table with configuration:
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+calculate_mean: false
+input_data: {}
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip6/ecs
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr
+log_level: debug
+output_file_type: png
+patterns:
+- ecs.nc
+- tcr.nc
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/table/table
+realms:
+- atmos
+recipe: recipe_meehl20sciadv.yml
+round_output: 2
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/run/table/table
+script: table
+themes:
+- phys
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/table/table
+
+2023-03-02 15:38:48,013 [3629110] INFO     esmvaltool.diag_scripts.shared._base,550	Creating /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/table/table
+2023-03-02 15:38:48,015 [3629110] INFO     esmvaltool.diag_scripts.shared._base,550	Creating /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/table/table
+2023-03-02 15:38:48,024 [3629110] INFO     create_table.py,191	Found input files:
+['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs/ecs.nc',
+ '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip6/ecs/ecs.nc',
+ '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr/tcr.nc',
+ '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip6/tcr/tcr.nc']
+2023-03-02 15:38:48,964 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,969 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,973 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,976 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,980 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,983 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,985 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,988 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,990 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,992 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,994 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,996 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:48,998 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,000 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,002 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,004 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,006 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,008 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,010 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,012 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,014 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,016 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,018 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,020 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,022 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,024 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,026 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,028 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,042 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,044 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,046 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,049 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,051 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,053 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,055 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,057 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,059 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,061 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,063 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,065 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,067 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,070 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,072 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,074 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,076 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,078 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,080 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,082 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,084 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,086 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,088 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,090 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,093 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,095 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,097 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,099 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,101 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,103 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,105 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,107 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,109 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,115 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,117 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,119 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,121 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,123 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,175 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,179 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,245 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,250 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:135: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(pd.Series(name=row,
+
+2023-03-02 15:38:49,334 [3629110] INFO     create_table.py,103	Calculating standard deviation over all datasets excluding ['MultiModelMean']
+2023-03-02 15:38:49,338 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(series)
+
+2023-03-02 15:38:49,345 [3629110] WARNING  py.warnings,109	/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/climate_metrics/create_table.py:89: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  data_frame = data_frame.append(series)
+
+2023-03-02 15:38:49,371 [3629110] INFO     create_table.py,208	Wrote /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/table/table/CMIP5-CMIP6_ecs-tcr.csv
+2023-03-02 15:38:49,371 [3629110] INFO     create_table.py,210	Data:
+                              ecs   tcr
+project dataset         idx            
+CMIP5   --STD--         0    0.74  0.37
+        ACCESS1-0       1    3.83  1.92
+        ACCESS1-3       2    3.53  1.63
+        BNU-ESM         3    3.98  2.52
+        CCSM4           4    2.94  1.67
+        CNRM-CM5        5    3.25  2.02
+        CNRM-CM5-2      6   NaN    1.79
+        CSIRO-Mk3-6-0   7    4.08  1.75
+        CanESM2         8    3.69  2.34
+        FGOALS-g2       9    3.38  1.38
+        FGOALS-s2       10   4.18  2.44
+        GFDL-CM3        11   3.97  1.94
+        GFDL-ESM2G      12   2.39  1.12
+        GFDL-ESM2M      13   2.44  1.36
+        GISS-E2-H       14   2.31  1.74
+        GISS-E2-R       15   2.11  1.46
+        HadGEM2-ES      16   4.61  2.54
+        IPSL-CM5A-LR    17   4.13  2.00
+        IPSL-CM5A-MR    18  NaN    1.99
+        IPSL-CM5B-LR    19   2.60  1.53
+        MIROC-ESM       20   4.67  2.21
+        MIROC5          21   2.72  1.43
+        MPI-ESM-LR      22   3.63  2.03
+        MPI-ESM-MR      23   3.46  2.03
+        MPI-ESM-P       24   3.45  2.02
+        MRI-CGCM3       25   2.60  1.56
+        MultiModelMean  0    3.24  1.83
+        NorESM1-M       26   2.87  1.41
+        bcc-csm1-1      27   2.83  1.73
+        bcc-csm1-1-m    28   2.87  2.13
+        inmcm4          29   2.08  1.32
+CMIP6   --STD--         0    1.10  0.41
+        ACCESS-CM2      30   4.72  2.10
+        ACCESS-ESM1-5   31   3.87  1.95
+        AWI-CM-1-1-MR   32   3.16  2.06
+        BCC-CSM2-MR     33   3.04  1.72
+        BCC-ESM1        34   3.26  1.78
+        CAMS-CSM1-0     35   2.29  1.73
+        CESM2           36   5.16  2.06
+        CESM2-WACCM     37   4.75  1.98
+        CNRM-CM6-1      38   4.83  2.14
+        CNRM-CM6-1-HR   39   4.28  2.48
+        CNRM-ESM2-1     40   4.76  1.86
+        CanESM5         41   5.62  2.74
+        E3SM-1-0        42   5.32  2.99
+        EC-Earth3       43   4.27 NaN  
+        EC-Earth3-Veg   44   4.31  2.62
+        FGOALS-f3-L     45   3.00  1.94
+        GFDL-CM4        46   3.87  2.05
+        GFDL-ESM4       47   2.62  1.61
+        GISS-E2-1-G     48   2.72  1.80
+        GISS-E2-1-H     49   3.11  1.93
+        GISS-E2-2-G     50   2.41  1.71
+        HadGEM3-GC31-LL 51   5.55  2.55
+        HadGEM3-GC31-MM 52   5.42  2.58
+        IITM-ESM        53  NaN    1.71
+        INM-CM4-8       54   1.83  1.33
+        INM-CM5-0       55   1.92 NaN  
+        IPSL-CM6A-LR    56   4.56  2.32
+        KACE-1-0-G      57   4.77  2.02
+        MCM-UA-1-0      58   3.64  1.94
+        MIROC-ES2L      59   2.68  1.55
+        MIROC6          60   2.61  1.55
+        MPI-ESM1-2-HR   61   2.98  1.66
+        MPI-ESM1-2-LR   62   3.00  1.84
+        MRI-ESM2-0      63   3.15  1.64
+        MultiModelMean  0    3.75  2.02
+        NESM3           64   4.72  2.72
+        NorCPM1         65  NaN    1.56
+        NorESM2-LM      66   2.54  1.48
+        SAM0-UNICON     67   3.72  2.27
+        UKESM1-0-LL     68   5.34  2.79
+2023-03-02 15:38:49,411 [3629110] INFO     esmvaltool.diag_scripts.shared._base,560	End of diagnostic script run.

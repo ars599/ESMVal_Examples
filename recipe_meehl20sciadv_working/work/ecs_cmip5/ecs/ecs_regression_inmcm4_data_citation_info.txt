@@ -1,0 +1,2 @@
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Volodin, Diansky, Gusev 2010. Climate model INMCM4.0. Izvestia RAS. Atmospheric and oceanic physics, V.46, N4, in print.

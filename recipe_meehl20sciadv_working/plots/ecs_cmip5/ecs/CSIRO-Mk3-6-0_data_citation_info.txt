@@ -1,0 +1,2 @@
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- a) Rotstayn, L., Collier, M., Dix, M., Feng, Y., Gordon, H., O\'Farrell, S., Smith, I. and Syktus, J. 2010. Improved simulation of Australian climate and ENSO-related climate variability in a GCM with an interactive aerosol treatment. Int. J. Climatology, vol 30(7), pp1067-1088, DOI 10.1002/joc.1952 b) Please refer to online documentation at: http://cmip-pcmdi.llnl.gov/cmip5/

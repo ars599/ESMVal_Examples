@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe thermodyn diagtool</title>
+  <style>
+    html {
+      font-size: medium;
+    }
+    body {
+      color: #444;
+      font-family: georgia, times, serif;
+      font-size: 1rem;
+      line-height: 1.4;
+      margin: 2rem auto 8rem;
+      max-width: 1920px;
+      padding: 0 2em;
+      width: auto;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      color: #444;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 1em;
+      margin-top: 2em;
+    }
+    h1 {
+      font-size: 2.2em;
+    }
+    h2 {
+      font-size: 1.8em;
+      border-bottom: solid 0.1rem #444;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-size: 1.3em;
+    }
+    h5 {
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    h6 {
+      font-size: 1.1em;
+      margin-bottom: 0.5rem;
+    }
+    pre,
+    code,
+    xmp {
+      font-family: courier;
+      font-size: 1.1rem;
+      line-height: 1.4;
+      white-space: pre-wrap;
+    }
+    img {
+      width: 500px;
+    }
+    figure {
+      display: inline-block;
+      width: 500px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  </style>
+</head>
+  
+
+  <body>
+
+    <h1>Diagnostic tool for several thermodynamic aspects of
+the atmosphere and oceans.
+</h1>
+
+<p>
+  Recipe for the computation of various aspects associated with the
+thermodynamics of the climate system, such as energy and water mass
+budgets, meridional enthalpy transports, the Lorenz Energy Cycle and
+the material entropy production.
+</p>
+
+<h3>Authors</h3>
+
+<ul>
+  
+    <li>Valerio Lembo (CEN, University of Hamburg, Germany; <a href='https://orcid.org/0000-0001-6085-5914'>https://orcid.org/0000-0001-6085-5914</a>)</li>
+  
+    <li>Nikolay Koldunov (AWI, Germany; <a href='https://orcid.org/0000-0002-3365-8146'>https://orcid.org/0000-0002-3365-8146</a>)</li>
+  
+</ul>
+
+<h3>Maintainers</h3>
+
+<ul>
+  
+    <li>No maintainer available (Unseen University; <a href='None'>None</a>)</li>
+  
+</ul>
+
+<h3>Projects</h3>
+
+<ul>
+  
+    <li>DLR project ESMVal</li>
+  
+    <li>DFG Project TRR-181, Energy transfers in Atmosphere and Ocean</li>
+  
+</ul>
+
+<h3>References</h3>
+
+<ul>
+  
+    <li>Valerio Lembo, Doris Folini, Martin Wild, and Piero Lionello.
+Energy budgets and transports: global evolution and spatial patterns during the twentieth century as estimated in two <span class="bibtex-protected">AMIP</span>-like experiments.
+<em>Climate Dynamics</em>, 48(5-6):1793–1812, may 2016.
+URL: <a href="https://doi.org/10.1007%2Fs00382-016-3173-9">https://doi.org/10.1007%2Fs00382-016-3173-9</a>, <a href="https://doi.org/10.1007/s00382-016-3173-9">doi:10.1007/s00382-016-3173-9</a>.</li>
+  
+    <li>Valerio Lucarini, Richard Blender, Corentin Herbert, Francesco Ragone, Salvatore Pascale, and Jeroen Wouters.
+Mathematical and physical ideas for climate science.
+<em>Reviews of Geophysics</em>, 52(4):809–859, dec 2014.
+URL: <a href="https://doi.org/10.1002%2F2013rg000446">https://doi.org/10.1002%2F2013rg000446</a>, <a href="https://doi.org/10.1002/2013rg000446">doi:10.1002/2013rg000446</a>.</li>
+  
+</ul>
+
+    
+
+  <h2>Thermodyn_Diag</h2>
+  <p>Thermodynamics diagnostics</p>
+
+  
+
+    <h3>Thermodyn Diag: Thermodyn Diag</h3>
+
+
+
+<h4>Data files</h4>
+
+<ul>
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model IPSL-CM5A-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model CNRM-ESM2-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model IPSL-CM5A-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model MIROC-ESM-CHEM. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model MPI-ESM-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model CNRM-ESM2-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model MPI-ESM-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model CNRM-ESM2-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model MRI-ESM2-0. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model CNRM-ESM2-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model CNRM-CM6-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model CNRM-CM6-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model MPI-ESM-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model MIROC-ESM-CHEM. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model MRI-ESM2-0. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model MPI-ESM-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model MIROC-ESM-CHEM. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model MPI-ESM-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model MIROC-ESM-CHEM. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model MIROC-ESM-CHEM. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model CNRM-CM6-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model MIROC5. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model CNRM-ESM2-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model CNRM-CM6-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model MRI-ESM2-0. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model IPSL-CM5A-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model IPSL-CM5A-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model MIROC5. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model MRI-ESM2-0. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model CNRM-CM6-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model IPSL-CM5A-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model CNRM-CM6-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model MPI-ESM-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model MPI-ESM-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model MPI-ESM-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model MRI-ESM2-0. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model CNRM-CM6-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model MPI-ESM-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model IPSL-CM5A-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model MIROC-ESM-CHEM. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model MIROC5. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model MIROC5. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model MIROC5. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model CNRM-ESM2-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model MIROC-ESM-CHEM. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model MIROC5. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model MRI-ESM2-0. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model MRI-ESM2-0. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model MPI-ESM-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model MPI-ESM-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model MPI-ESM-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-MR/MPI-ESM-MR_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model MPI-ESM-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model CNRM-CM6-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model HadGEM3-GC31-LL. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/HadGEM3-GC31-LL/HadGEM3-GC31-LL_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean potential energy entropy production (lat, lon) fieldsfor model MPI-ESM-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_pot_drop_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_pot_drop_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_pot_drop_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_pot_drop_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model MIROC5. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model MPI-ESM-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model MIROC5. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC5/MIROC5_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean sensible heat entropy production (lat, lon) fieldsfor model CNRM-ESM2-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_sens_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_sens_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_sens_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_sens_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snow melt entropy production (lat, lon) fieldsfor model IPSL-CM5A-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snowmelt_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snowmelt_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snowmelt_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_snowmelt_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean evaporation entropy production (lat, lon) fieldsfor model IPSL-CM5A-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_evap_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_evap_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_evap_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-LR/IPSL-CM5A-LR_evap_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model MRI-ESM2-0. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MRI-ESM2-0/MRI-ESM2-0_snow_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean horizontal entropy production (lat, lon) fieldsfor model MPI-ESM-LR. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_horizEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_horizEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_horizEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MPI-ESM-LR/MPI-ESM-LR_horizEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean vertical entropy production (lat, lon) fieldsfor model MIROC-ESM-CHEM. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_verticalEntropy.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_verticalEntropy_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_verticalEntropy_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/MIROC-ESM-CHEM/MIROC-ESM-CHEM_verticalEntropy_provenance.xml'>provenance</a>
+    </li>
+
+
+
+    <li>
+        Thermodynamic Diagnostic Tool - Monthly mean rainfall precipitation entropy production (lat, lon) fieldsfor model CNRM-ESM2-1. |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_rain_entr.nc'>download</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_rain_entr_citation.bibtex'>references</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_rain_entr_data_citation_info.txt'>extra data citation</a> |
+        <a href='work/Thermodyn_Diag/Thermodyn_Diag/CNRM-ESM2-1/CNRM-ESM2-1_rain_entr_provenance.xml'>provenance</a>
+    </li>
+
+
+</ul>
+
+  
+
+
+
+  </body>
+
+  <h2>Files</h2>
+
+  <p>
+    <a href='run/main_log.txt'>main_log.txt</a> |
+    <a href='run/main_log_debug.txt'>main_log_debug.txt</a> |
+    <a href='run/recipe_thermodyn_diagtool.yml'>recipe_thermodyn_diagtool.yml</a> |
+    <a href='plots'>figures</a> |
+    <a href='work'>data</a>
+  </p>
+
+</html>

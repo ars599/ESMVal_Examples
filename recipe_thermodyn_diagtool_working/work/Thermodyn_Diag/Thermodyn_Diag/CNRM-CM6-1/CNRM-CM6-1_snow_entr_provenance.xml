@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:software="https://www.esmvaltool.org/software" xmlns:project="https://www.esmvaltool.org/project" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="project:DLR project ESMVal"/>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="project:DLR project ESMVal"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:Thermodyn_Diag/ps"/>
+  <prov:agent prov:id="author:Koldunov, Nikolay">
+    <attribute:email>nikolay.koldunov@awi.de</attribute:email>
+    <attribute:institute>AWI, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0002-3365-8146</attribute:orcid>
+  </prov:agent>
+  <prov:activity prov:id="task:Thermodyn_Diag/ts"/>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr.nc">
+    <attribute:caption>Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model CNRM-CM6-1.</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:entr>True</attribute:entr>
+    <attribute:lec>True</attribute:lec>
+    <attribute:lsm>True</attribute:lsm>
+    <attribute:met>3</attribute:met>
+    <attribute:plot_type>['geo']</attribute:plot_type>
+    <attribute:references>['lembo16climdyn', 'lembo19gmdd', 'lucarini14revgeop']</attribute:references>
+    <attribute:script>Thermodyn_Diag</attribute:script>
+    <attribute:script_file>thermodyn_diagtool/thermodyn_diagnostics.py</attribute:script_file>
+    <attribute:statistics>('mean',)</attribute:statistics>
+    <attribute:wat>True</attribute:wat>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/prsn"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_CNRM-CM6-1</attribute:alias>
+    <attribute:dataset>CNRM-CM6-1</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1f2</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr</attribute:grid>
+    <attribute:institute>['CNRM-CERFACS']</attribute:institute>
+    <attribute:long_name>Snowfall Flux</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>prsn</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>7</attribute:recipe_dataset_index>
+    <attribute:short_name>prsn</attribute:short_name>
+    <attribute:standard_name>snowfall_flux</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>kg m-2 s-1</attribute:units>
+    <attribute:variable_group>prsn</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'prsn', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'prsn', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="recipe:recipe_thermodyn_diagtool.yml">
+    <attribute:description>Recipe for the computation of various aspects associated with
+the thermodynamics of the climate system, such as energy and
+water mass budgets, meridional enthalpy transports, the Lorenz
+Energy Cycle and the material entropy production.
+</attribute:description>
+    <attribute:references>['lembo16climdyn', 'lucarini14revgeop']</attribute:references>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/prsn/gr/v20180917/prsn_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc">
+    <attribute:CMIP6_CV_version>cv=6.2.3.0-7-g2019642</attribute:CMIP6_CV_version>
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:EXPID>CNRM-CM6-1_historical_r1i1p1f2</attribute:EXPID>
+    <attribute:NCO>"4.5.5"</attribute:NCO>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:arpege_minor_version>6.3.2</attribute:arpege_minor_version>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:contact>contact.cmip@meteo.fr</attribute:contact>
+    <attribute:creation_date>2018-06-20T08:40:05Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.21</attribute:data_specs_version>
+    <attribute:description>CMIP6 historical</attribute:description>
+    <attribute:dr2xml_md5sum>d6225e658d7de0912fca2a4293dbe2a7</attribute:dr2xml_md5sum>
+    <attribute:dr2xml_version>1.10</attribute:dr2xml_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>2</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CNRM-CERFACS.CNRM-CM6-1.historical.none.r1i1p1f2</attribute:further_info_url>
+    <attribute:grid>data regridded to a T127 gaussian grid (128x256 latlon) from a native atmosphere T127l reduced gaussian grid</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>Mon Jul 30 09:07:25 2018: ncatted -O -a tracking_id,global,m,c,hdl:21.14100/7826da9e-559a-4c00-bdd8-d3ca18bff08d /scratch/work/voldoire/outputs/CMIP6/DECK/CNRM-CM6-1_historical_r1i1p1f2/assembled/prsn_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+none</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)</attribute:institution>
+    <attribute:institution_id>CNRM-CERFACS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CNRM-CERFACS is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at http://www.umr-cnrm.fr/cmip6/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:name>/scratch/work/voldoire/outputs/CMIP6/DECK/CNRM-CM6-1_historical_r1i1p1f2/18500101/prsn_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_%start_date%-%end_date%</attribute:name>
+    <attribute:nemo_gelato_commit>49095b3accd5d4c_6524fe19b00467a</attribute:nemo_gelato_commit>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CNRM-CM6-1</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f2</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>http://www.umr-cnrm.fr/cmip6/references</attribute:references>
+    <attribute:source>CNRM-CM6-1 (2017):  aerosol: prescribed monthly fields computed by TACTIC_v2 scheme atmos: Arpege 6.3 (T127; Gaussian Reduced with 24572 grid points in total distributed over 128 latitude circles (with 256 grid points per latitude circle between 30degN and 30degS reducing to 20 grid points per latitude circle at 88.9degN and 88.9degS); 91 levels; top level 78.4 km) atmosChem: OZL_v2 land: Surfex 8.0c ocean: Nemo 3.6 (eORCA1, tripolar primarily 1deg; 362 x 294 longitude/latitude; 75 levels; top grid cell 0-1 m) seaIce: Gelato 6.1</attribute:source>
+    <attribute:source_id>CNRM-CM6-1</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:title>CNRM-CM6-1 model output prepared for CMIP6 / CMIP historical</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/7826da9e-559a-4c00-bdd8-d3ca18bff08d</attribute:tracking_id>
+    <attribute:variable_id>prsn</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f2</attribute:variant_label>
+    <attribute:xios_commit>1442-shuffle</attribute:xios_commit>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/ts/gr/v20180917/ts_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ts"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:Thermodyn_Diag/hus"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/hus/gr/v20180917/hus_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/hus"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr.nc"/>
+    <prov:agent prov:ref="author:Lembo, Valerio"/>
+  </prov:wasAttributedTo>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="project:DFG Project TRR-181, Energy transfers in Atmosphere and Ocean"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="author:Koldunov, Nikolay"/>
+  </prov:wasAttributedTo>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/hus"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="task:Thermodyn_Diag/prsn"/>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ts"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_CNRM-CM6-1</attribute:alias>
+    <attribute:dataset>CNRM-CM6-1</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1f2</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr</attribute:grid>
+    <attribute:institute>['CNRM-CERFACS']</attribute:institute>
+    <attribute:long_name>Specific Humidity</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>hus</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>7</attribute:recipe_dataset_index>
+    <attribute:short_name>hus</attribute:short_name>
+    <attribute:standard_name>specific_humidity</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>1</attribute:units>
+    <attribute:variable_group>hus</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'hus', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'hus', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_hus_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/CNRM-CM6-1/CNRM-CM6-1_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/hus/gr/v20180917/hus_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc">
+    <attribute:CMIP6_CV_version>cv=6.2.3.0-7-g2019642</attribute:CMIP6_CV_version>
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:EXPID>CNRM-CM6-1_historical_r1i1p1f2</attribute:EXPID>
+    <attribute:NCO>"4.5.5"</attribute:NCO>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:arpege_minor_version>6.3.2</attribute:arpege_minor_version>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:contact>contact.cmip@meteo.fr</attribute:contact>
+    <attribute:creation_date>2018-06-20T08:40:05Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.21</attribute:data_specs_version>
+    <attribute:description>CMIP6 historical</attribute:description>
+    <attribute:dr2xml_md5sum>d6225e658d7de0912fca2a4293dbe2a7</attribute:dr2xml_md5sum>
+    <attribute:dr2xml_version>1.10</attribute:dr2xml_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>2</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CNRM-CERFACS.CNRM-CM6-1.historical.none.r1i1p1f2</attribute:further_info_url>
+    <attribute:grid>data regridded to a T127 gaussian grid (128x256 latlon) from a native atmosphere T127l reduced gaussian grid</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>Mon Jul 30 08:14:51 2018: ncatted -O -a tracking_id,global,m,c,hdl:21.14100/41985ada-953e-4111-8a27-304d77007df2 /scratch/work/voldoire/outputs/CMIP6/DECK/CNRM-CM6-1_historical_r1i1p1f2/assembled/hus_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+none</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)</attribute:institution>
+    <attribute:institution_id>CNRM-CERFACS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CNRM-CERFACS is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at http://www.umr-cnrm.fr/cmip6/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:name>/scratch/work/voldoire/outputs/CMIP6/DECK/CNRM-CM6-1_historical_r1i1p1f2/18500101/hus_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_%start_date%-%end_date%</attribute:name>
+    <attribute:nemo_gelato_commit>49095b3accd5d4c_6524fe19b00467a</attribute:nemo_gelato_commit>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CNRM-CM6-1</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f2</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>http://www.umr-cnrm.fr/cmip6/references</attribute:references>
+    <attribute:source>CNRM-CM6-1 (2017):  aerosol: prescribed monthly fields computed by TACTIC_v2 scheme atmos: Arpege 6.3 (T127; Gaussian Reduced with 24572 grid points in total distributed over 128 latitude circles (with 256 grid points per latitude circle between 30degN and 30degS reducing to 20 grid points per latitude circle at 88.9degN and 88.9degS); 91 levels; top level 78.4 km) atmosChem: OZL_v2 land: Surfex 8.0c ocean: Nemo 3.6 (eORCA1, tripolar primarily 1deg; 362 x 294 longitude/latitude; 75 levels; top grid cell 0-1 m) seaIce: Gelato 6.1</attribute:source>
+    <attribute:source_id>CNRM-CM6-1</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:title>CNRM-CM6-1 model output prepared for CMIP6 / CMIP historical</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/41985ada-953e-4111-8a27-304d77007df2</attribute:tracking_id>
+    <attribute:variable_id>hus</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f2</attribute:variant_label>
+    <attribute:xios_commit>1442-shuffle</attribute:xios_commit>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/ts/gr/v20180917/ts_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc">
+    <attribute:CMIP6_CV_version>cv=6.2.3.0-7-g2019642</attribute:CMIP6_CV_version>
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:EXPID>CNRM-CM6-1_historical_r1i1p1f2</attribute:EXPID>
+    <attribute:NCO>"4.5.5"</attribute:NCO>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:arpege_minor_version>6.3.2</attribute:arpege_minor_version>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:contact>contact.cmip@meteo.fr</attribute:contact>
+    <attribute:creation_date>2018-06-20T08:40:03Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.21</attribute:data_specs_version>
+    <attribute:description>CMIP6 historical</attribute:description>
+    <attribute:dr2xml_md5sum>d6225e658d7de0912fca2a4293dbe2a7</attribute:dr2xml_md5sum>
+    <attribute:dr2xml_version>1.10</attribute:dr2xml_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>2</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CNRM-CERFACS.CNRM-CM6-1.historical.none.r1i1p1f2</attribute:further_info_url>
+    <attribute:grid>data regridded to a T127 gaussian grid (128x256 latlon) from a native atmosphere T127l reduced gaussian grid</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>Mon Jul 30 13:17:00 2018: ncatted -O -a tracking_id,global,m,c,hdl:21.14100/23f06e47-03c8-43bf-ae4d-2b0c564d5ad6 /scratch/work/voldoire/outputs/CMIP6/DECK/CNRM-CM6-1_historical_r1i1p1f2/assembled/ts_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+none</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)</attribute:institution>
+    <attribute:institution_id>CNRM-CERFACS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CNRM-CERFACS is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at http://www.umr-cnrm.fr/cmip6/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:name>/scratch/work/voldoire/outputs/CMIP6/DECK/CNRM-CM6-1_historical_r1i1p1f2/18500101/ts_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_%start_date%-%end_date%</attribute:name>
+    <attribute:nemo_gelato_commit>49095b3accd5d4c_6524fe19b00467a</attribute:nemo_gelato_commit>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CNRM-CM6-1</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f2</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>http://www.umr-cnrm.fr/cmip6/references</attribute:references>
+    <attribute:source>CNRM-CM6-1 (2017):  aerosol: prescribed monthly fields computed by TACTIC_v2 scheme atmos: Arpege 6.3 (T127; Gaussian Reduced with 24572 grid points in total distributed over 128 latitude circles (with 256 grid points per latitude circle between 30degN and 30degS reducing to 20 grid points per latitude circle at 88.9degN and 88.9degS); 91 levels; top level 78.4 km) atmosChem: OZL_v2 land: Surfex 8.0c ocean: Nemo 3.6 (eORCA1, tripolar primarily 1deg; 362 x 294 longitude/latitude; 75 levels; top grid cell 0-1 m) seaIce: Gelato 6.1</attribute:source>
+    <attribute:source_id>CNRM-CM6-1</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:title>CNRM-CM6-1 model output prepared for CMIP6 / CMIP historical</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/23f06e47-03c8-43bf-ae4d-2b0c564d5ad6</attribute:tracking_id>
+    <attribute:variable_id>ts</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f2</attribute:variant_label>
+    <attribute:xios_commit>1442-shuffle</attribute:xios_commit>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_CNRM-CM6-1</attribute:alias>
+    <attribute:dataset>CNRM-CM6-1</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1f2</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr</attribute:grid>
+    <attribute:institute>['CNRM-CERFACS']</attribute:institute>
+    <attribute:long_name>Surface Air Pressure</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ps</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>7</attribute:recipe_dataset_index>
+    <attribute:short_name>ps</attribute:short_name>
+    <attribute:standard_name>surface_air_pressure</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>Pa</attribute:units>
+    <attribute:variable_group>ps</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ps', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ps', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ps_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/ps/gr/v20180917/ps_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ps"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CMIP6_CNRM-CM6-1</attribute:alias>
+    <attribute:dataset>CNRM-CM6-1</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1f2</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr</attribute:grid>
+    <attribute:institute>['CNRM-CERFACS']</attribute:institute>
+    <attribute:long_name>Surface Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ts</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>7</attribute:recipe_dataset_index>
+    <attribute:short_name>ts</attribute:short_name>
+    <attribute:standard_name>surface_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>ts</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ts', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'ts', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'CNRM-CM6-1', 'project': 'CMIP6', 'exp': 'historical', 'ensemble': 'r1i1p1f2', 'grid': 'gr', 'recipe_dataset_index': 7, 'timerange': '2000/2005', 'institute': ['CNRM-CERFACS'], 'activity': 'CMIP', 'alias': 'CMIP6_CNRM-CM6-1', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_ts_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:agent prov:id="author:Lembo, Valerio">
+    <attribute:institute>CEN, University of Hamburg, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-6085-5914</attribute:orcid>
+  </prov:agent>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ps"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/ps/gr/v20180917/ps_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc">
+    <attribute:CMIP6_CV_version>cv=6.2.3.0-7-g2019642</attribute:CMIP6_CV_version>
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:EXPID>CNRM-CM6-1_historical_r1i1p1f2</attribute:EXPID>
+    <attribute:NCO>"4.5.5"</attribute:NCO>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:arpege_minor_version>6.3.2</attribute:arpege_minor_version>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:contact>contact.cmip@meteo.fr</attribute:contact>
+    <attribute:creation_date>2018-06-20T08:40:03Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.21</attribute:data_specs_version>
+    <attribute:description>CMIP6 historical</attribute:description>
+    <attribute:dr2xml_md5sum>d6225e658d7de0912fca2a4293dbe2a7</attribute:dr2xml_md5sum>
+    <attribute:dr2xml_version>1.10</attribute:dr2xml_version>
+    <attribute:experiment>all-forcing simulation of the recent past</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>2</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.CNRM-CERFACS.CNRM-CM6-1.historical.none.r1i1p1f2</attribute:further_info_url>
+    <attribute:grid>data regridded to a T127 gaussian grid (128x256 latlon) from a native atmosphere T127l reduced gaussian grid</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>Mon Jul 30 09:18:10 2018: ncatted -O -a tracking_id,global,m,c,hdl:21.14100/20a50c62-92eb-48c4-9810-e675b2070753 /scratch/work/voldoire/outputs/CMIP6/DECK/CNRM-CM6-1_historical_r1i1p1f2/assembled/ps_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc
+none</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)</attribute:institution>
+    <attribute:institution_id>CNRM-CERFACS</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by CNRM-CERFACS is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at http://www.umr-cnrm.fr/cmip6/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:name>/scratch/work/voldoire/outputs/CMIP6/DECK/CNRM-CM6-1_historical_r1i1p1f2/18500101/ps_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_%start_date%-%end_date%</attribute:name>
+    <attribute:nemo_gelato_commit>49095b3accd5d4c_6524fe19b00467a</attribute:nemo_gelato_commit>
+    <attribute:nominal_resolution>250 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CNRM-CM6-1</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 1850-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f2</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>http://www.umr-cnrm.fr/cmip6/references</attribute:references>
+    <attribute:source>CNRM-CM6-1 (2017):  aerosol: prescribed monthly fields computed by TACTIC_v2 scheme atmos: Arpege 6.3 (T127; Gaussian Reduced with 24572 grid points in total distributed over 128 latitude circles (with 256 grid points per latitude circle between 30degN and 30degS reducing to 20 grid points per latitude circle at 88.9degN and 88.9degS); 91 levels; top level 78.4 km) atmosChem: OZL_v2 land: Surfex 8.0c ocean: Nemo 3.6 (eORCA1, tripolar primarily 1deg; 362 x 294 longitude/latitude; 75 levels; top grid cell 0-1 m) seaIce: Gelato 6.1</attribute:source>
+    <attribute:source_id>CNRM-CM6-1</attribute:source_id>
+    <attribute:source_type>AOGCM</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:title>CNRM-CM6-1 model output prepared for CMIP6 / CMIP historical</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/20a50c62-92eb-48c4-9810-e675b2070753</attribute:tracking_id>
+    <attribute:variable_id>ps</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f2</attribute:variant_label>
+    <attribute:xios_commit>1442-shuffle</attribute:xios_commit>
+  </prov:entity>
+  <prov:agent prov:id="project:DFG Project TRR-181, Energy transfers in Atmosphere and Ocean"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP6_CNRM-CM6-1_Amon_historical_r1i1p1f2_prsn_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r1i1p1f2/Amon/prsn/gr/v20180917/prsn_Amon_CNRM-CM6-1_historical_r1i1p1f2_gr_185001-201412.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/prsn"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="author:Lembo, Valerio"/>
+  </prov:wasAttributedTo>
+</prov:document>

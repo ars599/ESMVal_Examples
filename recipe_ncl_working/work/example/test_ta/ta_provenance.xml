@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:file="https://www.esmvaltool.org/file" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:task="https://www.esmvaltool.org/task" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:author="https://www.esmvaltool.org/author" xmlns:project="https://www.esmvaltool.org/project" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta//ta.nc"/>
+    <prov:agent prov:ref="author:Gottschaldt, Klaus-Dirk"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta//ta.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:activity prov:ref="task:example/test_ta"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc">
+    <attribute:alias>CanESM2</attribute:alias>
+    <attribute:dataset>CanESM2</attribute:dataset>
+    <attribute:diagnostic>example</attribute:diagnostic>
+    <attribute:end_year>2002</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['CCCma']</attribute:institute>
+    <attribute:long_name>Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ta</attribute:original_short_name>
+    <attribute:preprocessor>preprocessor_1</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>3</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>MPI-ESM-LR</attribute:reference_dataset>
+    <attribute:short_name>ta</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2002</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>ta</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2002'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ta', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ta', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'levels': 85000, 'scheme': 'nearest'}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'CanESM2', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 3, 'institute': ['CCCma'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CanESM2', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'CanESM2', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 3, 'institute': ['CCCma'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CanESM2', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'CanESM2', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 3, 'institute': ['CCCma'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'CanESM2', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x7f4c672b8940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:example/test_ta"/>
+    <prov:trigger prov:ref="recipe:recipe_ncl.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc">
+    <attribute:alias>MPI-ESM-LR</attribute:alias>
+    <attribute:dataset>MPI-ESM-LR</attribute:dataset>
+    <attribute:diagnostic>example</attribute:diagnostic>
+    <attribute:end_year>2002</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['MPI-M']</attribute:institute>
+    <attribute:long_name>Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ta</attribute:original_short_name>
+    <attribute:preprocessor>preprocessor_1</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>2</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>MPI-ESM-LR</attribute:reference_dataset>
+    <attribute:short_name>ta</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2002</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>ta</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2002'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ta', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ta', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'levels': 85000, 'scheme': 'nearest'}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'MPI-ESM-LR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['MPI-M'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'MPI-ESM-LR', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'MPI-ESM-LR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['MPI-M'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'MPI-ESM-LR', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'MPI-ESM-LR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['MPI-M'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'MPI-ESM-LR', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x7f4c672b8940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc"/>
+    <prov:activity prov:ref="task:example/ta"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:example/ta"/>
+    <prov:trigger prov:ref="recipe:recipe_ncl.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:agent prov:id="project:DLR project ESMVal"/>
+  <prov:agent prov:id="author:Gottschaldt, Klaus-Dirk">
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0002-2046-6137</attribute:orcid>
+  </prov:agent>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc"/>
+    <prov:activity prov:ref="task:example/ta"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta//ta.nc"/>
+    <prov:agent prov:ref="author:Righi, Mattia"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>470.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.6</attribute:cmor_version>
+    <attribute:comment>The experiment starts from piControl run at year 470. RCP8.5 scenario forcing data are used beyond year 2005.</attribute:comment>
+    <attribute:contact>Dr. Tongwen Wu (twwu@cma.gov.cn)</attribute:contact>
+    <attribute:creation_date>2011-06-15T08:55:29Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>Nat Ant GHG SD Oz Sl Vl SS Ds BC OC</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>Output from monthly mean data 2011-06-15T08:55:28Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>BCC</attribute:institute_id>
+    <attribute:institution>Beijing Climate Center(BCC),China Meteorological Administration,China</attribute:institution>
+    <attribute:model_id>bcc-csm1-1</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:source>bcc-csm1-1:atmosphere:  BCC_AGCM2.1 (T42L26); land: BCC_AVIM1.0;ocean: MOM4_L40 (tripolar, 1 lon x (1-1/3) lat, L40);sea ice: SIS (tripolar,1 lon x (1-1/3) lat)</attribute:source>
+    <attribute:table_id>Table Amon (11 April 2011) 1cfdc7322cf2f4a32614826fab42c1ab</attribute:table_id>
+    <attribute:title>bcc-csm1-1 model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>c471434e-b949-40d3-8877-0193d43e3e89</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta//ta.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:activity prov:ref="task:example/test_ta"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc">
+    <attribute:alias>GFDL-ESM2G</attribute:alias>
+    <attribute:dataset>GFDL-ESM2G</attribute:dataset>
+    <attribute:diagnostic>example</attribute:diagnostic>
+    <attribute:end_year>2002</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['NOAA-GFDL']</attribute:institute>
+    <attribute:long_name>Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ta</attribute:original_short_name>
+    <attribute:preprocessor>preprocessor_1</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>1</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>MPI-ESM-LR</attribute:reference_dataset>
+    <attribute:short_name>ta</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2002</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>ta</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2002'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ta', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ta', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'levels': 85000, 'scheme': 'nearest'}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'GFDL-ESM2G', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 1, 'institute': ['NOAA-GFDL'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'GFDL-ESM2G', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'GFDL-ESM2G', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 1, 'institute': ['NOAA-GFDL'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'GFDL-ESM2G', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'GFDL-ESM2G', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 1, 'institute': ['NOAA-GFDL'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'GFDL-ESM2G', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x7f4c672b8940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta//ta.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:activity prov:ref="task:example/test_ta"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:example/test_ta"/>
+  <prov:activity prov:id="task:example/ta"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc">
+    <attribute:alias>bcc-csm1-1</attribute:alias>
+    <attribute:dataset>bcc-csm1-1</attribute:dataset>
+    <attribute:diagnostic>example</attribute:diagnostic>
+    <attribute:end_year>2002</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['BCC']</attribute:institute>
+    <attribute:long_name>Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ta</attribute:original_short_name>
+    <attribute:preprocessor>preprocessor_1</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>0</attribute:recipe_dataset_index>
+    <attribute:reference_dataset>MPI-ESM-LR</attribute:reference_dataset>
+    <attribute:short_name>ta</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2002</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>ta</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2002'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ta', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ta', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:extract_levels>{'levels': 85000, 'scheme': 'nearest'}</preprocessor:extract_levels>
+    <preprocessor:fix_data>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'bcc-csm1-1', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 0, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'bcc-csm1-1', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'bcc-csm1-1', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 0, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'bcc-csm1-1', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'preprocessor_1', 'reference_dataset': 'MPI-ESM-LR', 'mip': 'Amon', 'variable_group': 'ta', 'short_name': 'ta', 'diagnostic': 'example', 'dataset': 'bcc-csm1-1', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 0, 'institute': ['BCC'], 'product': ['output1', 'output2'], 'timerange': '2000/2002', 'alias': 'bcc-csm1-1', 'original_short_name': 'ta', 'standard_name': 'air_temperature', 'long_name': 'Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x7f4c672b8940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc"/>
+    <prov:activity prov:ref="task:example/ta"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_ncl.yml"/>
+    <prov:agent prov:ref="author:Righi, Mattia"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>10957.0</attribute:branch_time>
+    <attribute:cmor_version>2.5.9</attribute:cmor_version>
+    <attribute:contact>cmip5-mpi-esm@dkrz.de</attribute:contact>
+    <attribute:creation_date>2011-05-28T08:46:07Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>GHG Oz SD Sl Vl LU</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>Model raw output postprocessing with modelling environment (IMDI) at DKRZ: URL: http://svn-mad.zmaw.de/svn/mad/Model/IMDI/trunk, REV: 3185 2011-05-28T08:46:02Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>MPI-M</attribute:institute_id>
+    <attribute:institution>Max Planck Institute for Meteorology</attribute:institution>
+    <attribute:model_id>MPI-ESM-LR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>ECHAM6: n/a; JSBACH: Raddatz et al., 2007. Will the tropical land biosphere dominate the climate-carbon cycle feedback during the twenty first century? Climate Dynamics, 29, 565-574, doi 10.1007/s00382-007-0247-8;  MPIOM: Marsland et al., 2003. The Max-Planck-Institute global ocean/sea ice model with orthogonal curvilinear coordinates. Ocean Modelling, 5, 91-127;  HAMOCC: http://www.mpimet.mpg.de/fileadmin/models/MPIOM/HAMOCC5.1_TECHNICAL_REPORT.pdf;</attribute:references>
+    <attribute:source>MPI-ESM-LR 2011; URL: http://svn.zmaw.de/svn/cosmos/branches/releases/mpi-esm-cmip5/src/mod; atmosphere: ECHAM6 (REV: 4603), T63L47; land: JSBACH (REV: 4603); ocean: MPIOM (REV: 4603), GR15L40; sea ice: 4603; marine bgc: HAMOCC (REV: 4603);</attribute:source>
+    <attribute:table_id>Table Amon (27 April 2011) a5a1c518f52ae340313ba0aada03f862</attribute:table_id>
+    <attribute:title>MPI-ESM-LR model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>f9134520-0445-4461-9a48-14d8663dab74</attribute:tracking_id>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_ncl.yml"/>
+    <prov:agent prov:ref="project:DLR project ESMVal"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta//ta.nc">
+    <attribute:caption>Mean of variable: ta</attribute:caption>
+    <attribute:colormap>WhiteBlueGreenYellowRed</attribute:colormap>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:ncdf>default</attribute:ncdf>
+    <attribute:plot_types>('geographical distribution',)</attribute:plot_types>
+    <attribute:projection>Mollweide</attribute:projection>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['acknow_author']</attribute:references>
+    <attribute:script>test_ta</attribute:script>
+    <attribute:script_file>examples/diagnostic.ncl</attribute:script_file>
+    <attribute:statistics>('mean',)</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:agent prov:id="author:Righi, Mattia">
+    <attribute:email>mattia.righi@dlr.de</attribute:email>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0003-3827-5950</attribute:orcid>
+  </prov:agent>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc"/>
+    <prov:activity prov:ref="task:example/ta"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>58765</attribute:branch_time>
+    <attribute:comment>GFDL experiment name = ESM2G-C2_all_historical_HC2. PCMDI experiment name = historical (run1). Initial conditions for this experiment were taken from 1 January of year 1861 of the parent experiment, ESM2G-C2_1700-1860_historical_HC2, which is an unpublished experiment branched from 1 January of year 1 of 1860 control model experiment, ESM2G_pi-control_C2 (piControl). This parent experiment is an extension of piControl except historical transitions of land use are applied from 1700-1860 in order to allow the terrestrial carbon stores to respond to the imposition of land use and produce realistic fluxes by the start of the historical run in 1861. Several forcing agents varied during the 145 year duration of the ESM2G-C2_all_historical_HC2 experiment in a manner based upon observations and reconstructions for the late 19th and 20th centuries. The aerosol concentrations were computed by an off-line model. The time varying forcing agents include the well-mixed greenhouse gases (CO2, CH4, N2O, halons), tropospheric and stratospheric O3, aerosol concentrations (sulfate, black and organic carbon, sea salt, dust), volcanic aerosols, solar irradiance and land use transitions. The direct effect of tropospheric aerosols is calculated by the model, but not the indirect effects.</attribute:comment>
+    <attribute:contact>gfdl.climate.model.info@noaa.gov</attribute:contact>
+    <attribute:creation_date>2012-01-11T00:52:45Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>GHG,SD,Oz,LU,Sl,Vl,SS,BC,MD,OC (GHG includes CO2, CH4, N2O, CFC11, CFC12, HCFC22, CFC113)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:gfdl_experiment_name>ESM2G-C2_all_historical_HC2</attribute:gfdl_experiment_name>
+    <attribute:history>File was processed by fremetar (GFDL analog of CMOR). TripleID: [exper_id_eDfXZpMNeR,realiz_id_rexsamlwoA,run_id_bSxBCxpGE5]</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NOAA GFDL</attribute:institute_id>
+    <attribute:institution>NOAA GFDL(201 Forrestal Rd, Princeton, NJ, 08540)</attribute:institution>
+    <attribute:model_id>GFDL-ESM2G</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment_id>historicalMisc</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output1</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>The GFDL Data Portal (http://nomads.gfdl.noaa.gov/) provides access to NOAA/GFDL's publicly available model input and output data sets. From this web site one can view and download data sets and documentation, including those related to the GFDL coupled models experiments run for the IPCC's 5th Assessment Report and the US CCSP.</attribute:references>
+    <attribute:source>GFDL-ESM2G 2010 ocean: TOPAZ (TOPAZ1p2,Tripolar360x210L63); atmosphere: AM2 (AM2p14,M45L24); sea ice: SIS (SISp2,Tripolar360x210L63); land: LM3 (LM3p7_cESM,M45)</attribute:source>
+    <attribute:table_id>Table Amon (31 Jan 2011)</attribute:table_id>
+    <attribute:title>NOAA GFDL GFDL-ESM2G, historical (run 1) experiment output for CMIP5 AR5</attribute:title>
+    <attribute:tracking_id>332eff02-a2c2-41b5-b7fb-9e4fe7b36a78</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>58765</attribute:branch_time>
+    <attribute:comment>GFDL experiment name = ESM2G-C2_all_historical_HC2. PCMDI experiment name = historical (run1). Initial conditions for this experiment were taken from 1 January of year 1861 of the parent experiment, ESM2G-C2_1700-1860_historical_HC2, which is an unpublished experiment branched from 1 January of year 1 of 1860 control model experiment, ESM2G_pi-control_C2 (piControl). This parent experiment is an extension of piControl except historical transitions of land use are applied from 1700-1860 in order to allow the terrestrial carbon stores to respond to the imposition of land use and produce realistic fluxes by the start of the historical run in 1861. Several forcing agents varied during the 145 year duration of the ESM2G-C2_all_historical_HC2 experiment in a manner based upon observations and reconstructions for the late 19th and 20th centuries. The aerosol concentrations were computed by an off-line model. The time varying forcing agents include the well-mixed greenhouse gases (CO2, CH4, N2O, halons), tropospheric and stratospheric O3, aerosol concentrations (sulfate, black and organic carbon, sea salt, dust), volcanic aerosols, solar irradiance and land use transitions. The direct effect of tropospheric aerosols is calculated by the model, but not the indirect effects.</attribute:comment>
+    <attribute:contact>gfdl.climate.model.info@noaa.gov</attribute:contact>
+    <attribute:creation_date>2012-01-11T00:58:06Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>GHG,SD,Oz,LU,Sl,Vl,SS,BC,MD,OC (GHG includes CO2, CH4, N2O, CFC11, CFC12, HCFC22, CFC113)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:gfdl_experiment_name>ESM2G-C2_all_historical_HC2</attribute:gfdl_experiment_name>
+    <attribute:history>File was processed by fremetar (GFDL analog of CMOR). TripleID: [exper_id_eDfXZpMNeR,realiz_id_rexsamlwoA,run_id_bSxBCxpGE5]</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>NOAA GFDL</attribute:institute_id>
+    <attribute:institution>NOAA GFDL(201 Forrestal Rd, Princeton, NJ, 08540)</attribute:institution>
+    <attribute:model_id>GFDL-ESM2G</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment_id>historicalMisc</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output1</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>The GFDL Data Portal (http://nomads.gfdl.noaa.gov/) provides access to NOAA/GFDL's publicly available model input and output data sets. From this web site one can view and download data sets and documentation, including those related to the GFDL coupled models experiments run for the IPCC's 5th Assessment Report and the US CCSP.</attribute:references>
+    <attribute:source>GFDL-ESM2G 2010 ocean: TOPAZ (TOPAZ1p2,Tripolar360x210L63); atmosphere: AM2 (AM2p14,M45L24); sea ice: SIS (SISp2,Tripolar360x210L63); land: LM3 (LM3p7_cESM,M45)</attribute:source>
+    <attribute:table_id>Table Amon (31 Jan 2011)</attribute:table_id>
+    <attribute:title>NOAA GFDL GFDL-ESM2G, historical (run 1) experiment output for CMIP5 AR5</attribute:title>
+    <attribute:tracking_id>0c6f82b9-4d2e-4bba-a5cd-43103347c22a</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc">
+    <attribute:CCCma_data_licence>1) GRANT OF LICENCE - The Government of Canada (Environment Canada) is the 
+owner of all intellectual property rights (including copyright) that may exist in this Data 
+product. You (as "The Licensee") are hereby granted a non-exclusive, non-assignable, 
+non-transferable unrestricted licence to use this data product for any purpose including 
+the right to share these data with others and to make value-added and derivative 
+products from it. This licence is not a sale of any or all of the owner's rights.
+2) NO WARRANTY - This Data product is provided "as-is"; it has not been designed or 
+prepared to meet the Licensee's particular requirements. Environment Canada makes no 
+warranty, either express or implied, including but not limited to, warranties of 
+merchantability and fitness for a particular purpose. In no event will Environment Canada 
+be liable for any indirect, special, consequential or other damages attributed to the 
+Licensee's use of the Data product.</attribute:CCCma_data_licence>
+    <attribute:CCCma_parent_runid>IGA</attribute:CCCma_parent_runid>
+    <attribute:CCCma_runid>IGM</attribute:CCCma_runid>
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>171915.0</attribute:branch_time>
+    <attribute:branch_time_YMDH>2321:01:01:00</attribute:branch_time_YMDH>
+    <attribute:cmor_version>2.5.4</attribute:cmor_version>
+    <attribute:contact>cccma_info@ec.gc.ca</attribute:contact>
+    <attribute:creation_date>2011-03-16T18:47:25Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>GHG,Oz,SA,BC,OC,LU,Sl,Vl (GHG includes CO2,CH4,N2O,CFC11,effective CFC12)</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-03-16T18:47:25Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>CCCma</attribute:institute_id>
+    <attribute:institution>CCCma (Canadian Centre for Climate Modelling and Analysis, Victoria, BC, Canada)</attribute:institution>
+    <attribute:model_id>CanESM2</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>http://www.cccma.ec.gc.ca/models</attribute:references>
+    <attribute:source>CanESM2 2010 atmosphere: CanAM4 (AGCM15i, T63L35) ocean: CanOM4 (OGCM4.0, 256x192L40) and CMOC1.2 sea ice: CanSIM1 (Cavitating Fluid, T63 Gaussian Grid) land: CLASS2.7 and CTEM1</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>CanESM2 model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>6ec92ad9-7b86-4311-bdf5-561756c01d97</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="recipe:recipe_ncl.yml">
+    <attribute:description>Example recipe that plots air temperature.
+</attribute:description>
+    <attribute:references>['acknow_project']</attribute:references>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc"/>
+    <prov:activity prov:ref="task:example/ta"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta//ta.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc"/>
+    <prov:activity prov:ref="task:example/test_ta"/>
+  </prov:wasDerivedFrom>
+</prov:document>

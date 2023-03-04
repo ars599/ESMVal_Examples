@@ -1,0 +1,1310 @@
+2023-03-01 21:51:00,518 UTC [670400] INFO    esmvalcore._main:473 
+______________________________________________________________________
+          _____ ____  __  ____     __    _ _____           _
+         | ____/ ___||  \/  \ \   / /_ _| |_   _|__   ___ | |
+         |  _| \___ \| |\/| |\ \ / / _` | | | |/ _ \ / _ \| |
+         | |___ ___) | |  | | \ V / (_| | | | | (_) | (_) | |
+         |_____|____/|_|  |_|  \_/ \__,_|_| |_|\___/ \___/|_|
+______________________________________________________________________
+
+ESMValTool - Earth System Model Evaluation Tool.
+
+http://www.esmvaltool.org
+
+CORE DEVELOPMENT TEAM AND CONTACTS:
+  Birgit Hassler (Co-PI; DLR, Germany - birgit.hassler@dlr.de)
+  Alistair Sellar (Co-PI; Met Office, UK - alistair.sellar@metoffice.gov.uk)
+  Bouwe Andela (Netherlands eScience Center, The Netherlands - b.andela@esciencecenter.nl)
+  Lee de Mora (PML, UK - ledm@pml.ac.uk)
+  Niels Drost (Netherlands eScience Center, The Netherlands - n.drost@esciencecenter.nl)
+  Veronika Eyring (DLR, Germany - veronika.eyring@dlr.de)
+  Bettina Gier (UBremen, Germany - gier@uni-bremen.de)
+  Remi Kazeroni (DLR, Germany - remi.kazeroni@dlr.de)
+  Nikolay Koldunov (AWI, Germany - nikolay.koldunov@awi.de)
+  Axel Lauer (DLR, Germany - axel.lauer@dlr.de)
+  Saskia Loosveldt-Tomas (BSC, Spain - saskia.loosveldt@bsc.es)
+  Ruth Lorenz (ETH Zurich, Switzerland - ruth.lorenz@env.ethz.ch)
+  Benjamin Mueller (LMU, Germany - b.mueller@iggf.geo.uni-muenchen.de)
+  Valeriu Predoi (URead, UK - valeriu.predoi@ncas.ac.uk)
+  Mattia Righi (DLR, Germany - mattia.righi@dlr.de)
+  Manuel Schlund (DLR, Germany - manuel.schlund@dlr.de)
+  Breixo Solino Fernandez (DLR, Germany - breixo.solinofernandez@dlr.de)
+  Javier Vegas-Regidor (BSC, Spain - javier.vegas@bsc.es)
+  Klaus Zimmermann (SMHI, Sweden - klaus.zimmermann@smhi.se)
+
+For further help, please read the documentation at
+http://docs.esmvaltool.org. Have fun!
+
+2023-03-01 21:51:00,524 UTC [670400] INFO    esmvalcore._main:474 Package versions
+2023-03-01 21:51:00,524 UTC [670400] INFO    esmvalcore._main:475 ----------------
+2023-03-01 21:51:00,524 UTC [670400] INFO    esmvalcore._main:476 ESMValCore: 2.7.1
+2023-03-01 21:51:00,525 UTC [670400] INFO    esmvalcore._main:478 ESMValTool: 2.7.0
+2023-03-01 21:51:00,525 UTC [670400] INFO    esmvalcore._main:479 ----------------
+2023-03-01 21:51:00,525 UTC [670400] INFO    esmvalcore._main:480 Using config file /home/599/ars599/.esmvaltool/config-user.yml
+2023-03-01 21:51:00,525 UTC [670400] INFO    esmvalcore._main:481 Writing program log files to:
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/main_log.txt
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/main_log_debug.txt
+2023-03-01 21:51:00,525 UTC [670400] INFO    esmvalcore._config._esgf_pyclient:118 Using default ESGF configuration, configuration file /home/599/ars599/.esmvaltool/esgf-pyclient.yml not present.
+2023-03-01 21:51:00,526 UTC [670400] WARNING esmvalcore._config._esgf_pyclient:182 
+ESGF credentials missing, only data that is accessible without
+logging in will be available.
+
+See https://esgf.github.io/esgf-user-support/user_guide.html
+for instructions on how to create an account if you do not have
+one yet.
+
+Next, configure your system so esmvaltool can use your
+credentials. This can be done using the keyring package, or
+you can just enter them in /home/599/ars599/.esmvaltool/esgf-pyclient.yml.
+
+keyring
+=======
+First install the keyring package (requires a supported
+backend, see https://pypi.org/project/keyring/):
+$ pip install keyring
+
+Next, set your username and password by running the commands:
+$ keyring set ESGF hostname
+$ keyring set ESGF username
+$ keyring set ESGF password
+
+To check that you entered your credentials correctly, run:
+$ keyring get ESGF hostname
+$ keyring get ESGF username
+$ keyring get ESGF password
+
+configuration file
+==================
+You can store the hostname, username, and password or your OpenID
+account in a plain text in the file /home/599/ars599/.esmvaltool/esgf-pyclient.yml like this:
+
+logon:
+  hostname: "your-hostname"
+  username: "your-username"
+  password: "your-password"
+
+or your can configure an interactive log in:
+
+logon:
+  interactive: true
+
+Note that storing your password in plain text in the configuration
+file is less secure. On shared systems, make sure the permissions
+of the file are set so only you can read it, i.e.
+
+$ ls -l /home/599/ars599/.esmvaltool/esgf-pyclient.yml
+
+shows permissions -rw-------.
+
+
+2023-03-01 21:51:00,533 UTC [670400] INFO    esmvalcore._main:86 Starting the Earth System Model Evaluation Tool at time: 2023-03-01 21:51:00 UTC
+2023-03-01 21:51:00,533 UTC [670400] INFO    esmvalcore._main:90 ----------------------------------------------------------------------
+2023-03-01 21:51:00,533 UTC [670400] INFO    esmvalcore._main:91 RECIPE   = /g/data/p66/ars599/work_esmvaltool/recipes/recipe_ncl.yml
+2023-03-01 21:51:00,534 UTC [670400] INFO    esmvalcore._main:92 RUNDIR     = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run
+2023-03-01 21:51:00,534 UTC [670400] INFO    esmvalcore._main:93 WORKDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work
+2023-03-01 21:51:00,534 UTC [670400] INFO    esmvalcore._main:94 PREPROCDIR = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc
+2023-03-01 21:51:00,534 UTC [670400] INFO    esmvalcore._main:95 PLOTDIR    = /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/plots
+2023-03-01 21:51:00,534 UTC [670400] INFO    esmvalcore._main:96 ----------------------------------------------------------------------
+2023-03-01 21:51:00,534 UTC [670400] INFO    esmvalcore._main:100 Running tasks using at most 48 processes
+2023-03-01 21:51:00,535 UTC [670400] INFO    esmvalcore._main:102 If your system hangs during execution, it may not have enough memory for keeping this number of tasks in memory.
+2023-03-01 21:51:00,535 UTC [670400] INFO    esmvalcore._main:105 If you experience memory problems, try reducing 'max_parallel_tasks' in your user configuration file.
+2023-03-01 21:51:00,557 UTC [670400] DEBUG   esmvalcore._recipe_checks:47 Checking recipe against schema /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvalcore/recipe_schema.yml
+2023-03-01 21:51:00,592 UTC [670400] INFO    esmvalcore._recipe:1327 NCL script detected, checking NCL version
+2023-03-01 21:51:00,875 UTC [670400] INFO    esmvalcore._recipe_checks:36 Found NCL version 6.6.2
+2023-03-01 21:51:00,876 UTC [670400] DEBUG   esmvalcore._recipe:1342 Retrieving diagnostics from recipe
+2023-03-01 21:51:00,876 UTC [670400] DEBUG   esmvalcore._recipe:1479 Populating list of variables for diagnostic example
+2023-03-01 21:51:00,878 UTC [670400] DEBUG   esmvalcore._config._config:48 Loading extra facets from /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvalcore/_config/extra_facets/cmip5-institutes.yml
+2023-03-01 21:51:00,937 UTC [670400] DEBUG   esmvalcore._config._config:48 Loading extra facets from /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvalcore/_config/extra_facets/cmip5-product.yml
+2023-03-01 21:51:00,970 UTC [670400] DEBUG   esmvalcore._recipe:1609 Setting script for diagnostic example
+2023-03-01 21:51:00,971 UTC [670400] INFO    esmvalcore._recipe:1845 Creating tasks from recipe
+2023-03-01 21:51:00,971 UTC [670400] INFO    esmvalcore._recipe:1854 Creating tasks for diagnostic example
+2023-03-01 21:51:00,971 UTC [670400] INFO    esmvalcore._recipe:1728 Creating diagnostic task example/test_ta
+2023-03-01 21:51:00,973 UTC [670400] INFO    esmvalcore._recipe:1825 Creating preprocessor task example/ta
+2023-03-01 21:51:00,973 UTC [670400] INFO    esmvalcore._recipe:1214 Creating preprocessor 'preprocessor_1' task for variable 'ta'
+2023-03-01 21:51:01,062 UTC [670400] DEBUG   esmvalcore._data_finder:19 Looking for files matching ['ta_Amon_bcc-csm1-1_historical_r1i1p1*.nc'] in ['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta']
+2023-03-01 21:51:01,069 UTC [670400] DEBUG   esmvalcore._recipe:624 Using input files for variable ta of dataset bcc-csm1-1:
+/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc
+2023-03-01 21:51:01,069 UTC [670400] INFO    esmvalcore._recipe:633 Found input files for bcc-csm1-1
+2023-03-01 21:51:01,106 UTC [670400] DEBUG   esmvalcore._data_finder:19 Looking for files matching ['ta_Amon_GFDL-ESM2G_historical_r1i1p1*.nc'] in ['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta']
+2023-03-01 21:51:01,114 UTC [670400] DEBUG   esmvalcore._recipe:624 Using input files for variable ta of dataset GFDL-ESM2G:
+/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc
+/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc
+2023-03-01 21:51:01,114 UTC [670400] INFO    esmvalcore._recipe:633 Found input files for GFDL-ESM2G
+2023-03-01 21:51:01,181 UTC [670400] DEBUG   esmvalcore._data_finder:19 Looking for files matching ['ta_Amon_MPI-ESM-LR_historical_r1i1p1*.nc'] in ['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta']
+2023-03-01 21:51:01,186 UTC [670400] DEBUG   esmvalcore._recipe:624 Using input files for variable ta of dataset MPI-ESM-LR:
+/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc
+2023-03-01 21:51:01,187 UTC [670400] INFO    esmvalcore._recipe:633 Found input files for MPI-ESM-LR
+2023-03-01 21:51:01,228 UTC [670400] DEBUG   esmvalcore._data_finder:19 Looking for files matching ['ta_Amon_CanESM2_historical_r1i1p1*.nc'] in ['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta']
+2023-03-01 21:51:01,232 UTC [670400] DEBUG   esmvalcore._recipe:624 Using input files for variable ta of dataset CanESM2:
+/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc
+2023-03-01 21:51:01,232 UTC [670400] INFO    esmvalcore._recipe:633 Found input files for CanESM2
+2023-03-01 21:51:01,268 UTC [670400] INFO    esmvalcore._recipe:1095 PreprocessingTask example/ta created.
+2023-03-01 21:51:01,269 UTC [670400] DEBUG   esmvalcore._recipe:1096 PreprocessingTask example/ta will create the files:
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc
+/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:01,269 UTC [670400] DEBUG   esmvalcore._recipe:1656 Linking tasks for diagnostic example script test_ta
+2023-03-01 21:51:01,269 UTC [670400] DEBUG   esmvalcore._recipe:1665 Pattern example/ta matches ['example/ta']
+2023-03-01 21:51:01,269 UTC [670400] INFO    esmvalcore._recipe:1894 These tasks will be executed: example/test_ta, example/ta
+2023-03-01 21:51:01,271 UTC [670400] DEBUG   esmvalcore._main:122 Recipe summary:
+DiagnosticTask: example/test_ta
+script: examples/diagnostic.ncl
+settings:
+{'auxiliary_data_dir': '/g/data/p66/ars599/work_esmvaltool/auxiliary_data',
+ 'colormap': 'WhiteBlueGreenYellowRed',
+ 'exit_on_ncl_warning': False,
+ 'log_level': 'debug',
+ 'ncdf': 'default',
+ 'output_file_type': 'png',
+ 'plot_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/plots/example/test_ta',
+ 'profile_diagnostic': False,
+ 'projection': 'Mollweide',
+ 'realms': ['atmos'],
+ 'recipe': 'recipe_ncl.yml',
+ 'run_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta',
+ 'script': 'test_ta',
+ 'themes': ['phys'],
+ 'version': '2.7.1',
+ 'work_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta'}
+ancestors:
+  PreprocessingTask: example/ta
+  order: ['fix_file', 'load', 'fix_metadata', 'concatenate', 'cmor_check_metadata', 'clip_timerange', 'fix_data', 'cmor_check_data', 'add_fx_variables', 'extract_levels', 'remove_fx_variables', 'save', 'cleanup']
+  PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc
+  {'add_fx_variables': {'check_level': <CheckLevels.DEFAULT: 3>,
+                        'fx_variables': {}},
+   'cleanup': {'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002_fixed']},
+   'clip_timerange': {'timerange': '2000/2002'},
+   'cmor_check_data': {'check_level': <CheckLevels.DEFAULT: 3>,
+                       'cmor_table': 'CMIP5',
+                       'frequency': 'mon',
+                       'mip': 'Amon',
+                       'short_name': 'ta'},
+   'cmor_check_metadata': {'check_level': <CheckLevels.DEFAULT: 3>,
+                           'cmor_table': 'CMIP5',
+                           'frequency': 'mon',
+                           'mip': 'Amon',
+                           'short_name': 'ta'},
+   'concatenate': {},
+   'extract_levels': {'levels': 85000, 'scheme': 'nearest'},
+   'fix_data': {'alias': 'MPI-ESM-LR',
+                'check_level': <CheckLevels.DEFAULT: 3>,
+                'dataset': 'MPI-ESM-LR',
+                'diagnostic': 'example',
+                'ensemble': 'r1i1p1',
+                'exp': 'historical',
+                'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                'frequency': 'mon',
+                'institute': ['MPI-M'],
+                'long_name': 'Air Temperature',
+                'mip': 'Amon',
+                'modeling_realm': ['atmos'],
+                'original_short_name': 'ta',
+                'preprocessor': 'preprocessor_1',
+                'product': ['output1', 'output2'],
+                'project': 'CMIP5',
+                'recipe_dataset_index': 2,
+                'reference_dataset': 'MPI-ESM-LR',
+                'short_name': 'ta',
+                'standard_name': 'air_temperature',
+                'timerange': '2000/2002',
+                'units': 'K',
+                'variable_group': 'ta'},
+   'fix_file': {'alias': 'MPI-ESM-LR',
+                'dataset': 'MPI-ESM-LR',
+                'diagnostic': 'example',
+                'ensemble': 'r1i1p1',
+                'exp': 'historical',
+                'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                'frequency': 'mon',
+                'institute': ['MPI-M'],
+                'long_name': 'Air Temperature',
+                'mip': 'Amon',
+                'modeling_realm': ['atmos'],
+                'original_short_name': 'ta',
+                'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002_fixed',
+                'preprocessor': 'preprocessor_1',
+                'product': ['output1', 'output2'],
+                'project': 'CMIP5',
+                'recipe_dataset_index': 2,
+                'reference_dataset': 'MPI-ESM-LR',
+                'short_name': 'ta',
+                'standard_name': 'air_temperature',
+                'timerange': '2000/2002',
+                'units': 'K',
+                'variable_group': 'ta'},
+   'fix_metadata': {'alias': 'MPI-ESM-LR',
+                    'check_level': <CheckLevels.DEFAULT: 3>,
+                    'dataset': 'MPI-ESM-LR',
+                    'diagnostic': 'example',
+                    'ensemble': 'r1i1p1',
+                    'exp': 'historical',
+                    'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                    'frequency': 'mon',
+                    'institute': ['MPI-M'],
+                    'long_name': 'Air Temperature',
+                    'mip': 'Amon',
+                    'modeling_realm': ['atmos'],
+                    'original_short_name': 'ta',
+                    'preprocessor': 'preprocessor_1',
+                    'product': ['output1', 'output2'],
+                    'project': 'CMIP5',
+                    'recipe_dataset_index': 2,
+                    'reference_dataset': 'MPI-ESM-LR',
+                    'short_name': 'ta',
+                    'standard_name': 'air_temperature',
+                    'timerange': '2000/2002',
+                    'units': 'K',
+                    'variable_group': 'ta'},
+   'load': {'callback': <function concatenate_callback at 0x7f4c672b8940>},
+   'remove_fx_variables': {},
+   'save': {'compress': False,
+            'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc'}}
+
+  PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc
+  {'add_fx_variables': {'check_level': <CheckLevels.DEFAULT: 3>,
+                        'fx_variables': {}},
+   'cleanup': {'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002_fixed']},
+   'clip_timerange': {'timerange': '2000/2002'},
+   'cmor_check_data': {'check_level': <CheckLevels.DEFAULT: 3>,
+                       'cmor_table': 'CMIP5',
+                       'frequency': 'mon',
+                       'mip': 'Amon',
+                       'short_name': 'ta'},
+   'cmor_check_metadata': {'check_level': <CheckLevels.DEFAULT: 3>,
+                           'cmor_table': 'CMIP5',
+                           'frequency': 'mon',
+                           'mip': 'Amon',
+                           'short_name': 'ta'},
+   'concatenate': {},
+   'extract_levels': {'levels': 85000, 'scheme': 'nearest'},
+   'fix_data': {'alias': 'CanESM2',
+                'check_level': <CheckLevels.DEFAULT: 3>,
+                'dataset': 'CanESM2',
+                'diagnostic': 'example',
+                'ensemble': 'r1i1p1',
+                'exp': 'historical',
+                'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                'frequency': 'mon',
+                'institute': ['CCCma'],
+                'long_name': 'Air Temperature',
+                'mip': 'Amon',
+                'modeling_realm': ['atmos'],
+                'original_short_name': 'ta',
+                'preprocessor': 'preprocessor_1',
+                'product': ['output1', 'output2'],
+                'project': 'CMIP5',
+                'recipe_dataset_index': 3,
+                'reference_dataset': 'MPI-ESM-LR',
+                'short_name': 'ta',
+                'standard_name': 'air_temperature',
+                'timerange': '2000/2002',
+                'units': 'K',
+                'variable_group': 'ta'},
+   'fix_file': {'alias': 'CanESM2',
+                'dataset': 'CanESM2',
+                'diagnostic': 'example',
+                'ensemble': 'r1i1p1',
+                'exp': 'historical',
+                'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                'frequency': 'mon',
+                'institute': ['CCCma'],
+                'long_name': 'Air Temperature',
+                'mip': 'Amon',
+                'modeling_realm': ['atmos'],
+                'original_short_name': 'ta',
+                'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002_fixed',
+                'preprocessor': 'preprocessor_1',
+                'product': ['output1', 'output2'],
+                'project': 'CMIP5',
+                'recipe_dataset_index': 3,
+                'reference_dataset': 'MPI-ESM-LR',
+                'short_name': 'ta',
+                'standard_name': 'air_temperature',
+                'timerange': '2000/2002',
+                'units': 'K',
+                'variable_group': 'ta'},
+   'fix_metadata': {'alias': 'CanESM2',
+                    'check_level': <CheckLevels.DEFAULT: 3>,
+                    'dataset': 'CanESM2',
+                    'diagnostic': 'example',
+                    'ensemble': 'r1i1p1',
+                    'exp': 'historical',
+                    'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                    'frequency': 'mon',
+                    'institute': ['CCCma'],
+                    'long_name': 'Air Temperature',
+                    'mip': 'Amon',
+                    'modeling_realm': ['atmos'],
+                    'original_short_name': 'ta',
+                    'preprocessor': 'preprocessor_1',
+                    'product': ['output1', 'output2'],
+                    'project': 'CMIP5',
+                    'recipe_dataset_index': 3,
+                    'reference_dataset': 'MPI-ESM-LR',
+                    'short_name': 'ta',
+                    'standard_name': 'air_temperature',
+                    'timerange': '2000/2002',
+                    'units': 'K',
+                    'variable_group': 'ta'},
+   'load': {'callback': <function concatenate_callback at 0x7f4c672b8940>},
+   'remove_fx_variables': {},
+   'save': {'compress': False,
+            'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc'}}
+
+  PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc
+  {'add_fx_variables': {'check_level': <CheckLevels.DEFAULT: 3>,
+                        'fx_variables': {}},
+   'cleanup': {'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002_fixed']},
+   'clip_timerange': {'timerange': '2000/2002'},
+   'cmor_check_data': {'check_level': <CheckLevels.DEFAULT: 3>,
+                       'cmor_table': 'CMIP5',
+                       'frequency': 'mon',
+                       'mip': 'Amon',
+                       'short_name': 'ta'},
+   'cmor_check_metadata': {'check_level': <CheckLevels.DEFAULT: 3>,
+                           'cmor_table': 'CMIP5',
+                           'frequency': 'mon',
+                           'mip': 'Amon',
+                           'short_name': 'ta'},
+   'concatenate': {},
+   'extract_levels': {'levels': 85000, 'scheme': 'nearest'},
+   'fix_data': {'alias': 'GFDL-ESM2G',
+                'check_level': <CheckLevels.DEFAULT: 3>,
+                'dataset': 'GFDL-ESM2G',
+                'diagnostic': 'example',
+                'ensemble': 'r1i1p1',
+                'exp': 'historical',
+                'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                'frequency': 'mon',
+                'institute': ['NOAA-GFDL'],
+                'long_name': 'Air Temperature',
+                'mip': 'Amon',
+                'modeling_realm': ['atmos'],
+                'original_short_name': 'ta',
+                'preprocessor': 'preprocessor_1',
+                'product': ['output1', 'output2'],
+                'project': 'CMIP5',
+                'recipe_dataset_index': 1,
+                'reference_dataset': 'MPI-ESM-LR',
+                'short_name': 'ta',
+                'standard_name': 'air_temperature',
+                'timerange': '2000/2002',
+                'units': 'K',
+                'variable_group': 'ta'},
+   'fix_file': {'alias': 'GFDL-ESM2G',
+                'dataset': 'GFDL-ESM2G',
+                'diagnostic': 'example',
+                'ensemble': 'r1i1p1',
+                'exp': 'historical',
+                'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                'frequency': 'mon',
+                'institute': ['NOAA-GFDL'],
+                'long_name': 'Air Temperature',
+                'mip': 'Amon',
+                'modeling_realm': ['atmos'],
+                'original_short_name': 'ta',
+                'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002_fixed',
+                'preprocessor': 'preprocessor_1',
+                'product': ['output1', 'output2'],
+                'project': 'CMIP5',
+                'recipe_dataset_index': 1,
+                'reference_dataset': 'MPI-ESM-LR',
+                'short_name': 'ta',
+                'standard_name': 'air_temperature',
+                'timerange': '2000/2002',
+                'units': 'K',
+                'variable_group': 'ta'},
+   'fix_metadata': {'alias': 'GFDL-ESM2G',
+                    'check_level': <CheckLevels.DEFAULT: 3>,
+                    'dataset': 'GFDL-ESM2G',
+                    'diagnostic': 'example',
+                    'ensemble': 'r1i1p1',
+                    'exp': 'historical',
+                    'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                    'frequency': 'mon',
+                    'institute': ['NOAA-GFDL'],
+                    'long_name': 'Air Temperature',
+                    'mip': 'Amon',
+                    'modeling_realm': ['atmos'],
+                    'original_short_name': 'ta',
+                    'preprocessor': 'preprocessor_1',
+                    'product': ['output1', 'output2'],
+                    'project': 'CMIP5',
+                    'recipe_dataset_index': 1,
+                    'reference_dataset': 'MPI-ESM-LR',
+                    'short_name': 'ta',
+                    'standard_name': 'air_temperature',
+                    'timerange': '2000/2002',
+                    'units': 'K',
+                    'variable_group': 'ta'},
+   'load': {'callback': <function concatenate_callback at 0x7f4c672b8940>},
+   'remove_fx_variables': {},
+   'save': {'compress': False,
+            'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc'}}
+
+  PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc
+  {'add_fx_variables': {'check_level': <CheckLevels.DEFAULT: 3>,
+                        'fx_variables': {}},
+   'cleanup': {'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002_fixed']},
+   'clip_timerange': {'timerange': '2000/2002'},
+   'cmor_check_data': {'check_level': <CheckLevels.DEFAULT: 3>,
+                       'cmor_table': 'CMIP5',
+                       'frequency': 'mon',
+                       'mip': 'Amon',
+                       'short_name': 'ta'},
+   'cmor_check_metadata': {'check_level': <CheckLevels.DEFAULT: 3>,
+                           'cmor_table': 'CMIP5',
+                           'frequency': 'mon',
+                           'mip': 'Amon',
+                           'short_name': 'ta'},
+   'concatenate': {},
+   'extract_levels': {'levels': 85000, 'scheme': 'nearest'},
+   'fix_data': {'alias': 'bcc-csm1-1',
+                'check_level': <CheckLevels.DEFAULT: 3>,
+                'dataset': 'bcc-csm1-1',
+                'diagnostic': 'example',
+                'ensemble': 'r1i1p1',
+                'exp': 'historical',
+                'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                'frequency': 'mon',
+                'institute': ['BCC'],
+                'long_name': 'Air Temperature',
+                'mip': 'Amon',
+                'modeling_realm': ['atmos'],
+                'original_short_name': 'ta',
+                'preprocessor': 'preprocessor_1',
+                'product': ['output1', 'output2'],
+                'project': 'CMIP5',
+                'recipe_dataset_index': 0,
+                'reference_dataset': 'MPI-ESM-LR',
+                'short_name': 'ta',
+                'standard_name': 'air_temperature',
+                'timerange': '2000/2002',
+                'units': 'K',
+                'variable_group': 'ta'},
+   'fix_file': {'alias': 'bcc-csm1-1',
+                'dataset': 'bcc-csm1-1',
+                'diagnostic': 'example',
+                'ensemble': 'r1i1p1',
+                'exp': 'historical',
+                'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                'frequency': 'mon',
+                'institute': ['BCC'],
+                'long_name': 'Air Temperature',
+                'mip': 'Amon',
+                'modeling_realm': ['atmos'],
+                'original_short_name': 'ta',
+                'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002_fixed',
+                'preprocessor': 'preprocessor_1',
+                'product': ['output1', 'output2'],
+                'project': 'CMIP5',
+                'recipe_dataset_index': 0,
+                'reference_dataset': 'MPI-ESM-LR',
+                'short_name': 'ta',
+                'standard_name': 'air_temperature',
+                'timerange': '2000/2002',
+                'units': 'K',
+                'variable_group': 'ta'},
+   'fix_metadata': {'alias': 'bcc-csm1-1',
+                    'check_level': <CheckLevels.DEFAULT: 3>,
+                    'dataset': 'bcc-csm1-1',
+                    'diagnostic': 'example',
+                    'ensemble': 'r1i1p1',
+                    'exp': 'historical',
+                    'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc',
+                    'frequency': 'mon',
+                    'institute': ['BCC'],
+                    'long_name': 'Air Temperature',
+                    'mip': 'Amon',
+                    'modeling_realm': ['atmos'],
+                    'original_short_name': 'ta',
+                    'preprocessor': 'preprocessor_1',
+                    'product': ['output1', 'output2'],
+                    'project': 'CMIP5',
+                    'recipe_dataset_index': 0,
+                    'reference_dataset': 'MPI-ESM-LR',
+                    'short_name': 'ta',
+                    'standard_name': 'air_temperature',
+                    'timerange': '2000/2002',
+                    'units': 'K',
+                    'variable_group': 'ta'},
+   'load': {'callback': <function concatenate_callback at 0x7f4c672b8940>},
+   'remove_fx_variables': {},
+   'save': {'compress': False,
+            'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc'}}
+  ancestors:
+  None
+
+2023-03-01 21:51:01,286 UTC [670400] INFO    esmvalcore.esgf._download:418 All required data is available locally, not downloading anything.
+2023-03-01 21:51:01,286 UTC [670400] INFO    esmvalcore._task:747 Running 2 tasks using 2 processes
+2023-03-01 21:51:01,316 UTC [671254] INFO    esmvalcore._task:260 Starting task example/ta in process [671254]
+2023-03-01 21:51:01,368 UTC [671254] DEBUG   esmvalcore.preprocessor:600 Running block ['fix_metadata', 'concatenate', 'cmor_check_metadata', 'clip_timerange', 'fix_data', 'cmor_check_data', 'add_fx_variables', 'extract_levels', 'remove_fx_variables']
+2023-03-01 21:51:01,368 UTC [671254] DEBUG   esmvalcore.preprocessor:607 Applying single-model steps to PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:01,370 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_file
+2023-03-01 21:51:01,371 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_file' on the data
+'/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc'
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'CanESM2',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 3,
+institute = ['CCCma'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'CanESM2',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc',
+output_dir = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002_fixed'
+2023-03-01 21:51:01,409 UTC [670400] INFO    esmvalcore._task:779 Progress: 1 tasks running, 1 tasks waiting for ancestors, 0/2 done
+2023-03-01 21:51:01,436 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step load
+2023-03-01 21:51:01,437 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'load' on the data
+'/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc'
+with function argument(s)
+callback = <function concatenate_callback at 0x7f4c672b8940>
+2023-03-01 21:51:01,437 UTC [671254] DEBUG   esmvalcore.preprocessor._io:138 Loading:
+/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc
+2023-03-01 21:51:14,866 UTC [671254] DEBUG   esmvalcore.preprocessor._io:168 Done with loading /g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc
+2023-03-01 21:51:14,866 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_metadata
+2023-03-01 21:51:14,876 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_metadata' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 1872; air_pressure: 22; latitude: 64; longitude: 128)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'CanESM2',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 3,
+institute = ['CCCma'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'CanESM2',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:14,892 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step concatenate
+2023-03-01 21:51:14,893 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'concatenate' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 1872; air_pressure: 22; latitude: 64; longitude: 128)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+
+2023-03-01 21:51:14,893 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cmor_check_metadata
+2023-03-01 21:51:14,894 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cmor_check_metadata' on the data
+<iris 'Cube' of air_temperature / (K) (time: 1872; air_pressure: 22; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+cmor_table = 'CMIP5',
+mip = 'Amon',
+short_name = 'ta',
+frequency = 'mon',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:14,903 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step clip_timerange
+2023-03-01 21:51:14,904 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'clip_timerange' on the data
+<iris 'Cube' of air_temperature / (K) (time: 1872; air_pressure: 22; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+timerange = '2000/2002'
+2023-03-01 21:51:14,915 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_data
+2023-03-01 21:51:14,916 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_data' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 22; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'CanESM2',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 3,
+institute = ['CCCma'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'CanESM2',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:14,916 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cmor_check_data
+2023-03-01 21:51:14,917 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cmor_check_data' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 22; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+cmor_table = 'CMIP5',
+mip = 'Amon',
+short_name = 'ta',
+frequency = 'mon',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:14,917 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step add_fx_variables
+2023-03-01 21:51:14,917 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'add_fx_variables' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 22; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+fx_variables = {},
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:14,917 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step extract_levels
+2023-03-01 21:51:14,918 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'extract_levels' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 22; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+levels = 85000,
+scheme = 'nearest'
+2023-03-01 21:51:14,920 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step remove_fx_variables
+2023-03-01 21:51:14,920 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'remove_fx_variables' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+
+2023-03-01 21:51:14,920 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step save
+2023-03-01 21:51:14,921 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'save' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 64; longitude: 128)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+compress = False,
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc'
+2023-03-01 21:51:14,924 UTC [671254] DEBUG   esmvalcore.preprocessor._io:308 Saving cubes [<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 64; longitude: 128)>] to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:15,994 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cleanup
+2023-03-01 21:51:15,994 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cleanup' on the data
+['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002.nc']
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/ta/ta_Amon_CanESM2_historical_r1i1p1_185001-200512.nc']
+with function argument(s)
+remove = ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_CanESM2_Amon_historical_r1i1p1_ta_2000-2002_fixed']
+2023-03-01 21:51:16,331 UTC [671254] DEBUG   esmvalcore.preprocessor:607 Applying single-model steps to PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:16,332 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_file
+2023-03-01 21:51:16,333 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_file' on the data
+'/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc'
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'MPI-ESM-LR',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 2,
+institute = ['MPI-M'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'MPI-ESM-LR',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc',
+output_dir = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002_fixed'
+2023-03-01 21:51:16,342 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step load
+2023-03-01 21:51:16,342 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'load' on the data
+'/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc'
+with function argument(s)
+callback = <function concatenate_callback at 0x7f4c672b8940>
+2023-03-01 21:51:16,342 UTC [671254] DEBUG   esmvalcore.preprocessor._io:138 Loading:
+/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc
+2023-03-01 21:51:16,917 UTC [671254] DEBUG   esmvalcore.preprocessor._io:168 Done with loading /g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc
+2023-03-01 21:51:16,917 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_metadata
+2023-03-01 21:51:16,920 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_metadata' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 72; air_pressure: 25; latitude: 96; longitude: 192)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'MPI-ESM-LR',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 2,
+institute = ['MPI-M'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'MPI-ESM-LR',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:16,926 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step concatenate
+2023-03-01 21:51:16,928 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'concatenate' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 72; air_pressure: 25; latitude: 96; longitude: 192)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+
+2023-03-01 21:51:16,928 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cmor_check_metadata
+2023-03-01 21:51:16,929 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cmor_check_metadata' on the data
+<iris 'Cube' of air_temperature / (K) (time: 72; air_pressure: 25; latitude: 96; longitude: 192)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+cmor_table = 'CMIP5',
+mip = 'Amon',
+short_name = 'ta',
+frequency = 'mon',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:16,934 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step clip_timerange
+2023-03-01 21:51:16,935 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'clip_timerange' on the data
+<iris 'Cube' of air_temperature / (K) (time: 72; air_pressure: 25; latitude: 96; longitude: 192)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+timerange = '2000/2002'
+2023-03-01 21:51:16,940 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_data
+2023-03-01 21:51:16,941 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_data' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 25; latitude: 96; longitude: 192)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'MPI-ESM-LR',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 2,
+institute = ['MPI-M'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'MPI-ESM-LR',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:16,941 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cmor_check_data
+2023-03-01 21:51:16,942 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cmor_check_data' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 25; latitude: 96; longitude: 192)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+cmor_table = 'CMIP5',
+mip = 'Amon',
+short_name = 'ta',
+frequency = 'mon',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:16,942 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step add_fx_variables
+2023-03-01 21:51:16,943 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'add_fx_variables' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 25; latitude: 96; longitude: 192)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+fx_variables = {},
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:16,943 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step extract_levels
+2023-03-01 21:51:16,943 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'extract_levels' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 25; latitude: 96; longitude: 192)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+levels = 85000,
+scheme = 'nearest'
+2023-03-01 21:51:16,945 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step remove_fx_variables
+2023-03-01 21:51:16,946 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'remove_fx_variables' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 96; longitude: 192)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+
+2023-03-01 21:51:16,946 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step save
+2023-03-01 21:51:16,947 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'save' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 96; longitude: 192)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+compress = False,
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc'
+2023-03-01 21:51:16,947 UTC [671254] DEBUG   esmvalcore.preprocessor._io:308 Saving cubes [<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 96; longitude: 192)>] to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:18,014 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cleanup
+2023-03-01 21:51:18,014 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cleanup' on the data
+['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002.nc']
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/MPI-M/MPI-ESM-LR/historical/mon/atmos/Amon/r1i1p1/v20120315/ta/ta_Amon_MPI-ESM-LR_historical_r1i1p1_200001-200512.nc']
+with function argument(s)
+remove = ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_MPI-ESM-LR_Amon_historical_r1i1p1_ta_2000-2002_fixed']
+2023-03-01 21:51:18,035 UTC [671254] DEBUG   esmvalcore.preprocessor:607 Applying single-model steps to PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:18,035 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_file
+2023-03-01 21:51:18,035 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_file' on the data
+'/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc'
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'bcc-csm1-1',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 0,
+institute = ['BCC'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'bcc-csm1-1',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc',
+output_dir = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002_fixed'
+2023-03-01 21:51:18,051 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step load
+2023-03-01 21:51:18,052 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'load' on the data
+'/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc'
+with function argument(s)
+callback = <function concatenate_callback at 0x7f4c672b8940>
+2023-03-01 21:51:18,052 UTC [671254] DEBUG   esmvalcore.preprocessor._io:138 Loading:
+/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc
+2023-03-01 21:51:28,329 UTC [671254] DEBUG   esmvalcore.preprocessor._io:168 Done with loading /g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc
+2023-03-01 21:51:28,329 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_metadata
+2023-03-01 21:51:28,332 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_metadata' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 1956; air_pressure: 17; latitude: 64; longitude: 128)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'bcc-csm1-1',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 0,
+institute = ['BCC'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'bcc-csm1-1',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:28,347 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step concatenate
+2023-03-01 21:51:28,348 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'concatenate' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 1956; air_pressure: 17; latitude: 64; longitude: 128)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+
+2023-03-01 21:51:28,348 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cmor_check_metadata
+2023-03-01 21:51:28,349 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cmor_check_metadata' on the data
+<iris 'Cube' of air_temperature / (K) (time: 1956; air_pressure: 17; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+cmor_table = 'CMIP5',
+mip = 'Amon',
+short_name = 'ta',
+frequency = 'mon',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:28,358 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step clip_timerange
+2023-03-01 21:51:28,358 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'clip_timerange' on the data
+<iris 'Cube' of air_temperature / (K) (time: 1956; air_pressure: 17; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+timerange = '2000/2002'
+2023-03-01 21:51:28,370 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_data
+2023-03-01 21:51:28,370 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_data' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 17; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'bcc-csm1-1',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 0,
+institute = ['BCC'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'bcc-csm1-1',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:28,371 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cmor_check_data
+2023-03-01 21:51:28,371 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cmor_check_data' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 17; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+cmor_table = 'CMIP5',
+mip = 'Amon',
+short_name = 'ta',
+frequency = 'mon',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:28,371 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step add_fx_variables
+2023-03-01 21:51:28,372 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'add_fx_variables' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 17; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+fx_variables = {},
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:28,372 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step extract_levels
+2023-03-01 21:51:28,372 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'extract_levels' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 17; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+levels = 85000,
+scheme = 'nearest'
+2023-03-01 21:51:28,374 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step remove_fx_variables
+2023-03-01 21:51:28,374 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'remove_fx_variables' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 64; longitude: 128)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+
+2023-03-01 21:51:28,375 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step save
+2023-03-01 21:51:28,375 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'save' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 64; longitude: 128)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+compress = False,
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc'
+2023-03-01 21:51:28,376 UTC [671254] DEBUG   esmvalcore.preprocessor._io:308 Saving cubes [<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 64; longitude: 128)>] to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:28,894 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cleanup
+2023-03-01 21:51:28,895 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cleanup' on the data
+['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002.nc']
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/BCC/bcc-csm1-1/historical/mon/atmos/Amon/r1i1p1/v1/ta/ta_Amon_bcc-csm1-1_historical_r1i1p1_185001-201212.nc']
+with function argument(s)
+remove = ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_bcc-csm1-1_Amon_historical_r1i1p1_ta_2000-2002_fixed']
+2023-03-01 21:51:28,918 UTC [671254] DEBUG   esmvalcore.preprocessor:607 Applying single-model steps to PreprocessorFile: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:28,918 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_file
+2023-03-01 21:51:28,919 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_file' on the data
+'/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc'
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'GFDL-ESM2G',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 1,
+institute = ['NOAA-GFDL'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'GFDL-ESM2G',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc',
+output_dir = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002_fixed'
+2023-03-01 21:51:28,942 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_file' on the data
+'/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc'
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'GFDL-ESM2G',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 1,
+institute = ['NOAA-GFDL'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'GFDL-ESM2G',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc',
+output_dir = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002_fixed'
+2023-03-01 21:51:28,942 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step load
+2023-03-01 21:51:28,942 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'load' on the data
+'/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc'
+with function argument(s)
+callback = <function concatenate_callback at 0x7f4c672b8940>
+2023-03-01 21:51:28,943 UTC [671254] DEBUG   esmvalcore.preprocessor._io:138 Loading:
+/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc
+2023-03-01 21:51:29,199 UTC [671254] DEBUG   esmvalcore.preprocessor._io:168 Done with loading /g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc
+2023-03-01 21:51:29,199 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'load' on the data
+'/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc'
+with function argument(s)
+callback = <function concatenate_callback at 0x7f4c672b8940>
+2023-03-01 21:51:29,199 UTC [671254] DEBUG   esmvalcore.preprocessor._io:138 Loading:
+/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc
+2023-03-01 21:51:29,401 UTC [671254] DEBUG   esmvalcore.preprocessor._io:168 Done with loading /g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc
+2023-03-01 21:51:29,401 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_metadata
+2023-03-01 21:51:29,408 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_metadata' on the data
+[<iris 'Cube' of Start time for average period / (days since 1861-01-01 00:00:00) (time: 60)>,
+ <iris 'Cube' of Length of average period / (days) (time: 60)>,
+ <iris 'Cube' of End time for average period / (days since 1861-01-01 00:00:00) (time: 60)>,
+ <iris 'Cube' of air_temperature / (K) (time: 60; air_pressure: 17; latitude: 90; longitude: 144)>,
+ <iris 'Cube' of Start time for average period / (days since 1861-01-01 00:00:00) (time: 60)>,
+ <iris 'Cube' of Length of average period / (days) (time: 60)>,
+ <iris 'Cube' of End time for average period / (days since 1861-01-01 00:00:00) (time: 60)>,
+ <iris 'Cube' of air_temperature / (K) (time: 60; air_pressure: 17; latitude: 90; longitude: 144)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'GFDL-ESM2G',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 1,
+institute = ['NOAA-GFDL'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'GFDL-ESM2G',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:29,440 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step concatenate
+2023-03-01 21:51:29,445 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'concatenate' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 60; air_pressure: 17; latitude: 90; longitude: 144)>,
+ <iris 'Cube' of air_temperature / (K) (time: 60; air_pressure: 17; latitude: 90; longitude: 144)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+
+2023-03-01 21:51:29,452 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cmor_check_metadata
+2023-03-01 21:51:29,453 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cmor_check_metadata' on the data
+<iris 'Cube' of air_temperature / (K) (time: 120; air_pressure: 17; latitude: 90; longitude: 144)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+cmor_table = 'CMIP5',
+mip = 'Amon',
+short_name = 'ta',
+frequency = 'mon',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:29,455 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step clip_timerange
+2023-03-01 21:51:29,456 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'clip_timerange' on the data
+<iris 'Cube' of air_temperature / (K) (time: 120; air_pressure: 17; latitude: 90; longitude: 144)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+timerange = '2000/2002'
+2023-03-01 21:51:29,459 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step fix_data
+2023-03-01 21:51:29,460 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'fix_data' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 17; latitude: 90; longitude: 144)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+preprocessor = 'preprocessor_1',
+reference_dataset = 'MPI-ESM-LR',
+mip = 'Amon',
+variable_group = 'ta',
+short_name = 'ta',
+diagnostic = 'example',
+dataset = 'GFDL-ESM2G',
+project = 'CMIP5',
+exp = 'historical',
+ensemble = 'r1i1p1',
+recipe_dataset_index = 1,
+institute = ['NOAA-GFDL'],
+product = ['output1', 'output2'],
+timerange = '2000/2002',
+alias = 'GFDL-ESM2G',
+original_short_name = 'ta',
+standard_name = 'air_temperature',
+long_name = 'Air Temperature',
+units = 'K',
+modeling_realm = ['atmos'],
+frequency = 'mon',
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:29,461 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cmor_check_data
+2023-03-01 21:51:29,461 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cmor_check_data' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 17; latitude: 90; longitude: 144)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+cmor_table = 'CMIP5',
+mip = 'Amon',
+short_name = 'ta',
+frequency = 'mon',
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:29,462 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step add_fx_variables
+2023-03-01 21:51:29,463 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'add_fx_variables' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 17; latitude: 90; longitude: 144)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+fx_variables = {},
+check_level = <CheckLevels.DEFAULT: 3>
+2023-03-01 21:51:29,463 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step extract_levels
+2023-03-01 21:51:29,463 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'extract_levels' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; air_pressure: 17; latitude: 90; longitude: 144)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+levels = 85000,
+scheme = 'nearest'
+2023-03-01 21:51:29,465 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step remove_fx_variables
+2023-03-01 21:51:29,466 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'remove_fx_variables' on the data
+<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 90; longitude: 144)>
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+
+2023-03-01 21:51:29,466 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step save
+2023-03-01 21:51:29,467 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'save' on the data
+[<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 90; longitude: 144)>]
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+compress = False,
+filename = '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc'
+2023-03-01 21:51:29,468 UTC [671254] DEBUG   esmvalcore.preprocessor._io:308 Saving cubes [<iris 'Cube' of air_temperature / (K) (time: 36; latitude: 90; longitude: 144)>] to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc
+2023-03-01 21:51:32,027 UTC [671254] DEBUG   esmvalcore.preprocessor:347 Running preprocessor step cleanup
+2023-03-01 21:51:32,028 UTC [671254] DEBUG   esmvalcore.preprocessor:308 Running preprocessor function 'cleanup' on the data
+['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002.nc']
+loaded from original input file(s)
+['/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_199601-200012.nc',
+ '/g/data/al33/replicas/CMIP5/combined/NOAA-GFDL/GFDL-ESM2G/historical/mon/atmos/Amon/r1i1p1/v20120412/ta/ta_Amon_GFDL-ESM2G_historical_r1i1p1_200101-200512.nc']
+with function argument(s)
+remove = ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/CMIP5_GFDL-ESM2G_Amon_historical_r1i1p1_ta_2000-2002_fixed']
+2023-03-01 21:51:32,064 UTC [671254] DEBUG   esmvalcore._task:176 Writing NCL configuration file /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/preproc/example/ta/ta_info.ncl
+2023-03-01 21:51:32,076 UTC [671254] INFO    esmvalcore._task:265 Successfully completed task example/ta (priority 1) in 0:00:30.758343
+2023-03-01 21:51:32,100 UTC [670400] INFO    esmvalcore._task:779 Progress: 0 tasks running, 1 tasks waiting for ancestors, 1/2 done
+2023-03-01 21:51:32,110 UTC [671255] INFO    esmvalcore._task:260 Starting task example/test_ta in process [671255]
+2023-03-01 21:51:32,129 UTC [671255] DEBUG   esmvalcore._task:176 Writing NCL configuration file /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta/settings.ncl
+2023-03-01 21:51:32,140 UTC [671255] INFO    esmvalcore._task:501 Running command ['/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl', '-n', '-p', '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/examples/diagnostic.ncl']
+2023-03-01 21:51:32,141 UTC [671255] DEBUG   esmvalcore._task:502 in environment
+{'diag_scripts': '/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts',
+ 'settings': PosixPath('/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta/settings.ncl')}
+2023-03-01 21:51:32,141 UTC [671255] DEBUG   esmvalcore._task:504 in current working directory: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta
+2023-03-01 21:51:32,141 UTC [671255] INFO    esmvalcore._task:505 Writing output to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/work/example/test_ta
+2023-03-01 21:51:32,141 UTC [671255] INFO    esmvalcore._task:506 Writing plots to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/plots/example/test_ta
+2023-03-01 21:51:32,141 UTC [671255] INFO    esmvalcore._task:507 Writing log to /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta/log.txt
+2023-03-01 21:51:32,142 UTC [671255] INFO    esmvalcore._task:517 To re-run this diagnostic script, run:
+cd /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta; diag_scripts="/g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts" settings="/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta/settings.ncl" /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/bin/ncl -n -p /g/data/kj13/.apps/mamba/envs/esmvaltool_dev/lib/python3.10/site-packages/esmvaltool/diag_scripts/examples/diagnostic.ncl
+2023-03-01 21:51:32,201 UTC [670400] INFO    esmvalcore._task:779 Progress: 1 tasks running, 0 tasks waiting for ancestors, 1/2 done
+2023-03-01 21:51:34,154 UTC [671255] INFO    esmvalcore._task:127 Maximum memory used (estimate): 0.2 GB
+2023-03-01 21:51:34,156 UTC [671255] INFO    esmvalcore._task:129 Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+2023-03-01 21:51:34,194 UTC [671255] DEBUG   esmvalcore._task:590 Script examples/diagnostic.ncl completed successfully
+2023-03-01 21:51:34,194 UTC [671255] DEBUG   esmvalcore._task:609 Collecting provenance from /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/run/example/test_ta/diagnostic_provenance.yml
+2023-03-01 21:51:34,607 UTC [671255] DEBUG   PIL.PngImagePlugin:201 STREAM b'IHDR' 16 13
+2023-03-01 21:51:34,608 UTC [671255] DEBUG   PIL.PngImagePlugin:201 STREAM b'bKGD' 41 6
+2023-03-01 21:51:34,608 UTC [671255] DEBUG   PIL.PngImagePlugin:734 b'bKGD' 41 6 (unknown)
+2023-03-01 21:51:34,608 UTC [671255] DEBUG   PIL.PngImagePlugin:201 STREAM b'IDAT' 59 8192
+2023-03-01 21:51:34,687 UTC [671255] DEBUG   esmvalcore._task:684 Collecting provenance of task example/test_ta took 0.5 seconds
+2023-03-01 21:51:34,687 UTC [671255] INFO    esmvalcore._task:265 Successfully completed task example/test_ta (priority 0) in 0:00:02.576252
+2023-03-01 21:51:34,706 UTC [670400] INFO    esmvalcore._task:779 Progress: 0 tasks running, 0 tasks waiting for ancestors, 2/2 done
+2023-03-01 21:51:34,707 UTC [670400] INFO    esmvalcore._task:784 Successfully completed all tasks.
+2023-03-01 21:51:34,766 UTC [670400] WARNING esmvalcore._config._config:217 Correcting capitalization, project 'obs4mips' should be written as 'obs4MIPs' in /home/599/ars599/.esmvaltool/config-developer.yml
+2023-03-01 21:51:36,136 UTC [670400] INFO    esmvalcore.experimental.recipe_output:212 Wrote recipe output to:
+file:///g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_ncl_20230301_215058/index.html
+2023-03-01 21:51:36,136 UTC [670400] INFO    esmvalcore._main:127 Ending the Earth System Model Evaluation Tool at time: 2023-03-01 21:51:36 UTC
+2023-03-01 21:51:36,136 UTC [670400] INFO    esmvalcore._main:130 Time for running the recipe was: 0:00:35.603003
+2023-03-01 21:51:36,799 UTC [670400] INFO    esmvalcore._task:127 Maximum memory used (estimate): 0.8 GB
+2023-03-01 21:51:36,799 UTC [670400] INFO    esmvalcore._task:129 Sampled every second. It may be inaccurate if short but high spikes in memory consumption occur.
+2023-03-01 21:51:36,806 UTC [670400] INFO    esmvalcore._main:454 Removing preproc containing preprocessed data
+2023-03-01 21:51:36,806 UTC [670400] INFO    esmvalcore._main:455 If this data is further needed, then
+2023-03-01 21:51:36,807 UTC [670400] INFO    esmvalcore._main:456 set remove_preproc_dir to false in config-user.yml
+2023-03-01 21:51:36,819 UTC [670400] INFO    esmvalcore._main:446 Run was successful

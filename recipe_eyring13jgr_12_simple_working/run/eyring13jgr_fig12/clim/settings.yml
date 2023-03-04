@@ -1,0 +1,19 @@
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+e13fig12_exp_MMM: historical
+e13fig12_multimean: true
+e13fig12_season: DJF
+exit_on_ncl_warning: false
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/preproc/eyring13jgr_fig12/ua/ua_info.ncl
+log_level: debug
+output_file_type: png
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/plots/eyring13jgr_fig12/clim
+realms:
+- atmos
+recipe: recipe_eyring13jgr_12_simple.yml
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/run/eyring13jgr_fig12/clim
+script: clim
+themes:
+- chem
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_eyring13jgr_12_simple_20230302_092354/work/eyring13jgr_fig12/clim

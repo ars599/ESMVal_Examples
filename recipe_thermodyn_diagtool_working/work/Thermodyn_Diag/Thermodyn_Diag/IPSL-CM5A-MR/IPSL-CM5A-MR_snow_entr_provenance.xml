@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:software="https://www.esmvaltool.org/software" xmlns:project="https://www.esmvaltool.org/project" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/hus/hus_Amon_IPSL-CM5A-MR_historical_r1i1p1_195001-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>1850.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This 20th century simulation include natural and anthropogenic forcings.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2011-09-23T13:18:12Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>Nat,Ant,GHG,SA,Oz,LU,SS,Ds,BC,MD,OC,AA</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-09-23T13:18:12Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5A-MR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5A-MR (2010) : atmos : LMDZ4 (LMDZ4_v5, 144x143x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5A-MR model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>ec1d4ee4-e67d-4113-8415-d1d1e99d51db</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/ps/ps_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>1850.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This 20th century simulation include natural and anthropogenic forcings.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2011-09-22T21:00:03Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>Nat,Ant,GHG,SA,Oz,LU,SS,Ds,BC,MD,OC,AA</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-09-22T21:00:03Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5A-MR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5A-MR (2010) : atmos : LMDZ4 (LMDZ4_v5, 144x143x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5A-MR model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>5ac97268-4944-4002-9481-1d7f1fc01e83</attribute:tracking_id>
+  </prov:entity>
+  <prov:agent prov:id="project:DLR project ESMVal"/>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="project:DLR project ESMVal"/>
+  </prov:wasAttributedTo>
+  <prov:activity prov:id="task:Thermodyn_Diag/ps"/>
+  <prov:agent prov:id="author:Koldunov, Nikolay">
+    <attribute:email>nikolay.koldunov@awi.de</attribute:email>
+    <attribute:institute>AWI, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0002-3365-8146</attribute:orcid>
+  </prov:agent>
+  <prov:activity prov:id="task:Thermodyn_Diag/ts"/>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc">
+    <attribute:alias>CMIP5_IPSL-CM5A-MR</attribute:alias>
+    <attribute:dataset>IPSL-CM5A-MR</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>Snowfall Flux</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>prsn</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>2</attribute:recipe_dataset_index>
+    <attribute:short_name>prsn</attribute:short_name>
+    <attribute:standard_name>snowfall_flux</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>kg m-2 s-1</attribute:units>
+    <attribute:variable_group>prsn</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'prsn', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'prsn', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'prsn', 'short_name': 'prsn', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'prsn', 'standard_name': 'snowfall_flux', 'long_name': 'Snowfall Flux', 'units': 'kg m-2 s-1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/hus/hus_Amon_IPSL-CM5A-MR_historical_r1i1p1_195001-200512.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/hus"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr.nc"/>
+    <prov:agent prov:ref="author:Lembo, Valerio"/>
+  </prov:wasAttributedTo>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/prsn"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="recipe:recipe_thermodyn_diagtool.yml">
+    <attribute:description>Recipe for the computation of various aspects associated with
+the thermodynamics of the climate system, such as energy and
+water mass budgets, meridional enthalpy transports, the Lorenz
+Energy Cycle and the material entropy production.
+</attribute:description>
+    <attribute:references>['lembo16climdyn', 'lucarini14revgeop']</attribute:references>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr.nc">
+    <attribute:caption>Thermodynamic Diagnostic Tool - Monthly mean snowfall precipitation entropy production (lat, lon) fieldsfor model IPSL-CM5A-MR.</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:entr>True</attribute:entr>
+    <attribute:lec>True</attribute:lec>
+    <attribute:lsm>True</attribute:lsm>
+    <attribute:met>3</attribute:met>
+    <attribute:plot_type>['geo']</attribute:plot_type>
+    <attribute:references>['lembo16climdyn', 'lembo19gmdd', 'lucarini14revgeop']</attribute:references>
+    <attribute:script>Thermodyn_Diag</attribute:script>
+    <attribute:script_file>thermodyn_diagtool/thermodyn_diagnostics.py</attribute:script_file>
+    <attribute:statistics>('mean',)</attribute:statistics>
+    <attribute:wat>True</attribute:wat>
+  </prov:entity>
+  <prov:activity prov:id="task:Thermodyn_Diag/hus"/>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/hus"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="project:DFG Project TRR-181, Energy transfers in Atmosphere and Ocean"/>
+  </prov:wasAttributedTo>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="author:Koldunov, Nikolay"/>
+  </prov:wasAttributedTo>
+  <prov:activity prov:id="task:Thermodyn_Diag/prsn"/>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ts"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/ps/ps_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ps"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/ts/ts_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ts"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc">
+    <attribute:alias>CMIP5_IPSL-CM5A-MR</attribute:alias>
+    <attribute:dataset>IPSL-CM5A-MR</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>Surface Air Pressure</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ps</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>2</attribute:recipe_dataset_index>
+    <attribute:short_name>ps</attribute:short_name>
+    <attribute:standard_name>surface_air_pressure</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>Pa</attribute:units>
+    <attribute:variable_group>ps</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ps', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ps', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'ps', 'short_name': 'ps', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'ps', 'standard_name': 'surface_air_pressure', 'long_name': 'Surface Air Pressure', 'units': 'Pa', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ps/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ps_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc">
+    <attribute:alias>CMIP5_IPSL-CM5A-MR</attribute:alias>
+    <attribute:dataset>IPSL-CM5A-MR</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>Surface Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>ts</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>2</attribute:recipe_dataset_index>
+    <attribute:short_name>ts</attribute:short_name>
+    <attribute:standard_name>surface_temperature</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>ts</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ts', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'ts', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'ts', 'short_name': 'ts', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'ts', 'standard_name': 'surface_temperature', 'long_name': 'Surface Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/ts/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_ts_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/prsn/prsn_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>1850.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This 20th century simulation include natural and anthropogenic forcings.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2011-09-22T23:20:12Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>Nat,Ant,GHG,SA,Oz,LU,SS,Ds,BC,MD,OC,AA</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-09-22T23:20:12Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5A-MR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5A-MR (2010) : atmos : LMDZ4 (LMDZ4_v5, 144x143x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5A-MR model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>f4a00c0d-d81e-4905-bd86-028933bc19d3</attribute:tracking_id>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/ts/ts_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc">
+    <attribute:Conventions>CF-1.4</attribute:Conventions>
+    <attribute:branch_time>1850.0</attribute:branch_time>
+    <attribute:cmor_version>2.7.1</attribute:cmor_version>
+    <attribute:comment>This 20th century simulation include natural and anthropogenic forcings.</attribute:comment>
+    <attribute:contact>ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil</attribute:contact>
+    <attribute:creation_date>2011-09-22T19:36:32Z</attribute:creation_date>
+    <attribute:experiment>historical</attribute:experiment>
+    <attribute:experiment_id>historical</attribute:experiment_id>
+    <attribute:forcing>Nat,Ant,GHG,SA,Oz,LU,SS,Ds,BC,MD,OC,AA</attribute:forcing>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:history>2011-09-22T19:36:32Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.</attribute:history>
+    <attribute:initialization_method>1</attribute:initialization_method>
+    <attribute:institute_id>IPSL</attribute:institute_id>
+    <attribute:institution>IPSL (Institut Pierre Simon Laplace, Paris, France)</attribute:institution>
+    <attribute:model_id>IPSL-CM5A-MR</attribute:model_id>
+    <attribute:modeling_realm>atmos</attribute:modeling_realm>
+    <attribute:parent_experiment>pre-industrial control</attribute:parent_experiment>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_experiment_rip>r1i1p1</attribute:parent_experiment_rip>
+    <attribute:physics_version>1</attribute:physics_version>
+    <attribute:product>output</attribute:product>
+    <attribute:project_id>CMIP5</attribute:project_id>
+    <attribute:realization>1</attribute:realization>
+    <attribute:references>Model documentation and further reference available here : http://icmc.ipsl.fr</attribute:references>
+    <attribute:source>IPSL-CM5A-MR (2010) : atmos : LMDZ4 (LMDZ4_v5, 144x143x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)</attribute:source>
+    <attribute:table_id>Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5</attribute:table_id>
+    <attribute:title>IPSL-CM5A-MR model output prepared for CMIP5 historical</attribute:title>
+    <attribute:tracking_id>cd26d4ae-8882-4c11-ab3f-a7af4394c2ea</attribute:tracking_id>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/work/Thermodyn_Diag/Thermodyn_Diag/IPSL-CM5A-MR/IPSL-CM5A-MR_snow_entr.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Lembo, Valerio">
+    <attribute:institute>CEN, University of Hamburg, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-6085-5914</attribute:orcid>
+  </prov:agent>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/ps"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:agent prov:id="project:DFG Project TRR-181, Energy transfers in Atmosphere and Ocean"/>
+  <prov:activity prov:id="task:Thermodyn_Diag/Thermodyn_Diag"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/prsn/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_prsn_2000-2005.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/al33/replicas/CMIP5/combined/IPSL/IPSL-CM5A-MR/historical/mon/atmos/Amon/r1i1p1/v20111119/prsn/prsn_Amon_IPSL-CM5A-MR_historical_r1i1p1_185001-200512.nc"/>
+    <prov:activity prov:ref="task:Thermodyn_Diag/prsn"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc">
+    <attribute:alias>CMIP5_IPSL-CM5A-MR</attribute:alias>
+    <attribute:dataset>IPSL-CM5A-MR</attribute:dataset>
+    <attribute:diagnostic>Thermodyn_Diag</attribute:diagnostic>
+    <attribute:end_year>2005</attribute:end_year>
+    <attribute:ensemble>r1i1p1</attribute:ensemble>
+    <attribute:exp>historical</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:institute>['IPSL']</attribute:institute>
+    <attribute:long_name>Specific Humidity</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>hus</attribute:original_short_name>
+    <attribute:preprocessor>default</attribute:preprocessor>
+    <attribute:product>['output1', 'output2']</attribute:product>
+    <attribute:project>CMIP5</attribute:project>
+    <attribute:recipe_dataset_index>2</attribute:recipe_dataset_index>
+    <attribute:short_name>hus</attribute:short_name>
+    <attribute:standard_name>specific_humidity</attribute:standard_name>
+    <attribute:start_year>2000</attribute:start_year>
+    <attribute:timerange>2000/2005</attribute:timerange>
+    <attribute:units>1</attribute:units>
+    <attribute:variable_group>hus</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '2000/2005'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'hus', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP5', 'mip': 'Amon', 'short_name': 'hus', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'mip': 'Amon', 'variable_group': 'hus', 'short_name': 'hus', 'diagnostic': 'Thermodyn_Diag', 'preprocessor': 'default', 'dataset': 'IPSL-CM5A-MR', 'project': 'CMIP5', 'exp': 'historical', 'ensemble': 'r1i1p1', 'recipe_dataset_index': 2, 'institute': ['IPSL'], 'product': ['output1', 'output2'], 'timerange': '2000/2005', 'alias': 'CMIP5_IPSL-CM5A-MR', 'original_short_name': 'hus', 'standard_name': 'specific_humidity', 'long_name': 'Specific Humidity', 'units': '1', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x1538bb0f0940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_thermodyn_diagtool_20230301_231407/preproc/Thermodyn_Diag/hus/CMIP5_IPSL-CM5A-MR_Amon_historical_r1i1p1_hus_2000-2005.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:Thermodyn_Diag/Thermodyn_Diag"/>
+    <prov:trigger prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_thermodyn_diagtool.yml"/>
+    <prov:agent prov:ref="author:Lembo, Valerio"/>
+  </prov:wasAttributedTo>
+</prov:document>

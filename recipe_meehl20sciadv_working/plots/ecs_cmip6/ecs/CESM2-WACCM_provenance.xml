@@ -1,0 +1,1549 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsut"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsdt/gn/v20190425/rsdt_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_005001-009912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T20:35:37Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/4180ffd0-0288-49d8-9a30-699f609a91f7</attribute:tracking_id>
+    <attribute:variable_id>rsdt</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rlut/gn/v20190425/rlut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_000101-004912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rlut"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:ecs_cmip6/tas_rtnt"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rtnt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rtnt_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_piControl</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rtnt_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>TOA Net downward Total Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rtnt</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>16</attribute:recipe_dataset_index>
+    <attribute:short_name>rtnt</attribute:short_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'short_name': 'areacella', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'fx', 'derive': True, 'variable_group': 'areacella', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/fx/areacella/gn/v20190320/areacella_fx_CESM2-WACCM_piControl_r1i1p1f1_gn.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rtnt_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rtnt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rtnt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:derive>{'short_name': 'rtnt', 'standard_name': '', 'long_name': 'TOA Net downward Total Radiation', 'units': 'W m-2'}</preprocessor:derive>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rtnt_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip6/tas_rtnt"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="task:ecs_cmip6/rtnt_derive_input_rsdt"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rlut/gn/v20190425/rlut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_000101-004912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T20:53:29Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/692b327c-33d3-4322-bbaa-38417a7905a4</attribute:tracking_id>
+    <attribute:variable_id>rlut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rtnt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_piControl</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>TOA Outgoing Longwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rlut</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>16</attribute:recipe_dataset_index>
+    <attribute:short_name>rlut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_longwave_flux</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rlut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/tas/gn/v20190320/tas_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_000101-009912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>48545.0</attribute:branch_time_in_parent>
+    <attribute:case_id>1</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BW1850.f09_g17.CMIP6-piControl.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-01-29T18:55:59Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/6cf6e87f-34db-481e-9c5d-3e71e23d1d9d</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 piControl experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:activity prov:id="task:ecs_cmip6/rtnt"/>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_abrupt-4xCO2</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>abrupt-4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>17</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas_rtnt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'short_name': 'areacella', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'fx', 'variable_group': 'areacella', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/fx/areacella/gn/v20190425/areacella_fx_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rsdt/gn/v20190320/rsdt_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_010001-019912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>48545.0</attribute:branch_time_in_parent>
+    <attribute:case_id>1</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BW1850.f09_g17.CMIP6-piControl.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-01-29T17:20:37Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/a584ac83-cfc9-4ba0-be4c-324e391ddb93</attribute:tracking_id>
+    <attribute:variable_id>rsdt</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 piControl experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rtnt_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_abrupt-4xCO2</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>abrupt-4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rtnt_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>TOA Net downward Total Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rtnt</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>17</attribute:recipe_dataset_index>
+    <attribute:short_name>rtnt</attribute:short_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'short_name': 'areacella', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'fx', 'derive': True, 'variable_group': 'areacella', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/fx/areacella/gn/v20190425/areacella_fx_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rtnt_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rtnt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rtnt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:derive>{'short_name': 'rtnt', 'standard_name': '', 'long_name': 'TOA Net downward Total Radiation', 'units': 'W m-2'}</preprocessor:derive>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rtnt_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rsdt/gn/v20190320/rsdt_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_010001-019912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsdt"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rsdt/gn/v20190320/rsdt_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_000101-009912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsdt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/tas/gn/v20190425/tas_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_010001-015012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T22:00:50Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/245a75c1-7223-45ab-8650-d329daa4bf9e</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_abrupt-4xCO2</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>abrupt-4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>TOA Outgoing Shortwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rsut</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>17</attribute:recipe_dataset_index>
+    <attribute:short_name>rsut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_shortwave_flux</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rsut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rsut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rsut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsdt/gn/v20190425/rsdt_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_000101-004912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T20:57:11Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/4180ffd0-0288-49d8-9a30-699f609a91f7</attribute:tracking_id>
+    <attribute:variable_id>rsdt</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip6/ecs/CESM2-WACCM.png">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Scatterplot between TOA radiance and global mean surface temperature anomaly for 150 years of the abrupt 4x CO2 experiment including linear regression to calculate ECS for CESM2-WACCM (CMIP6).</attribute:caption>
+    <attribute:complex_gregory_plot>True</attribute:complex_gregory_plot>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('scatter plot',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory04grl']</attribute:references>
+    <attribute:script>ecs</attribute:script>
+    <attribute:script_file>climate_metrics/ecs.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/tas/gn/v20190425/tas_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_010001-015012.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/tas_rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip6/ecs/CESM2-WACCM.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rtnt_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/ecs"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/tas/gn/v20190425/tas_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_000101-004912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/tas_rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsdt/gn/v20190425/rsdt_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_010001-015012.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsdt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/tas/gn/v20190320/tas_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_010001-019912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>48545.0</attribute:branch_time_in_parent>
+    <attribute:case_id>1</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BW1850.f09_g17.CMIP6-piControl.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-01-29T19:19:37Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/6cf6e87f-34db-481e-9c5d-3e71e23d1d9d</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 piControl experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip6/ecs/CESM2-WACCM.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/ecs"/>
+  </prov:wasDerivedFrom>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/tas/gn/v20190320/tas_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_000101-009912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/tas_rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rsdt/gn/v20190320/rsdt_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_000101-009912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>48545.0</attribute:branch_time_in_parent>
+    <attribute:case_id>1</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BW1850.f09_g17.CMIP6-piControl.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-01-29T18:30:06Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/a584ac83-cfc9-4ba0-be4c-324e391ddb93</attribute:tracking_id>
+    <attribute:variable_id>rsdt</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 piControl experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rsut/gn/v20190320/rsut_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_000101-009912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>48545.0</attribute:branch_time_in_parent>
+    <attribute:case_id>1</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BW1850.f09_g17.CMIP6-piControl.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-01-29T16:55:26Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/b06a4165-964e-4448-b238-8fd07a21584d</attribute:tracking_id>
+    <attribute:variable_id>rsut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 piControl experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsut/gn/v20190425/rsut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_005001-009912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsut"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip6/ecs/CESM2-WACCM.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rtnt_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/ecs"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rsut/gn/v20190320/rsut_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_000101-009912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsut"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_piControl</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>TOA Outgoing Shortwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rsut</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>16</attribute:recipe_dataset_index>
+    <attribute:short_name>rsut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_shortwave_flux</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rsut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rsut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rsut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rsut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rsut', 'standard_name': 'toa_outgoing_shortwave_flux', 'long_name': 'TOA Outgoing Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rlut/gn/v20190320/rlut_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_010001-019912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>48545.0</attribute:branch_time_in_parent>
+    <attribute:case_id>1</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BW1850.f09_g17.CMIP6-piControl.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-01-29T20:03:26Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/ed1275b5-0ee5-42ed-9843-4f4b68708446</attribute:tracking_id>
+    <attribute:variable_id>rlut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 piControl experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rtnt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsdt"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsdt/gn/v20190425/rsdt_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_010001-015012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T21:08:13Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/4180ffd0-0288-49d8-9a30-699f609a91f7</attribute:tracking_id>
+    <attribute:variable_id>rsdt</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_abrupt-4xCO2</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>abrupt-4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>TOA Incident Shortwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rsdt</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>17</attribute:recipe_dataset_index>
+    <attribute:short_name>rsdt</attribute:short_name>
+    <attribute:standard_name>toa_incoming_shortwave_flux</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rsdt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rsdt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rsdt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rlut/gn/v20190320/rlut_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_000101-009912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rlut"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rlut/gn/v20190320/rlut_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_000101-009912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>48545.0</attribute:branch_time_in_parent>
+    <attribute:case_id>1</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BW1850.f09_g17.CMIP6-piControl.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-01-29T17:00:56Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/ed1275b5-0ee5-42ed-9843-4f4b68708446</attribute:tracking_id>
+    <attribute:variable_id>rlut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 piControl experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip6/ecs"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="task:ecs_cmip6/rtnt_derive_input_rsut"/>
+  <prov:activity prov:id="task:ecs_cmip6/ecs"/>
+  <prov:activity prov:id="task:ecs_cmip6/rtnt_derive_input_rlut"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/tas/gn/v20190320/tas_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_010001-019912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/tas_rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rtnt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsut/gn/v20190425/rsut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_000101-004912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T22:52:50Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/fe197eef-806d-454b-92f4-c06fdd50e345</attribute:tracking_id>
+    <attribute:variable_id>rsut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsut/gn/v20190425/rsut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_000101-004912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsut"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsut/gn/v20190425/rsut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_010001-015012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T22:35:46Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/fe197eef-806d-454b-92f4-c06fdd50e345</attribute:tracking_id>
+    <attribute:variable_id>rsut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rlut/gn/v20190425/rlut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_005001-009912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T22:34:35Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/692b327c-33d3-4322-bbaa-38417a7905a4</attribute:tracking_id>
+    <attribute:variable_id>rlut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rsut/gn/v20190320/rsut_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_010001-019912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsut"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsut/gn/v20190425/rsut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_010001-015012.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsut"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rlut/gn/v20190425/rlut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_010001-015012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T20:40:24Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/692b327c-33d3-4322-bbaa-38417a7905a4</attribute:tracking_id>
+    <attribute:variable_id>rlut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsdt/gn/v20190425/rsdt_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_005001-009912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsdt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_abrupt-4xCO2</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>abrupt-4xCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>TOA Outgoing Longwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rlut</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>17</attribute:recipe_dataset_index>
+    <attribute:short_name>rlut</attribute:short_name>
+    <attribute:standard_name>toa_outgoing_longwave_flux</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rlut</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rlut', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rlut', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rlut', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'abrupt-4xCO2', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 17, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_abrupt-4xCO2', 'original_short_name': 'rlut', 'standard_name': 'toa_outgoing_longwave_flux', 'long_name': 'TOA Outgoing Longwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_piControl</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:derive>True</attribute:derive>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>TOA Incident Shortwave Radiation</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>rsdt</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>16</attribute:recipe_dataset_index>
+    <attribute:short_name>rsdt</attribute:short_name>
+    <attribute:standard_name>toa_incoming_shortwave_flux</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>W m-2</attribute:units>
+    <attribute:variable_group>rtnt_derive_input_rsdt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rsdt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'rsdt', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'rsdt', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'derive': True, 'variable_group': 'rtnt_derive_input_rsdt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'rsdt', 'standard_name': 'toa_incoming_shortwave_flux', 'long_name': 'TOA Incident Shortwave Radiation', 'units': 'W m-2', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'start_year': 1, 'end_year': 150, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rsdt_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rlut/gn/v20190425/rlut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_005001-009912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rlut"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsut/gn/v20190425/rsut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_005001-009912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T22:18:10Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/fe197eef-806d-454b-92f4-c06fdd50e345</attribute:tracking_id>
+    <attribute:variable_id>rsut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip6/ecs/CESM2-WACCM.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/ecs"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rlut/gn/v20190320/rlut_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_010001-019912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rlut"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rtnt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_rlut_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rsdt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rsdt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rsdt/gn/v20190425/rsdt_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_000101-004912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rsdt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>CESM2-WACCM_piControl</attribute:alias>
+    <attribute:dataset>CESM2-WACCM</attribute:dataset>
+    <attribute:diagnostic>ecs_cmip6</attribute:diagnostic>
+    <attribute:end_year>150</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gn</attribute:grid>
+    <attribute:institute>NCAR</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>16</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0150</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas_rtnt</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'short_name': 'areacella', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'fx', 'variable_group': 'areacella', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/fx/areacella/gn/v20190320/areacella_fx_CESM2-WACCM_piControl_r1i1p1f1_gn.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0150'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'short_name': 'tas', 'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'mip': 'Amon', 'variable_group': 'tas_rtnt', 'diagnostic': 'ecs_cmip6', 'dataset': 'CESM2-WACCM', 'exp': 'piControl', 'ensemble': 'r1i1p1f1', 'grid': 'gn', 'institute': 'NCAR', 'recipe_dataset_index': 16, 'timerange': '0001/0150', 'activity': 'CMIP', 'alias': 'CESM2-WACCM_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_piControl_r1i1p1f1_tas_0001-0150.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/ecs_cmip6/ecs/CESM2-WACCM.png"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/tas/gn/v20190425/tas_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_005001-009912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T21:12:39Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/245a75c1-7223-45ab-8650-d329daa4bf9e</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/tas_rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_tas_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/tas/gn/v20190425/tas_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_005001-009912.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/tas_rtnt"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/tas/gn/v20190425/tas_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_000101-004912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>25185.0</attribute:branch_time_in_parent>
+    <attribute:case_id>27</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BWCO2x4.f09_g17.CMIP6-abrupt4xCO2-WACCM.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-03-09T22:49:12Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>abrupt quadrupling of CO2</attribute:experiment>
+    <attribute:experiment_id>abrupt-4xCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.abrupt-4xCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/245a75c1-7223-45ab-8650-d329daa4bf9e</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 abrupt4xCO2 experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/abrupt-4xCO2/r1i1p1f1/Amon/rlut/gn/v20190425/rlut_Amon_CESM2-WACCM_abrupt-4xCO2_r1i1p1f1_gn_010001-015012.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rlut"/>
+  </prov:wasDerivedFrom>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Amon/rsut/gn/v20190320/rsut_Amon_CESM2-WACCM_piControl_r1i1p1f1_gn_010001-019912.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>48545.0</attribute:branch_time_in_parent>
+    <attribute:case_id>1</attribute:case_id>
+    <attribute:cesm_casename>b.e21.BW1850.f09_g17.CMIP6-piControl.001</attribute:cesm_casename>
+    <attribute:contact>cesm_cmip6@ucar.edu</attribute:contact>
+    <attribute:creation_date>2019-01-29T18:29:16Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2-WACCM.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>native 0.9x1.25 finite volume grid (192x288 latxlon)</attribute:grid>
+    <attribute:grid_label>gn</attribute:grid_label>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA</attribute:institution>
+    <attribute:institution_id>NCAR</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by &lt;The National Center for Atmospheric Research&gt; is licensed under a Creative Commons Attribution-[]ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file)[]. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:model_doi_url>https://doi.org/10.5065/D67H1H0V</attribute:model_doi_url>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>CESM2-WACCM</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01 00:00:00</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:source>CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); ocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m); sea_ice: CICE5.1 (same grid as ocean); land: CLM5 0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); aerosol: MAM4 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb); atmosChem: WACCM (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-6 mb; landIce: CISM2.1; ocnBgchem: MARBL (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)</attribute:source>
+    <attribute:source_id>CESM2-WACCM</attribute:source_id>
+    <attribute:source_type>AOGCM BGC CHEM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:tracking_id>hdl:21.14100/b06a4165-964e-4448-b238-8fd07a21584d</attribute:tracking_id>
+    <attribute:variable_id>rsut</attribute:variable_id>
+    <attribute:variant_info>CMIP6 CESM2 piControl experiment with high-top atmosphere (WACCM6) with interactive chemistry (TSMLT1), interactive land (CLM5), coupled ocean (POP2) with biogeochemistry (MARBL), interactive sea ice (CICE5.1), and non-evolving land ice (CISM2.1)</attribute:variant_info>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt_derive_input_rlut"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rtnt_0001-0150.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/ecs_cmip6/rtnt_derive_input_rlut/CMIP6_CESM2-WACCM_Amon_abrupt-4xCO2_r1i1p1f1_rlut_0001-0150.nc"/>
+    <prov:activity prov:ref="task:ecs_cmip6/rtnt"/>
+  </prov:wasDerivedFrom>
+</prov:document>

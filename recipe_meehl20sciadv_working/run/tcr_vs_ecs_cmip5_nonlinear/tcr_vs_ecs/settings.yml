@@ -1,0 +1,30 @@
+auxiliary_data_dir: /g/data/p66/ars599/work_esmvaltool/auxiliary_data
+dataset_style: cmip5
+input_files:
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/ecs_cmip5/ecs
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_cmip5/tcr
+- /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/table/table
+log_level: debug
+log_x: true
+log_y: true
+marker_column: idx
+marker_file: '*.csv'
+output_file_type: png
+plot_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_vs_ecs_cmip5_nonlinear/tcr_vs_ecs
+realms:
+- atmos
+recipe: recipe_meehl20sciadv.yml
+run_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/run/tcr_vs_ecs_cmip5_nonlinear/tcr_vs_ecs
+script: tcr_vs_ecs
+seaborn_settings:
+  rc:
+    axes.titlepad: 15.0
+    xtick.minor.visible: true
+    xtick.top: true
+    ytick.minor.visible: true
+    ytick.right: true
+  style: ticks
+themes:
+- phys
+version: 2.7.1
+work_dir: /g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/work/tcr_vs_ecs_cmip5_nonlinear/tcr_vs_ecs

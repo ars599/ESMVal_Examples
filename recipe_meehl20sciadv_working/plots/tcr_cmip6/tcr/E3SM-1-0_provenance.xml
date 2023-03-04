@@ -1,0 +1,970 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:attribute="https://www.esmvaltool.org/attribute" xmlns:project="https://www.esmvaltool.org/project" xmlns:preprocessor="https://www.esmvaltool.org/preprocessor" xmlns:author="https://www.esmvaltool.org/author" xmlns:file="https://www.esmvaltool.org/file" xmlns:recipe="https://www.esmvaltool.org/recipe" xmlns:task="https://www.esmvaltool.org/task" xmlns:software="https://www.esmvaltool.org/software" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_017601-020012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:base_year>1850</attribute:base_year>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-19T23:56:19Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs1x1</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-19T23:56:19Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, submitted; http://e3sm.org</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/57456962-a91a-4380-ae3f-9c87ef2803ad</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_012601-015012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:base_year>1850</attribute:base_year>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-19T23:23:40Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs1x1</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-19T23:23:40Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, submitted; http://e3sm.org</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/0693b15a-13e3-42f7-ad13-acdccb2e4f05</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_015101-017512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_012601-015012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_017601-020012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/E3SM-1-0.png">
+    <attribute:calculate_mmm>True</attribute:calculate_mmm>
+    <attribute:caption>Time series of the global mean surface air temperature anomaly (relative to the linear fit of the pre-industrial control run) of E3SM-1-0 for the 1% CO2 increase per year experiment. The horizontal dashed line indicates the transient climate response (TCR) defined as the 20 year average temperature anomaly centered at the time of CO2 doubling (vertical dashed lines).</attribute:caption>
+    <attribute:domains>('global',)</attribute:domains>
+    <attribute:plot_types>('time series',)</attribute:plot_types>
+    <attribute:realms>('atmosphere',)</attribute:realms>
+    <attribute:references>['gregory08jgr']</attribute:references>
+    <attribute:script>tcr</attribute:script>
+    <attribute:script_file>climate_metrics/tcr.py</attribute:script_file>
+    <attribute:seaborn_settings>{'style': 'ticks', 'rc': {'axes.titlepad': 15.0, 'xtick.top': True, 'ytick.right': True, 'xtick.minor.visible': True, 'ytick.minor.visible': True}}</attribute:seaborn_settings>
+    <attribute:statistics>('mean', 'difference')</attribute:statistics>
+    <attribute:themes>('physics',)</attribute:themes>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/E3SM-1-0.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_022601-025012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_000101-002512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+    <prov:trigger prov:ref="recipe:recipe_meehl20sciadv.yml"/>
+    <prov:starter prov:ref="software:esmvaltool==2.7.1"/>
+  </prov:wasStartedBy>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_010101-012512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:base_year>1850</attribute:base_year>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-19T23:04:56Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs1x1</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-19T23:04:56Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, submitted; http://e3sm.org</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/aca9666a-3ca6-47e2-8c16-64a4f30a5bf3</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>E3SM-1-0_1pctCO2</attribute:alias>
+    <attribute:dataset>E3SM-1-0</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip6</attribute:diagnostic>
+    <attribute:end_year>140</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>1pctCO2</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr</attribute:grid>
+    <attribute:institute>['E3SM-Project', 'LLNL']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>25</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>1</attribute:start_year>
+    <attribute:timerange>0001/0140</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip6', 'dataset': 'E3SM-1-0', 'exp': '1pctCO2', 'grid': 'gr', 'recipe_dataset_index': 25, 'timerange': '0001/0140', 'institute': ['E3SM-Project', 'LLNL'], 'activity': 'CMIP', 'alias': 'E3SM-1-0_1pctCO2', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/fx/areacella/gr/v20190919/areacella_fx_E3SM-1-0_1pctCO2_r1i1p1f1_gr.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0001/0140'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'E3SM-1-0', 'exp': '1pctCO2', 'grid': 'gr', 'recipe_dataset_index': 25, 'timerange': '0001/0140', 'institute': ['E3SM-Project', 'LLNL'], 'activity': 'CMIP', 'alias': 'E3SM-1-0_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'E3SM-1-0', 'exp': '1pctCO2', 'grid': 'gr', 'recipe_dataset_index': 25, 'timerange': '0001/0140', 'institute': ['E3SM-Project', 'LLNL'], 'activity': 'CMIP', 'alias': 'E3SM-1-0_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'E3SM-1-0', 'exp': '1pctCO2', 'grid': 'gr', 'recipe_dataset_index': 25, 'timerange': '0001/0140', 'institute': ['E3SM-Project', 'LLNL'], 'activity': 'CMIP', 'alias': 'E3SM-1-0_1pctCO2', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_020101-022512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_000101-002512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>36500.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-18T17:36:32Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>data regridded to a CMIP6 standard 1x1 degree lonxlat grid from the native grid using an area-average preserving method.</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-18T17:36:32Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, doi: 10.1029/2018MS001603; http://e3sm.org'</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/f71b605a-4cd7-47e7-a634-11f672b4a007</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_007601-010012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_002601-005012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_012601-015012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>36500.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-18T19:41:02Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>data regridded to a CMIP6 standard 1x1 degree lonxlat grid from the native grid using an area-average preserving method.</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-18T19:41:02Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, doi: 10.1029/2018MS001603; http://e3sm.org'</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/0b5b743e-7a19-4bfb-8e31-1837837d84a1</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_010101-012512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_007601-010012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>36500.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-18T19:15:34Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>data regridded to a CMIP6 standard 1x1 degree lonxlat grid from the native grid using an area-average preserving method.</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-18T19:15:34Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, doi: 10.1029/2018MS001603; http://e3sm.org'</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/4adecc55-730d-423b-bad9-c926c124e0d4</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/E3SM-1-0.png"/>
+    <prov:usedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tcr"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="software:esmvaltool==2.7.1"/>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_005101-007512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>36500.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-18T18:55:30Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>data regridded to a CMIP6 standard 1x1 degree lonxlat grid from the native grid using an area-average preserving method.</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-18T18:55:30Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, doi: 10.1029/2018MS001603; http://e3sm.org'</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/dd0af74b-0bed-4909-a98b-76faf49ac38b</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_020101-022512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:base_year>1850</attribute:base_year>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-20T00:14:43Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs1x1</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-20T00:14:43Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, submitted; http://e3sm.org</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/29935900-a2ea-4106-be25-83cecfa5c261</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_005101-007512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_002601-005012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>36500.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-18T18:35:55Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>data regridded to a CMIP6 standard 1x1 degree lonxlat grid from the native grid using an area-average preserving method.</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-18T18:35:55Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, doi: 10.1029/2018MS001603; http://e3sm.org'</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/9d7e8d2c-81c9-43d1-8ddc-2533285f98ef</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc">
+    <attribute:activity>CMIP</attribute:activity>
+    <attribute:alias>E3SM-1-0_piControl</attribute:alias>
+    <attribute:dataset>E3SM-1-0</attribute:dataset>
+    <attribute:diagnostic>tcr_cmip6</attribute:diagnostic>
+    <attribute:end_year>240</attribute:end_year>
+    <attribute:ensemble>r1i1p1f1</attribute:ensemble>
+    <attribute:exp>piControl</attribute:exp>
+    <attribute:filename>/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc</attribute:filename>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:grid>gr</attribute:grid>
+    <attribute:institute>['E3SM-Project', 'LLNL']</attribute:institute>
+    <attribute:long_name>Near-Surface Air Temperature</attribute:long_name>
+    <attribute:mip>Amon</attribute:mip>
+    <attribute:modeling_realm>['atmos']</attribute:modeling_realm>
+    <attribute:original_short_name>tas</attribute:original_short_name>
+    <attribute:preprocessor>spatial_mean</attribute:preprocessor>
+    <attribute:project>CMIP6</attribute:project>
+    <attribute:recipe_dataset_index>24</attribute:recipe_dataset_index>
+    <attribute:short_name>tas</attribute:short_name>
+    <attribute:standard_name>air_temperature</attribute:standard_name>
+    <attribute:start_year>101</attribute:start_year>
+    <attribute:timerange>0101/0240</attribute:timerange>
+    <attribute:units>K</attribute:units>
+    <attribute:variable_group>tas</attribute:variable_group>
+    <preprocessor:add_fx_variables>{'fx_variables': {'areacella': {'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'fx', 'variable_group': 'areacella', 'short_name': 'areacella', 'diagnostic': 'tcr_cmip6', 'dataset': 'E3SM-1-0', 'exp': 'piControl', 'grid': 'gr', 'recipe_dataset_index': 24, 'timerange': '0101/0240', 'institute': ['E3SM-Project', 'LLNL'], 'activity': 'CMIP', 'alias': 'E3SM-1-0_piControl', 'original_short_name': 'areacella', 'standard_name': 'cell_area', 'long_name': 'Grid-Cell Area for Atmospheric Grid Variables', 'units': 'm2', 'modeling_realm': ['atmos', 'land'], 'frequency': 'fx', 'filename': '/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/fx/areacella/gr/v20190919/areacella_fx_E3SM-1-0_piControl_r1i1p1f1_gr.nc'}}, 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:add_fx_variables>
+    <preprocessor:area_statistics>{'operator': 'mean'}</preprocessor:area_statistics>
+    <preprocessor:cleanup>{'remove': ['/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240_fixed']}</preprocessor:cleanup>
+    <preprocessor:clip_timerange>{'timerange': '0101/0240'}</preprocessor:clip_timerange>
+    <preprocessor:cmor_check_data>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_data>
+    <preprocessor:cmor_check_metadata>{'cmor_table': 'CMIP6', 'mip': 'Amon', 'short_name': 'tas', 'frequency': 'mon', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:cmor_check_metadata>
+    <preprocessor:concatenate>{}</preprocessor:concatenate>
+    <preprocessor:fix_data>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'E3SM-1-0', 'exp': 'piControl', 'grid': 'gr', 'recipe_dataset_index': 24, 'timerange': '0101/0240', 'institute': ['E3SM-Project', 'LLNL'], 'activity': 'CMIP', 'alias': 'E3SM-1-0_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_data>
+    <preprocessor:fix_file>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'E3SM-1-0', 'exp': 'piControl', 'grid': 'gr', 'recipe_dataset_index': 24, 'timerange': '0101/0240', 'institute': ['E3SM-Project', 'LLNL'], 'activity': 'CMIP', 'alias': 'E3SM-1-0_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc', 'output_dir': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240_fixed'}</preprocessor:fix_file>
+    <preprocessor:fix_metadata>{'preprocessor': 'spatial_mean', 'project': 'CMIP6', 'ensemble': 'r1i1p1f1', 'mip': 'Amon', 'variable_group': 'tas', 'short_name': 'tas', 'diagnostic': 'tcr_cmip6', 'dataset': 'E3SM-1-0', 'exp': 'piControl', 'grid': 'gr', 'recipe_dataset_index': 24, 'timerange': '0101/0240', 'institute': ['E3SM-Project', 'LLNL'], 'activity': 'CMIP', 'alias': 'E3SM-1-0_piControl', 'original_short_name': 'tas', 'standard_name': 'air_temperature', 'long_name': 'Near-Surface Air Temperature', 'units': 'K', 'modeling_realm': ['atmos'], 'frequency': 'mon', 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc', 'check_level': &lt;CheckLevels.DEFAULT: 3&gt;}</preprocessor:fix_metadata>
+    <preprocessor:load>{'callback': &lt;function concatenate_callback at 0x14e1f8960940&gt;}</preprocessor:load>
+    <preprocessor:remove_fx_variables>{}</preprocessor:remove_fx_variables>
+    <preprocessor:save>{'compress': False, 'filename': '/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc'}</preprocessor:save>
+  </prov:entity>
+  <prov:agent prov:id="author:Schlund, Manuel">
+    <attribute:email>manuel.schlund@dlr.de</attribute:email>
+    <attribute:github>schlunma</attribute:github>
+    <attribute:institute>DLR, Germany</attribute:institute>
+    <attribute:orcid>https://orcid.org/0000-0001-5251-0158</attribute:orcid>
+  </prov:agent>
+  <prov:activity prov:id="task:tcr_cmip6/tcr"/>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_1pctCO2_r1i1p1f1_tas_0001-0140.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_010101-012512.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:activity prov:id="task:tcr_cmip6/tas"/>
+  <prov:entity prov:id="recipe:recipe_meehl20sciadv.yml">
+    <attribute:description>This recipe evaluates the equilibrium climate sensitivity (ECS) and the transient climate response (TCR) for various CMIP generations.
+</attribute:description>
+    <attribute:references>['meehl20sciadv']</attribute:references>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/preproc/tcr_cmip6/tas/CMIP6_E3SM-1-0_Amon_piControl_r1i1p1f1_tas_0101-0240.nc"/>
+    <prov:usedEntity prov:ref="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_012601-015012.nc"/>
+    <prov:activity prov:ref="task:tcr_cmip6/tas"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_022601-025012.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:base_year>1850</attribute:base_year>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-20T00:35:59Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs1x1</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-20T00:35:59Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, submitted; http://e3sm.org</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/5b3c703c-52f2-4f5c-ae02-c57d6ac42e71</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/1pctCO2/r1i1p1f1/Amon/tas/gr/v20190718/tas_Amon_E3SM-1-0_1pctCO2_r1i1p1f1_gr_010101-012512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:branch_method>standard</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>36500.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-18T19:27:49Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>1 percent per year increase in CO2</attribute:experiment>
+    <attribute:experiment_id>1pctCO2</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.1pctCO2.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>data regridded to a CMIP6 standard 1x1 degree lonxlat grid from the native grid using an area-average preserving method.</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-18T19:27:49Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution ShareAlike 4.0 International License (https://creativecommons.org/licenses). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file) and at https:///pcmdi.llnl.gov/. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, doi: 10.1029/2018MS001603; http://e3sm.org'</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/c1c719ec-8516-482d-8a4d-2728b5cc34c0</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:entity prov:id="file:/g/data/oi10/replicas/CMIP6/CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Amon/tas/gr/v20190719/tas_Amon_E3SM-1-0_piControl_r1i1p1f1_gr_015101-017512.nc">
+    <attribute:Conventions>CF-1.7 CMIP-6.2</attribute:Conventions>
+    <attribute:activity_id>CMIP</attribute:activity_id>
+    <attribute:base_year>1850</attribute:base_year>
+    <attribute:branch_method>Spin-up documentation</attribute:branch_method>
+    <attribute:branch_time_in_child>0.0</attribute:branch_time_in_child>
+    <attribute:branch_time_in_parent>0.0</attribute:branch_time_in_parent>
+    <attribute:cmor_version>3.4.0</attribute:cmor_version>
+    <attribute:computational_acknowledgement>The data were produced using resources of the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.</attribute:computational_acknowledgement>
+    <attribute:contact>Dave Bader (bader2@llnl.gov)</attribute:contact>
+    <attribute:creation_date>2019-07-19T23:38:13Z</attribute:creation_date>
+    <attribute:data_specs_version>01.00.29</attribute:data_specs_version>
+    <attribute:doe_acknowledgement>This research was supported as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research.</attribute:doe_acknowledgement>
+    <attribute:e3sm_paper_reference>https://doi.org/10.1029/2018MS001603</attribute:e3sm_paper_reference>
+    <attribute:e3sm_source_code_doi>10.11578/E3SM/dc.20180418.36</attribute:e3sm_source_code_doi>
+    <attribute:e3sm_source_code_reference>https://github.com/E3SM-Project/E3SM/releases/tag/v1.0.0</attribute:e3sm_source_code_reference>
+    <attribute:experiment>pre-industrial control</attribute:experiment>
+    <attribute:experiment_id>piControl</attribute:experiment_id>
+    <attribute:external_variables>areacella</attribute:external_variables>
+    <attribute:forcing_index>1</attribute:forcing_index>
+    <attribute:frequency>mon</attribute:frequency>
+    <attribute:further_info_url>https://furtherinfo.es-doc.org/CMIP6.E3SM-Project.E3SM-1-0.piControl.none.r1i1p1f1</attribute:further_info_url>
+    <attribute:grid>gs1x1</attribute:grid>
+    <attribute:grid_label>gr</attribute:grid_label>
+    <attribute:history>2019-07-19T23:38:13Z ;rewrote data to be consistent with CMIP for variable tas found in table Amon.;
+Output from 20180129.DECKv1b_piControl.ne30_oEC.edison</attribute:history>
+    <attribute:initialization_index>1</attribute:initialization_index>
+    <attribute:institution>LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA</attribute:institution>
+    <attribute:institution_id>E3SM-Project</attribute:institution_id>
+    <attribute:license>CMIP6 model data produced by E3SM is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/).  Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).  The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attribute:license>
+    <attribute:mip_era>CMIP6</attribute:mip_era>
+    <attribute:ncclimo_generation_command>ncclimo --var=${var} -7 --dfl_lvl=1 --no_cll_msr --no_frm_trm --no_stg_grd --yr_srt=1 --yr_end=500 --ypf=25 --map=map_ne30np4_to_cmip6_180x360_aave.20181001.nc </attribute:ncclimo_generation_command>
+    <attribute:ncclimo_version>4.8.1-alpha04</attribute:ncclimo_version>
+    <attribute:nominal_resolution>100 km</attribute:nominal_resolution>
+    <attribute:parent_activity_id>CMIP</attribute:parent_activity_id>
+    <attribute:parent_experiment_id>piControl-spinup</attribute:parent_experiment_id>
+    <attribute:parent_mip_era>CMIP6</attribute:parent_mip_era>
+    <attribute:parent_source_id>E3SM-1-0</attribute:parent_source_id>
+    <attribute:parent_time_units>days since 0001-01-01</attribute:parent_time_units>
+    <attribute:parent_variant_label>r1i1p1f1</attribute:parent_variant_label>
+    <attribute:physics_index>1</attribute:physics_index>
+    <attribute:product>model-output</attribute:product>
+    <attribute:realization_index>1</attribute:realization_index>
+    <attribute:realm>atmos</attribute:realm>
+    <attribute:references>Golaz, J.-C., P. M. Caldwell, L. P. Van Roekel and co-authors, 2019: The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. JAMES, submitted; http://e3sm.org</attribute:references>
+    <attribute:source>E3SM 1.0 (2018): 
+aerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)
+atmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)
+atmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)
+land: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)
+landIce: none
+ocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: MPAS-Seaice (v6.0, same grid as ocean)</attribute:source>
+    <attribute:source_id>E3SM-1-0</attribute:source_id>
+    <attribute:source_type>AOGCM AER</attribute:source_type>
+    <attribute:sub_experiment>none</attribute:sub_experiment>
+    <attribute:sub_experiment_id>none</attribute:sub_experiment_id>
+    <attribute:table_id>Amon</attribute:table_id>
+    <attribute:table_info>Creation Date:(08 March 2019) MD5:2b12b5db6db112aa8b8b0d6c1645b121</attribute:table_info>
+    <attribute:title>E3SM-1-0 output prepared for CMIP6</attribute:title>
+    <attribute:tracking_id>hdl:21.14100/c6e9db8d-0708-4219-a2e3-2924c6c36a92</attribute:tracking_id>
+    <attribute:variable_id>tas</attribute:variable_id>
+    <attribute:variant_label>r1i1p1f1</attribute:variant_label>
+  </prov:entity>
+  <prov:wasAttributedTo>
+    <prov:entity prov:ref="file:/g/data/p66/ars599/work_esmvaltool/esmvaltool_output/recipe_meehl20sciadv_20230302_143556/plots/tcr_cmip6/tcr/E3SM-1-0.png"/>
+    <prov:agent prov:ref="author:Schlund, Manuel"/>
+  </prov:wasAttributedTo>
+</prov:document>

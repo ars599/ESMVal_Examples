@@ -1,0 +1,9 @@
+Follow the links below to find more information about CMIP6 data:
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.AS-RCEC.TaiESM1.historical
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CSIRO-ARCCSS.ACCESS-CM2.historical
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.CSIRO.ACCESS-ESM1-5.historical
+- https://cera-www.dkrz.de/WDCC/ui/cerasearch/cmip6?input=CMIP6.CMIP.NIMS-KMA.KACE-1-0-G.historical
+
+Additional data citation information was found, for which no entry is available in the bibtex file:
+- Liu et al., Hydrol. Earth Syst. Sci., doi:10.5194/hess-15-425-2011, 2011.
+- See http://wiki.csiro.au/confluence/display/ACCESS/ACCESS+Publications
