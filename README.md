@@ -25,5 +25,5 @@ please try to play the code. if you have any question please leave message at is
 
 ** The Metrix Figure
 
-![](https://github.com/ars599/TPDV23/blob/main/Isopycnal_2D.pngESMVal_Examples/recipe_perfmetrics_CMIP56_simple_v3_working/plots/collect/RMSD/ts-global_to_zg500-global_RMSD.png)
+![](https://github.com/ars599/ESMVal_Examples/blob/main/recipe_perfmetrics_CMIP56_simple_v3_working/plots/collect/RMSD/ts-global_to_zg500-global_RMSD.png)
 
