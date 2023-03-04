@@ -25,7 +25,17 @@ please try to play the code. if you have any question please leave message at is
 ** example 1: recipe_eyring13jgr_12_simple
 https://htmlpreview.github.io/?https://github.com/ars599/ESMVal_Examples/blob/main/recipe_eyring13jgr_12_simple_working/index.html
 
+** example 2: recipe_meehl20sciadv
+https://htmlpreview.github.io/?https://github.com/ars599/ESMVal_Examples/blob/main/recipe_meehl20sciadv_working/index.html
 
+** example 3: recipe_ncl
+https://htmlpreview.github.io/?https://github.com/ars599/ESMVal_Examples/blob/main/recipe_ncl_working/index.html
+
+** example 4: recipe_perfmetrics_CMIP56_simple_v3
+https://htmlpreview.github.io/?https://github.com/ars599/ESMVal_Examples/blob/main/recipe_perfmetrics_CMIP56_simple_v3_working/index.html
+
+** example 5: recipe_thermodyn_diagtool
+https://htmlpreview.github.io/?https://github.com/ars599/ESMVal_Examples/blob/main/recipe_thermodyn_diagtool_working/index.html
 
 
 ** The Metrix Figure
