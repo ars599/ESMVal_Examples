@@ -87,7 +87,7 @@ https://htmlpreview.github.io/?https://github.com/ars599/ESMVal_Examples/blob/ma
 
 
 ** Setting of the config-user.yml
-'''
+```
 ###############################################################################
 # Example user configuration file for ESMValTool
 ###############################################################################
@@ -320,4 +320,4 @@ drs:
 #  OBS: not_yet
 #  OBS6: not_yet
 
-'''
+```
