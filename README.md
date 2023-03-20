@@ -87,7 +87,7 @@ https://htmlpreview.github.io/?https://github.com/ars599/ESMVal_Examples/blob/ma
 
 
 ** Setting of the config-user.yml
-working directory /g/data/p66/ars599/work_esmvaltool/
+* working directory /g/data/p66/ars599/work_esmvaltool/
 ```
 ###############################################################################
 # Example user configuration file for ESMValTool
